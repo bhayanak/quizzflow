@@ -28,42 +28,71 @@ class GameOverScene extends Phaser.Scene {
         
         // Play entrance animation
         this.animateEntrance();
+        
+        // Set up resize handler for mobile responsiveness
+        this.events.on('resize', this.handleResize, this);
+        this.scale.on('resize', this.handleResize, this);
+    }
+    
+    handleResize() {
+        const { width, height } = this.scale;
+        
+        // Recreate layout for new dimensions
+        this.children.removeAll(true);
+        
+        // Recreate all elements with new dimensions
+        const config = GameConfig.config;
+        this.add.rectangle(width / 2, height / 2, width, height, config.COLORS.BACKGROUND);
+        this.createResultsDisplay();
+        this.createStatistics();
+        this.createActionButtons();
+        this.createBackgroundEffects();
+        this.animateEntrance();
     }
     
     createResultsDisplay() {
         const { width, height } = this.scale;
         const config = GameConfig.config;
+        const isMobile = width < 768;
         
-        // Main title
+        // Main title - mobile responsive
         const titleText = this.gameData.isVictory ? 'Congratulations!' : 'Game Over';
         const titleColor = this.gameData.isVictory ? config.COLORS.SUCCESS : config.COLORS.DANGER;
+        const titleFontSize = isMobile ? (width < 400 ? '32px' : '48px') : '64px';
         
         this.titleText = this.add.text(width / 2, height * 0.15, titleText, {
-            fontSize: '64px',
+            fontSize: titleFontSize,
             fontFamily: 'Orbitron, monospace',
             fill: '#' + titleColor.toString(16).padStart(6, '0'),
             stroke: '#000000',
-            strokeThickness: 2
+            strokeThickness: isMobile ? 1 : 2,
+            align: 'center',
+            wordWrap: { width: width * 0.9 }
         }).setOrigin(0.5);
         
-        // Subtitle
+        // Subtitle - mobile responsive
         const subtitleText = this.gameData.isVictory ? 
             'You completed the quiz!' : 
             'Better luck next time!';
+        const subtitleFontSize = isMobile ? '18px' : '24px';
             
         this.subtitleText = this.add.text(width / 2, height * 0.25, subtitleText, {
-            fontSize: '24px',
+            fontSize: subtitleFontSize,
             fontFamily: 'Roboto, sans-serif',
-            fill: '#ffffff'
+            fill: '#ffffff',
+            align: 'center',
+            wordWrap: { width: width * 0.9 }
         }).setOrigin(0.5);
         
-        // Score display
+        // Score display - mobile responsive
+        const scoreFontSize = isMobile ? '24px' : '36px';
         this.scoreText = this.add.text(width / 2, height * 0.35, `Final Score: ${this.gameData.score}`, {
-            fontSize: '36px',
+            fontSize: scoreFontSize,
             fontFamily: 'Orbitron, monospace',
             fill: '#' + config.COLORS.GOLD.toString(16).padStart(6, '0'),
             stroke: '#000000',
-            strokeThickness: 1
+            strokeThickness: 1,
+            align: 'center'
         }).setOrigin(0.5);
     }
     
@@ -129,59 +158,113 @@ class GameOverScene extends Phaser.Scene {
     createActionButtons() {
         const { width, height } = this.scale;
         const config = GameConfig.config;
+        const isMobile = width < 768;
         
-        const buttonY = height * 0.75;
-        const buttonSpacing = 200; // Increased from 120 to 200 to prevent overlap
-        
-        // Play Again Button
-        this.playAgainButton = this.createButton(
-            width / 2 - buttonSpacing, 
-            buttonY, 
-            'Play Again', 
-            config.COLORS.SUCCESS
-        );
-        this.playAgainButton.on('pointerdown', () => {
-            this.playAgain();
-        });
-        
-        // Menu Button
-        this.menuButton = this.createButton(
-            width / 2, 
-            buttonY, 
-            'Main Menu', 
-            config.COLORS.PRIMARY
-        );
-        this.menuButton.on('pointerdown', () => {
-            this.returnToMenu();
-        });
-        
-        // Share Score Button (placeholder for future social features)
-        this.shareButton = this.createButton(
-            width / 2 + buttonSpacing, 
-            buttonY, 
-            'Share Score', 
-            config.COLORS.WARNING
-        );
-        this.shareButton.on('pointerdown', () => {
-            this.shareScore();
-        });
+        if (isMobile) {
+            // Mobile: Stack buttons vertically to prevent cutoff
+            const buttonX = width / 2;
+            const startY = height * 0.7;
+            const verticalSpacing = 60;
+            
+            // Play Again Button
+            this.playAgainButton = this.createButton(
+                buttonX, 
+                startY, 
+                'Play Again', 
+                config.COLORS.SUCCESS,
+                isMobile
+            );
+            this.playAgainButton.on('pointerdown', () => {
+                this.playAgain();
+            });
+            
+            // Menu Button
+            this.menuButton = this.createButton(
+                buttonX, 
+                startY + verticalSpacing, 
+                'Main Menu', 
+                config.COLORS.PRIMARY,
+                isMobile
+            );
+            this.menuButton.on('pointerdown', () => {
+                this.returnToMenu();
+            });
+            
+            // Share Score Button
+            this.shareButton = this.createButton(
+                buttonX, 
+                startY + verticalSpacing * 2, 
+                'Share Score', 
+                config.COLORS.WARNING,
+                isMobile
+            );
+            this.shareButton.on('pointerdown', () => {
+                this.shareScore();
+            });
+        } else {
+            // Desktop: Horizontal layout with safe spacing
+            const buttonY = height * 0.75;
+            const buttonSpacing = 200;
+            
+            // Play Again Button
+            this.playAgainButton = this.createButton(
+                width / 2 - buttonSpacing, 
+                buttonY, 
+                'Play Again', 
+                config.COLORS.SUCCESS,
+                isMobile
+            );
+            this.playAgainButton.on('pointerdown', () => {
+                this.playAgain();
+            });
+            
+            // Menu Button
+            this.menuButton = this.createButton(
+                width / 2, 
+                buttonY, 
+                'Main Menu', 
+                config.COLORS.PRIMARY,
+                isMobile
+            );
+            this.menuButton.on('pointerdown', () => {
+                this.returnToMenu();
+            });
+            
+            // Share Score Button
+            this.shareButton = this.createButton(
+                width / 2 + buttonSpacing, 
+                buttonY, 
+                'Share Score', 
+                config.COLORS.WARNING,
+                isMobile
+            );
+            this.shareButton.on('pointerdown', () => {
+                this.shareScore();
+            });
+        }
         
         // Store buttons for animation
         this.actionButtons = [this.playAgainButton, this.menuButton, this.shareButton];
     }
     
-    createButton(x, y, text, color) {
+    createButton(x, y, text, color, isMobile = false) {
         const button = this.add.container(x, y);
         
+        // Mobile-responsive button sizing
+        const buttonWidth = isMobile ? 180 : 140;
+        const buttonHeight = isMobile ? 50 : 45;
+        const fontSize = isMobile ? '18px' : '16px';
+        
         // Button background
-        const bg = this.add.rectangle(0, 0, 140, 45, color, 0.8);
+        const bg = this.add.rectangle(0, 0, buttonWidth, buttonHeight, color, 0.8);
         bg.setStrokeStyle(2, 0xffffff, 0.5);
         
         // Button text
         const label = this.add.text(0, 0, text, {
-            fontSize: '16px',
+            fontSize: fontSize,
             fontFamily: 'Roboto, sans-serif',
-            fill: '#ffffff'
+            fill: '#ffffff',
+            fontWeight: isMobile ? 'bold' : 'normal'
         }).setOrigin(0.5);
         
         button.add([bg, label]);

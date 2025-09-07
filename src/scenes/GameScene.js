@@ -142,37 +142,49 @@ class GameScene extends Phaser.Scene {
     }
 
     createHeader() {
-        const { width } = this.scale;
+        const { width, height } = this.scale;
         const config = GameConfig.config;
+        const isMobile = width < 768;
+        
+        // Mobile-responsive header positioning
+        const headerHeight = isMobile ? 60 : 80;
+        const headerY = isMobile ? 30 : 50;
         
         // Progress and score bar
-        const headerBg = this.add.rectangle(width / 2, 50, width * 0.95, 80, 0x1a1a2e, 0.8);
+        const headerBg = this.add.rectangle(width / 2, headerY, width * 0.95, headerHeight, 0x1a1a2e, 0.8);
         headerBg.setStrokeStyle(2, config.COLORS.PRIMARY);
         
+        // Mobile-responsive text positioning and sizing
+        const fontSize = isMobile ? '14px' : '18px';
+        const timerFontSize = isMobile ? '16px' : '20px';
+        const topY = isMobile ? 20 : 35;
+        const bottomY = isMobile ? 40 : 60;
+        
         // Progress
-        this.progressText = this.add.text(width * 0.1, 35, '', {
-            fontSize: '18px',
+        this.progressText = this.add.text(width * 0.05, topY, '', {
+            fontSize: fontSize,
             fontFamily: 'Roboto, sans-serif',
             fill: '#ffffff'
         });
         
-        // Score
-        this.scoreText = this.add.text(width * 0.5, 35, 'Score: 0', {
-            fontSize: '18px',
+        // Score - centered
+        this.scoreText = this.add.text(width * 0.5, topY, 'Score: 0', {
+            fontSize: fontSize,
             fontFamily: 'Orbitron, monospace',
             fill: '#' + config.COLORS.GOLD.toString(16).padStart(6, '0')
         }).setOrigin(0.5, 0);
         
-        // Timer
-        this.timerText = this.add.text(width * 0.9, 35, '', {
-            fontSize: '20px',
+        // Timer - positioned away from audio controls
+        const timerX = isMobile ? width * 0.25 : width * 0.9;
+        this.timerText = this.add.text(timerX, topY, '', {
+            fontSize: timerFontSize,
             fontFamily: 'Orbitron, monospace',
             fill: '#ffffff'
-        }).setOrigin(1, 0);
+        }).setOrigin(isMobile ? 0.5 : 1, 0);
         
         // Difficulty indicator
-        this.difficultyText = this.add.text(width * 0.1, 60, '', {
-            fontSize: '14px',
+        this.difficultyText = this.add.text(width * 0.05, bottomY, '', {
+            fontSize: isMobile ? '12px' : '14px',
             fontFamily: 'Roboto, sans-serif',
             fill: '#cccccc'
         });
@@ -180,37 +192,44 @@ class GameScene extends Phaser.Scene {
     
     createQuestionArea() {
         const { width, height } = this.scale;
+        const isMobile = width < 768;
+        
+        // Mobile-responsive question area positioning
+        const questionAreaY = isMobile ? height * 0.12 : height * 0.15;
+        const questionAreaHeight = isMobile ? 100 : 140;
         
         // Question area with dramatic styling
         const questionContainer = this.add.graphics();
         
         // Main question background with gradient
         questionContainer.fillGradientStyle(0x000066, 0x000088, 0x4400AA, 0x6600CC);
-        questionContainer.fillRoundedRect(width * 0.05, height * 0.15, width * 0.9, 140, 20);
+        questionContainer.fillRoundedRect(width * 0.05, questionAreaY, width * 0.9, questionAreaHeight, 20);
 
         // Golden border with glow effect
-        questionContainer.lineStyle(4, 0xFFD700, 1);
-        questionContainer.strokeRoundedRect(width * 0.05, height * 0.15, width * 0.9, 140, 20);
+        questionContainer.lineStyle(isMobile ? 3 : 4, 0xFFD700, 1);
+        questionContainer.strokeRoundedRect(width * 0.05, questionAreaY, width * 0.9, questionAreaHeight, 20);
 
         // Inner highlight
         questionContainer.lineStyle(2, 0xFFFFFF, 0.6);
-        questionContainer.strokeRoundedRect(width * 0.07, height * 0.17, width * 0.86, 136, 18);
+        questionContainer.strokeRoundedRect(width * 0.07, questionAreaY + 2, width * 0.86, questionAreaHeight - 4, 18);
 
-        // Question number indicator with styling
+        // Question number indicator with styling - mobile responsive
+        const indicatorWidth = isMobile ? 80 : 100;
+        const indicatorHeight = isMobile ? 25 : 30;
+        
         this.questionNumberBg = this.add.graphics();
         this.questionNumberBg.fillGradientStyle(0xFFD700, 0xFFA500);
-        this.questionNumberBg.fillRoundedRect(width * 0.07, height * 0.17, 100, 30, 15);
+        this.questionNumberBg.fillRoundedRect(width * 0.07, questionAreaY + 2, indicatorWidth, indicatorHeight, 15);
         this.questionNumberBg.lineStyle(2, 0xFFFFFF, 0.8);
-        this.questionNumberBg.strokeRoundedRect(width * 0.07, height * 0.17, 100, 30, 15);
+        this.questionNumberBg.strokeRoundedRect(width * 0.07, questionAreaY + 2, indicatorWidth, indicatorHeight, 15);
 
         // Mobile-responsive question positioning and sizing
-        const isMobile = width < 768;
-        const questionY = isMobile ? height * 0.15 : height * 0.225;
-        const questionFontSize = isMobile ? '20px' : '24px';
-        const questionWrapWidth = isMobile ? width * 0.95 : width * 0.8;
+        const questionY = questionAreaY + questionAreaHeight / 2;
+        const questionFontSize = isMobile ? '16px' : '24px';
+        const questionWrapWidth = width * 0.82;
         
-        this.questionNumberText = this.add.text(width * 0.12, height * 0.185, '', {
-            fontSize: isMobile ? '14px' : '16px',
+        this.questionNumberText = this.add.text(width * 0.07 + indicatorWidth / 2, questionAreaY + 2 + indicatorHeight / 2, '', {
+            fontSize: isMobile ? '12px' : '16px',
             fontFamily: 'Orbitron, monospace',
             fill: '#000000',
             fontWeight: 'bold'
@@ -226,12 +245,12 @@ class GameScene extends Phaser.Scene {
             align: 'center',
             fontWeight: '400',
             wordWrap: { width: questionWrapWidth },
-            lineSpacing: isMobile ? 4 : 6
+            lineSpacing: isMobile ? 3 : 6
         }).setOrigin(0.5);
         
-        // Add question category indicator
-        this.categoryText = this.add.text(width * 0.93, height * 0.185, '', {
-            fontSize: '14px',
+        // Add question category indicator - mobile responsive
+        this.categoryText = this.add.text(width * 0.93, questionAreaY + indicatorHeight / 2 + 2, '', {
+            fontSize: isMobile ? '12px' : '14px',
             fontFamily: 'Roboto, sans-serif',
             fill: '#FFD700',
             fontStyle: 'italic'
@@ -243,35 +262,45 @@ class GameScene extends Phaser.Scene {
         
         // Mobile-responsive button sizing
         const isMobile = width < 768;
-        const startY = isMobile ? height * 0.5 : height * 0.45;
-        const spacing = isMobile ? 100 : 120;
-        const buttonWidth = isMobile ? width * 0.9 : width * 0.4;
-        const buttonHeight = isMobile ? 70 : 80;
-        
-        let positions;
         
         if (isMobile) {
-            // Stack buttons vertically on mobile for better readability
-            positions = [
-                { x: width * 0.5, y: startY, label: 'A' },
-                { x: width * 0.5, y: startY + spacing, label: 'B' },
-                { x: width * 0.5, y: startY + spacing * 2, label: 'C' },
-                { x: width * 0.5, y: startY + spacing * 3, label: 'D' }
+            // Mobile: 2x2 grid layout as requested
+            const buttonWidth = width * 0.45;
+            const buttonHeight = 60;
+            const startY = height * 0.4;
+            const verticalSpacing = 80;
+            const horizontalSpacing = width * 0.5;
+            
+            const positions = [
+                { x: width * 0.25, y: startY, label: 'A' },
+                { x: width * 0.75, y: startY, label: 'B' },
+                { x: width * 0.25, y: startY + verticalSpacing, label: 'C' },
+                { x: width * 0.75, y: startY + verticalSpacing, label: 'D' }
             ];
+            
+            this.optionButtons = positions.map((pos, index) => {
+                const button = this.createAnswerButton(pos.x, pos.y, buttonWidth, buttonHeight, pos.label, index);
+                return button;
+            });
         } else {
-            // 2x2 grid for desktop/tablet
-            positions = [
+            // Desktop/Tablet: 2x2 grid layout
+            const buttonWidth = width * 0.4;
+            const buttonHeight = 80;
+            const startY = height * 0.45;
+            const spacing = 120;
+            
+            const positions = [
                 { x: width * 0.25, y: startY, label: 'A' },
                 { x: width * 0.75, y: startY, label: 'B' },
                 { x: width * 0.25, y: startY + spacing, label: 'C' },
                 { x: width * 0.75, y: startY + spacing, label: 'D' }
             ];
+            
+            this.optionButtons = positions.map((pos, index) => {
+                const button = this.createAnswerButton(pos.x, pos.y, buttonWidth, buttonHeight, pos.label, index);
+                return button;
+            });
         }
-        
-        this.optionButtons = positions.map((pos, index) => {
-            const button = this.createAnswerButton(pos.x, pos.y, buttonWidth, buttonHeight, pos.label, index);
-            return button;
-        });
     }
     
     createAnswerButton(x, y, width, height, label, index) {
@@ -378,9 +407,11 @@ class GameScene extends Phaser.Scene {
     createLifelines() {
         const { width, height } = this.scale;
         const config = GameConfig.config;
+        const isMobile = width < 768;
         
-        const lifelineY = height * 0.75;
-        const lifelineSpacing = 120;
+        // Mobile-responsive lifeline positioning - avoid overlap with options
+        const lifelineY = isMobile ? height * 0.8 : height * 0.75;
+        const lifelineSpacing = isMobile ? width * 0.25 : 120;
         const startX = width / 2 - lifelineSpacing;
         
         const lifelines = [

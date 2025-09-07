@@ -120,40 +120,52 @@ class MenuScene extends Phaser.Scene {
     createTitle() {
         const { width, height } = this.scale;
         const translations = window.translationManager;
+        const isMobile = width < 768;
 
         const titleText = 'QuizFlow';
         const subtitleText = translations && translations.getCurrentLanguage() === 'hi' ?
             'करोड़पति बनो!' :
             'Who Wants to be a Millionaire?';
 
-        // Main title with gold effect
-        const title = this.add.text(width / 2, height * 0.25, titleText, {
-            fontSize: '96px',
+        // Mobile-responsive font sizes and positioning
+        const titleFontSize = isMobile ? (width < 400 ? '48px' : '60px') : '96px';
+        const titleY = isMobile ? height * 0.2 : height * 0.25;
+        const subtitleFontSize = isMobile ? (width < 400 ? '18px' : '24px') : '32px';
+        const subtitleY = isMobile ? height * 0.28 : height * 0.35;
+        const strokeThickness = isMobile ? 3 : 6;
+
+        // Main title with gold effect - mobile responsive
+        const title = this.add.text(width / 2, titleY, titleText, {
+            fontSize: titleFontSize,
             fontFamily: 'Orbitron, monospace',
             fill: '#FFD700',
             stroke: '#B8860B',
-            strokeThickness: 6,
-            fontWeight: '900'
+            strokeThickness: strokeThickness,
+            fontWeight: '900',
+            align: 'center'
         }).setOrigin(0.5);
         
-        // Title shadow
-        const titleShadow = this.add.text(width / 2 + 4, height * 0.25 + 4, titleText, {
-            fontSize: '96px',
+        // Title shadow - mobile responsive
+        const titleShadow = this.add.text(width / 2 + (isMobile ? 2 : 4), titleY + (isMobile ? 2 : 4), titleText, {
+            fontSize: titleFontSize,
             fontFamily: 'Orbitron, monospace',
             fill: '#000000',
             alpha: 0.7,
-            fontWeight: '900'
+            fontWeight: '900',
+            align: 'center'
         }).setOrigin(0.5);
         titleShadow.setDepth(-1);
         
-        // Subtitle with glow effect
-        const subtitle = this.add.text(width / 2, height * 0.35, subtitleText, {
-            fontSize: '32px',
+        // Subtitle with glow effect - mobile responsive
+        const subtitle = this.add.text(width / 2, subtitleY, subtitleText, {
+            fontSize: subtitleFontSize,
             fontFamily: 'Roboto, sans-serif',
             fill: '#FFFFFF',
             stroke: '#4400AA',
-            strokeThickness: 2,
-            fontWeight: '400'
+            strokeThickness: isMobile ? 1 : 2,
+            fontWeight: '400',
+            align: 'center',
+            wordWrap: { width: width * 0.9 }
         }).setOrigin(0.5);
         
         // Add pulsing effect to title
@@ -171,8 +183,14 @@ class MenuScene extends Phaser.Scene {
     createStatistics() {
         const { width, height } = this.scale;
         const translations = window.translationManager;
+        const isMobile = width < 768;
         
-        // Stats background
+        if (isMobile) {
+            // On mobile, show simplified stats or skip to save space
+            return;
+        }
+        
+        // Stats background - only on larger screens
         const statsBg = this.add.rectangle(width * 0.15, height * 0.5, 200, 150, 0x000033, 0.8);
         statsBg.setStrokeStyle(2, 0xFFD700);
         
@@ -204,25 +222,26 @@ class MenuScene extends Phaser.Scene {
     createMenuButtons() {
         const { width, height } = this.scale;
         const translations = window.translationManager;
+        const isMobile = width < 768;
         
         const buttonData = [
             {
                 text: translations && translations.getCurrentLanguage() === 'hi' ? 'खेल शुरू करें' : 'START GAME',
-                y: height * 0.55,
+                y: isMobile ? height * 0.5 : height * 0.55,
                 color: 0x00AA00,
                 glowColor: 0x00FF00,
                 action: () => this.startNewGame()
             },
             {
                 text: translations && translations.getCurrentLanguage() === 'hi' ? 'सेटिंग्स' : 'SETTINGS',
-                y: height * 0.65,
+                y: isMobile ? height * 0.62 : height * 0.65,
                 color: 0x0066CC,
                 glowColor: 0x00AAFF,
                 action: () => this.showSettings()
             },
             {
                 text: translations && translations.getCurrentLanguage() === 'hi' ? 'निर्देश' : 'INSTRUCTIONS',
-                y: height * 0.75,
+                y: isMobile ? height * 0.74 : height * 0.75,
                 color: 0xAA6600,
                 glowColor: 0xFFAA00,
                 action: () => this.showInstructions()
