@@ -1,234 +1,319 @@
-// Menu Scene - Main menu with game options
+// Menu Scene - Main menu with millionaire-style game options
 class MenuScene extends Phaser.Scene {
     constructor() {
         super({ key: 'MenuScene' });
     }
     
     preload() {
-        // Create simple colored rectangles as placeholders for buttons
-        this.load.image('button', 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==');
+        console.log('MenuScene preload complete');
     }
     
     create() {
+        console.log('🎮 MenuScene create() called');
         const { width, height } = this.scale;
-        const config = GameConfig.config;
         
-        // Background
-        this.add.rectangle(width / 2, height / 2, width, height, config.COLORS.BACKGROUND);
+        // Create vibrant millionaire background
+        this.createMillionaireBackground();
         
-        // Title
-        const title = this.add.text(width / 2, height * 0.2, 'QuizFlow', {
-            fontSize: '72px',
-            fontFamily: 'Orbitron, monospace',
-            fill: '#ffffff',
-            stroke: '#007bff',
-            strokeThickness: 3
-        }).setOrigin(0.5);
-        
-        // Subtitle
-        this.add.text(width / 2, height * 0.3, 'You can be millionaire!', {
-            fontSize: '24px',
-            fontFamily: 'Roboto, sans-serif',
-            fill: '#cccccc'
-        }).setOrigin(0.5);
+        // Title with enhanced styling
+        this.createTitle();
         
         // Game statistics
         this.createStatistics();
-        
-        // Menu buttons
+
+        // Menu buttons with millionaire theme
         this.createMenuButtons();
-        
-        // Animated background elements
+
+        // Animated background effects
         this.createBackgroundEffects();
+
+        console.log('✅ MenuScene creation complete');
+    }
+
+    createMillionaireBackground() {
+        const { width, height } = this.scale;
+
+        // Create rich gradient background like millionaire show
+        const graphics = this.add.graphics();
+
+        // Deep blue to purple gradient with gold accents
+        graphics.fillGradientStyle(0x001144, 0x001144, 0x4400AA, 0x6600CC);
+        graphics.fillRect(0, 0, width, height);
+
+        // Add golden accent lines
+        graphics.lineStyle(4, 0xFFD700, 0.9);
+        graphics.beginPath();
+        graphics.moveTo(0, height * 0.12);
+        graphics.lineTo(width, height * 0.12);
+        graphics.moveTo(0, height * 0.88);
+        graphics.lineTo(width, height * 0.88);
+        graphics.strokePath();
+
+        // Add diamond pattern
+        for (let i = 0; i < 6; i++) {
+            const x = (width / 7) * (i + 1);
+            const y = height * 0.12;
+            this.createDiamond(graphics, x, y, 10, 0xFFD700, 0.6);
+        }
+
+        for (let i = 0; i < 6; i++) {
+            const x = (width / 7) * (i + 1);
+            const y = height * 0.88;
+            this.createDiamond(graphics, x, y, 10, 0xFFD700, 0.6);
+        }
+
+        // Add corner sparkles
+        this.createSparkles();
+    }
+
+    createDiamond(graphics, x, y, size, color, alpha) {
+        graphics.fillStyle(color, alpha);
+        graphics.beginPath();
+        graphics.moveTo(x, y - size);
+        graphics.lineTo(x + size, y);
+        graphics.lineTo(x, y + size);
+        graphics.lineTo(x - size, y);
+        graphics.closePath();
+        graphics.fillPath();
+    }
+
+    createSparkles() {
+        const { width, height } = this.scale;
+
+        // Add animated sparkles in corners
+        for (let i = 0; i < 8; i++) {
+            const x = Math.random() * width;
+            const y = Math.random() * height * 0.1;
+
+            const sparkle = this.add.circle(x, y, 2, 0xFFFFFF, 0.8);
+
+            this.tweens.add({
+                targets: sparkle,
+                alpha: { from: 0.2, to: 1 },
+                scale: { from: 0.5, to: 1.2 },
+                duration: 1500 + Math.random() * 1000,
+                yoyo: true,
+                repeat: -1,
+                ease: 'Sine.easeInOut'
+            });
+        }
+    }
+
+    createTitle() {
+        const { width, height } = this.scale;
+        const translations = window.translationManager;
+
+        const titleText = 'QuizFlow';
+        const subtitleText = translations && translations.getCurrentLanguage() === 'hi' ?
+            'करोड़पति बनो!' :
+            'Who Wants to be a Millionaire?';
+
+        // Main title with gold effect
+        const title = this.add.text(width / 2, height * 0.25, titleText, {
+            fontSize: '96px',
+            fontFamily: 'Orbitron, monospace',
+            fill: '#FFD700',
+            stroke: '#B8860B',
+            strokeThickness: 6,
+            fontWeight: '900'
+        }).setOrigin(0.5);
         
-        // Audio controls info
-        this.add.text(width * 0.05, height * 0.05, 'Audio Controls: Top Right Corner', {
-            fontSize: '14px',
+        // Title shadow
+        const titleShadow = this.add.text(width / 2 + 4, height * 0.25 + 4, titleText, {
+            fontSize: '96px',
+            fontFamily: 'Orbitron, monospace',
+            fill: '#000000',
+            alpha: 0.7,
+            fontWeight: '900'
+        }).setOrigin(0.5);
+        titleShadow.setDepth(-1);
+        
+        // Subtitle with glow effect
+        const subtitle = this.add.text(width / 2, height * 0.35, subtitleText, {
+            fontSize: '32px',
             fontFamily: 'Roboto, sans-serif',
-            fill: '#666666'
+            fill: '#FFFFFF',
+            stroke: '#4400AA',
+            strokeThickness: 2,
+            fontWeight: '400'
+        }).setOrigin(0.5);
+        
+        // Add pulsing effect to title
+        this.tweens.add({
+            targets: title,
+            scaleX: { from: 1, to: 1.05 },
+            scaleY: { from: 1, to: 1.05 },
+            duration: 2000,
+            yoyo: true,
+            repeat: -1,
+            ease: 'Sine.easeInOut'
         });
-        
-        // Version info
-        this.add.text(width * 0.95, height * 0.95, 'v1.0.0', {
-            fontSize: '12px',
-            fontFamily: 'Roboto, sans-serif',
-            fill: '#666666'
-        }).setOrigin(1);
     }
     
     createStatistics() {
-        if (!window.questionManager || !window.questionManager.isLoaded) {
-            return;
-        }
-        
         const { width, height } = this.scale;
-        const stats = window.questionManager.getStatistics();
+        const translations = window.translationManager;
         
-        // Statistics panel
-        const statsY = height * 0.45;
+        // Stats background
+        const statsBg = this.add.rectangle(width * 0.15, height * 0.5, 200, 150, 0x000033, 0.8);
+        statsBg.setStrokeStyle(2, 0xFFD700);
         
-        this.add.text(width / 2, statsY, 'Question Bank Statistics', {
-            fontSize: '20px',
-            fontFamily: 'Roboto, sans-serif',
-            fill: '#ffffff'
+        const statsTitle = translations && translations.getCurrentLanguage() === 'hi' ?
+            'आंकड़े' : 'Statistics';
+
+        this.add.text(width * 0.15, height * 0.43, statsTitle, {
+            fontSize: '18px',
+            fontFamily: 'Orbitron, monospace',
+            fill: '#FFD700'
         }).setOrigin(0.5);
         
-        const totalText = `Total Questions: ${stats.totalQuestions}`;
-        this.add.text(width / 2, statsY + 35, totalText, {
-            fontSize: '16px',
-            fontFamily: 'Roboto, sans-serif',
-            fill: '#cccccc'
-        }).setOrigin(0.5);
+        // Sample stats
+        const stats = [
+            'Games Played: 0',
+            'Best Score: 0',
+            'Accuracy: 0%'
+        ];
         
-        const difficultyText = `Easy: ${stats.difficulties.easy} | Medium: ${stats.difficulties.medium} | Hard: ${stats.difficulties.hard}`;
-        this.add.text(width / 2, statsY + 60, difficultyText, {
-            fontSize: '14px',
-            fontFamily: 'Roboto, sans-serif',
-            fill: '#cccccc'
-        }).setOrigin(0.5);
-        
-        const categoryText = `Categories: ${Object.keys(stats.categories).length}`;
-        this.add.text(width / 2, statsY + 85, categoryText, {
-            fontSize: '14px',
-            fontFamily: 'Roboto, sans-serif',
-            fill: '#cccccc'
-        }).setOrigin(0.5);
+        stats.forEach((stat, index) => {
+            this.add.text(width * 0.15, height * 0.48 + (index * 20), stat, {
+                fontSize: '14px',
+                fontFamily: 'Roboto, sans-serif',
+                fill: '#FFFFFF'
+            }).setOrigin(0.5);
+        });
     }
     
     createMenuButtons() {
         const { width, height } = this.scale;
-        const config = GameConfig.config;
+        const translations = window.translationManager;
         
-        const buttonY = height * 0.65;
-        const buttonSpacing = 80;
+        const buttonData = [
+            {
+                text: translations && translations.getCurrentLanguage() === 'hi' ? 'खेल शुरू करें' : 'START GAME',
+                y: height * 0.55,
+                color: 0x00AA00,
+                glowColor: 0x00FF00,
+                action: () => this.startNewGame()
+            },
+            {
+                text: translations && translations.getCurrentLanguage() === 'hi' ? 'सेटिंग्स' : 'SETTINGS',
+                y: height * 0.65,
+                color: 0x0066CC,
+                glowColor: 0x00AAFF,
+                action: () => this.showSettings()
+            },
+            {
+                text: translations && translations.getCurrentLanguage() === 'hi' ? 'निर्देश' : 'INSTRUCTIONS',
+                y: height * 0.75,
+                color: 0xAA6600,
+                glowColor: 0xFFAA00,
+                action: () => this.showInstructions()
+            }
+        ];
         
-        // Start Game Button
-        const startButton = this.createButton(width / 2, buttonY, 'Start New Game', config.COLORS.PRIMARY);
-        startButton.on('pointerdown', () => {
-            this.startNewGame();
-        });
-        
-        // Instructions Button
-        const instructionsButton = this.createButton(width / 2, buttonY + buttonSpacing, 'How to Play', config.COLORS.SECONDARY);
-        instructionsButton.on('pointerdown', () => {
-            this.showInstructions();
-        });
-        
-        // Settings Button
-        const settingsButton = this.createButton(width / 2, buttonY + buttonSpacing * 2, 'Settings', config.COLORS.WARNING);
-        settingsButton.on('pointerdown', () => {
-            this.showSettings();
+        buttonData.forEach(button => {
+            this.createMillionaireButton(width / 2, button.y, button.text, button.color, button.glowColor, button.action);
         });
     }
     
-    createButton(x, y, text, color) {
-        const button = this.add.container(x, y);
-        
-        // Button background
-        const bg = this.add.rectangle(0, 0, 300, 50, color, 0.8);
-        bg.setStrokeStyle(2, 0xffffff, 0.5);
+    createMillionaireButton(x, y, text, baseColor, glowColor, callback) {
+        // Button background with gradient
+        const button = this.add.graphics();
+        button.fillGradientStyle(baseColor, baseColor, baseColor * 0.7, baseColor * 0.7);
+        button.fillRoundedRect(-120, -25, 240, 50, 10);
+        button.lineStyle(3, glowColor, 0.8);
+        button.strokeRoundedRect(-120, -25, 240, 50, 10);
+        button.x = x;
+        button.y = y;
         
         // Button text
-        const label = this.add.text(0, 0, text, {
-            fontSize: '18px',
-            fontFamily: 'Roboto, sans-serif',
-            fill: '#ffffff'
+        const buttonText = this.add.text(x, y, text, {
+            fontSize: '22px',
+            fontFamily: 'Orbitron, monospace',
+            fill: '#FFFFFF',
+            fontWeight: 'bold'
         }).setOrigin(0.5);
-        
-        button.add([bg, label]);
-        
+
         // Make interactive
-        bg.setInteractive({ useHandCursor: true });
+        const hitArea = this.add.rectangle(x, y, 240, 50, 0x000000, 0);
+        hitArea.setInteractive({ useHandCursor: true });
         
         // Hover effects
-        bg.on('pointerover', () => {
-            bg.setFillStyle(color, 1.0);
-            button.setScale(1.05);
+        hitArea.on('pointerover', () => {
+            button.clear();
+            button.fillGradientStyle(glowColor, glowColor, glowColor * 0.7, glowColor * 0.7);
+            button.fillRoundedRect(-120, -25, 240, 50, 10);
+            button.lineStyle(4, 0xFFFFFF, 1);
+            button.strokeRoundedRect(-120, -25, 240, 50, 10);
+            
+            buttonText.setStyle({ fill: '#000000' });
+            
+            // Play hover sound
+            if (window.audioManager) {
+                window.audioManager.playSFX('menu_hover');
+            }
+        });
+        
+        hitArea.on('pointerout', () => {
+            button.clear();
+            button.fillGradientStyle(baseColor, baseColor, baseColor * 0.7, baseColor * 0.7);
+            button.fillRoundedRect(-120, -25, 240, 50, 10);
+            button.lineStyle(3, glowColor, 0.8);
+            button.strokeRoundedRect(-120, -25, 240, 50, 10);
+            
+            buttonText.setStyle({ fill: '#FFFFFF' });
+        });
+        
+        hitArea.on('pointerdown', () => {
             if (window.audioManager) {
                 window.audioManager.playSFX('answer_select');
             }
+            if (callback) callback();
         });
         
-        bg.on('pointerout', () => {
-            bg.setFillStyle(color, 0.8);
-            button.setScale(1.0);
-        });
-        
-        bg.on('pointerdown', () => {
-            button.setScale(0.95);
-            if (window.audioManager) {
-                window.audioManager.playSFX('lifeline_use');
-            }
-        });
-        
-        bg.on('pointerup', () => {
-            button.setScale(1.05);
-        });
-        
-        return bg;
+        return { button, text: buttonText, hitArea };
     }
     
     createBackgroundEffects() {
         const { width, height } = this.scale;
         
-        // Create floating particles
-        for (let i = 0; i < 20; i++) {
-            const x = Phaser.Math.Between(0, width);
-            const y = Phaser.Math.Between(0, height);
-            const size = Phaser.Math.Between(2, 6);
-            
-            const particle = this.add.circle(x, y, size, 0x007bff, 0.3);
-            
-            // Floating animation
+        // Add floating lights
+        for (let i = 0; i < 15; i++) {
+            const light = this.add.circle(
+                Math.random() * width,
+                Math.random() * height,
+                Math.random() * 3 + 1,
+                0xFFD700,
+                0.3
+            );
+
             this.tweens.add({
-                targets: particle,
-                y: y - 100,
-                alpha: 0,
-                duration: Phaser.Math.Between(3000, 6000),
-                ease: 'Sine.easeOut',
+                targets: light,
+                y: light.y - 50,
+                alpha: { from: 0.1, to: 0.6 },
+                duration: 3000 + Math.random() * 2000,
                 repeat: -1,
-                delay: Phaser.Math.Between(0, 3000),
-                onRepeat: () => {
-                    particle.x = Phaser.Math.Between(0, width);
-                    particle.y = height + 50;
-                    particle.alpha = 0.3;
-                }
-            });
-        }
-        
-        // Pulsing title effect
-        const titleElements = this.children.list.filter(child => 
-            child.type === 'Text' && child.text === 'QuizFlow'
-        );
-        
-        if (titleElements.length > 0) {
-            this.tweens.add({
-                targets: titleElements[0],
-                scaleX: 1.05,
-                scaleY: 1.05,
-                duration: 2000,
-                ease: 'Sine.easeInOut',
                 yoyo: true,
-                repeat: -1
+                ease: 'Sine.easeInOut'
             });
         }
     }
     
     async startNewGame() {
-        // Check if questions are loaded
-        if (!window.questionManager || !window.questionManager.isLoaded) {
-            this.showMessage('Loading questions, please wait...');
+        console.log('Starting new game...');
+
+        // Generate a new quiz session
+        if (window.questionManager && window.questionManager.isLoaded) {
+            const success = window.questionManager.generateSession();
+            if (!success) {
+                console.error('Failed to generate quiz session');
+                return;
+            }
+        } else {
+            console.error('Question manager not ready');
             return;
         }
-        
-        // Generate new session
-        const success = window.questionManager.generateSession();
-        if (!success) {
-            this.showMessage('Failed to generate questions. Please try again.');
-            return;
-        }
-        
-        // Play start sound
+
         if (window.audioManager) {
             window.audioManager.playSFX('question_reveal');
         }
@@ -237,168 +322,131 @@ class MenuScene extends Phaser.Scene {
         this.scene.start('GameScene');
     }
     
-    showInstructions() {
-        const { width, height } = this.scale;
-        
-        // Create instructions overlay
-        const overlay = this.add.container(width / 2, height / 2);
-        
-        // Background
-        const bg = this.add.rectangle(0, 0, width * 0.8, height * 0.8, 0x000000, 0.9);
-        bg.setStrokeStyle(2, 0x007bff);
-        
-        // Title
-        const title = this.add.text(0, -height * 0.3, 'How to Play', {
-            fontSize: '32px',
-            fontFamily: 'Orbitron, monospace',
-            fill: '#ffffff'
-        }).setOrigin(0.5);
-        
-        // Instructions text
-        const instructions = `
-🎯 Answer 15 questions to win the quiz!
-
-📊 Questions get harder as you progress:
-   • Questions 1-5: Easy
-   • Questions 6-10: Medium  
-   • Questions 11-15: Hard
-
-💰 Earn points for correct answers:
-   • Easy: 100 points
-   • Medium: 200 points
-   • Hard: 300 points
-
-🆘 Use lifelines to help you:
-   • 50:50 - Remove 2 wrong answers (1 use)
-   • Skip - Skip current question (2 uses)
-   • Ask Audience - Show popular vote (1 use)
-
-⏰ You have 30 seconds per question
-
-🔊 Use audio controls (top right) to toggle sound and language
-
-Good luck!`;
-        
-        const instructionsText = this.add.text(0, 0, instructions, {
-            fontSize: '16px',
-            fontFamily: 'Roboto, sans-serif',
-            fill: '#cccccc',
-            lineSpacing: 8,
-            align: 'left'
-        }).setOrigin(0.5);
-        
-        // Close button
-        const closeButton = this.createButton(0, height * 0.3, 'Close', GameConfig.config.COLORS.DANGER);
-        closeButton.on('pointerdown', () => {
-            overlay.destroy();
-        });
-        
-        overlay.add([bg, title, instructionsText, closeButton]);
-        overlay.setDepth(100);
-        
-        // Make background clickable to close
-        bg.setInteractive();
-        bg.on('pointerdown', () => {
-            overlay.destroy();
-        });
-    }
-    
     showSettings() {
+        console.log('Showing settings...');
+        const translations = window.translationManager;
+
+    // Simple settings overlay
         const { width, height } = this.scale;
         
-        // Create settings overlay
-        const overlay = this.add.container(width / 2, height / 2);
+        // Settings background
+        const settingsBg = this.add.rectangle(width / 2, height / 2, 400, 300, 0x000044, 0.95);
+        settingsBg.setStrokeStyle(3, 0xFFD700);
         
-        // Background
-        const bg = this.add.rectangle(0, 0, width * 0.6, height * 0.7, 0x000000, 0.9);
-        bg.setStrokeStyle(2, 0x007bff);
-        
-        // Title
-        const title = this.add.text(0, -height * 0.25, 'Settings', {
-            fontSize: '32px',
+        const settingsTitle = translations && translations.getCurrentLanguage() === 'hi' ?
+            'सेटिंग्स' : 'SETTINGS';
+
+        this.add.text(width / 2, height / 2 - 120, settingsTitle, {
+            fontSize: '28px',
             fontFamily: 'Orbitron, monospace',
-            fill: '#ffffff'
+            fill: '#FFD700'
         }).setOrigin(0.5);
         
-        // Audio settings
-        let yOffset = -100;
-        
-        if (window.audioManager) {
-            const status = window.audioManager.getStatus();
-            
-            this.add.text(0, yOffset, 'Audio Settings', {
-                fontSize: '20px',
-                fontFamily: 'Roboto, sans-serif',
-                fill: '#ffffff'
-            }).setOrigin(0.5);
-            yOffset += 40;
-            
-            // TTS Toggle
-            const ttsButton = this.createButton(0, yOffset, `TTS: ${status.ttsEnabled ? 'ON' : 'OFF'}`, 
-                status.ttsEnabled ? GameConfig.config.COLORS.SUCCESS : GameConfig.config.COLORS.DANGER);
-            ttsButton.on('pointerdown', () => {
-                window.audioManager.toggleTTS();
-                overlay.destroy();
-                this.showSettings(); // Refresh
-            });
-            yOffset += 60;
-            
-            // SFX Toggle
-            const sfxButton = this.createButton(0, yOffset, `Sound Effects: ${status.sfxEnabled ? 'ON' : 'OFF'}`, 
-                status.sfxEnabled ? GameConfig.config.COLORS.SUCCESS : GameConfig.config.COLORS.DANGER);
-            sfxButton.on('pointerdown', () => {
-                window.audioManager.toggleSFX();
-                overlay.destroy();
-                this.showSettings(); // Refresh
-            });
-            yOffset += 60;
-            
-            // Language Toggle
-            const langButton = this.createButton(0, yOffset, `Language: ${status.language.toUpperCase()}`, 
-                GameConfig.config.COLORS.WARNING);
-            langButton.on('pointerdown', () => {
-                window.audioManager.switchLanguage();
-                overlay.destroy();
-                this.showSettings(); // Refresh
-            });
-        }
-        
-        // Close button
-        const closeButton = this.createButton(0, height * 0.25, 'Close', GameConfig.config.COLORS.SECONDARY);
-        closeButton.on('pointerdown', () => {
-            overlay.destroy();
-        });
-        
-        overlay.add([bg, title, closeButton]);
-        overlay.setDepth(100);
-        
-        // Make background clickable to close
-        bg.setInteractive();
-        bg.on('pointerdown', () => {
-            overlay.destroy();
-        });
-    }
-    
-    showMessage(message, duration = 3000) {
-        const { width, height } = this.scale;
-        
-        const messageText = this.add.text(width / 2, height * 0.85, message, {
+        // Language toggle
+        const langLabel = translations && translations.getCurrentLanguage() === 'hi' ?
+            'भाषा:' : 'Language:';
+
+        this.add.text(width / 2 - 100, height / 2 - 50, langLabel, {
             fontSize: '18px',
             fontFamily: 'Roboto, sans-serif',
-            fill: '#ffffff',
-            backgroundColor: '#007bff',
-            padding: { x: 20, y: 10 }
-        }).setOrigin(0.5);
+            fill: '#FFFFFF'
+        });
+
+        const currentLang = translations ? translations.getCurrentLanguage() : 'en';
+        const langText = currentLang === 'hi' ? 'हिंदी' : 'English';
         
-        // Fade out after duration
-        this.tweens.add({
-            targets: messageText,
-            alpha: 0,
-            duration: 500,
-            delay: duration,
-            onComplete: () => {
-                messageText.destroy();
+        const langButton = this.add.text(width / 2 + 50, height / 2 - 50, langText, {
+            fontSize: '18px',
+            fontFamily: 'Roboto, sans-serif',
+            fill: '#FFD700'
+        }).setInteractive({ useHandCursor: true });
+        
+        langButton.on('pointerdown', () => {
+            if (translations) {
+                const newLang = currentLang === 'en' ? 'hi' : 'en';
+                translations.setLanguage(newLang);
+                this.scene.restart(); // Restart scene to apply language changes
             }
         });
+        
+        // Close button
+        const closeBtn = this.add.text(width / 2, height / 2 + 100, 'CLOSE', {
+            fontSize: '20px',
+            fontFamily: 'Orbitron, monospace',
+            fill: '#FF6666'
+        }).setOrigin(0.5).setInteractive({ useHandCursor: true });
+        
+        closeBtn.on('pointerdown', () => {
+            settingsBg.destroy();
+            closeBtn.destroy();
+            langButton.destroy();
+        });
+    }
+    
+    showInstructions() {
+        console.log('Showing instructions...');
+        const translations = window.translationManager;
+
+        const { width, height } = this.scale;
+        
+        // Store all instruction elements for cleanup
+        const instructionElements = [];
+        
+        const instructionsBg = this.add.rectangle(width / 2, height / 2, 500, 400, 0x000044, 0.95);
+        instructionsBg.setStrokeStyle(3, 0xFFD700);
+        instructionElements.push(instructionsBg);
+        
+        const instructionsTitle = translations && translations.getCurrentLanguage() === 'hi' ?
+            'निर्देश' : 'HOW TO PLAY';
+
+        const titleText = this.add.text(width / 2, height / 2 - 160, instructionsTitle, {
+            fontSize: '28px',
+            fontFamily: 'Orbitron, monospace',
+            fill: '#FFD700'
+        }).setOrigin(0.5);
+        instructionElements.push(titleText);
+        
+        const instructions = translations && translations.getCurrentLanguage() === 'hi' ? [
+            '• सवालों के जवाब दें',
+            '• सही जवाब चुनें',
+            '• लाइफलाइन का उपयोग करें',
+            '• करोड़पति बनें!'
+        ] : [
+            '• Answer questions correctly',
+            '• Choose the right option',
+            '• Use lifelines wisely',
+            '• Become a millionaire!'
+        ];
+
+        instructions.forEach((instruction, index) => {
+            const instructionText = this.add.text(width / 2, height / 2 - 80 + (index * 30), instruction, {
+                fontSize: '16px',
+                fontFamily: 'Roboto, sans-serif',
+                fill: '#FFFFFF'
+            }).setOrigin(0.5);
+            instructionElements.push(instructionText);
+        });
+
+        // Close button
+        const closeBtn = this.add.text(width / 2, height / 2 + 150, 'CLOSE', {
+            fontSize: '20px',
+            fontFamily: 'Orbitron, monospace',
+            fill: '#FF6666'
+        }).setOrigin(0.5).setInteractive({ useHandCursor: true });
+        instructionElements.push(closeBtn);
+
+        closeBtn.on('pointerdown', () => {
+            // Destroy all instruction elements
+            instructionElements.forEach(element => {
+                if (element && element.destroy) {
+                    element.destroy();
+                }
+            });
+        });
+    }
+    
+    updateLanguage() {
+        // Restart the scene to apply language changes
+        this.scene.restart();
     }
 }

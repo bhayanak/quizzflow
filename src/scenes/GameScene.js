@@ -24,12 +24,11 @@ class GameScene extends Phaser.Scene {
     
     create() {
         const { width, height } = this.scale;
-        const config = GameConfig.config;
         
-        // Background
-        this.add.rectangle(width / 2, height / 2, width, height, config.COLORS.BACKGROUND);
+        // Create stunning millionaire-style background
+        this.createMillionaireGameBackground();
         
-        // Create UI elements
+        // Create enhanced UI elements
         this.createHeader();
         this.createQuestionArea();
         this.createAnswerOptions();
@@ -39,10 +38,83 @@ class GameScene extends Phaser.Scene {
         // Start first question
         this.loadNextQuestion();
         
-        // Create background effects
+        // Create atmospheric effects
         this.createGameEffects();
     }
     
+    createMillionaireGameBackground() {
+        const { width, height } = this.scale;
+
+        // Rich gradient background with multiple layers
+        const graphics = this.add.graphics();
+
+        // Deep space blue to royal purple gradient
+        graphics.fillGradientStyle(0x000033, 0x000055, 0x330077, 0x4400AA);
+        graphics.fillRect(0, 0, width, height);
+
+        // Add dramatic spotlights from top
+        for (let i = 0; i < 3; i++) {
+            const x = (width / 4) * (i + 1);
+            const spotlight = this.add.graphics();
+            spotlight.fillGradientStyle(0xFFD700, 0xFFD700, 0x000000, 0x000000, 0.3, 0, 0.6);
+            spotlight.fillTriangle(x - 50, 0, x + 50, 0, x, height * 0.4);
+        }
+
+        // Golden frame around the screen
+        graphics.lineStyle(6, 0xFFD700, 0.8);
+        graphics.strokeRect(10, 10, width - 20, height - 20);
+
+        // Inner decorative border
+        graphics.lineStyle(3, 0xFFFFFF, 0.4);
+        graphics.strokeRect(20, 20, width - 40, height - 40);
+
+        // Add corner diamonds
+        this.createCornerDecorations();
+    }
+
+    createCornerDecorations() {
+        const { width, height } = this.scale;
+
+        // Corner decorative elements
+        const corners = [
+            { x: 30, y: 30 },
+            { x: width - 30, y: 30 },
+            { x: 30, y: height - 30 },
+            { x: width - 30, y: height - 30 }
+        ];
+
+        corners.forEach(corner => {
+            // Create diamond decoration instead of star
+            const decoration = this.add.graphics();
+            decoration.fillStyle(0xFFD700, 0.8);
+
+            // Draw a diamond shape
+            decoration.beginPath();
+            decoration.moveTo(corner.x, corner.y - 8);
+            decoration.lineTo(corner.x + 8, corner.y);
+            decoration.lineTo(corner.x, corner.y + 8);
+            decoration.lineTo(corner.x - 8, corner.y);
+            decoration.closePath();
+            decoration.fillPath();
+
+            // Add inner highlight
+            decoration.lineStyle(2, 0xFFFFFF, 0.6);
+            decoration.strokePath();
+
+            // Add pulsing animation
+            this.tweens.add({
+                targets: decoration,
+                scaleX: { from: 0.8, to: 1.2 },
+                scaleY: { from: 0.8, to: 1.2 },
+                alpha: { from: 0.6, to: 1 },
+                duration: 2000,
+                yoyo: true,
+                repeat: -1,
+                ease: 'Sine.easeInOut'
+            });
+        });
+    }
+
     createHeader() {
         const { width } = this.scale;
         const config = GameConfig.config;
@@ -62,7 +134,7 @@ class GameScene extends Phaser.Scene {
         this.scoreText = this.add.text(width * 0.5, 35, 'Score: 0', {
             fontSize: '18px',
             fontFamily: 'Orbitron, monospace',
-            fill: config.COLORS.GOLD.toString(16)
+            fill: '#' + config.COLORS.GOLD.toString(16).padStart(6, '0')
         }).setOrigin(0.5, 0);
         
         // Timer
@@ -82,27 +154,55 @@ class GameScene extends Phaser.Scene {
     
     createQuestionArea() {
         const { width, height } = this.scale;
-        const config = GameConfig.config;
         
-        // Question background
-        const questionBg = this.add.rectangle(width / 2, height * 0.25, width * 0.9, 120, 0x2a2a3e, 0.9);
-        questionBg.setStrokeStyle(2, config.COLORS.PRIMARY);
+        // Question area with dramatic styling
+        const questionContainer = this.add.graphics();
         
-        // Question text
-        this.questionText = this.add.text(width / 2, height * 0.25, '', {
-            fontSize: '22px',
+        // Main question background with gradient
+        questionContainer.fillGradientStyle(0x000066, 0x000088, 0x4400AA, 0x6600CC);
+        questionContainer.fillRoundedRect(width * 0.05, height * 0.15, width * 0.9, 140, 20);
+
+        // Golden border with glow effect
+        questionContainer.lineStyle(4, 0xFFD700, 1);
+        questionContainer.strokeRoundedRect(width * 0.05, height * 0.15, width * 0.9, 140, 20);
+
+        // Inner highlight
+        questionContainer.lineStyle(2, 0xFFFFFF, 0.6);
+        questionContainer.strokeRoundedRect(width * 0.07, height * 0.17, width * 0.86, 136, 18);
+
+        // Question number indicator with styling
+        this.questionNumberBg = this.add.graphics();
+        this.questionNumberBg.fillGradientStyle(0xFFD700, 0xFFA500);
+        this.questionNumberBg.fillRoundedRect(width * 0.07, height * 0.17, 100, 30, 15);
+        this.questionNumberBg.lineStyle(2, 0xFFFFFF, 0.8);
+        this.questionNumberBg.strokeRoundedRect(width * 0.07, height * 0.17, 100, 30, 15);
+
+        this.questionNumberText = this.add.text(width * 0.12, height * 0.185, '', {
+            fontSize: '16px',
+            fontFamily: 'Orbitron, monospace',
+            fill: '#000000',
+            fontWeight: 'bold'
+        }).setOrigin(0.5);
+
+        // Question text with enhanced styling
+        this.questionText = this.add.text(width / 2, height * 0.225, '', {
+            fontSize: '24px',
             fontFamily: 'Roboto, sans-serif',
-            fill: '#ffffff',
+            fill: '#FFFFFF',
+            stroke: '#000000',
+            strokeThickness: 1,
             align: 'center',
+            fontWeight: '400',
             wordWrap: { width: width * 0.8 }
         }).setOrigin(0.5);
         
-        // Question number indicator
-        this.questionNumberText = this.add.text(width * 0.06, height * 0.19, '', {
-            fontSize: '16px',
-            fontFamily: 'Orbitron, monospace',
-            fill: config.COLORS.GOLD.toString(16)
-        });
+        // Add question category indicator
+        this.categoryText = this.add.text(width * 0.93, height * 0.185, '', {
+            fontSize: '14px',
+            fontFamily: 'Roboto, sans-serif',
+            fill: '#FFD700',
+            fontStyle: 'italic'
+        }).setOrigin(1, 0.5);
     }
     
     createAnswerOptions() {
@@ -128,65 +228,100 @@ class GameScene extends Phaser.Scene {
     }
     
     createAnswerButton(x, y, width, height, label, index) {
-        const config = GameConfig.config;
         const container = this.add.container(x, y);
         
-        // Button background
-        const bg = this.add.rectangle(0, 0, width, height, 0x3a3a4e, 0.8);
-        bg.setStrokeStyle(2, config.COLORS.SECONDARY);
+        // Button background with rich gradient
+        const background = this.add.graphics();
+        background.fillGradientStyle(0x001155, 0x002277, 0x003399, 0x0044BB);
+        background.fillRoundedRect(-width / 2, -height / 2, width, height, 15);
+
+        // Golden border
+        background.lineStyle(3, 0xFFD700, 0.9);
+        background.strokeRoundedRect(-width / 2, -height / 2, width, height, 15);
+
+        // Inner glow effect
+        background.lineStyle(1, 0xFFFFFF, 0.4);
+        background.strokeRoundedRect(-width / 2 + 3, -height / 2 + 3, width - 6, height - 6, 12);
+
+        container.add(background);
+
+        // Option label (A, B, C, D) with styling
+        const labelBg = this.add.graphics();
+        labelBg.fillGradientStyle(0xFFD700, 0xFFA500);
+        labelBg.fillRoundedRect(-width / 2 + 10, -height / 2 + 10, 40, 35, 8);
+        labelBg.lineStyle(2, 0xFFFFFF, 0.8);
+        labelBg.strokeRoundedRect(-width / 2 + 10, -height / 2 + 10, 40, 35, 8);
+        container.add(labelBg);
         
-        // Label (A, B, C, D)
-        const labelText = this.add.text(-width * 0.4, 0, label, {
+        const labelText = this.add.text(-width / 2 + 30, -height / 2 + 27, label, {
             fontSize: '24px',
             fontFamily: 'Orbitron, monospace',
-            fill: config.COLORS.WARNING.toString(16)
+            fill: '#000000',
+            fontWeight: 'bold'
         }).setOrigin(0.5);
+        container.add(labelText);
         
         // Answer text
-        const answerText = this.add.text(0, 0, '', {
+        const answerText = this.add.text(-width / 2 + 60, 0, '', {
             fontSize: '18px',
             fontFamily: 'Roboto, sans-serif',
-            fill: '#ffffff',
-            align: 'center',
-            wordWrap: { width: width * 0.7 }
-        }).setOrigin(0.5);
-        
-        container.add([bg, labelText, answerText]);
-        
-        // Make interactive
-        bg.setInteractive({ useHandCursor: true });
-        
-        // Store references
-        container.bg = bg;
-        container.labelText = labelText;
-        container.answerText = answerText;
-        container.index = index;
-        container.originalColor = 0x3a3a4e;
+            fill: '#FFFFFF',
+            fontWeight: '400',
+            wordWrap: { width: width - 80 }
+        }).setOrigin(0, 0.5);
+        container.add(answerText);
+
+        // Interactive hit area
+        const hitArea = this.add.rectangle(0, 0, width, height, 0x000000, 0);
+        hitArea.setInteractive({ useHandCursor: true });
+        container.add(hitArea);
         
         // Hover effects
-        bg.on('pointerover', () => {
-            if (!this.isAnswerLocked && !container.isEliminated) {
-                bg.setFillStyle(config.COLORS.PRIMARY, 0.6);
-                container.setScale(1.02);
+        hitArea.on('pointerover', () => {
+            if (this.isAnswerLocked) return;
+
+            background.clear();
+            background.fillGradientStyle(0xFFD700, 0xFFA500, 0xFF8C00, 0xFF7F00);
+            background.fillRoundedRect(-width / 2, -height / 2, width, height, 15);
+            background.lineStyle(4, 0xFFFFFF, 1);
+            background.strokeRoundedRect(-width / 2, -height / 2, width, height, 15);
+
+            answerText.setStyle({ fill: '#000000', fontWeight: 'bold' });
+
+            // Play hover sound
+            if (window.audioManager) {
+                window.audioManager.playSFX('answer_select');
             }
         });
         
-        bg.on('pointerout', () => {
-            if (!this.isAnswerLocked && this.selectedAnswer !== index && !container.isEliminated) {
-                bg.setFillStyle(container.originalColor, 0.8);
-                container.setScale(1.0);
-            }
+        hitArea.on('pointerout', () => {
+            if (this.isAnswerLocked || this.selectedAnswer === index) return;
+
+            background.clear();
+            background.fillGradientStyle(0x001155, 0x002277, 0x003399, 0x0044BB);
+            background.fillRoundedRect(-width / 2, -height / 2, width, height, 15);
+            background.lineStyle(3, 0xFFD700, 0.9);
+            background.strokeRoundedRect(-width / 2, -height / 2, width, height, 15);
+
+            answerText.setStyle({ fill: '#FFFFFF', fontWeight: '400' });
         });
         
-        bg.on('pointerdown', () => {
-            if (!this.isAnswerLocked && !container.isEliminated) {
+        hitArea.on('pointerdown', () => {
+            if (!this.isAnswerLocked) {
                 this.selectAnswer(index);
             }
         });
         
-        return container;
+        return {
+            container,
+            background,
+            labelBg,
+            labelText,
+            answerText,
+            hitArea,
+            index
+        };
     }
-    
     createLifelines() {
         const { width, height } = this.scale;
         const config = GameConfig.config;
@@ -364,9 +499,9 @@ class GameScene extends Phaser.Scene {
         this.optionButtons.forEach((button, index) => {
             if (index < this.currentOptions.length) {
                 button.answerText.setText(this.currentOptions[index]);
-                button.setVisible(true);
+                button.container.setVisible(true);
             } else {
-                button.setVisible(false);
+                button.container.setVisible(false);
             }
         });
     }
@@ -379,11 +514,22 @@ class GameScene extends Phaser.Scene {
     
     resetAnswerButtons() {
         this.optionButtons.forEach((button) => {
-            button.bg.setFillStyle(button.originalColor, 0.8);
-            button.bg.setStrokeStyle(2, GameConfig.config.COLORS.SECONDARY);
-            button.setScale(1.0);
+            // Reset background to original gradient
+            button.background.clear();
+            button.background.fillGradientStyle(0x001155, 0x002277, 0x003399, 0x0044BB);
+            button.background.fillRoundedRect(-200, -30, 400, 60, 15);
+            button.background.lineStyle(3, 0xFFD700, 0.9);
+            button.background.strokeRoundedRect(-200, -30, 400, 60, 15);
+
+            // Reset container properties
+            button.container.setScale(1.0);
+            button.container.setAlpha(1.0);
+
+            // Reset text style
+            button.answerText.setStyle({ fill: '#FFFFFF', fontWeight: '400' });
+
+            // Reset custom properties
             button.isEliminated = false;
-            button.setAlpha(1.0);
         });
     }
     
@@ -456,11 +602,11 @@ class GameScene extends Phaser.Scene {
         
         // Animate answer buttons
         this.optionButtons.forEach((button, index) => {
-            button.setAlpha(0);
-            button.setScale(0.8);
+            button.container.setAlpha(0);
+            button.container.setScale(0.8);
             
             this.tweens.add({
-                targets: button,
+                targets: button.container,
                 alpha: 1,
                 scaleX: 1,
                 scaleY: 1,
@@ -477,9 +623,13 @@ class GameScene extends Phaser.Scene {
         this.selectedAnswer = answerIndex;
         const selectedButton = this.optionButtons[answerIndex];
         
-        // Visual feedback
-        selectedButton.bg.setFillStyle(GameConfig.config.COLORS.WARNING, 0.8);
-        selectedButton.setScale(1.05);
+        // Visual feedback - redraw background with warning color
+        selectedButton.background.clear();
+        selectedButton.background.fillGradientStyle(0xFFD700, 0xFFA500, 0xFF8C00, 0xFF7F00);
+        selectedButton.background.fillRoundedRect(-200, -30, 400, 60, 15);
+        selectedButton.background.lineStyle(4, 0xFFFFFF, 1);
+        selectedButton.background.strokeRoundedRect(-200, -30, 400, 60, 15);
+        selectedButton.container.setScale(1.05);
         
         // Play sound
         if (window.audioManager) {
@@ -519,8 +669,12 @@ class GameScene extends Phaser.Scene {
         const correctButton = this.optionButtons[correctAnswerIndex];
         
         if (isCorrect) {
-            // Correct answer
-            selectedButton.bg.setFillStyle(config.COLORS.SUCCESS);
+            // Correct answer - redraw background with success color
+            selectedButton.background.clear();
+            selectedButton.background.fillGradientStyle(0x27ae60, 0x229954, 0x1e8449, 0x196f3d);
+            selectedButton.background.fillRoundedRect(-200, -30, 400, 60, 15);
+            selectedButton.background.lineStyle(3, 0xFFFFFF, 0.9);
+            selectedButton.background.strokeRoundedRect(-200, -30, 400, 60, 15);
             this.updateScore(true);
             
             if (window.audioManager) {
@@ -530,9 +684,18 @@ class GameScene extends Phaser.Scene {
             
             this.streak++;
         } else {
-            // Wrong answer
-            selectedButton.bg.setFillStyle(config.COLORS.DANGER);
-            correctButton.bg.setFillStyle(config.COLORS.SUCCESS);
+            // Wrong answer - redraw backgrounds
+            selectedButton.background.clear();
+            selectedButton.background.fillGradientStyle(0xe74c3c, 0xc0392b, 0xa93226, 0x922b21);
+            selectedButton.background.fillRoundedRect(-200, -30, 400, 60, 15);
+            selectedButton.background.lineStyle(3, 0xFFFFFF, 0.9);
+            selectedButton.background.strokeRoundedRect(-200, -30, 400, 60, 15);
+
+            correctButton.background.clear();
+            correctButton.background.fillGradientStyle(0x27ae60, 0x229954, 0x1e8449, 0x196f3d);
+            correctButton.background.fillRoundedRect(-200, -30, 400, 60, 15);
+            correctButton.background.lineStyle(3, 0xFFFFFF, 0.9);
+            correctButton.background.strokeRoundedRect(-200, -30, 400, 60, 15);
             
             if (window.audioManager) {
                 window.audioManager.playSFX('wrong_answer');
@@ -587,7 +750,7 @@ class GameScene extends Phaser.Scene {
         const scoreIncrease = this.add.text(this.scoreText.x, this.scoreText.y - 30, `+${points}`, {
             fontSize: '16px',
             fontFamily: 'Orbitron, monospace',
-            fill: GameConfig.config.COLORS.SUCCESS.toString(16)
+            fill: '#' + GameConfig.config.COLORS.SUCCESS.toString(16).padStart(6, '0')
         }).setOrigin(0.5);
         
         this.tweens.add({
@@ -636,8 +799,10 @@ class GameScene extends Phaser.Scene {
             const optionText = this.currentOptions[index];
             if (toEliminate.includes(optionText)) {
                 button.isEliminated = true;
-                button.setAlpha(0.3);
-                button.bg.setFillStyle(0x555555);
+                button.container.setAlpha(0.3);
+                button.background.clear();
+                button.background.fillStyle(0x555555);
+                button.background.fillRoundedRect(-200, -30, 400, 60, 15);
             }
         });
     }
@@ -731,8 +896,10 @@ class GameScene extends Phaser.Scene {
         button.usesText.setText(`x${uses}`);
         
         if (uses <= 0) {
-            button.setAlpha(0.3);
-            button.bg.setFillStyle(0x555555);
+            button.container.setAlpha(0.3);
+            button.background.clear();
+            button.background.fillStyle(0x555555);
+            button.background.fillCircle(0, 0, 30);
         }
     }
     
@@ -747,12 +914,16 @@ class GameScene extends Phaser.Scene {
             window.audioManager.speak('Time is up!');
         }
         
-        // Show correct answer
+        // Show correct answer with green background
         const correctAnswerText = this.currentQuestion.correctAnswer;
         const correctAnswerIndex = this.currentOptions.indexOf(correctAnswerText);
         const correctButton = this.optionButtons[correctAnswerIndex];
         
-        correctButton.bg.setFillStyle(GameConfig.config.COLORS.SUCCESS);
+        correctButton.background.clear();
+        correctButton.background.fillGradientStyle(0x27ae60, 0x229954, 0x1e8449, 0x196f3d);
+        correctButton.background.fillRoundedRect(-200, -30, 400, 60, 15);
+        correctButton.background.lineStyle(3, 0xFFFFFF, 0.9);
+        correctButton.background.strokeRoundedRect(-200, -30, 400, 60, 15);
         
         this.streak = 0;
         

@@ -38,18 +38,25 @@ class GameConfig {
                 VOLUME: 0.7
             },
             
-            // UI Colors
+            // UI Colors - Millionaire Style
             COLORS: {
-                PRIMARY: 0x007bff,
-                SECONDARY: 0x6c757d,
-                SUCCESS: 0x28a745,
-                DANGER: 0xdc3545,
-                WARNING: 0xffc107,
-                BACKGROUND: 0x0a0a0a,
-                TEXT_PRIMARY: 0xffffff,
-                TEXT_SECONDARY: 0xcccccc,
-                GOLD: 0xffd700,
-                SILVER: 0xc0c0c0
+                PRIMARY: 0x1e3d59,        // Deep blue
+                SECONDARY: 0x2c5aa0,      // Medium blue
+                SUCCESS: 0x27ae60,        // Emerald green
+                DANGER: 0xe74c3c,         // Ruby red
+                WARNING: 0xf39c12,        // Amber
+                BACKGROUND: 0x0a0a0a,     // Deep black
+                TEXT_PRIMARY: 0xffffff,   // Pure white
+                TEXT_SECONDARY: 0xecf0f1, // Light gray
+                GOLD: 0xffd700,           // Gold
+                SILVER: 0xc0c0c0,         // Silver
+                PLATINUM: 0xe5e4e2,       // Platinum
+                ROYAL_BLUE: 0x4169e1,     // Royal blue
+                DEEP_PURPLE: 0x663399,    // Deep purple
+                DIAMOND_BLUE: 0x00bfff,   // Diamond blue
+                SPOTLIGHT: 0xfffff0,      // Ivory spotlight
+                MILLIONAIRE_GOLD: 0xffdf00, // Rich gold
+                DARK_GOLD: 0xb8860b       // Dark gold
             },
             
             // Animation durations (milliseconds)

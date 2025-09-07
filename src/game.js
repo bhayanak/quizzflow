@@ -13,10 +13,14 @@ class QuizFlowGame {
             await this.initializeManagers();
             
             // Configure Phaser
+            console.log('Creating Phaser configuration...');
             const phaserConfig = this.createPhaserConfig();
+            console.log('Phaser config created:', phaserConfig);
             
             // Create game instance
+            console.log('Creating Phaser game instance...');
             this.game = new Phaser.Game(phaserConfig);
+            console.log('Phaser game instance created:', !!this.game);
             
             // Set up global references
             this.setupGlobalReferences();
@@ -30,6 +34,14 @@ class QuizFlowGame {
             // Hide loading screen
             this.hideLoadingScreen();
             
+            // Add fallback timeout in case something goes wrong
+            setTimeout(() => {
+                if (document.getElementById('loadingScreen').style.display !== 'none') {
+                    console.log('Fallback: Force hiding loading screen');
+                    this.hideLoadingScreen();
+                }
+            }, 2000);
+            
         } catch (error) {
             console.error('Failed to initialize QuizFlow Game:', error);
             this.showError('Failed to initialize game. Please refresh the page.');
@@ -37,6 +49,11 @@ class QuizFlowGame {
     }
     
     async initializeManagers() {
+        // Initialize TranslationManager
+        console.log('Initializing TranslationManager...');
+        window.translationManager = new TranslationManager();
+        await window.translationManager.initialize();
+        
         // Initialize AudioManager
         console.log('Initializing AudioManager...');
         window.audioManager = new AudioManager();
@@ -60,7 +77,7 @@ class QuizFlowGame {
             type: Phaser.AUTO,
             width: config.PHASER.width,
             height: config.PHASER.height,
-            parent: 'gameCanvas',
+            parent: 'gameContainer',
             backgroundColor: config.PHASER.backgroundColor,
             physics: config.PHASER.physics,
             scene: [MenuScene, GameScene, GameOverScene],
@@ -81,6 +98,12 @@ class QuizFlowGame {
             },
             audio: {
                 disableWebAudio: false
+            },
+            callbacks: {
+                postBoot: (game) => {
+                    console.log('🚀 Phaser game booted successfully');
+                    console.log('Available scenes:', game.scene.scenes.map(s => s.scene.key));
+                }
             }
         };
     }
@@ -121,11 +144,65 @@ class QuizFlowGame {
         }
         
         if (languageBtn) {
+            // Set initial button state
+            this.updateLanguageButton();
+            
             languageBtn.addEventListener('click', () => {
-                const newLanguage = window.audioManager.switchLanguage();
-                languageBtn.textContent = newLanguage.toUpperCase();
-                languageBtn.title = `Current Language: ${newLanguage === 'en' ? 'English' : 'Hindi'}`;
+                this.toggleLanguage();
             });
+        }
+        
+        // Listen for language change events
+        window.addEventListener('languageChanged', () => {
+            this.updateLanguageButton();
+        });
+    }
+    
+    toggleLanguage() {
+        if (!window.translationManager) return;
+        
+        const currentLang = window.translationManager.getCurrentLanguage();
+        const newLang = currentLang === 'en' ? 'hi' : 'en';
+        
+        if (window.translationManager.setLanguage(newLang)) {
+            // Update audio manager language too
+            if (window.audioManager) {
+                window.audioManager.setLanguage(newLang);
+            }
+            
+            // Update any active scenes
+            this.updateActiveScenes();
+        }
+    }
+    
+    updateLanguageButton() {
+        const languageBtn = document.getElementById('languageBtn');
+        if (languageBtn && window.translationManager) {
+            const currentLang = window.translationManager.getCurrentLanguage();
+            languageBtn.textContent = currentLang.toUpperCase();
+            languageBtn.title = `Switch to ${currentLang === 'en' ? 'Hindi' : 'English'}`;
+        }
+    }
+    
+    updateActiveScenes() {
+        if (!this.game) return;
+        
+        // Update MenuScene if active
+        const menuScene = this.game.scene.getScene('MenuScene');
+        if (menuScene && menuScene.scene.isActive() && menuScene.updateLanguage) {
+            menuScene.updateLanguage();
+        }
+        
+        // Update GameScene if active
+        const gameScene = this.game.scene.getScene('GameScene');
+        if (gameScene && gameScene.scene.isActive() && gameScene.updateLanguage) {
+            gameScene.updateLanguage();
+        }
+        
+        // Update GameOverScene if active
+        const gameOverScene = this.game.scene.getScene('GameOverScene');
+        if (gameOverScene && gameOverScene.scene.isActive() && gameOverScene.updateLanguage) {
+            gameOverScene.updateLanguage();
         }
     }
     
@@ -218,12 +295,17 @@ class QuizFlowGame {
     }
     
     hideLoadingScreen() {
+        console.log('Attempting to hide loading screen...');
         const loadingScreen = document.getElementById('loadingScreen');
         if (loadingScreen) {
+            console.log('Loading screen found, hiding...');
             loadingScreen.classList.add('hidden');
             setTimeout(() => {
                 loadingScreen.style.display = 'none';
+                console.log('Loading screen hidden');
             }, 500);
+        } else {
+            console.warn('Loading screen element not found');
         }
     }
     
@@ -299,10 +381,54 @@ class QuizFlowGame {
 
 // Initialize the game when the page loads
 document.addEventListener('DOMContentLoaded', async () => {
-    console.log('DOM loaded, initializing QuizFlow...');
-    
-    const quizFlow = new QuizFlowGame();
-    await quizFlow.initialize();
+    try {
+        console.log('DOM loaded, initializing QuizFlow...');
+        console.log('Phaser version:', Phaser.VERSION);
+        console.log('GameConfig available:', typeof GameConfig !== 'undefined');
+        console.log('AudioManager available:', typeof AudioManager !== 'undefined');
+        console.log('QuestionManager available:', typeof QuestionManager !== 'undefined');
+        console.log('MenuScene available:', typeof MenuScene !== 'undefined');
+        
+        // Show skip button after 5 seconds
+        setTimeout(() => {
+            const skipBtn = document.getElementById('skipLoadingBtn');
+            if (skipBtn && document.getElementById('loadingScreen').style.display !== 'none') {
+                skipBtn.style.display = 'block';
+                skipBtn.onclick = () => {
+                    console.log('User clicked skip loading');
+                    document.getElementById('loadingScreen').style.display = 'none';
+                };
+            }
+        }, 5000);
+        
+        const quizFlow = new QuizFlowGame();
+        await quizFlow.initialize();
+    } catch (error) {
+        console.error('Critical error during game initialization:', error);
+        
+        // Show error in loading screen
+        const loadingContent = document.querySelector('.loading-content');
+        if (loadingContent) {
+            loadingContent.innerHTML = `
+                <h1>QuizFlow</h1>
+                <div style="color: #ff4444; font-size: 1.2rem; margin: 2rem 0;">
+                    ❌ Failed to load game: ${error.message}
+                </div>
+                <div style="color: #cccccc; font-size: 0.9rem; margin: 1rem 0;">
+                    Check console for details (F12)
+                </div>
+                <button onclick="location.reload()" style="
+                    background: #007bff;
+                    border: none;
+                    color: white;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    font-size: 1rem;
+                ">Reload Page</button>
+            `;
+        }
+    }
 });
 
 // Expose useful functions globally for console debugging
