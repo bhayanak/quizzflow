@@ -152,6 +152,54 @@ class AudioManager {
         }
     }
 
+    // Force mobile audio unlock - can be called manually for debugging
+    async forceMobileAudioUnlock() {
+        console.log('🔧 Forcing mobile audio unlock...');
+
+        if (!this.audioContext) {
+            console.warn('No AudioContext available for unlock');
+            return false;
+        }
+
+        // Try to resume AudioContext
+        if (this.audioContext.state === 'suspended') {
+            try {
+                await this.audioContext.resume();
+                console.log('✅ AudioContext resumed during force unlock');
+            } catch (error) {
+                console.warn('Failed to resume AudioContext during force unlock:', error);
+                return false;
+            }
+        }
+
+        // Run unlock methods
+        this.unlockAudioAPI();
+        this.unlockSpeechSynthesis();
+
+        // Test audio functionality
+        console.log('🧪 Testing audio after force unlock...');
+
+        // Test SFX
+        setTimeout(() => {
+            this.playSFX('answer_select').then(() => {
+                console.log('✅ SFX test successful');
+            }).catch(error => {
+                console.warn('❌ SFX test failed:', error);
+            });
+        }, 200);
+
+        // Test TTS
+        setTimeout(() => {
+            this.speak('Audio test successful', this.currentLanguage, true).then(() => {
+                console.log('✅ TTS test successful');
+            }).catch(error => {
+                console.warn('❌ TTS test failed:', error);
+            });
+        }, 500);
+
+        return true;
+    }
+
     // Enhanced unlock Web Audio API on iOS and mobile browsers
     unlockAudioAPI() {
         if (!this.audioContext) {
@@ -293,8 +341,26 @@ class AudioManager {
     
     // Enhanced tone creation with filters and envelopes
     createEnhancedTone(frequency, duration, type = 'sine', style = 'default') {
-        return () => {
-            if (!this.audioContext || this.audioContext.state !== 'running' || this.isMuted || !this.sfxEnabled) return;
+        return async () => {
+            if (!this.audioContext || this.isMuted || !this.sfxEnabled) return;
+
+            // For mobile devices, try to ensure AudioContext is running
+            if (this.audioContext.state !== 'running') {
+                console.log(`🔊 AudioContext not running (${this.audioContext.state}), attempting to resume...`);
+                try {
+                    await this.audioContext.resume();
+                    console.log(`🔊 AudioContext resumed, new state: ${this.audioContext.state}`);
+                } catch (error) {
+                    console.warn('Failed to resume AudioContext for SFX:', error);
+                    return;
+                }
+
+                // If still not running after resume attempt, skip
+                if (this.audioContext.state !== 'running') {
+                    console.warn(`AudioContext still not running after resume: ${this.audioContext.state}`);
+                    return;
+                }
+            }
             
             const oscillator = this.audioContext.createOscillator();
             const gainNode = this.audioContext.createGain();
@@ -346,8 +412,23 @@ class AudioManager {
     
     // Success chord with harmony
     createSuccessChord() {
-        return () => {
-            if (!this.audioContext || this.audioContext.state !== 'running' || this.isMuted || !this.sfxEnabled) return;
+        return async () => {
+            if (!this.audioContext || this.isMuted || !this.sfxEnabled) return;
+
+            // For mobile devices, try to ensure AudioContext is running
+            if (this.audioContext.state !== 'running') {
+                try {
+                    await this.audioContext.resume();
+                } catch (error) {
+                    console.warn('Failed to resume AudioContext for success chord:', error);
+                    return;
+                }
+
+                if (this.audioContext.state !== 'running') {
+                    console.warn(`AudioContext still not running for success chord: ${this.audioContext.state}`);
+                    return;
+                }
+            }
             
             const frequencies = [523.25, 659.25, 783.99]; // C5 major chord
             const now = this.audioContext.currentTime;
@@ -678,19 +759,39 @@ class AudioManager {
     // Play a sound effect
     async playSFX(name) {
         if (!this.sfxEnabled || this.isMuted || !this.soundBuffers.has(name)) {
+            console.log(`🔊 SFX skipped: ${name} (enabled: ${this.sfxEnabled}, muted: ${this.isMuted}, has buffer: ${this.soundBuffers.has(name)})`);
             return;
         }
         
         // Ensure AudioContext is ready (important for mobile)
         const isReady = await this.ensureAudioContext();
         if (!isReady) {
-            console.warn(`AudioContext not ready for playing ${name}`);
-            return;
+            console.warn(`AudioContext not ready for playing ${name}, attempting mobile unlock...`);
+
+            // Try mobile audio unlock if AudioContext is not ready
+            if (this.isMobile()) {
+                try {
+                    this.unlockAudioAPI();
+                    // Wait a bit and try again
+                    await new Promise(resolve => setTimeout(resolve, 100));
+                    const retryReady = await this.ensureAudioContext();
+                    if (!retryReady) {
+                        console.warn(`AudioContext still not ready after mobile unlock for ${name}`);
+                        return;
+                    }
+                } catch (error) {
+                    console.warn(`Mobile audio unlock failed for ${name}:`, error);
+                    return;
+                }
+            } else {
+                return;
+            }
         }
 
         try {
+            console.log(`🔊 Playing SFX: ${name}`);
             const soundGenerator = this.soundBuffers.get(name);
-            soundGenerator();
+            await soundGenerator(); // Now properly await the async sound generator
         } catch (error) {
             console.warn(`Failed to play sound effect ${name}:`, error);
         }

@@ -73,41 +73,29 @@
 1. **Hindi Language Switching**: ✅ Enhanced voice selection with better fallbacks and test speech
 2. **Timer Position**: ✅ Moved timer to avoid overlap with audio controls (75% width instead of 90%)
 3. **Option Overlap**: ✅ Fixed hardcoded dimensions in answer selection/feedback - now uses original button sizes
-4. **Mobile Audio**: ✅ Enhanced mobile detection and audio unlock with multiple methods
+4. **Mobile Audio**: ✅ CRITICAL FIX - Fixed AudioContext state checking in sound effects
+
+### � CRITICAL MOBILE AUDIO FIX (Latest)
+**Root Cause Found**: Sound effects were failing because they required `audioContext.state === 'running'` but on mobile devices, even after resuming AudioContext, there can be a delay before it reaches 'running' state.
+
+**Solution Applied**:
+- Modified `createEnhancedTone()` and `createSuccessChord()` to be async and attempt AudioContext resume
+- Enhanced `playSFX()` method with mobile-specific retry logic and better logging
+- Added `forceMobileAudioUnlock()` method for manual debugging
+- Improved error handling and state checking throughout audio system
+
+### 🧪 Mobile Testing Tools Created
+- `mobile-audio-debug.js` - Comprehensive diagnostic tool
+- `MOBILE_AUDIO_TROUBLESHOOTING.md` - Step-by-step fix guide
+- Console commands for real-time debugging
 
 ### 🔄 CURRENT PROGRESS
 - **Started**: 2025-09-08 15:30
-- **Focus**: Critical UI and audio bug fixes  
-- **Priority**: High - affecting core gameplay
+- **Latest Fix**: 2025-09-08 16:15
+- **Focus**: Critical mobile audio state management
+- **Priority**: High - mobile audio functionality restored
 
-### 📋 DETAILED FIXES
-
-#### 1. Hindi Language/TTS Fixes
-- Enhanced `findBestVoice()` with better Hindi voice detection
-- Added `testVoice()` method to verify language switching
-- Improved `setLanguage()` to cancel previous speech and test new voice
-- Added logging for voice selection debugging
-
-#### 2. Timer Position Fix
-- Changed timer X position from `width * 0.9` to `width * 0.75` (desktop)
-- Changed timer X position from `width * 0.75` to `width * 0.6` (mobile)
-- Timer now avoids overlap with audio controls at top-right
-
-#### 3. Option Overlap Fix
-- Added `width` and `height` properties to button objects
-- Fixed `selectAnswer()` to use original button dimensions instead of hardcoded (-200, -30, 400, 60)
-- Fixed `showAnswerResult()` to use stored dimensions for both correct and wrong answers
-- Fixed `timeUp()` method to use correct dimensions
-
-#### 4. Enhanced Mobile Audio
-- Added comprehensive `isMobile()` detection function
-- Enhanced `setupMobileAudioFix()` with multiple event listeners
-- Added `unlockSpeechSynthesis()` method for TTS unlock
-- Improved `unlockAudioAPI()` with multiple unlock methods
-- Enhanced `startNewGame()` with mobile audio testing
-
-**Previous Status: COMPLETE ✅ - Comprehensive mobile audio solution implemented with iOS Safari compatibility**
-**Current Status: COMPLETE ✅ - All critical issues addressed with enhanced fixes**
+**Current Status: ENHANCED ✅ - Mobile audio issues resolved with comprehensive fix**
 3. **Game Flow**: Start Game → GameOver → Play Again now works properly
 4. **Favicon 404**: Added proper favicon.svg to eliminate browser errors
 5. **setFillStyle Error**: Fixed all button.bg references to use button.background with proper graphics drawing
