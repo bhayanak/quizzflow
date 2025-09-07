@@ -41,7 +41,7 @@ class GameOverScene extends Phaser.Scene {
         this.titleText = this.add.text(width / 2, height * 0.15, titleText, {
             fontSize: '64px',
             fontFamily: 'Orbitron, monospace',
-            fill: titleColor.toString(16),
+            fill: '#' + titleColor.toString(16).padStart(6, '0'),
             stroke: '#000000',
             strokeThickness: 2
         }).setOrigin(0.5);
@@ -61,7 +61,7 @@ class GameOverScene extends Phaser.Scene {
         this.scoreText = this.add.text(width / 2, height * 0.35, `Final Score: ${this.gameData.score}`, {
             fontSize: '36px',
             fontFamily: 'Orbitron, monospace',
-            fill: config.COLORS.GOLD.toString(16),
+            fill: '#' + config.COLORS.GOLD.toString(16).padStart(6, '0'),
             stroke: '#000000',
             strokeThickness: 1
         }).setOrigin(0.5);
@@ -114,15 +114,15 @@ class GameOverScene extends Phaser.Scene {
         const percentage = (this.gameData.questionsAnswered / this.gameData.totalQuestions) * 100;
         
         if (percentage >= 90) {
-            return { text: 'Excellent! 🌟', color: config.COLORS.SUCCESS.toString(16) };
+            return { text: 'Excellent! 🌟', color: '#' + config.COLORS.SUCCESS.toString(16).padStart(6, '0') };
         } else if (percentage >= 75) {
-            return { text: 'Great! 👍', color: config.COLORS.PRIMARY.toString(16) };
+            return { text: 'Great! 👍', color: '#' + config.COLORS.PRIMARY.toString(16).padStart(6, '0') };
         } else if (percentage >= 50) {
-            return { text: 'Good! 👌', color: config.COLORS.WARNING.toString(16) };
+            return { text: 'Good! 👌', color: '#' + config.COLORS.WARNING.toString(16).padStart(6, '0') };
         } else if (percentage >= 25) {
             return { text: 'Keep Trying! 💪', color: '#ff8800' };
         } else {
-            return { text: 'Practice More! 📚', color: config.COLORS.DANGER.toString(16) };
+            return { text: 'Practice More! 📚', color: '#' + config.COLORS.DANGER.toString(16).padStart(6, '0') };
         }
     }
     
@@ -131,7 +131,7 @@ class GameOverScene extends Phaser.Scene {
         const config = GameConfig.config;
         
         const buttonY = height * 0.75;
-        const buttonSpacing = 120;
+        const buttonSpacing = 200; // Increased from 120 to 200 to prevent overlap
         
         // Play Again Button
         this.playAgainButton = this.createButton(

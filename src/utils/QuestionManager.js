@@ -11,7 +11,8 @@ class QuestionManager {
     
     async loadQuestions() {
         try {
-            console.log('Loading questions from data files...');
+            console.log('Starting question loading process...');
+            console.log('Current URL:', window.location.href);
             
             // List of data files to load
             const dataFiles = [
@@ -26,19 +27,22 @@ class QuestionManager {
                 'sports_easy.json', 'sports_medium.json', 'sports_hard.json'
             ];
             
+            console.log(`Attempting to load ${dataFiles.length} question files...`);
+            
             // Load all question files
             const loadPromises = dataFiles.map(async (file) => {
                 try {
-                    const response = await fetch(`../data/${file}`);
+                    console.log(`Fetching: data/${file}`);
+                    const response = await fetch(`data/${file}`);
                     if (!response.ok) {
-                        console.warn(`Failed to load ${file}: ${response.status}`);
+                        console.warn(`Failed to load ${file}: ${response.status} ${response.statusText}`);
                         return [];
                     }
                     const questions = await response.json();
-                    console.log(`Loaded ${questions.length} questions from ${file}`);
+                    console.log(`✅ Loaded ${questions.length} questions from ${file}`);
                     return questions;
                 } catch (error) {
-                    console.warn(`Error loading ${file}:`, error);
+                    console.error(`❌ Error loading ${file}:`, error);
                     return [];
                 }
             });
