@@ -48,40 +48,7 @@ A browser-based quiz game inspired by **Who Wants to Be a Millionaire** built wi
    php -S localhost:8000
    ```
 
-3. **Open in browser**: Navigate to `http://localhost:8000/public/`
-
-### Online Deployment
-
-Deploy the entire project to any static hosting service:
-- **GitHub Pages**: Upload to a GitHub repo and enable Pages
-- **Netlify**: Drag and drop the project folder
-- **Vercel**: Connect your Git repository
-- **Firebase Hosting**: Use Firebase CLI to deploy
-
-## 📁 Project Structure
-
-```
-quizflow/
-├── public/                 # Web-accessible files
-│   ├── index.html         # Main HTML file
-│   ├── styles.css         # Game styling
-│   └── assets/            # Game assets (audio, images, etc.)
-├── src/                   # Game source code
-│   ├── game.js           # Main game initialization
-│   ├── scenes/           # Phaser game scenes
-│   │   ├── MenuScene.js  # Main menu
-│   │   ├── GameScene.js  # Quiz gameplay
-│   │   └── GameOverScene.js # Results screen
-│   └── utils/            # Utility classes
-│       ├── GameConfig.js # Game configuration
-│       ├── QuestionManager.js # Question handling
-│       └── AudioManager.js # Audio/TTS management
-├── data/                 # Question database (JSON files)
-│   ├── animals_easy.json
-│   ├── science_hard.json
-│   └── ...
-└── Requirements.md       # Detailed project requirements
-```
+3. **Open in browser**: Navigate to `http://localhost:8000/`
 
 ## 🎮 How to Play
 
@@ -104,53 +71,6 @@ quizflow/
   - `L` - Switch language (English/Hindi)
   - `ESC` - Return to menu
   - `Space` - (reserved for future use)
-
-## 🔧 Technical Details
-
-### Technologies Used
-- **Phaser 3.70.0**: Game engine for graphics and interactions
-- **Web Speech API**: Text-to-speech functionality
-- **Web Audio API**: Sound effects generation
-- **HTML5/CSS3/ES6+**: Modern web standards
-- **JSON**: Question database storage
-
-### Browser Compatibility
-- **Chrome/Edge**: Full support (recommended)
-- **Firefox**: Full support
-- **Safari**: TTS may have limited language support
-- **Mobile**: Responsive design with touch support
-
-### Performance
-- **Loading Time**: ~2-3 seconds (depending on connection)
-- **Memory Usage**: ~50-100MB (typical browser game)
-- **Question Loading**: Instant (local JSON files)
-- **Audio Latency**: <200ms for SFX, ~1s for TTS
-
-## 📊 Question Database
-
-### Current Statistics
-- **Total Questions**: 335
-- **Categories**: 9 (Animals, Art, Entertainment, General Knowledge, Mathematics, Mythology, Politics, Science, Sports)
-- **Difficulty Distribution**:
-  - Easy: 238 questions
-  - Medium: 64 questions  
-  - Hard: 33 questions
-
-### Data Format
-Each question follows this structure:
-```json
-{
-  "id": "unique_identifier",
-  "question": "How many legs do butterflies have?",
-  "correctAnswer": "6",
-  "incorrectAnswers": ["2", "4", "0"],
-  "broadCategory": "Animals",
-  "subCategory": "Insects",
-  "difficulty": "easy",
-  "type": "multiple",
-  "questionHash": "sha256_hash_for_deduplication"
-}
-```
 
 ## 🎵 Audio System
 
@@ -179,7 +99,7 @@ Edit values in `src/utils/GameConfig.js`:
 - Lifeline usage limits
 
 ### Styling Changes
-Modify `public/styles.css` for visual customization:
+Modify `styles.css` for visual customization:
 - Colors and themes
 - Fonts and typography  
 - Animations and effects
@@ -208,32 +128,6 @@ QuizFlowDebug.resume()
 2. **No audio**: Check browser permissions and audio settings
 3. **Mobile issues**: Ensure HTTPS for production deployment
 4. **Performance**: Clear browser cache if game feels slow
-
-## 📋 Development Roadmap
-
-### Phase 1 - Core MVP ✅
-- [x] Phaser 3 project setup
-- [x] Question loading and display
-- [x] Basic scoring system
-- [x] Millionaire-style UI
-
-### Phase 2 - Enhanced Features ✅
-- [x] Lifelines implementation
-- [x] Timer system
-- [x] Audio/TTS integration
-- [x] Progressive difficulty
-
-### Phase 3 - Polish & Expansion 🚧
-- [ ] More sound effects and music
-- [ ] Expanded question database (target: 5,000)
-- [ ] Indian GK questions
-- [ ] Additional lifelines
-
-### Phase 4 - Advanced Features 📅
-- [ ] Multiplayer challenges
-- [ ] Daily quizzes
-- [ ] Achievement system
-- [ ] Offline mode with service workers
 
 ## 📄 License
 
