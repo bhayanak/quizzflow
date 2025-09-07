@@ -361,6 +361,30 @@ class MenuScene extends Phaser.Scene {
     async startNewGame() {
         console.log('Starting new game...');
 
+        // Enhanced mobile audio unlock - try multiple methods
+        if (window.audioManager) {
+            // Try to resume AudioContext first
+            if (window.audioManager.audioContext && window.audioManager.audioContext.state === 'suspended') {
+                try {
+                    await window.audioManager.audioContext.resume();
+                    console.log('🔊 AudioContext resumed on game start');
+                } catch (error) {
+                    console.warn('Failed to resume AudioContext on game start:', error);
+                }
+            }
+
+            // Unlock audio API for mobile
+            window.audioManager.unlockAudioAPI();
+
+            // Test TTS to ensure it's working
+            if (window.audioManager.isMobile()) {
+                console.log('🔊 Mobile device detected, testing TTS...');
+                setTimeout(() => {
+                    window.audioManager.speak('Game starting', null, true);
+                }, 500);
+            }
+        }
+
         // Dispatch game started event for mobile audio fix
         window.dispatchEvent(new CustomEvent('gameStarted'));
 
