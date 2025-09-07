@@ -174,8 +174,8 @@ class GameScene extends Phaser.Scene {
             fill: '#' + config.COLORS.GOLD.toString(16).padStart(6, '0')
         }).setOrigin(0.5, 0);
         
-        // Timer - positioned away from audio controls
-        const timerX = isMobile ? width * 0.25 : width * 0.9;
+        // Timer - positioned in center bottom on mobile to avoid overlap
+        const timerX = isMobile ? width * 0.75 : width * 0.9;
         this.timerText = this.add.text(timerX, topY, '', {
             fontSize: timerFontSize,
             fontFamily: 'Orbitron, monospace',
@@ -264,18 +264,19 @@ class GameScene extends Phaser.Scene {
         const isMobile = width < 768;
         
         if (isMobile) {
-            // Mobile: 2x2 grid layout as requested
-            const buttonWidth = width * 0.45;
-            const buttonHeight = 60;
+            // Mobile: 2x2 grid layout with proper spacing to prevent overlap
+            const buttonWidth = width * 0.42; // Reduced from 0.45 to prevent overlap
+            const buttonHeight = 55; // Slightly reduced height
             const startY = height * 0.4;
-            const verticalSpacing = 80;
-            const horizontalSpacing = width * 0.5;
+            const verticalSpacing = 75; // Increased spacing
+            const leftX = width * 0.23; // Adjusted positioning
+            const rightX = width * 0.77;
             
             const positions = [
-                { x: width * 0.25, y: startY, label: 'A' },
-                { x: width * 0.75, y: startY, label: 'B' },
-                { x: width * 0.25, y: startY + verticalSpacing, label: 'C' },
-                { x: width * 0.75, y: startY + verticalSpacing, label: 'D' }
+                { x: leftX, y: startY, label: 'A' },
+                { x: rightX, y: startY, label: 'B' },
+                { x: leftX, y: startY + verticalSpacing, label: 'C' },
+                { x: rightX, y: startY + verticalSpacing, label: 'D' }
             ];
             
             this.optionButtons = positions.map((pos, index) => {
@@ -597,13 +598,24 @@ class GameScene extends Phaser.Scene {
     }
     
     resetAnswerButtons() {
+        const { width } = this.scale;
+        const isMobile = width < 768;
+        
         this.optionButtons.forEach((button) => {
-            // Reset background to original gradient
+            // Get the original dimensions used when creating the button
+            const buttonWidth = isMobile ? width * 0.42 : width * 0.4;
+            const buttonHeight = isMobile ? 55 : 80;
+            
+            // Reset background to original gradient with correct dimensions
             button.background.clear();
             button.background.fillGradientStyle(0x001155, 0x002277, 0x003399, 0x0044BB);
-            button.background.fillRoundedRect(-200, -30, 400, 60, 15);
+            button.background.fillRoundedRect(-buttonWidth / 2, -buttonHeight / 2, buttonWidth, buttonHeight, 15);
             button.background.lineStyle(3, 0xFFD700, 0.9);
-            button.background.strokeRoundedRect(-200, -30, 400, 60, 15);
+            button.background.strokeRoundedRect(-buttonWidth / 2, -buttonHeight / 2, buttonWidth, buttonHeight, 15);
+
+            // Inner glow effect
+            button.background.lineStyle(1, 0xFFFFFF, 0.4);
+            button.background.strokeRoundedRect(-buttonWidth / 2 + 3, -buttonHeight / 2 + 3, buttonWidth - 6, buttonHeight - 6, 12);
 
             // Reset container properties
             button.container.setScale(1.0);

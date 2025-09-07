@@ -161,10 +161,10 @@ class GameOverScene extends Phaser.Scene {
         const isMobile = width < 768;
         
         if (isMobile) {
-            // Mobile: Stack buttons vertically to prevent cutoff
+            // Mobile: Stack buttons vertically with better spacing
             const buttonX = width / 2;
-            const startY = height * 0.7;
-            const verticalSpacing = 60;
+            const startY = height * 0.68; // Moved up slightly
+            const verticalSpacing = 65; // Increased spacing
             
             // Play Again Button
             this.playAgainButton = this.createButton(
@@ -204,7 +204,7 @@ class GameOverScene extends Phaser.Scene {
         } else {
             // Desktop: Horizontal layout with safe spacing
             const buttonY = height * 0.75;
-            const buttonSpacing = 200;
+            const buttonSpacing = Math.min(180, width * 0.2); // Responsive spacing
             
             // Play Again Button
             this.playAgainButton = this.createButton(
@@ -250,21 +250,23 @@ class GameOverScene extends Phaser.Scene {
     createButton(x, y, text, color, isMobile = false) {
         const button = this.add.container(x, y);
         
-        // Mobile-responsive button sizing
-        const buttonWidth = isMobile ? 180 : 140;
-        const buttonHeight = isMobile ? 50 : 45;
+        // Mobile-responsive button sizing with better proportions
+        const buttonWidth = isMobile ? Math.min(200, this.scale.width * 0.8) : 150;
+        const buttonHeight = isMobile ? 55 : 45;
         const fontSize = isMobile ? '18px' : '16px';
         
         // Button background
         const bg = this.add.rectangle(0, 0, buttonWidth, buttonHeight, color, 0.8);
         bg.setStrokeStyle(2, 0xffffff, 0.5);
         
-        // Button text
+        // Button text with better wrapping
         const label = this.add.text(0, 0, text, {
             fontSize: fontSize,
             fontFamily: 'Roboto, sans-serif',
             fill: '#ffffff',
-            fontWeight: isMobile ? 'bold' : 'normal'
+            fontWeight: isMobile ? 'bold' : 'normal',
+            align: 'center',
+            wordWrap: { width: buttonWidth - 20 }
         }).setOrigin(0.5);
         
         button.add([bg, label]);
