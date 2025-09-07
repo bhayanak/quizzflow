@@ -12,6 +12,7 @@ class GameScene extends Phaser.Scene {
         this.timeRemaining = 0;
         this.timer = null;
         this.lifelines = { ...GameConfig.config.LIFELINES };
+        this.lastHoverTime = 0;
         
         // UI elements
         this.questionText = null;
@@ -278,7 +279,7 @@ class GameScene extends Phaser.Scene {
         
         // Hover effects
         hitArea.on('pointerover', () => {
-            if (this.isAnswerLocked) return;
+            if (this.isAnswerLocked || this.lastHoverTime && Date.now() - this.lastHoverTime < 200) return;
 
             background.clear();
             background.fillGradientStyle(0xFFD700, 0xFFA500, 0xFF8C00, 0xFF7F00);
@@ -288,9 +289,10 @@ class GameScene extends Phaser.Scene {
 
             answerText.setStyle({ fill: '#000000', fontWeight: 'bold' });
 
-            // Play hover sound
-            if (window.audioManager) {
+            // Play hover sound (throttled)
+            if (window.audioManager && (!this.lastHoverTime || Date.now() - this.lastHoverTime > 200)) {
                 window.audioManager.playSFX('answer_select');
+                this.lastHoverTime = Date.now();
             }
         });
         
