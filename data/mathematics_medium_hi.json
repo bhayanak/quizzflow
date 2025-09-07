@@ -1,0 +1,82 @@
+[
+  {
+    "id": "68bd91df64d094e2837ea495",
+    "question": "sin(90°) का मान क्या है?",
+    "correctAnswer": "1",
+    "incorrectAnswers": [
+      "0",
+      "-1",
+      "1/2"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91df64d094e2837ea496",
+    "question": "एक समकोण त्रिभुज में कर्ण की लंबाई ज्ञात करने के लिए कौन सा प्रमेय उपयोग होता है?",
+    "correctAnswer": "पाइथागोरस प्रमेय",
+    "incorrectAnswers": [
+      "थेल्स प्रमेय",
+      "फर्मा प्रमेय",
+      "गोल्डबाख प्रमेय"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91df64d094e2837ea497",
+    "question": "यदि x² = 25 है, तो x का मान क्या है?",
+    "correctAnswer": "±5",
+    "incorrectAnswers": [
+      "5",
+      "-5",
+      "25"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91df64d094e2837ea498",
+    "question": "एक वृत्त का परिधि का सूत्र क्या है?",
+    "correctAnswer": "2πr",
+    "incorrectAnswers": [
+      "πr²",
+      "πr",
+      "2πr²"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91df64d094e2837ea499",
+    "question": "log₁₀(100) का मान क्या है?",
+    "correctAnswer": "2",
+    "incorrectAnswers": [
+      "10",
+      "100",
+      "1"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6",
+    "usageCount": 0
+  }
+]

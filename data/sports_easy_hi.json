@@ -1,0 +1,162 @@
+[
+  {
+    "id": "68bd920464d094e2837ea4ad",
+    "question": "\"Stadium of Light\" किस फुटबॉल टीम का होम स्टेडियम है?",
+    "correctAnswer": "Sunderland FC",
+    "incorrectAnswers": [
+      "Barcelona FC",
+      "Paris Saints-Germain",
+      "Manchester United"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "9ffd37df98498f2aa8972628182d0f9071d76775c7dca6a4e87a60230372f375",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd920464d094e2837ea4ab",
+    "question": "फुटबॉल मैच में एक समय में मैदान पर कितने खिलाड़ी होने चाहिए?",
+    "correctAnswer": "22",
+    "incorrectAnswers": [
+      "20",
+      "24",
+      "26"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd920464d094e2837ea4ac",
+    "question": "क्रिकेट में एक टीम में कितने खिलाड़ी होते हैं?",
+    "correctAnswer": "11",
+    "incorrectAnswers": [
+      "9",
+      "12",
+      "10"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd920464d094e2837ea4ae",
+    "question": "Olympic Games कितने साल में एक बार होते हैं?",
+    "correctAnswer": "4",
+    "incorrectAnswers": [
+      "2",
+      "3",
+      "5"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd920464d094e2837ea4af",
+    "question": "भारत का राष्ट्रीय खेल कौन सा है?",
+    "correctAnswer": "हॉकी",
+    "incorrectAnswers": [
+      "क्रिकेट",
+      "फुटबॉल",
+      "बैडमिंटन"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd920464d094e2837ea4b0",
+    "question": "टेनिस में कोर्ट के बीच में क्या होता है?",
+    "correctAnswer": "नेट",
+    "incorrectAnswers": [
+      "रेखा",
+      "पोल",
+      "गेट"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd920464d094e2837ea4b1",
+    "question": "बास्केटबॉल में कितने खिलाड़ी एक समय में कोर्ट पर होते हैं?",
+    "correctAnswer": "10",
+    "incorrectAnswers": [
+      "8",
+      "12",
+      "6"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd920464d094e2837ea4b2",
+    "question": "FIFA World Cup कितने साल में एक बार होता है?",
+    "correctAnswer": "4",
+    "incorrectAnswers": [
+      "2",
+      "3",
+      "5"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd920464d094e2837ea4b3",
+    "question": "बैडमिंटन में क्या इस्तेमाल होता है?",
+    "correctAnswer": "शटलकॉक",
+    "incorrectAnswers": [
+      "गेंद",
+      "डिस्क",
+      "रिंग"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd920464d094e2837ea4b4",
+    "question": "सचिन तेंदुलकर किस खेल के खिलाड़ी हैं?",
+    "correctAnswer": "क्रिकेट",
+    "incorrectAnswers": [
+      "हॉकी",
+      "फुटबॉल",
+      "टेनिस"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0",
+    "usageCount": 0
+  }
+]

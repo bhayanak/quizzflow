@@ -1,0 +1,162 @@
+[
+  {
+    "id": "68bd96928fcfed5c856dad3e",
+    "question": "Hippocampus किस समुद्री जीव का लैटिन नाम है?",
+    "correctAnswer": "समुद्री घोड़ा",
+    "incorrectAnswers": [
+      "डॉल्फिन",
+      "व्हेल",
+      "ऑक्टोपस"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b2c44216bc03c080564c7894aab346b145fe5ddebe03f69b01d44ec551832215",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927364d094e2837ea516",
+    "question": "तितली के कितने पैर होते हैं?",
+    "correctAnswer": "6",
+    "incorrectAnswers": [
+      "2",
+      "4",
+      "0"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927364d094e2837ea517",
+    "question": "हाथी का बच्चा क्या कहलाता है?",
+    "correctAnswer": "काल्फ",
+    "incorrectAnswers": [
+      "पप्पी",
+      "किटन",
+      "चिक"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927364d094e2837ea518",
+    "question": "बिल्ली कितने साल तक जीवित रह सकती है?",
+    "correctAnswer": "15-20 साल",
+    "incorrectAnswers": [
+      "5-10 साल",
+      "25-30 साल",
+      "2-5 साल"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927364d094e2837ea519",
+    "question": "कौन सा जानवर अपनी गर्दन नहीं हिला सकता?",
+    "correctAnswer": "सुअर",
+    "incorrectAnswers": [
+      "गाय",
+      "घोड़ा",
+      "बकरी"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927364d094e2837ea520",
+    "question": "मधुमक्खी का घर क्या कहलाता है?",
+    "correctAnswer": "छत्ता",
+    "incorrectAnswers": [
+      "घोंसला",
+      "बिल",
+      "पेड़"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927364d094e2837ea521",
+    "question": "कौन सा जानवर दूध देता है?",
+    "correctAnswer": "गाय",
+    "incorrectAnswers": [
+      "मुर्गी",
+      "बकरा",
+      "सुअर"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927364d094e2837ea522",
+    "question": "शेर को किसका राजा कहा जाता है?",
+    "correctAnswer": "जंगल",
+    "incorrectAnswers": [
+      "पहाड़",
+      "समुद्र",
+      "आसमान"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927364d094e2837ea523",
+    "question": "कुत्ते का बच्चा क्या कहलाता है?",
+    "correctAnswer": "पप्पी",
+    "incorrectAnswers": [
+      "काल्फ",
+      "किटन",
+      "चिक"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927364d094e2837ea524",
+    "question": "मछली कहाँ रहती है?",
+    "correctAnswer": "पानी में",
+    "incorrectAnswers": [
+      "जमीन पर",
+      "पेड़ पर",
+      "हवा में"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0",
+    "usageCount": 0
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "67e8f9a0b1c2d3e4f5678901",
+    "question": "क्रिकेट में 'Silly Point' किस प्रकार की फील्डिंग पोजीशन है?",
+    "correctAnswer": "Close-in catching position",
+    "incorrectAnswers": [
+      "Deep fielding position",
+      "Boundary position",
+      "Wicket-keeping position"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Cricket",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6",
+    "usageCount": 0
+  },
+  {
+    "id": "67e8f9a0b1c2d3e4f5678902",
+    "question": "टेनिस में 'Deuce' के बाद कम से कम कितने पॉइंट जीतने पड़ते हैं?",
+    "correctAnswer": "2",
+    "incorrectAnswers": [
+      "1",
+      "3",
+      "4"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Tennis",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7",
+    "usageCount": 0
+  },
+  {
+    "id": "67e8f9a0b1c2d3e4f5678903",
+    "question": "ओलंपिक में भारत का पहला व्यक्तिगत स्वर्ण पदक किसने जीता था?",
+    "correctAnswer": "अभिनव बिंद्रा",
+    "incorrectAnswers": [
+      "नीरज चोपड़ा",
+      "विजेंद्र सिंह",
+      "योगेश्वर दत्त"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Olympics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8",
+    "usageCount": 0
+  },
+  {
+    "id": "67e8f9a0b1c2d3e4f5678904",
+    "question": "फुटबॉल में 'Hat-trick' का मतलब क्या है?",
+    "correctAnswer": "एक खिलाड़ी का एक मैच में 3 गोल करना",
+    "incorrectAnswers": [
+      "लगातार 3 मैच जीतना",
+      "3 पीले कार्ड मिलना",
+      "3 एसिस्ट करना"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Football",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9",
+    "usageCount": 0
+  },
+  {
+    "id": "67e8f9a0b1c2d3e4f5678905",
+    "question": "बैडमिंटन में रैकेट की स्ट्रिंग्स कितनी होती हैं?",
+    "correctAnswer": "लगभग 20-22",
+    "incorrectAnswers": [
+      "16-18",
+      "24-26",
+      "28-30"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Badminton",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0",
+    "usageCount": 0
+  }
+]

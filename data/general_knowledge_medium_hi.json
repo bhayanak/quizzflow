@@ -1,0 +1,82 @@
+[
+  {
+    "id": "68bd99200d6463953456a3ac",
+    "question": "भारत में कौन सा त्योहार 'रंगों का त्योहार' कहलाता है?",
+    "correctAnswer": "होली",
+    "incorrectAnswers": [
+      "दिवाली",
+      "दशहरा",
+      "नवरात्रि"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd99200d6463953456a3ad",
+    "question": "भारत के पहले प्रधानमंत्री कौन थे?",
+    "correctAnswer": "जवाहरलाल नेहरू",
+    "incorrectAnswers": [
+      "महात्मा गांधी",
+      "सरदार पटेल",
+      "डॉ. राजेंद्र प्रसाद"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd99200d6463953456a3ae",
+    "question": "ताजमहल किस नदी के किनारे स्थित है?",
+    "correctAnswer": "यमुना",
+    "incorrectAnswers": [
+      "गंगा",
+      "सरस्वती",
+      "नर्मदा"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd99200d6463953456a3af",
+    "question": "भारत में कितने केंद्र शासित प्रदेश हैं?",
+    "correctAnswer": "8",
+    "incorrectAnswers": [
+      "9",
+      "7",
+      "6"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd99200d6463953456a3b0",
+    "question": "भारत की सबसे लंबी सुरंग कौन सी है?",
+    "correctAnswer": "अटल सुरंग",
+    "incorrectAnswers": [
+      "जवाहर सुरंग",
+      "चेनानी-नशरी सुरंग",
+      "कोंकण सुरंग"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6",
+    "usageCount": 0
+  }
+]
