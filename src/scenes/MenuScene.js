@@ -285,6 +285,13 @@ class MenuScene extends Phaser.Scene {
         
         // Hover effects with mobile-responsive dimensions
         hitArea.on('pointerover', () => {
+            // Try to unlock audio on first interaction (mobile fix)
+            if (window.audioManager && window.audioManager.audioContext && window.audioManager.audioContext.state === 'suspended') {
+                window.audioManager.audioContext.resume().then(() => {
+                    console.log('🔊 AudioContext resumed on button hover');
+                }).catch(e => console.warn('Failed to resume audio on hover:', e));
+            }
+
             button.clear();
             button.fillGradientStyle(glowColor, glowColor, glowColor * 0.7, glowColor * 0.7);
             button.fillRoundedRect(-buttonWidth/2, -buttonHeight/2, buttonWidth, buttonHeight, 10);
@@ -310,6 +317,13 @@ class MenuScene extends Phaser.Scene {
         });
         
         hitArea.on('pointerdown', () => {
+            // Ensure audio context is resumed on touch/click (mobile fix)
+            if (window.audioManager && window.audioManager.audioContext && window.audioManager.audioContext.state === 'suspended') {
+                window.audioManager.audioContext.resume().then(() => {
+                    console.log('🔊 AudioContext resumed on button click');
+                }).catch(e => console.warn('Failed to resume audio on click:', e));
+            }
+
             if (window.audioManager) {
                 window.audioManager.playSFX('answer_select');
             }
@@ -346,6 +360,9 @@ class MenuScene extends Phaser.Scene {
     
     async startNewGame() {
         console.log('Starting new game...');
+
+        // Dispatch game started event for mobile audio fix
+        window.dispatchEvent(new CustomEvent('gameStarted'));
 
         // Generate a new quiz session
         if (window.questionManager && window.questionManager.isLoaded) {

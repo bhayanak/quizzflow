@@ -30,6 +30,9 @@ class AudioManager {
             this.audioContext = new (window.AudioContext || window.webkitAudioContext)();
             console.log('AudioContext created:', this.audioContext.state);
             
+            // For mobile devices (especially iOS Safari), we need to resume AudioContext after user interaction
+            this.setupMobileAudioFix();
+
             // Load voices for TTS
             console.log('Loading TTS voices...');
             await this.loadVoices();
@@ -53,6 +56,68 @@ class AudioManager {
         }
     }
     
+    // Setup mobile audio fix for iOS Safari
+    setupMobileAudioFix() {
+        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+        if (isMobile || isIOS) {
+            console.log('🔊 Mobile device detected, setting up audio fix...');
+
+            // Create a function to resume audio context on first user interaction
+            const resumeAudioContext = async () => {
+                if (this.audioContext && this.audioContext.state === 'suspended') {
+                    try {
+                        await this.audioContext.resume();
+                        console.log('✅ AudioContext resumed after user interaction');
+
+                        // Play a silent audio to unlock Web Audio API on iOS
+                        this.unlockAudioAPI();
+
+                        // Remove the event listeners after first activation
+                        document.removeEventListener('touchstart', resumeAudioContext);
+                        document.removeEventListener('touchend', resumeAudioContext);
+                        document.removeEventListener('click', resumeAudioContext);
+                    } catch (error) {
+                        console.warn('Failed to resume AudioContext:', error);
+                    }
+                }
+            };
+
+            // Add event listeners for user interaction
+            document.addEventListener('touchstart', resumeAudioContext, { once: true, passive: true });
+            document.addEventListener('touchend', resumeAudioContext, { once: true, passive: true });
+            document.addEventListener('click', resumeAudioContext, { once: true, passive: true });
+
+            // Also try to resume when game starts
+            window.addEventListener('gameStarted', resumeAudioContext, { once: true });
+        }
+    }
+
+    // Unlock Web Audio API on iOS by playing silent audio
+    unlockAudioAPI() {
+        if (!this.audioContext) return;
+
+        try {
+            // Create a short, silent audio buffer and play it
+            const oscillator = this.audioContext.createOscillator();
+            const gainNode = this.audioContext.createGain();
+
+            oscillator.connect(gainNode);
+            gainNode.connect(this.audioContext.destination);
+
+            gainNode.gain.setValueAtTime(0, this.audioContext.currentTime);
+            oscillator.frequency.setValueAtTime(440, this.audioContext.currentTime);
+
+            oscillator.start(this.audioContext.currentTime);
+            oscillator.stop(this.audioContext.currentTime + 0.1);
+
+            console.log('🔊 Silent audio played to unlock iOS Web Audio API');
+        } catch (error) {
+            console.warn('Failed to unlock audio API:', error);
+        }
+    }
+
     async loadVoices() {
         return new Promise((resolve) => {
             // Load voices
@@ -108,7 +173,7 @@ class AudioManager {
     // Enhanced tone creation with filters and envelopes
     createEnhancedTone(frequency, duration, type = 'sine', style = 'default') {
         return () => {
-            if (!this.audioContext || this.isMuted || !this.sfxEnabled) return;
+            if (!this.audioContext || this.audioContext.state !== 'running' || this.isMuted || !this.sfxEnabled) return;
             
             const oscillator = this.audioContext.createOscillator();
             const gainNode = this.audioContext.createGain();
@@ -161,7 +226,7 @@ class AudioManager {
     // Success chord with harmony
     createSuccessChord() {
         return () => {
-            if (!this.audioContext || this.isMuted || !this.sfxEnabled) return;
+            if (!this.audioContext || this.audioContext.state !== 'running' || this.isMuted || !this.sfxEnabled) return;
             
             const frequencies = [523.25, 659.25, 783.99]; // C5 major chord
             const now = this.audioContext.currentTime;
@@ -490,11 +555,18 @@ class AudioManager {
     }
     
     // Play a sound effect
-    playSFX(name) {
+    async playSFX(name) {
         if (!this.sfxEnabled || this.isMuted || !this.soundBuffers.has(name)) {
             return;
         }
         
+        // Ensure AudioContext is ready (important for mobile)
+        const isReady = await this.ensureAudioContext();
+        if (!isReady) {
+            console.warn(`AudioContext not ready for playing ${name}`);
+            return;
+        }
+
         try {
             const soundGenerator = this.soundBuffers.get(name);
             soundGenerator();
@@ -503,7 +575,7 @@ class AudioManager {
         }
     }
     
-    // Text-to-Speech functionality with improved quality
+    // Text-to-Speech functionality with improved quality and mobile fixes
     speak(text, language = null, forceInterrupt = false) {
         if (!this.ttsEnabled || this.isMuted || !this.synth) {
             return Promise.resolve();
@@ -516,54 +588,70 @@ class AudioManager {
         }
 
         return new Promise((resolve, reject) => {
-            // Cancel any ongoing speech only if forced or not speaking
+            // iOS Safari TTS fix: Cancel and wait a bit before starting new speech
+            const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+
             if (forceInterrupt || !this.isSpeaking) {
                 this.synth.cancel();
-            }
 
-            this.isSpeaking = true;
-            
-            const utterance = new SpeechSynthesisUtterance(text);
-            const targetLang = language || this.currentLanguage;
-            
-            // Find appropriate voice with better selection
-            const voice = this.findBestVoice(targetLang);
-            if (voice) {
-                utterance.voice = voice;
-                console.log(`Using voice: ${voice.name} (${voice.lang})`);
+                // iOS needs a small delay after cancel before new speech
+                if (isIOS) {
+                    setTimeout(() => {
+                        this.startSpeech(text, language, resolve, reject);
+                    }, 100);
+                } else {
+                    this.startSpeech(text, language, resolve, reject);
+                }
+            } else {
+                this.startSpeech(text, language, resolve, reject);
             }
-            
-            // Enhanced speech settings for better quality
-            utterance.lang = targetLang === 'hi' ? 'hi-IN' : 'en-US';
-            utterance.rate = 0.85;        // Slightly slower for clarity
-            utterance.pitch = 1.1;        // Slightly higher pitch for warmth
-            utterance.volume = this.volume;
-            
-            // Add slight pause before important words
-            const enhancedText = this.enhanceTextForSpeech(text, targetLang);
-            utterance.text = enhancedText;
-            
-            utterance.onend = () => {
+        });
+    }
+
+    // Helper method to start speech synthesis
+    startSpeech(text, language, resolve, reject) {
+        this.isSpeaking = true;
+
+        const utterance = new SpeechSynthesisUtterance(text);
+        const targetLang = language || this.currentLanguage;
+
+        // Find appropriate voice with better selection
+        const voice = this.findBestVoice(targetLang);
+        if (voice) {
+            utterance.voice = voice;
+            console.log(`Using voice: ${voice.name} (${voice.lang})`);
+        }
+
+        // Enhanced speech settings for better quality
+        utterance.lang = targetLang === 'hi' ? 'hi-IN' : 'en-US';
+        utterance.rate = 0.85;        // Slightly slower for clarity
+        utterance.pitch = 1.1;        // Slightly higher pitch for warmth
+        utterance.volume = this.volume;
+
+        // Add slight pause before important words
+        const enhancedText = this.enhanceTextForSpeech(text, targetLang);
+        utterance.text = enhancedText;
+
+        utterance.onend = () => {
+            this.isSpeaking = false;
+            resolve();
+        };
+        utterance.onerror = (error) => {
+            console.warn('TTS error:', error);
+            this.isSpeaking = false;
+            resolve(); // Don't fail the game if TTS fails
+        };
+
+        // Add a timeout to prevent hanging
+        setTimeout(() => {
+            if (this.isSpeaking) {
+                this.synth.cancel();
                 this.isSpeaking = false;
                 resolve();
-            };
-            utterance.onerror = (error) => {
-                console.warn('TTS error:', error);
-                this.isSpeaking = false;
-                resolve(); // Don't fail the game if TTS fails
-            };
-            
-            // Add a timeout to prevent hanging
-            setTimeout(() => {
-                if (this.isSpeaking) {
-                    this.synth.cancel();
-                    this.isSpeaking = false;
-                    resolve();
-                }
-            }, 15000); // Increased timeout for longer questions
-            
-            this.synth.speak(utterance);
-        });
+            }
+        }, 15000); // Increased timeout for longer questions
+
+        this.synth.speak(utterance);
     }
     
     // Enhanced voice selection for better quality
