@@ -85,13 +85,14 @@ class QuizFlowGame {
                 mode: Phaser.Scale.FIT,
                 autoCenter: Phaser.Scale.CENTER_BOTH,
                 min: {
-                    width: 800,
-                    height: 600
+                    width: 600,
+                    height: 400
                 },
                 max: {
-                    width: 1600,
-                    height: 1200
-                }
+                    width: 1400,
+                    height: 1000
+                },
+                zoom: 1
             },
             dom: {
                 createContainer: true

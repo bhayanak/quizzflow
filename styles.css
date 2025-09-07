@@ -214,6 +214,27 @@ body::before {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    body {
+            overflow: hidden;
+            width: 100vw;
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+        }
+    
+        #gameContainer {
+            width: 100vw;
+            height: 100vh;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+    
+        #gameCanvas {
+            max-width: 100% !important;
+            max-height: 100% !important;
+            width: auto !important;
+            height: auto !important;
+        }
     .loading-content h1 {
         font-size: 2.5rem;
     }
@@ -221,6 +242,7 @@ body::before {
     #audioControls {
         top: 10px;
         right: 10px;
+        z-index: 1000;
     }
     
     #audioControls button {
@@ -229,6 +251,31 @@ body::before {
     }
 }
 
+@media (max-width: 480px) {
+    body {
+        overflow: hidden;
+    }
+
+    #gameContainer {
+        width: 100vw;
+        height: 100vh;
+        padding: 2px;
+    }
+
+    .loading-content h1 {
+        font-size: 1.8rem;
+    }
+
+    #audioControls {
+        top: 5px;
+        right: 5px;
+    }
+
+    #audioControls button {
+        padding: 6px 10px;
+        font-size: 0.9rem;
+    }
+}
 /* Utility classes for game states */
 .pulse {
     animation: pulse 2s ease-in-out infinite;

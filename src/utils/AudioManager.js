@@ -6,6 +6,8 @@ class AudioManager {
         this.currentLanguage = GameConfig.config.AUDIO.DEFAULT_LANGUAGE;
         this.volume = GameConfig.config.AUDIO.VOLUME;
         this.isMuted = false;
+        this.isSpeaking = false;
+        this.allowSFXDuringTTS = true;
         
         // Initialize Web Speech API
         this.synth = window.speechSynthesis;
@@ -36,6 +38,12 @@ class AudioManager {
             console.log('Preloading sound effects...');
             await this.preloadSoundEffects();
             
+            // Listen for language changes
+            window.addEventListener('languageChanged', (event) => {
+                console.log('AudioManager: Language changed to', event.detail.newLanguage);
+                this.setLanguage(event.detail.newLanguage);
+            });
+
             this.isInitialized = true;
             console.log('✅ AudioManager initialized successfully');
         } catch (error) {
@@ -496,14 +504,24 @@ class AudioManager {
     }
     
     // Text-to-Speech functionality with improved quality
-    speak(text, language = null) {
+    speak(text, language = null, forceInterrupt = false) {
         if (!this.ttsEnabled || this.isMuted || !this.synth) {
             return Promise.resolve();
         }
         
+        // Don't interrupt ongoing speech unless forced
+        if (this.isSpeaking && !forceInterrupt) {
+            console.log('TTS already speaking, skipping:', text.substring(0, 50));
+            return Promise.resolve();
+        }
+
         return new Promise((resolve, reject) => {
-            // Cancel any ongoing speech
-            this.synth.cancel();
+            // Cancel any ongoing speech only if forced or not speaking
+            if (forceInterrupt || !this.isSpeaking) {
+                this.synth.cancel();
+            }
+
+            this.isSpeaking = true;
             
             const utterance = new SpeechSynthesisUtterance(text);
             const targetLang = language || this.currentLanguage;
@@ -525,16 +543,23 @@ class AudioManager {
             const enhancedText = this.enhanceTextForSpeech(text, targetLang);
             utterance.text = enhancedText;
             
-            utterance.onend = () => resolve();
+            utterance.onend = () => {
+                this.isSpeaking = false;
+                resolve();
+            };
             utterance.onerror = (error) => {
                 console.warn('TTS error:', error);
+                this.isSpeaking = false;
                 resolve(); // Don't fail the game if TTS fails
             };
             
             // Add a timeout to prevent hanging
             setTimeout(() => {
-                this.synth.cancel();
-                resolve();
+                if (this.isSpeaking) {
+                    this.synth.cancel();
+                    this.isSpeaking = false;
+                    resolve();
+                }
             }, 15000); // Increased timeout for longer questions
             
             this.synth.speak(utterance);
@@ -605,6 +630,7 @@ class AudioManager {
     stopAll() {
         if (this.synth) {
             this.synth.cancel();
+            this.isSpeaking = false;
         }
     }
     
@@ -631,6 +657,22 @@ class AudioManager {
         return this.ttsEnabled;
     }
     
+    // Set language for TTS
+    setLanguage(language) {
+        console.log(`AudioManager: Setting language to ${language}`);
+        this.currentLanguage = language;
+
+        // Test the voice for the new language
+        const voice = this.findBestVoice(language);
+        if (voice) {
+            console.log(`AudioManager: Found voice for ${language}: ${voice.name} (${voice.lang})`);
+        } else {
+            console.warn(`AudioManager: No suitable voice found for ${language}`);
+        }
+
+        return voice !== null;
+    }
+
     // Toggle SFX
     toggleSFX() {
         this.sfxEnabled = !this.sfxEnabled;
