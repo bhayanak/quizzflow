@@ -1,0 +1,82 @@
+[
+  {
+    "id": "66d8e9f0a1b2c3d4e5f679a1",
+    "question": "DNA में कौन से चार न्यूक्लियोटाइड होते हैं?",
+    "correctAnswer": "A, T, G, C",
+    "incorrectAnswers": [
+      "A, U, G, C",
+      "A, T, G, U",
+      "A, T, C, U"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Biology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1",
+    "usageCount": 0
+  },
+  {
+    "id": "66d8e9f0a1b2c3d4e5f679a2",
+    "question": "थर्मोडायनामिक्स का दूसरा नियम क्या कहता है?",
+    "correctAnswer": "एंट्रॉपी हमेशा बढ़ती है",
+    "incorrectAnswers": [
+      "ऊर्जा संरक्षित रहती है",
+      "तापमान स्थिर रहता है",
+      "दबाव स्थिर रहता है"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Physics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2",
+    "usageCount": 0
+  },
+  {
+    "id": "66d8e9f0a1b2c3d4e5f679a3",
+    "question": "कौन सा तत्व सबसे हल्का है?",
+    "correctAnswer": "हाइड्रोजन",
+    "incorrectAnswers": [
+      "हीलियम",
+      "लिथियम",
+      "बेरिलियम"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Chemistry",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3",
+    "usageCount": 0
+  },
+  {
+    "id": "66d8e9f0a1b2c3d4e5f679a4",
+    "question": "मानव शरीर में सबसे छोटी हड्डी कौन सी है?",
+    "correctAnswer": "स्टेप्स (कान में)",
+    "incorrectAnswers": [
+      "मैलियस",
+      "इनकस",
+      "हाइओइड"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Biology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4",
+    "usageCount": 0
+  },
+  {
+    "id": "66d8e9f0a1b2c3d4e5f679a5",
+    "question": "आइंस्टाइन के सापेक्षता सिद्धांत के अनुसार E=mc² में 'c' क्या है?",
+    "correctAnswer": "प्रकाश की गति",
+    "incorrectAnswers": [
+      "गुरुत्वाकर्षण नियतांक",
+      "प्लांक नियतांक",
+      "बोल्ट्जमान नियतांक"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Physics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5",
+    "usageCount": 0
+  }
+]

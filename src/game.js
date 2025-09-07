@@ -58,10 +58,24 @@ class QuizFlowGame {
         console.log('Initializing AudioManager...');
         window.audioManager = new AudioManager();
         
-        // Initialize QuestionManager and load questions
+        // Initialize QuestionManager with current language
         console.log('Initializing QuestionManager...');
         window.questionManager = new QuestionManager();
         
+        // Set initial language for QuestionManager
+        const currentLanguage = window.translationManager.getCurrentLanguage();
+        window.questionManager.setLanguage(currentLanguage);
+
+        // Listen for language changes to update QuestionManager
+        window.addEventListener('languageChanged', async (event) => {
+            console.log('Game: Language changed, updating QuestionManager...');
+            window.questionManager.setLanguage(event.detail.newLanguage);
+
+            // Reload questions in new language for next game session
+            console.log('Reloading questions for new language...');
+            await window.questionManager.loadQuestions();
+        });
+
         const questionsLoaded = await window.questionManager.loadQuestions();
         if (!questionsLoaded) {
             throw new Error('Failed to load questions');
@@ -85,14 +99,16 @@ class QuizFlowGame {
                 mode: Phaser.Scale.FIT,
                 autoCenter: Phaser.Scale.CENTER_BOTH,
                 min: {
-                    width: 600,
-                    height: 400
+                    width: 400,
+                    height: 300
                 },
                 max: {
-                    width: 1400,
-                    height: 1000
+                    width: 1200,
+                    height: 900
                 },
-                zoom: 1
+                zoom: 1,
+                expandParent: false,
+                fullscreenTarget: 'gameContainer'
             },
             dom: {
                 createContainer: true

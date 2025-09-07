@@ -1,0 +1,162 @@
+[
+  {
+    "id": "627fce5b6dc8a10f94ef4ac1",
+    "question": "कौन सा चित्रकार 'The Starry Night' के लिए प्रसिद्ध है?",
+    "correctAnswer": "Vincent van Gogh",
+    "incorrectAnswers": [
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Claude Monet"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Painting",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1",
+    "usageCount": 0
+  },
+  {
+    "id": "627fce5b6dc8a10f94ef4ac2",
+    "question": "कौन सी मूर्ति Rome में स्थित है?",
+    "correctAnswer": "David",
+    "incorrectAnswers": [
+      "The Thinker",
+      "Venus de Milo",
+      "Liberty Enlightening the World"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Sculpture",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2",
+    "usageCount": 0
+  },
+  {
+    "id": "627fce5b6dc8a10f94ef4ac3",
+    "question": "किस कलाकार ने 'Mona Lisa' बनाई थी?",
+    "correctAnswer": "Leonardo da Vinci",
+    "incorrectAnswers": [
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Painting",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3",
+    "usageCount": 0
+  },
+  {
+    "id": "627fce5b6dc8a10f94ef4ac4",
+    "question": "भारतीय कला में 'Madhubani' पेंटिंग किस राज्य से संबंधित है?",
+    "correctAnswer": "बिहार",
+    "incorrectAnswers": [
+      "राजस्थान",
+      "गुजरात",
+      "ओडिशा"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Painting",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4",
+    "usageCount": 0
+  },
+  {
+    "id": "627fce5b6dc8a10f94ef4ac5",
+    "question": "कौन सा रंग प्राथमिक रंग नहीं है?",
+    "correctAnswer": "हरा",
+    "incorrectAnswers": [
+      "लाल",
+      "नीला",
+      "पीला"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Color Theory",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5",
+    "usageCount": 0
+  },
+  {
+    "id": "627fce5b6dc8a10f94ef4ac6",
+    "question": "भारत का सबसे प्रसिद्ध स्मारक कौन सा है?",
+    "correctAnswer": "ताज महल",
+    "incorrectAnswers": [
+      "लाल किला",
+      "इंडिया गेट",
+      "कुतुब मीनार"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Architecture",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6",
+    "usageCount": 0
+  },
+  {
+    "id": "627fce5b6dc8a10f94ef4ac7",
+    "question": "कौन सा नृत्य रूप केरल से संबंधित है?",
+    "correctAnswer": "कथकली",
+    "incorrectAnswers": [
+      "भरतनाट्यम्",
+      "कुचिपुड़ी",
+      "ओडिसी"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Dance",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7",
+    "usageCount": 0
+  },
+  {
+    "id": "627fce5b6dc8a10f94ef4ac8",
+    "question": "भारतीय सिनेमा में सबसे पुराना फिल्म उद्योग कौन सा है?",
+    "correctAnswer": "बॉलीवुड",
+    "incorrectAnswers": [
+      "टॉलीवुड",
+      "कॉलीवुड",
+      "मॉलीवुड"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Cinema",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8",
+    "usageCount": 0
+  },
+  {
+    "id": "627fce5b6dc8a10f94ef4ac9",
+    "question": "किस वाद्य यंत्र को 'तारों का राजा' कहा जाता है?",
+    "correctAnswer": "सितार",
+    "incorrectAnswers": [
+      "वीणा",
+      "तानपुरा",
+      "सरोद"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Music",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9",
+    "usageCount": 0
+  },
+  {
+    "id": "627fce5b6dc8a10f94ef4ac10",
+    "question": "कौन सा मुगल बादशाह कलाकार भी था?",
+    "correctAnswer": "बाबर",
+    "incorrectAnswers": [
+      "अकबर",
+      "शाहजहां",
+      "औरंगजेब"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "History",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0",
+    "usageCount": 0
+  }
+]

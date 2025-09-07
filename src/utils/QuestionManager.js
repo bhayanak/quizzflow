@@ -7,27 +7,40 @@ class QuestionManager {
         this.usedQuestionHashes = new Set();
         this.categories = new Map();
         this.isLoaded = false;
+        this.currentLanguage = 'en';
+    }
+
+    // Set language for question loading
+    setLanguage(language) {
+        console.log(`QuestionManager: Setting language to ${language}`);
+        this.currentLanguage = language;
+        // Clear loaded questions to force reload in new language
+        this.isLoaded = false;
+        this.allQuestions = [];
+        this.categories.clear();
     }
     
     async loadQuestions() {
         try {
             console.log('Starting question loading process...');
             console.log('Current URL:', window.location.href);
+            console.log('Current Language:', this.currentLanguage);
             
-            // List of data files to load
+            // List of data files to load (with language support)
+            const languageSuffix = this.currentLanguage === 'hi' ? '_hi' : '';
             const dataFiles = [
-                'animals_easy.json', 'animals_medium.json', 'animals_hard.json',
-                'art_easy.json', 'art_medium.json', 'art_hard.json',
-                'entertainment_easy.json', 'entertainment_medium.json', 'entertainment_hard.json',
-                'general_knowledge_easy.json', 'general_knowledge_medium.json', 'general_knowledge_hard.json',
-                'mathematics_easy.json', 'mathematics_medium.json', 'mathematics_hard.json',
-                'mythology_easy.json', 'mythology_medium.json', 'mythology_hard.json',
-                'politics_easy.json', 'politics_medium.json', 'politics_hard.json',
-                'science_easy.json', 'science_medium.json', 'science_hard.json',
-                'sports_easy.json', 'sports_medium.json', 'sports_hard.json'
+                `animals_easy${languageSuffix}.json`, `animals_medium${languageSuffix}.json`, `animals_hard${languageSuffix}.json`,
+                `art_easy${languageSuffix}.json`, `art_medium${languageSuffix}.json`, `art_hard${languageSuffix}.json`,
+                `entertainment_easy${languageSuffix}.json`, `entertainment_medium${languageSuffix}.json`, `entertainment_hard${languageSuffix}.json`,
+                `general_knowledge_easy${languageSuffix}.json`, `general_knowledge_medium${languageSuffix}.json`, `general_knowledge_hard${languageSuffix}.json`,
+                `mathematics_easy${languageSuffix}.json`, `mathematics_medium${languageSuffix}.json`, `mathematics_hard${languageSuffix}.json`,
+                `mythology_easy${languageSuffix}.json`, `mythology_medium${languageSuffix}.json`, `mythology_hard${languageSuffix}.json`,
+                `politics_easy${languageSuffix}.json`, `politics_medium${languageSuffix}.json`, `politics_hard${languageSuffix}.json`,
+                `science_easy${languageSuffix}.json`, `science_medium${languageSuffix}.json`, `science_hard${languageSuffix}.json`,
+                `sports_easy${languageSuffix}.json`, `sports_medium${languageSuffix}.json`, `sports_hard${languageSuffix}.json`
             ];
             
-            console.log(`Attempting to load ${dataFiles.length} question files...`);
+            console.log(`Attempting to load ${dataFiles.length} question files for language: ${this.currentLanguage}...`);
             
             // Load all question files
             const loadPromises = dataFiles.map(async (file) => {
@@ -35,6 +48,17 @@ class QuestionManager {
                     console.log(`Fetching: data/${file}`);
                     const response = await fetch(`data/${file}`);
                     if (!response.ok) {
+                        // If Hindi file doesn't exist, fallback to English
+                        if (this.currentLanguage === 'hi' && response.status === 404) {
+                            const englishFile = file.replace('_hi.json', '.json');
+                            console.warn(`Hindi file ${file} not found, falling back to ${englishFile}`);
+                            const fallbackResponse = await fetch(`data/${englishFile}`);
+                            if (fallbackResponse.ok) {
+                                const questions = await fallbackResponse.json();
+                                console.log(`✅ Loaded ${questions.length} questions from ${englishFile} (fallback)`);
+                                return questions;
+                            }
+                        }
                         console.warn(`Failed to load ${file}: ${response.status} ${response.statusText}`);
                         return [];
                     }

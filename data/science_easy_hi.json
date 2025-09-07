@@ -1,0 +1,162 @@
+[
+  {
+    "id": "68bd91cb64d094e2837ea478",
+    "question": "\"हेक्साडेसिमल\" में, कलर कोड \"#00FF00\" से कौन सा रंग दिखाया जाएगा?",
+    "correctAnswer": "हरा",
+    "incorrectAnswers": [
+      "लाल",
+      "नीला",
+      "पीला"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "50789ebd62f38d7ecbb82135a05c8f45c5735c47428863e8a78394f2b4a305b9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91cb64d094e2837ea47b",
+    "question": "कंप्यूटिंग में, LAN का मतलब क्या है?",
+    "correctAnswer": "Local Area Network",
+    "incorrectAnswers": [
+      "Long Antenna Node",
+      "Light Access Node",
+      "Land Address Navigation"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "943bb5e074b9e82fa72c11acf3b752d384e8abae5348c1f2461a68b957eca79a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95eb8fcfed5c856dacc7",
+    "question": "16 के radix वाली संख्या प्रणाली को आमतौर पर क्या कहा जाता है?",
+    "correctAnswer": "Hexadecimal",
+    "incorrectAnswers": [
+      "Binary",
+      "Duodecimal",
+      "Octal"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c98b4ebcf542e59a7b6b5518f969c3f26561e3c8c0de3200086fd169636f27ee",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95eb8fcfed5c856daccb",
+    "question": "इंटरनेट पर वेबसाइटों को ढूंढने के लिए किस प्रणाली का उपयोग किया जाता है?",
+    "correctAnswer": "DNS",
+    "incorrectAnswers": [
+      "HTTP",
+      "FTP",
+      "TCP"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d1a5e2f8b3c9d7e8a9b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95eb8fcfed5c856daccf",
+    "question": "कंप्यूटर की मुख्य मेमोरी को क्या कहते हैं?",
+    "correctAnswer": "RAM",
+    "incorrectAnswers": [
+      "ROM",
+      "Hard Disk",
+      "CPU"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e2b4f6a8c1d3e5f7a9b2c4d6e8f0a1b3c5d7e9f1a2b4c6d8e0f1a3b5c7d9e1f2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95eb8fcfed5c856dacd3",
+    "question": "वेब पेज बनाने के लिए किस भाषा का मुख्यतः उपयोग किया जाता है?",
+    "correctAnswer": "HTML",
+    "incorrectAnswers": [
+      "Java",
+      "Python",
+      "C++"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f3c5e7a9b1d4e6f8a0b2c4d6e8f0a1b3c5d7e9f1a2b4c6d8e0f1a3b5c7d9e1f2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95eb8fcfed5c856dacd7",
+    "question": "किस डिवाइस का उपयोग कंप्यूटर में डेटा स्टोर करने के लिए किया जाता है?",
+    "correctAnswer": "Hard Drive",
+    "incorrectAnswers": [
+      "Monitor",
+      "Keyboard",
+      "Mouse"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a4d6f8b0c2e5f7a9b1c3d5e7f9a0b2c4d6e8f0a1b3c5d7e9f1a2b4c6d8e0f1a3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95eb8fcfed5c856dacdb",
+    "question": "WWW का पूरा नाम क्या है?",
+    "correctAnswer": "World Wide Web",
+    "incorrectAnswers": [
+      "World Wide Work",
+      "World Wide Wire",
+      "World Wide Window"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b5e7f9a1c3d6f8a0b2c4d6e8f0a1b3c5d7e9f1a2b4c6d8e0f1a3b5c7d9e1f2a4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95eb8fcfed5c856dacdf",
+    "question": "कंप्यूटर वायरस क्या है?",
+    "correctAnswer": "एक हानिकारक सॉफ्टवेयर प्रोग्राम",
+    "incorrectAnswers": [
+      "हार्डवेयर की समस्या",
+      "नेटवर्क कनेक्शन",
+      "डेटा फाइल"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c6f8a0b2d5f7a9b1c3d5e7f9a0b2c4d6e8f0a1b3c5d7e9f1a2b4c6d8e0f1a3b5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95eb8fcfed5c856dace3",
+    "question": "इमेल भेजने के लिए किस प्रोटोकॉल का उपयोग किया जाता है?",
+    "correctAnswer": "SMTP",
+    "incorrectAnswers": [
+      "HTTP",
+      "FTP",
+      "DNS"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d7a9b1c4e6f8a0b2c4d6e8f0a1b3c5d7e9f1a2b4c6d8e0f1a3b5c7d9e1f2a4c6",
+    "usageCount": 0
+  }
+]

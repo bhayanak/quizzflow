@@ -1,0 +1,162 @@
+[
+  {
+    "id": "68bd91df64d094e2837ea48d",
+    "question": "एक समलम्ब चतुर्भुज में कितनी भुजाएं होती हैं?",
+    "correctAnswer": "4",
+    "incorrectAnswers": [
+      "3",
+      "5",
+      "6"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e0b6c80f01439678e767463bea1de3a336046e4195881b2ee00ed7dbf9d75bff",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91df64d094e2837ea48a",
+    "question": "रोमन अंकों में, XL का मान क्या है?",
+    "correctAnswer": "40",
+    "incorrectAnswers": [
+      "60",
+      "15",
+      "90"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91df64d094e2837ea48b",
+    "question": "2 + 2 कितना होता है?",
+    "correctAnswer": "4",
+    "incorrectAnswers": [
+      "3",
+      "5",
+      "6"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91df64d094e2837ea48c",
+    "question": "एक वृत्त में कितने डिग्री होते हैं?",
+    "correctAnswer": "360",
+    "incorrectAnswers": [
+      "180",
+      "90",
+      "270"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91df64d094e2837ea48e",
+    "question": "10 × 5 कितना होता है?",
+    "correctAnswer": "50",
+    "incorrectAnswers": [
+      "15",
+      "25",
+      "35"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91df64d094e2837ea48f",
+    "question": "एक त्रिभुज में कितने कोण होते हैं?",
+    "correctAnswer": "3",
+    "incorrectAnswers": [
+      "4",
+      "5",
+      "6"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91df64d094e2837ea490",
+    "question": "100 ÷ 10 कितना होता है?",
+    "correctAnswer": "10",
+    "incorrectAnswers": [
+      "1",
+      "5",
+      "20"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91df64d094e2837ea491",
+    "question": "एक वर्ग की सभी भुजाएं कैसी होती हैं?",
+    "correctAnswer": "समान",
+    "incorrectAnswers": [
+      "असमान",
+      "केवल दो समान",
+      "कोई समान नहीं"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91df64d094e2837ea492",
+    "question": "5 × 6 कितना होता है?",
+    "correctAnswer": "30",
+    "incorrectAnswers": [
+      "11",
+      "25",
+      "35"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91df64d094e2837ea493",
+    "question": "सबसे छोटी प्राकृतिक संख्या कौन सी है?",
+    "correctAnswer": "1",
+    "incorrectAnswers": [
+      "0",
+      "2",
+      "-1"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0",
+    "usageCount": 0
+  }
+]

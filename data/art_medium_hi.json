@@ -1,0 +1,82 @@
+[
+  {
+    "id": "627fce5b6dc8a10f94ef4ad1",
+    "question": "कौन सा कलाकार 'The Persistence of Memory' के लिए प्रसिद्ध है?",
+    "correctAnswer": "Salvador Dalí",
+    "incorrectAnswers": [
+      "Pablo Picasso",
+      "René Magritte",
+      "Joan Miró"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Surrealism",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6",
+    "usageCount": 0
+  },
+  {
+    "id": "627fce5b6dc8a10f94ef4ad2",
+    "question": "भारतीय कला में 'Warli' पेंटिंग किस राज्य से संबंधित है?",
+    "correctAnswer": "महाराष्ट्र",
+    "incorrectAnswers": [
+      "गुजरात",
+      "राजस्थान",
+      "मध्य प्रदेश"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Folk Art",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7",
+    "usageCount": 0
+  },
+  {
+    "id": "627fce5b6dc8a10f94ef4ad3",
+    "question": "किस स्थापत्य शैली में 'Flying Buttresses' का उपयोग होता है?",
+    "correctAnswer": "Gothic",
+    "incorrectAnswers": [
+      "Romanesque",
+      "Byzantine",
+      "Renaissance"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Architecture",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8",
+    "usageCount": 0
+  },
+  {
+    "id": "627fce5b6dc8a10f94ef4ad4",
+    "question": "भारतीय शास्त्रीय संगीत में 'राग यमन' किस समय बजाया जाता है?",
+    "correctAnswer": "शाम",
+    "incorrectAnswers": [
+      "सुबह",
+      "दोपहर",
+      "मध्यरात्रि"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Music",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9",
+    "usageCount": 0
+  },
+  {
+    "id": "627fce5b6dc8a10f94ef4ad5",
+    "question": "कौन सा नृत्य रूप 'Temple of Chidambaram' से जुड़ा है?",
+    "correctAnswer": "भरतनाट्यम्",
+    "incorrectAnswers": [
+      "कुचिपुड़ी",
+      "ओडिसी",
+      "मोहिनीअट्टम्"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Dance",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0",
+    "usageCount": 0
+  }
+]
