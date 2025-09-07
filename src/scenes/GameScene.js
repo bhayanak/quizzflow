@@ -1,0 +1,1082 @@
+// Game Scene - Main quiz gameplay
+class GameScene extends Phaser.Scene {
+    constructor() {
+        super({ key: 'GameScene' });
+        
+        this.currentQuestion = null;
+        this.currentOptions = [];
+        this.selectedAnswer = null;
+        this.isAnswerLocked = false;
+        this.score = 0;
+        this.streak = 0;
+        this.timeRemaining = 0;
+        this.timer = null;
+        this.lifelines = { ...GameConfig.config.LIFELINES };
+        this.lastHoverTime = 0;
+        
+        // UI elements
+        this.questionText = null;
+        this.optionButtons = [];
+        this.timerText = null;
+        this.scoreText = null;
+        this.progressText = null;
+        this.lifelineButtons = [];
+    }
+    
+    create() {
+        const { width, height } = this.scale;
+        
+        // Create stunning millionaire-style background
+        this.createMillionaireGameBackground();
+        
+        // Create enhanced UI elements
+        this.createHeader();
+        this.createQuestionArea();
+        this.createAnswerOptions();
+        this.createLifelines();
+        this.createFooter();
+        
+        // Start first question
+        this.loadNextQuestion();
+        
+        // Create atmospheric effects
+        this.createGameEffects();
+        
+        // Set up resize handler for mobile responsiveness
+        this.events.on('resize', this.handleResize, this);
+        this.scale.on('resize', this.handleResize, this);
+    }
+    
+    handleResize() {
+        const { width, height } = this.scale;
+        
+        // Recreate layout for new dimensions
+        this.children.removeAll(true);
+        
+        // Recreate all elements with new dimensions
+        this.createMillionaireGameBackground();
+        this.createHeader();
+        this.createQuestionArea();
+        this.createAnswerOptions();
+        this.createLifelines();
+        this.createFooter();
+        this.createGameEffects();
+        
+        // Restore current question if exists
+        if (this.currentQuestion) {
+            this.updateQuestionDisplay();
+        }
+    }
+    
+    createMillionaireGameBackground() {
+        const { width, height } = this.scale;
+
+        // Rich gradient background with multiple layers
+        const graphics = this.add.graphics();
+
+        // Deep space blue to royal purple gradient
+        graphics.fillGradientStyle(0x000033, 0x000055, 0x330077, 0x4400AA);
+        graphics.fillRect(0, 0, width, height);
+
+        // Add dramatic spotlights from top
+        for (let i = 0; i < 3; i++) {
+            const x = (width / 4) * (i + 1);
+            const spotlight = this.add.graphics();
+            spotlight.fillGradientStyle(0xFFD700, 0xFFD700, 0x000000, 0x000000, 0.3, 0, 0.6);
+            spotlight.fillTriangle(x - 50, 0, x + 50, 0, x, height * 0.4);
+        }
+
+        // Golden frame around the screen
+        graphics.lineStyle(6, 0xFFD700, 0.8);
+        graphics.strokeRect(10, 10, width - 20, height - 20);
+
+        // Inner decorative border
+        graphics.lineStyle(3, 0xFFFFFF, 0.4);
+        graphics.strokeRect(20, 20, width - 40, height - 40);
+
+        // Add corner diamonds
+        this.createCornerDecorations();
+    }
+
+    createCornerDecorations() {
+        const { width, height } = this.scale;
+
+        // Corner decorative elements
+        const corners = [
+            { x: 30, y: 30 },
+            { x: width - 30, y: 30 },
+            { x: 30, y: height - 30 },
+            { x: width - 30, y: height - 30 }
+        ];
+
+        corners.forEach(corner => {
+            // Create diamond decoration instead of star
+            const decoration = this.add.graphics();
+            decoration.fillStyle(0xFFD700, 0.8);
+
+            // Draw a diamond shape
+            decoration.beginPath();
+            decoration.moveTo(corner.x, corner.y - 8);
+            decoration.lineTo(corner.x + 8, corner.y);
+            decoration.lineTo(corner.x, corner.y + 8);
+            decoration.lineTo(corner.x - 8, corner.y);
+            decoration.closePath();
+            decoration.fillPath();
+
+            // Add inner highlight
+            decoration.lineStyle(2, 0xFFFFFF, 0.6);
+            decoration.strokePath();
+
+            // Add pulsing animation
+            this.tweens.add({
+                targets: decoration,
+                scaleX: { from: 0.8, to: 1.2 },
+                scaleY: { from: 0.8, to: 1.2 },
+                alpha: { from: 0.6, to: 1 },
+                duration: 2000,
+                yoyo: true,
+                repeat: -1,
+                ease: 'Sine.easeInOut'
+            });
+        });
+    }
+
+    createHeader() {
+        const { width, height } = this.scale;
+        const config = GameConfig.config;
+        const isMobile = width < 768;
+        
+        // Mobile-responsive header positioning
+        const headerHeight = isMobile ? 60 : 80;
+        const headerY = isMobile ? 30 : 50;
+        
+        // Progress and score bar
+        const headerBg = this.add.rectangle(width / 2, headerY, width * 0.95, headerHeight, 0x1a1a2e, 0.8);
+        headerBg.setStrokeStyle(2, config.COLORS.PRIMARY);
+        
+        // Mobile-responsive text positioning and sizing
+        const fontSize = isMobile ? '14px' : '18px';
+        const timerFontSize = isMobile ? '16px' : '20px';
+        const topY = isMobile ? 20 : 35;
+        const bottomY = isMobile ? 40 : 60;
+        
+        // Progress
+        this.progressText = this.add.text(width * 0.05, topY, '', {
+            fontSize: fontSize,
+            fontFamily: 'Roboto, sans-serif',
+            fill: '#ffffff'
+        });
+        
+        // Score - centered
+        this.scoreText = this.add.text(width * 0.5, topY, 'Score: 0', {
+            fontSize: fontSize,
+            fontFamily: 'Orbitron, monospace',
+            fill: '#' + config.COLORS.GOLD.toString(16).padStart(6, '0')
+        }).setOrigin(0.5, 0);
+        
+        // Timer - positioned to avoid overlap with audio controls
+        // Audio controls are at top-right, so position timer more to the left
+        const timerX = isMobile ? width * 0.6 : width * 0.75; // Moved left to avoid audio controls
+        this.timerText = this.add.text(timerX, topY, '', {
+            fontSize: timerFontSize,
+            fontFamily: 'Orbitron, monospace',
+            fill: '#ffffff'
+        }).setOrigin(0.5, 0); // Center aligned for better positioning
+        
+        // Difficulty indicator
+        this.difficultyText = this.add.text(width * 0.05, bottomY, '', {
+            fontSize: isMobile ? '12px' : '14px',
+            fontFamily: 'Roboto, sans-serif',
+            fill: '#cccccc'
+        });
+    }
+    
+    createQuestionArea() {
+        const { width, height } = this.scale;
+        const isMobile = width < 768;
+        
+        // Mobile-responsive question area positioning
+        const questionAreaY = isMobile ? height * 0.12 : height * 0.15;
+        const questionAreaHeight = isMobile ? 100 : 140;
+        
+        // Question area with dramatic styling
+        const questionContainer = this.add.graphics();
+        
+        // Main question background with gradient
+        questionContainer.fillGradientStyle(0x000066, 0x000088, 0x4400AA, 0x6600CC);
+        questionContainer.fillRoundedRect(width * 0.05, questionAreaY, width * 0.9, questionAreaHeight, 20);
+
+        // Golden border with glow effect
+        questionContainer.lineStyle(isMobile ? 3 : 4, 0xFFD700, 1);
+        questionContainer.strokeRoundedRect(width * 0.05, questionAreaY, width * 0.9, questionAreaHeight, 20);
+
+        // Inner highlight
+        questionContainer.lineStyle(2, 0xFFFFFF, 0.6);
+        questionContainer.strokeRoundedRect(width * 0.07, questionAreaY + 2, width * 0.86, questionAreaHeight - 4, 18);
+
+        // Question number indicator with styling - mobile responsive
+        const indicatorWidth = isMobile ? 80 : 100;
+        const indicatorHeight = isMobile ? 25 : 30;
+        
+        this.questionNumberBg = this.add.graphics();
+        this.questionNumberBg.fillGradientStyle(0xFFD700, 0xFFA500);
+        this.questionNumberBg.fillRoundedRect(width * 0.07, questionAreaY + 2, indicatorWidth, indicatorHeight, 15);
+        this.questionNumberBg.lineStyle(2, 0xFFFFFF, 0.8);
+        this.questionNumberBg.strokeRoundedRect(width * 0.07, questionAreaY + 2, indicatorWidth, indicatorHeight, 15);
+
+        // Mobile-responsive question positioning and sizing
+        const questionY = questionAreaY + questionAreaHeight / 2;
+        const questionFontSize = isMobile ? '16px' : '24px';
+        const questionWrapWidth = width * 0.82;
+        
+        this.questionNumberText = this.add.text(width * 0.07 + indicatorWidth / 2, questionAreaY + 2 + indicatorHeight / 2, '', {
+            fontSize: isMobile ? '12px' : '16px',
+            fontFamily: 'Orbitron, monospace',
+            fill: '#000000',
+            fontWeight: 'bold'
+        }).setOrigin(0.5);
+
+        // Question text with enhanced styling and mobile responsiveness
+        this.questionText = this.add.text(width / 2, questionY, '', {
+            fontSize: questionFontSize,
+            fontFamily: 'Roboto, sans-serif',
+            fill: '#FFFFFF',
+            stroke: '#000000',
+            strokeThickness: 1,
+            align: 'center',
+            fontWeight: '400',
+            wordWrap: { width: questionWrapWidth },
+            lineSpacing: isMobile ? 3 : 6
+        }).setOrigin(0.5);
+        
+        // Add question category indicator - mobile responsive
+        this.categoryText = this.add.text(width * 0.93, questionAreaY + indicatorHeight / 2 + 2, '', {
+            fontSize: isMobile ? '12px' : '14px',
+            fontFamily: 'Roboto, sans-serif',
+            fill: '#FFD700',
+            fontStyle: 'italic'
+        }).setOrigin(1, 0.5);
+    }
+    
+    createAnswerOptions() {
+        const { width, height } = this.scale;
+        
+        // Mobile-responsive button sizing
+        const isMobile = width < 768;
+        
+        if (isMobile) {
+            // Mobile: 2x2 grid layout with proper spacing to prevent overlap
+            const buttonWidth = width * 0.42; // Reduced from 0.45 to prevent overlap
+            const buttonHeight = 55; // Slightly reduced height
+            const startY = height * 0.4;
+            const verticalSpacing = 75; // Increased spacing
+            const leftX = width * 0.23; // Adjusted positioning
+            const rightX = width * 0.77;
+            
+            const positions = [
+                { x: leftX, y: startY, label: 'A' },
+                { x: rightX, y: startY, label: 'B' },
+                { x: leftX, y: startY + verticalSpacing, label: 'C' },
+                { x: rightX, y: startY + verticalSpacing, label: 'D' }
+            ];
+            
+            this.optionButtons = positions.map((pos, index) => {
+                const button = this.createAnswerButton(pos.x, pos.y, buttonWidth, buttonHeight, pos.label, index);
+                return button;
+            });
+        } else {
+            // Desktop/Tablet: 2x2 grid layout
+            const buttonWidth = width * 0.4;
+            const buttonHeight = 80;
+            const startY = height * 0.45;
+            const spacing = 120;
+            
+            const positions = [
+                { x: width * 0.25, y: startY, label: 'A' },
+                { x: width * 0.75, y: startY, label: 'B' },
+                { x: width * 0.25, y: startY + spacing, label: 'C' },
+                { x: width * 0.75, y: startY + spacing, label: 'D' }
+            ];
+            
+            this.optionButtons = positions.map((pos, index) => {
+                const button = this.createAnswerButton(pos.x, pos.y, buttonWidth, buttonHeight, pos.label, index);
+                return button;
+            });
+        }
+    }
+    
+    createAnswerButton(x, y, width, height, label, index) {
+        const container = this.add.container(x, y);
+        const isMobile = this.scale.width < 768;
+        
+        // Button background with rich gradient
+        const background = this.add.graphics();
+        background.fillGradientStyle(0x001155, 0x002277, 0x003399, 0x0044BB);
+        background.fillRoundedRect(-width / 2, -height / 2, width, height, 15);
+
+        // Golden border
+        background.lineStyle(3, 0xFFD700, 0.9);
+        background.strokeRoundedRect(-width / 2, -height / 2, width, height, 15);
+
+        // Inner glow effect
+        background.lineStyle(1, 0xFFFFFF, 0.4);
+        background.strokeRoundedRect(-width / 2 + 3, -height / 2 + 3, width - 6, height - 6, 12);
+
+        container.add(background);
+
+        // Option label (A, B, C, D) with mobile-responsive sizing
+        const labelBg = this.add.graphics();
+        const labelSize = isMobile ? 30 : 40;
+        const labelHeight = isMobile ? 30 : 35;
+        
+        labelBg.fillGradientStyle(0xFFD700, 0xFFA500);
+        labelBg.fillRoundedRect(-width / 2 + 10, -height / 2 + 10, labelSize, labelHeight, 8);
+        labelBg.lineStyle(2, 0xFFFFFF, 0.8);
+        labelBg.strokeRoundedRect(-width / 2 + 10, -height / 2 + 10, labelSize, labelHeight, 8);
+        container.add(labelBg);
+        
+        const labelText = this.add.text(-width / 2 + 10 + labelSize/2, -height / 2 + 10 + labelHeight/2, label, {
+            fontSize: isMobile ? '20px' : '24px',
+            fontFamily: 'Orbitron, monospace',
+            fill: '#000000',
+            fontWeight: 'bold'
+        }).setOrigin(0.5);
+        container.add(labelText);
+        
+        // Answer text with mobile-optimized positioning and sizing
+        const textStartX = isMobile ? -width / 2 + 50 : -width / 2 + 60;
+        const answerText = this.add.text(textStartX, 0, '', {
+            fontSize: isMobile ? '16px' : '18px',
+            fontFamily: 'Roboto, sans-serif',
+            fill: '#FFFFFF',
+            fontWeight: '400',
+            wordWrap: { width: isMobile ? width - 60 : width - 80 }
+        }).setOrigin(0, 0.5);
+        container.add(answerText);
+
+        // Interactive hit area
+        const hitArea = this.add.rectangle(0, 0, width, height, 0x000000, 0);
+        hitArea.setInteractive({ useHandCursor: true });
+        container.add(hitArea);
+        
+        // Hover effects
+        hitArea.on('pointerover', () => {
+            if (this.isAnswerLocked || this.lastHoverTime && Date.now() - this.lastHoverTime < 200) return;
+
+            background.clear();
+            background.fillGradientStyle(0xFFD700, 0xFFA500, 0xFF8C00, 0xFF7F00);
+            background.fillRoundedRect(-width / 2, -height / 2, width, height, 15);
+            background.lineStyle(4, 0xFFFFFF, 1);
+            background.strokeRoundedRect(-width / 2, -height / 2, width, height, 15);
+
+            answerText.setStyle({ fill: '#000000', fontWeight: 'bold' });
+
+            // Play hover sound (throttled)
+            if (window.audioManager && (!this.lastHoverTime || Date.now() - this.lastHoverTime > 200)) {
+                window.audioManager.playSFX('answer_select');
+                this.lastHoverTime = Date.now();
+            }
+        });
+        
+        hitArea.on('pointerout', () => {
+            if (this.isAnswerLocked || this.selectedAnswer === index) return;
+
+            background.clear();
+            background.fillGradientStyle(0x001155, 0x002277, 0x003399, 0x0044BB);
+            background.fillRoundedRect(-width / 2, -height / 2, width, height, 15);
+            background.lineStyle(3, 0xFFD700, 0.9);
+            background.strokeRoundedRect(-width / 2, -height / 2, width, height, 15);
+
+            answerText.setStyle({ fill: '#FFFFFF', fontWeight: '400' });
+        });
+        
+        hitArea.on('pointerdown', () => {
+            if (!this.isAnswerLocked) {
+                this.selectAnswer(index);
+            }
+        });
+        
+        return {
+            container,
+            background,
+            labelBg,
+            labelText,
+            answerText,
+            hitArea,
+            index,
+            // Store dimensions for consistent rendering
+            width,
+            height
+        };
+    }
+    createLifelines() {
+        const { width, height } = this.scale;
+        const config = GameConfig.config;
+        const isMobile = width < 768;
+        
+        // Mobile-responsive lifeline positioning - avoid overlap with options
+        const lifelineY = isMobile ? height * 0.8 : height * 0.75;
+        const lifelineSpacing = isMobile ? width * 0.25 : 120;
+        const startX = width / 2 - lifelineSpacing;
+        
+        const lifelines = [
+            { key: 'FIFTY_FIFTY', label: '50:50', color: config.COLORS.WARNING },
+            { key: 'SKIP_QUESTION', label: 'Skip', color: config.COLORS.PRIMARY },
+            { key: 'ASK_AUDIENCE', label: 'Audience', color: config.COLORS.SUCCESS }
+        ];
+        
+        this.lifelineButtons = lifelines.map((lifeline, index) => {
+            const x = startX + (index * lifelineSpacing);
+            const button = this.createLifelineButton(x, lifelineY, lifeline);
+            return button;
+        });
+    }
+    
+    createLifelineButton(x, y, lifeline) {
+        const container = this.add.container(x, y);
+        
+        // Button background
+        const bg = this.add.circle(0, 0, 30, lifeline.color, 0.8);
+        bg.setStrokeStyle(2, 0xffffff);
+        
+        // Label
+        const label = this.add.text(0, 0, lifeline.label, {
+            fontSize: '12px',
+            fontFamily: 'Roboto, sans-serif',
+            fill: '#ffffff',
+            align: 'center'
+        }).setOrigin(0.5);
+        
+        // Uses indicator
+        const uses = this.lifelines[lifeline.key].uses;
+        const usesText = this.add.text(0, 25, `x${uses}`, {
+            fontSize: '10px',
+            fontFamily: 'Roboto, sans-serif',
+            fill: '#cccccc'
+        }).setOrigin(0.5);
+        
+        container.add([bg, label, usesText]);
+        
+        // Store references
+        container.bg = bg;
+        container.label = label;
+        container.usesText = usesText;
+        container.lifelineKey = lifeline.key;
+        container.originalColor = lifeline.color;
+        
+        // Make interactive
+        bg.setInteractive({ useHandCursor: true });
+        
+        bg.on('pointerover', () => {
+            if (this.lifelines[lifeline.key].uses > 0) {
+                bg.setFillStyle(lifeline.color);
+                container.setScale(1.1);
+            }
+        });
+        
+        bg.on('pointerout', () => {
+            if (this.lifelines[lifeline.key].uses > 0) {
+                bg.setFillStyle(lifeline.color, 0.8);
+                container.setScale(1.0);
+            }
+        });
+        
+        bg.on('pointerdown', () => {
+            if (this.lifelines[lifeline.key].uses > 0 && !this.isAnswerLocked) {
+                this.useLifeline(lifeline.key);
+            }
+        });
+        
+        this.updateLifelineButton(container);
+        
+        return container;
+    }
+    
+    createFooter() {
+        const { width, height } = this.scale;
+        
+        // Menu button
+        const menuButton = this.add.text(width * 0.05, height * 0.95, '← Menu', {
+            fontSize: '16px',
+            fontFamily: 'Roboto, sans-serif',
+            fill: '#cccccc'
+        }).setOrigin(0, 1);
+        
+        menuButton.setInteractive({ useHandCursor: true });
+        menuButton.on('pointerdown', () => {
+            this.scene.start('MenuScene');
+        });
+        
+        // Quit button
+        const quitButton = this.add.text(width * 0.95, height * 0.95, 'Quit Game →', {
+            fontSize: '16px',
+            fontFamily: 'Roboto, sans-serif',
+            fill: '#cccccc'
+        }).setOrigin(1, 1);
+        
+        quitButton.setInteractive({ useHandCursor: true });
+        quitButton.on('pointerdown', () => {
+            this.endGame(false);
+        });
+    }
+    
+    createGameEffects() {
+        const { width, height } = this.scale;
+        
+        // Spotlight effect
+        const spotlight = this.add.circle(width / 2, height * 0.25, 200, 0xffffff, 0.05);
+        
+        this.tweens.add({
+            targets: spotlight,
+            scaleX: 1.2,
+            scaleY: 1.2,
+            alpha: 0.1,
+            duration: 3000,
+            ease: 'Sine.easeInOut',
+            yoyo: true,
+            repeat: -1
+        });
+    }
+    
+    loadNextQuestion() {
+        if (!window.questionManager || !window.questionManager.hasMoreQuestions()) {
+            this.endGame(true);
+            return;
+        }
+        
+        this.currentQuestion = window.questionManager.getCurrentQuestion();
+        this.currentOptions = window.questionManager.getCurrentQuestionOptions();
+        
+        if (!this.currentQuestion) {
+            this.endGame(false);
+            return;
+        }
+        
+        // Reset state
+        this.selectedAnswer = null;
+        this.isAnswerLocked = false;
+        this.timeRemaining = GameConfig.config.TIMER_DURATION;
+        
+        // Update UI
+        this.updateQuestionDisplay();
+        this.updateProgressDisplay();
+        this.resetAnswerButtons();
+        this.startTimer();
+        
+        // Play question reveal sound
+        if (window.audioManager) {
+            window.audioManager.playSFX('question_reveal');
+            
+            // Speak question if TTS is enabled
+            setTimeout(() => {
+                window.audioManager.speak(this.currentQuestion.question);
+            }, 500);
+        }
+        
+        // Animate question appearance
+        this.animateQuestionReveal();
+    }
+    
+    updateQuestionDisplay() {
+        const progress = window.questionManager.getProgress();
+        
+        this.questionText.setText(this.currentQuestion.question);
+        this.questionNumberText.setText(`Question ${progress.current}/${progress.total}`);
+        this.difficultyText.setText(`Difficulty: ${this.currentQuestion.difficulty.toUpperCase()}`);
+        
+        // Update answer options
+        this.optionButtons.forEach((button, index) => {
+            if (index < this.currentOptions.length) {
+                button.answerText.setText(this.currentOptions[index]);
+                button.container.setVisible(true);
+            } else {
+                button.container.setVisible(false);
+            }
+        });
+    }
+    
+    updateProgressDisplay() {
+        const progress = window.questionManager.getProgress();
+        this.progressText.setText(`Progress: ${progress.current}/${progress.total}`);
+        this.scoreText.setText(`Score: ${this.score}`);
+    }
+    
+    resetAnswerButtons() {
+        const { width } = this.scale;
+        const isMobile = width < 768;
+        
+        this.optionButtons.forEach((button) => {
+            // Get the original dimensions used when creating the button
+            const buttonWidth = isMobile ? width * 0.42 : width * 0.4;
+            const buttonHeight = isMobile ? 55 : 80;
+            
+            // Reset background to original gradient with correct dimensions
+            button.background.clear();
+            button.background.fillGradientStyle(0x001155, 0x002277, 0x003399, 0x0044BB);
+            button.background.fillRoundedRect(-buttonWidth / 2, -buttonHeight / 2, buttonWidth, buttonHeight, 15);
+            button.background.lineStyle(3, 0xFFD700, 0.9);
+            button.background.strokeRoundedRect(-buttonWidth / 2, -buttonHeight / 2, buttonWidth, buttonHeight, 15);
+
+            // Inner glow effect
+            button.background.lineStyle(1, 0xFFFFFF, 0.4);
+            button.background.strokeRoundedRect(-buttonWidth / 2 + 3, -buttonHeight / 2 + 3, buttonWidth - 6, buttonHeight - 6, 12);
+
+            // Reset container properties
+            button.container.setScale(1.0);
+            button.container.setAlpha(1.0);
+
+            // Reset text style
+            button.answerText.setStyle({ fill: '#FFFFFF', fontWeight: '400' });
+
+            // Reset custom properties
+            button.isEliminated = false;
+        });
+    }
+    
+    startTimer() {
+        if (this.timer) {
+            this.timer.destroy();
+        }
+        
+        this.timer = this.time.addEvent({
+            delay: 1000,
+            callback: this.updateTimer,
+            callbackScope: this,
+            repeat: GameConfig.config.TIMER_DURATION - 1
+        });
+        
+        this.updateTimerDisplay();
+    }
+    
+    updateTimer() {
+        this.timeRemaining--;
+        this.updateTimerDisplay();
+        
+        // Warning sounds
+        if (this.timeRemaining <= 5 && this.timeRemaining > 0) {
+            if (window.audioManager) {
+                window.audioManager.playSFX('timer_warning');
+            }
+        }
+        
+        // Time's up
+        if (this.timeRemaining <= 0) {
+            this.timeUp();
+        }
+    }
+    
+    updateTimerDisplay() {
+        const config = GameConfig.config;
+        let color = '#ffffff';
+        
+        if (this.timeRemaining <= 5) {
+            color = '#ff4444';
+        } else if (this.timeRemaining <= 10) {
+            color = '#ffaa00';
+        }
+        
+        this.timerText.setText(`${this.timeRemaining}s`);
+        this.timerText.setFill(color);
+        
+        // Pulse effect when time is low
+        if (this.timeRemaining <= 5) {
+            this.tweens.add({
+                targets: this.timerText,
+                scaleX: 1.2,
+                scaleY: 1.2,
+                duration: 200,
+                yoyo: true
+            });
+        }
+    }
+    
+    animateQuestionReveal() {
+        // Animate question text
+        this.questionText.setAlpha(0);
+        this.tweens.add({
+            targets: this.questionText,
+            alpha: 1,
+            duration: GameConfig.config.ANIMATIONS.QUESTION_REVEAL,
+            ease: 'Power2'
+        });
+        
+        // Animate answer buttons
+        this.optionButtons.forEach((button, index) => {
+            button.container.setAlpha(0);
+            button.container.setScale(0.8);
+            
+            this.tweens.add({
+                targets: button.container,
+                alpha: 1,
+                scaleX: 1,
+                scaleY: 1,
+                duration: 600,
+                delay: index * 150,
+                ease: 'Back.easeOut'
+            });
+        });
+    }
+    
+    selectAnswer(answerIndex) {
+        if (this.isAnswerLocked) return;
+        
+        this.selectedAnswer = answerIndex;
+        const selectedButton = this.optionButtons[answerIndex];
+        
+        // Visual feedback - redraw background with warning color using original dimensions
+        const buttonWidth = selectedButton.width;
+        const buttonHeight = selectedButton.height;
+
+        selectedButton.background.clear();
+        selectedButton.background.fillGradientStyle(0xFFD700, 0xFFA500, 0xFF8C00, 0xFF7F00);
+        selectedButton.background.fillRoundedRect(-buttonWidth / 2, -buttonHeight / 2, buttonWidth, buttonHeight, 15);
+        selectedButton.background.lineStyle(4, 0xFFFFFF, 1);
+        selectedButton.background.strokeRoundedRect(-buttonWidth / 2, -buttonHeight / 2, buttonWidth, buttonHeight, 15);
+        selectedButton.container.setScale(1.05);
+        
+        // Play sound
+        if (window.audioManager) {
+            window.audioManager.playSFX('answer_select');
+        }
+        
+        // Auto-submit after short delay or require confirmation
+        this.time.delayedCall(1000, () => {
+            this.lockAnswer();
+        });
+    }
+    
+    lockAnswer() {
+        if (this.selectedAnswer === null) return;
+        
+        this.isAnswerLocked = true;
+        
+        // Stop timer
+        if (this.timer) {
+            this.timer.destroy();
+        }
+        
+        // Check if answer is correct
+        const selectedAnswerText = this.currentOptions[this.selectedAnswer];
+        const isCorrect = window.questionManager.isCorrectAnswer(selectedAnswerText);
+        
+        this.showAnswerResult(isCorrect);
+    }
+    
+    showAnswerResult(isCorrect) {
+        const config = GameConfig.config;
+        const selectedButton = this.optionButtons[this.selectedAnswer];
+        
+        // Find correct answer button
+        const correctAnswerText = this.currentQuestion.correctAnswer;
+        const correctAnswerIndex = this.currentOptions.indexOf(correctAnswerText);
+        const correctButton = this.optionButtons[correctAnswerIndex];
+        
+        // Get button dimensions for consistent rendering
+        const selectedButtonWidth = selectedButton.width;
+        const selectedButtonHeight = selectedButton.height;
+        const correctButtonWidth = correctButton.width;
+        const correctButtonHeight = correctButton.height;
+
+        if (isCorrect) {
+            // Correct answer - redraw background with success color
+            selectedButton.background.clear();
+            selectedButton.background.fillGradientStyle(0x27ae60, 0x229954, 0x1e8449, 0x196f3d);
+            selectedButton.background.fillRoundedRect(-selectedButtonWidth / 2, -selectedButtonHeight / 2, selectedButtonWidth, selectedButtonHeight, 15);
+            selectedButton.background.lineStyle(3, 0xFFFFFF, 0.9);
+            selectedButton.background.strokeRoundedRect(-selectedButtonWidth / 2, -selectedButtonHeight / 2, selectedButtonWidth, selectedButtonHeight, 15);
+            this.updateScore(true);
+            
+            if (window.audioManager) {
+                window.audioManager.playSFX('correct_answer');
+                window.audioManager.speak('Correct!');
+            }
+            
+            this.streak++;
+        } else {
+            // Wrong answer - redraw backgrounds with original dimensions
+            selectedButton.background.clear();
+            selectedButton.background.fillGradientStyle(0xe74c3c, 0xc0392b, 0xa93226, 0x922b21);
+            selectedButton.background.fillRoundedRect(-selectedButtonWidth / 2, -selectedButtonHeight / 2, selectedButtonWidth, selectedButtonHeight, 15);
+            selectedButton.background.lineStyle(3, 0xFFFFFF, 0.9);
+            selectedButton.background.strokeRoundedRect(-selectedButtonWidth / 2, -selectedButtonHeight / 2, selectedButtonWidth, selectedButtonHeight, 15);
+
+            correctButton.background.clear();
+            correctButton.background.fillGradientStyle(0x27ae60, 0x229954, 0x1e8449, 0x196f3d);
+            correctButton.background.fillRoundedRect(-correctButtonWidth / 2, -correctButtonHeight / 2, correctButtonWidth, correctButtonHeight, 15);
+            correctButton.background.lineStyle(3, 0xFFFFFF, 0.9);
+            correctButton.background.strokeRoundedRect(-correctButtonWidth / 2, -correctButtonHeight / 2, correctButtonWidth, correctButtonHeight, 15);
+            
+            if (window.audioManager) {
+                window.audioManager.playSFX('wrong_answer');
+                window.audioManager.speak('Incorrect. The correct answer is ' + correctAnswerText);
+            }
+            
+            this.streak = 0;
+            
+            // Shake wrong answer
+            this.tweens.add({
+                targets: selectedButton,
+                x: selectedButton.x + 10,
+                duration: 100,
+                yoyo: true,
+                repeat: 3
+            });
+        }
+        
+        // Highlight correct answer
+        this.tweens.add({
+            targets: correctButton,
+            scaleX: 1.1,
+            scaleY: 1.1,
+            duration: GameConfig.config.ANIMATIONS.RESULT_REVEAL,
+            yoyo: true
+        });
+        
+        // Continue to next question after delay
+        this.time.delayedCall(3000, () => {
+            if (isCorrect || this.currentQuestion.questionNumber < 5) {
+                // Continue if correct or if early in the game
+                window.questionManager.getNextQuestion();
+                this.loadNextQuestion();
+            } else {
+                // Game over on wrong answer (later in game)
+                this.endGame(false);
+            }
+        });
+    }
+    
+    updateScore(isCorrect) {
+        if (!isCorrect) return;
+        
+        const difficulty = this.currentQuestion.difficulty;
+        const hasStreak = this.streak > 1;
+        const points = GameConfig.getPointsForQuestion(difficulty, hasStreak);
+        
+        this.score += points;
+        this.updateProgressDisplay();
+        
+        // Animate score increase
+        const scoreIncrease = this.add.text(this.scoreText.x, this.scoreText.y - 30, `+${points}`, {
+            fontSize: '16px',
+            fontFamily: 'Orbitron, monospace',
+            fill: '#' + GameConfig.config.COLORS.SUCCESS.toString(16).padStart(6, '0')
+        }).setOrigin(0.5);
+        
+        this.tweens.add({
+            targets: scoreIncrease,
+            y: scoreIncrease.y - 50,
+            alpha: 0,
+            duration: 1500,
+            onComplete: () => {
+                scoreIncrease.destroy();
+            }
+        });
+    }
+    
+    useLifeline(lifelineKey) {
+        if (this.lifelines[lifelineKey].uses <= 0) return;
+        
+        this.lifelines[lifelineKey].uses--;
+        
+        if (window.audioManager) {
+            window.audioManager.playSFX('lifeline_use');
+        }
+        
+        switch (lifelineKey) {
+            case 'FIFTY_FIFTY':
+                this.useFiftyFifty();
+                break;
+            case 'SKIP_QUESTION':
+                this.skipQuestion();
+                break;
+            case 'ASK_AUDIENCE':
+                this.askAudience();
+                break;
+        }
+        
+        this.updateLifelineButtons();
+    }
+    
+    useFiftyFifty() {
+        const correctAnswer = this.currentQuestion.correctAnswer;
+        const incorrectAnswers = this.currentOptions.filter(option => option !== correctAnswer);
+        
+        // Randomly select 2 incorrect answers to eliminate
+        const toEliminate = Phaser.Utils.Array.Shuffle(incorrectAnswers).slice(0, 2);
+        
+        this.optionButtons.forEach((button, index) => {
+            const optionText = this.currentOptions[index];
+            if (toEliminate.includes(optionText)) {
+                button.isEliminated = true;
+                button.container.setAlpha(0.3);
+                button.background.clear();
+                button.background.fillStyle(0x555555);
+                button.background.fillRoundedRect(-200, -30, 400, 60, 15);
+            }
+        });
+    }
+    
+    skipQuestion() {
+        // Move to next question without penalty
+        window.questionManager.getNextQuestion();
+        this.loadNextQuestion();
+    }
+    
+    askAudience() {
+        // Simulate audience response
+        const correctAnswer = this.currentQuestion.correctAnswer;
+        const correctIndex = this.currentOptions.indexOf(correctAnswer);
+        
+        // Generate audience percentages (weighted toward correct answer)
+        const percentages = [0, 0, 0, 0];
+        let remaining = 100;
+        
+        // Correct answer gets 40-70%
+        percentages[correctIndex] = Phaser.Math.Between(40, 70);
+        remaining -= percentages[correctIndex];
+        
+        // Distribute remaining among other options
+        for (let i = 0; i < 4; i++) {
+            if (i !== correctIndex && remaining > 0) {
+                const amount = Phaser.Math.Between(0, remaining);
+                percentages[i] = amount;
+                remaining -= amount;
+            }
+        }
+        
+        // Add any remainder to a random option
+        if (remaining > 0) {
+            const randomIndex = Phaser.Math.Between(0, 3);
+            percentages[randomIndex] += remaining;
+        }
+        
+        this.showAudienceResults(percentages);
+    }
+    
+    showAudienceResults(percentages) {
+        const { width, height } = this.scale;
+        
+        // Create audience results overlay
+        const overlay = this.add.container(width / 2, height / 2);
+        
+        const bg = this.add.rectangle(0, 0, 400, 300, 0x000000, 0.9);
+        bg.setStrokeStyle(2, GameConfig.config.COLORS.PRIMARY);
+        
+        const title = this.add.text(0, -120, 'Audience Says:', {
+            fontSize: '24px',
+            fontFamily: 'Roboto, sans-serif',
+            fill: '#ffffff'
+        }).setOrigin(0.5);
+        
+        // Show percentages
+        const labels = ['A', 'B', 'C', 'D'];
+        labels.forEach((label, index) => {
+            const y = -60 + (index * 30);
+            const percentage = percentages[index] || 0;
+            
+            this.add.text(-150, y, `${label}: ${percentage}%`, {
+                fontSize: '18px',
+                fontFamily: 'Roboto, sans-serif',
+                fill: '#ffffff'
+            });
+            
+            // Bar visualization
+            const barWidth = (percentage / 100) * 200;
+            this.add.rectangle(-50 + barWidth / 2, y, barWidth, 20, GameConfig.config.COLORS.PRIMARY);
+        });
+        
+        overlay.add([bg, title]);
+        overlay.setDepth(200);
+        
+        // Auto-close after 4 seconds
+        this.time.delayedCall(4000, () => {
+            overlay.destroy();
+        });
+    }
+    
+    updateLifelineButtons() {
+        this.lifelineButtons.forEach(button => {
+            this.updateLifelineButton(button);
+        });
+    }
+    
+    updateLifelineButton(button) {
+        const uses = this.lifelines[button.lifelineKey].uses;
+        button.usesText.setText(`x${uses}`);
+        
+        if (uses <= 0) {
+            button.container.setAlpha(0.3);
+            button.background.clear();
+            button.background.fillStyle(0x555555);
+            button.background.fillCircle(0, 0, 30);
+        }
+    }
+    
+    timeUp() {
+        if (this.isAnswerLocked) return;
+        
+        // Treat as wrong answer
+        this.isAnswerLocked = true;
+        
+        if (window.audioManager) {
+            window.audioManager.playSFX('timer_warning');
+            window.audioManager.speak('Time is up!');
+        }
+        
+        // Show correct answer with green background using original dimensions
+        const correctAnswerText = this.currentQuestion.correctAnswer;
+        const correctAnswerIndex = this.currentOptions.indexOf(correctAnswerText);
+        const correctButton = this.optionButtons[correctAnswerIndex];
+        
+        const correctButtonWidth = correctButton.width;
+        const correctButtonHeight = correctButton.height;
+
+        correctButton.background.clear();
+        correctButton.background.fillGradientStyle(0x27ae60, 0x229954, 0x1e8449, 0x196f3d);
+        correctButton.background.fillRoundedRect(-correctButtonWidth / 2, -correctButtonHeight / 2, correctButtonWidth, correctButtonHeight, 15);
+        correctButton.background.lineStyle(3, 0xFFFFFF, 0.9);
+        correctButton.background.strokeRoundedRect(-correctButtonWidth / 2, -correctButtonHeight / 2, correctButtonWidth, correctButtonHeight, 15);
+        
+        this.streak = 0;
+        
+        // Continue after delay
+        this.time.delayedCall(3000, () => {
+            if (this.currentQuestion.questionNumber < 5) {
+                // Continue if early in the game
+                window.questionManager.getNextQuestion();
+                this.loadNextQuestion();
+            } else {
+                // Game over on time up (later in game)
+                this.endGame(false);
+            }
+        });
+    }
+    
+    endGame(isVictory) {
+        // Stop timer
+        if (this.timer) {
+            this.timer.destroy();
+        }
+        
+        // Stop all audio
+        if (window.audioManager) {
+            window.audioManager.stopAll();
+            
+            if (isVictory) {
+                window.audioManager.playSFX('victory');
+                window.audioManager.speak('Congratulations! You completed the quiz!');
+            } else {
+                window.audioManager.playSFX('game_over');
+                window.audioManager.speak('Game over!');
+            }
+        }
+        
+        // Pass game data to game over scene
+        this.scene.start('GameOverScene', {
+            score: this.score,
+            isVictory: isVictory,
+            questionsAnswered: window.questionManager.getProgress().current - 1,
+            totalQuestions: window.questionManager.getProgress().total
+        });
+    }
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizFlow - Debug Test</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #1a1a1a; 
+            color: #ffffff; 
+            padding: 20px;
+        }
+        .status { 
+            margin: 10px 0; 
+            padding: 10px; 
+            border-radius: 5px;
+        }
+        .success { background: #28a745; }
+        .error { background: #dc3545; }
+        .warning { background: #ffc107; color: #000; }
+        #console { 
+            background: #000; 
+            color: #0f0; 
+            padding: 10px; 
+            border-radius: 5px; 
+            height: 300px; 
+            overflow-y: scroll; 
+            font-family: monospace;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>QuizFlow Debug Test</h1>
+    <div id="status">Testing script loading...</div>
+    <div id="console"></div>
+
+    <!-- Same scripts as main game -->
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.70.0/dist/phaser.min.js"></script>
+    <script>
+        const statusDiv = document.getElementById('status');
+        const consoleDiv = document.getElementById('console');
+        
+        function log(message, type = 'info') {
+            console.log(message);
+            consoleDiv.innerHTML += `<div>[${new Date().toLocaleTimeString()}] ${message}</div>`;
+            consoleDiv.scrollTop = consoleDiv.scrollHeight;
+        }
+        
+        function addStatus(message, className) {
+            const div = document.createElement('div');
+            div.className = `status ${className}`;
+            div.textContent = message;
+            statusDiv.appendChild(div);
+        }
+        
+        // Test Phaser loading
+        if (typeof Phaser !== 'undefined') {
+            addStatus('✅ Phaser loaded successfully (v' + Phaser.VERSION + ')', 'success');
+            log('Phaser loaded: ' + Phaser.VERSION);
+        } else {
+            addStatus('❌ Phaser failed to load', 'error');
+            log('Phaser not available');
+        }
+        
+        // Capture console errors
+        window.addEventListener('error', (event) => {
+            log(`ERROR: ${event.error?.message || event.message}`, 'error');
+            addStatus('❌ JavaScript Error: ' + (event.error?.message || event.message), 'error');
+        });
+        
+        // Test each script loading
+        const scripts = [
+            'src/utils/GameConfig.js',
+            'src/utils/AudioManager.js', 
+            'src/utils/QuestionManager.js',
+            'src/scenes/MenuScene.js',
+            'src/scenes/GameScene.js',
+            'src/scenes/GameOverScene.js',
+            'src/game.js'
+        ];
+        
+        let loadedCount = 0;
+        
+        scripts.forEach((src, index) => {
+            const script = document.createElement('script');
+            script.src = src;
+            script.onload = () => {
+                loadedCount++;
+                log(`✅ Loaded: ${src}`);
+                addStatus(`✅ ${src}`, 'success');
+                
+                if (loadedCount === scripts.length) {
+                    setTimeout(testComponents, 100);
+                }
+            };
+            script.onerror = () => {
+                log(`❌ Failed to load: ${src}`);
+                addStatus(`❌ Failed: ${src}`, 'error');
+            };
+            document.head.appendChild(script);
+        });
+        
+        function testComponents() {
+            log('Testing component availability...');
+            
+            // Test GameConfig
+            if (typeof GameConfig !== 'undefined') {
+                addStatus('✅ GameConfig available', 'success');
+                log('GameConfig.config available: ' + (typeof GameConfig.config !== 'undefined'));
+            } else {
+                addStatus('❌ GameConfig not available', 'error');
+            }
+            
+            // Test AudioManager
+            if (typeof AudioManager !== 'undefined') {
+                addStatus('✅ AudioManager class available', 'success');
+                try {
+                    const audioMgr = new AudioManager();
+                    log('AudioManager instance created successfully');
+                } catch (e) {
+                    log('AudioManager error: ' + e.message);
+                }
+            } else {
+                addStatus('❌ AudioManager not available', 'error');
+            }
+            
+            // Test QuestionManager
+            if (typeof QuestionManager !== 'undefined') {
+                addStatus('✅ QuestionManager class available', 'success');
+                try {
+                    const questionMgr = new QuestionManager();
+                    log('QuestionManager instance created successfully');
+                } catch (e) {
+                    log('QuestionManager error: ' + e.message);
+                }
+            } else {
+                addStatus('❌ QuestionManager not available', 'error');
+            }
+            
+            // Test scenes
+            const scenes = ['MenuScene', 'GameScene', 'GameOverScene'];
+            scenes.forEach(sceneName => {
+                if (typeof window[sceneName] !== 'undefined') {
+                    addStatus(`✅ ${sceneName} available`, 'success');
+                } else {
+                    addStatus(`❌ ${sceneName} not available`, 'error');
+                }
+            });
+            
+            // Test data loading
+            log('Testing data file access...');
+            fetch('data/animals_easy.json')
+                .then(response => {
+                    if (response.ok) {
+                        addStatus('✅ Data files accessible', 'success');
+                        log('Data file test successful');
+                        return response.json();
+                    } else {
+                        throw new Error(`HTTP ${response.status}`);
+                    }
+                })
+                .then(data => {
+                    log(`Sample data loaded: ${data.length} questions`);
+                })
+                .catch(error => {
+                    addStatus('❌ Data files not accessible: ' + error.message, 'error');
+                    log('Data file test failed: ' + error.message);
+                });
+        }
+    </script>
+</body>
+</html>

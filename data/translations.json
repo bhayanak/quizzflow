@@ -1,0 +1,106 @@
+{
+  "ui_labels": {
+    "en": {
+      "welcome": "Welcome to QuizFlow",
+      "start_game": "Start Game", 
+      "settings": "Settings",
+      "statistics": "Statistics",
+      "question": "Question",
+      "your_answer": "Your Answer",
+      "correct_answer": "Correct Answer",
+      "final_answer": "Final Answer",
+      "lifelines": "Lifelines",
+      "fifty_fifty": "50:50",
+      "ask_audience": "Ask Audience",
+      "phone_friend": "Phone a Friend",
+      "congratulations": "Congratulations!",
+      "game_over": "Game Over",
+      "you_won": "You Won ₹",
+      "play_again": "Play Again",
+      "main_menu": "Main Menu",
+      "share_result": "Share Result",
+      "sound_effects": "Sound Effects",
+      "text_to_speech": "Text to Speech",
+      "language": "Language",
+      "english": "English",
+      "hindi": "हिंदी",
+      "loading": "Loading...",
+      "please_wait": "Please wait while we prepare your quiz",
+      "questions_loaded": "questions loaded successfully!",
+      "error_loading": "Error loading questions. Please try again.",
+      "level": "Level",
+      "prize_money": "Prize Money",
+      "total_questions": "Total Questions",
+      "correct_answers": "Correct Answers",
+      "accuracy": "Accuracy",
+      "games_played": "Games Played",
+      "highest_level": "Highest Level Reached",
+      "total_winnings": "Total Winnings"
+    },
+    "hi": {
+      "welcome": "QuizFlow में आपका स्वागत है",
+      "start_game": "खेल शुरू करें",
+      "settings": "सेटिंग्स",
+      "statistics": "आंकड़े",
+      "question": "प्रश्न",
+      "your_answer": "आपका उत्तर",
+      "correct_answer": "सही उत्तर",
+      "final_answer": "अंतिम उत्तर",
+      "lifelines": "लाइफलाइन",
+      "fifty_fifty": "50:50",
+      "ask_audience": "दर्शकों से पूछें",
+      "phone_friend": "मित्र को फोन करें",
+      "congratulations": "बधाई हो!",
+      "game_over": "खेल समाप्त",
+      "you_won": "आपने जीते ₹",
+      "play_again": "दोबारा खेलें",
+      "main_menu": "मुख्य मेनू",
+      "share_result": "परिणाम साझा करें",
+      "sound_effects": "ध्वनि प्रभाव",
+      "text_to_speech": "आवाज़",
+      "language": "भाषा",
+      "english": "English",
+      "hindi": "हिंदी",
+      "loading": "लोड हो रहा है...",
+      "please_wait": "कृपया प्रतीक्षा करें जब तक हम आपकी क्विज़ तैयार करते हैं",
+      "questions_loaded": "प्रश्न सफलतापूर्वक लोड हो गए!",
+      "error_loading": "प्रश्न लोड करने में त्रुटि। कृपया पुनः प्रयास करें।",
+      "level": "स्तर",
+      "prize_money": "इनाम राशि",
+      "total_questions": "कुल प्रश्न",
+      "correct_answers": "सही उत्तर",
+      "accuracy": "सटीकता",
+      "games_played": "खेले गए खेल",
+      "highest_level": "उच्चतम स्तर",
+      "total_winnings": "कुल जीत"
+    }
+  },
+  "sample_translations": {
+    "science": {
+      "en": "What is the chemical symbol for water?",
+      "hi": "पानी का रासायनिक चिन्ह क्या है?"
+    },
+    "general_knowledge": {
+      "en": "What is the capital of India?",
+      "hi": "भारत की राजधानी क्या है?"
+    },
+    "mathematics": {
+      "en": "What is 2 + 2?",
+      "hi": "2 + 2 कितना होता है?"
+    }
+  },
+  "answer_options": {
+    "science_water": {
+      "en": ["H2O", "CO2", "O2", "H2"],
+      "hi": ["H2O", "CO2", "O2", "H2"]
+    },
+    "general_knowledge_capital": {
+      "en": ["New Delhi", "Mumbai", "Kolkata", "Chennai"],
+      "hi": ["नई दिल्ली", "मुंबई", "कोलकाता", "चेन्नई"]
+    },
+    "mathematics_addition": {
+      "en": ["4", "3", "5", "6"],
+      "hi": ["4", "3", "5", "6"]
+    }
+  }
+}

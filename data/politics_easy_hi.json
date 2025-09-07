@@ -1,0 +1,162 @@
+[
+  {
+    "id": "65c7a8b9d2e3f456789012a1",
+    "question": "भारत के पहले प्रधानमंत्री कौन थे?",
+    "correctAnswer": "जवाहरलाल नेहरू",
+    "incorrectAnswers": [
+      "महात्मा गांधी",
+      "सरदार पटेल",
+      "डॉ. राजेंद्र प्रसाद"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Indian Politics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1",
+    "usageCount": 0
+  },
+  {
+    "id": "65c7a8b9d2e3f456789012a2",
+    "question": "भारतीय संविधान कब लागू हुआ था?",
+    "correctAnswer": "26 जनवरी 1950",
+    "incorrectAnswers": [
+      "15 अगस्त 1947",
+      "26 नवंबर 1949",
+      "2 अक्टूबर 1948"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Indian Politics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2",
+    "usageCount": 0
+  },
+  {
+    "id": "65c7a8b9d2e3f456789012a3",
+    "question": "संयुक्त राष्ट्र संघ का मुख्यालय कहाँ स्थित है?",
+    "correctAnswer": "न्यूयॉर्क",
+    "incorrectAnswers": [
+      "जेनेवा",
+      "लंदन",
+      "पेरिस"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "International Politics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3",
+    "usageCount": 0
+  },
+  {
+    "id": "65c7a8b9d2e3f456789012a4",
+    "question": "भारत के राष्ट्रपति का कार्यकाल कितने वर्ष का होता है?",
+    "correctAnswer": "5 वर्ष",
+    "incorrectAnswers": [
+      "4 वर्ष",
+      "6 वर्ष",
+      "7 वर्ष"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Indian Politics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4",
+    "usageCount": 0
+  },
+  {
+    "id": "65c7a8b9d2e3f456789012a5",
+    "question": "लोकसभा में अधिकतम कितनी सीटें हो सकती हैं?",
+    "correctAnswer": "552",
+    "incorrectAnswers": [
+      "545",
+      "550",
+      "555"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Indian Politics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5",
+    "usageCount": 0
+  },
+  {
+    "id": "65c7a8b9d2e3f456789012a6",
+    "question": "भारत के राष्ट्रगान के लेखक कौन हैं?",
+    "correctAnswer": "रबींद्रनाथ टैगोर",
+    "incorrectAnswers": [
+      "बंकिम चंद्र चट्टोपाध्याय",
+      "सुभाष चंद्र बोस",
+      "लाला लाजपत राय"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Indian Politics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6",
+    "usageCount": 0
+  },
+  {
+    "id": "65c7a8b9d2e3f456789012a7",
+    "question": "अमेरिका के राष्ट्रपति का निवास कहाँ है?",
+    "correctAnswer": "White House",
+    "incorrectAnswers": [
+      "Capitol Hill",
+      "Pentagon",
+      "Camp David"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "International Politics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7",
+    "usageCount": 0
+  },
+  {
+    "id": "65c7a8b9d2e3f456789012a8",
+    "question": "भारत का राष्ट्रीय खेल कौन सा है?",
+    "correctAnswer": "हॉकी",
+    "incorrectAnswers": [
+      "क्रिकेट",
+      "कबड्डी",
+      "बैडमिंटन"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Indian Politics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8",
+    "usageCount": 0
+  },
+  {
+    "id": "65c7a8b9d2e3f456789012a9",
+    "question": "भारत की सबसे बड़ी राजनीतिक पार्टी कौन सी है (सदस्यता के आधार पर)?",
+    "correctAnswer": "भारतीय जनता पार्टी",
+    "incorrectAnswers": [
+      "कांग्रेस",
+      "बहुजन समाज पार्टी",
+      "आम आदमी पार्टी"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Indian Politics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9",
+    "usageCount": 0
+  },
+  {
+    "id": "65c7a8b9d2e3f456789012aa",
+    "question": "भारत के संविधान में कुल कितने अनुच्छेद हैं?",
+    "correctAnswer": "395",
+    "incorrectAnswers": [
+      "390",
+      "400",
+      "385"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Indian Politics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0",
+    "usageCount": 0
+  }
+]

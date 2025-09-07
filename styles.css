@@ -1,0 +1,402 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: 
+        radial-gradient(circle at 20% 20%, rgba(255, 215, 0, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(0, 123, 255, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 50% 50%, rgba(138, 43, 226, 0.05) 0%, transparent 50%),
+        linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 30%, #2d1b69 60%, #000000 100%);
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#gameContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#gameCanvas {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100vw;
+    max-height: 100vh;
+    object-fit: contain;
+}
+
+/* Loading Screen */
+#loadingScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    transition: opacity 0.5s ease-out;
+}
+
+#loadingScreen.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.loading-content {
+    text-align: center;
+    color: #fff;
+}
+
+.loading-content h1 {
+    font-family: 'Orbitron', monospace;
+    font-size: 4rem;
+    font-weight: 900;
+    background: linear-gradient(45deg, #FFD700, #FFA500, #FF4500, #FFD700);
+    background-size: 400% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradient-flow 2s ease-in-out infinite;
+    margin-bottom: 2rem;
+    text-shadow: 
+        0 0 30px rgba(255, 215, 0, 0.8),
+        0 0 60px rgba(255, 165, 0, 0.6),
+        0 0 90px rgba(255, 69, 0, 0.4);
+    filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.5));
+}
+
+.loading-spinner {
+    width: 80px;
+    height: 80px;
+    border: 6px solid rgba(255, 255, 255, 0.1);
+    border-left: 6px solid #FFD700;
+    border-top: 6px solid #FFA500;
+    border-radius: 50%;
+    animation: spin 1s linear infinite, glow-pulse 2s ease-in-out infinite;
+    margin: 0 auto 2rem;
+    box-shadow: 
+        0 0 30px rgba(255, 215, 0, 0.5),
+        inset 0 0 20px rgba(255, 215, 0, 0.2);
+}
+
+.loading-content p {
+    font-size: 1.2rem;
+    color: #ccc;
+    font-weight: 300;
+}
+
+/* Audio Controls - Mobile responsive positioning */
+#audioControls {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 8px;
+    z-index: 100;
+}
+
+#audioControls button {
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    min-width: 40px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#audioControls button:hover {
+    background: #007bff;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
+}
+
+#languageBtn {
+    font-family: 'Orbitron', monospace;
+    font-weight: 700;
+    font-size: 0.8rem !important;
+    padding: 8px 10px !important;
+    border-radius: 8px !important;
+}
+
+/* Mobile specific adjustments for audio controls */
+@media (max-width: 768px) {
+    #audioControls {
+        top: 5px;
+        right: 5px;
+        gap: 5px;
+    }
+    
+    #audioControls button {
+        padding: 6px 8px;
+        font-size: 0.9rem;
+        min-width: 35px;
+        min-height: 35px;
+    }
+    
+    #languageBtn {
+        font-size: 0.7rem !important;
+        padding: 6px 8px !important;
+    }
+}
+
+/* Animations */
+@keyframes gradient-flow {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes glow-pulse {
+    0%, 100% {
+        box-shadow: 
+            0 0 30px rgba(255, 215, 0, 0.5),
+            inset 0 0 20px rgba(255, 215, 0, 0.2);
+    }
+    50% {
+        box-shadow: 
+            0 0 50px rgba(255, 215, 0, 0.8),
+            inset 0 0 30px rgba(255, 215, 0, 0.4);
+    }
+}
+
+@keyframes diamond-sparkle {
+    0%, 100% { 
+        opacity: 0.3;
+        transform: scale(0.8) rotate(0deg);
+    }
+    50% { 
+        opacity: 1;
+        transform: scale(1.2) rotate(180deg);
+    }
+}
+
+@keyframes millionaire-glow {
+    0%, 100% {
+        text-shadow: 
+            0 0 10px rgba(255, 215, 0, 0.5),
+            0 0 20px rgba(255, 215, 0, 0.3),
+            0 0 30px rgba(255, 165, 0, 0.2);
+    }
+    50% {
+        text-shadow: 
+            0 0 20px rgba(255, 215, 0, 0.8),
+            0 0 40px rgba(255, 215, 0, 0.6),
+            0 0 60px rgba(255, 165, 0, 0.4),
+            0 0 80px rgba(255, 69, 0, 0.2);
+    }
+}
+
+/* Add floating diamonds background effect */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(2px 2px at 20px 30px, rgba(255, 215, 0, 0.3), transparent),
+        radial-gradient(2px 2px at 40px 70px, rgba(255, 255, 255, 0.2), transparent),
+        radial-gradient(1px 1px at 90px 40px, rgba(255, 215, 0, 0.4), transparent),
+        radial-gradient(1px 1px at 130px 80px, rgba(255, 255, 255, 0.3), transparent);
+    background-repeat: repeat;
+    background-size: 150px 100px;
+    animation: float-diamonds 20s linear infinite;
+    pointer-events: none;
+    z-index: -1;
+}
+
+@keyframes float-diamonds {
+    0% { transform: translateY(0px) translateX(0px); }
+    100% { transform: translateY(-100px) translateX(-50px); }
+}
+
+/* Responsive Design - Complete Mobile Optimization */
+@media (max-width: 768px) {
+    body {
+        overflow: hidden;
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        touch-action: manipulation;
+    }
+    
+    #gameContainer {
+        width: 100vw !important;
+        height: 100vh !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        box-sizing: border-box;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    
+    #gameContainer canvas {
+        width: 100vw !important;
+        height: 100vh !important;
+        max-width: 100vw !important;
+        max-height: 100vh !important;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 0;
+        border: none;
+        box-shadow: none;
+    }
+    
+    .loading-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    #audioControls {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 1000;
+        scale: 1;
+    }
+    
+    #audioControls button {
+        padding: 8px 12px;
+        font-size: 1rem;
+        min-width: 44px;
+        min-height: 44px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        overflow: hidden;
+        position: fixed;
+        touch-action: manipulation;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #gameContainer {
+        width: 100vw !important;
+        height: 100vh !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+        
+    #gameContainer canvas {
+        width: 100vw !important;
+        height: 100vh !important;
+        max-width: 100vw !important;
+        max-height: 100vh !important;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .loading-content h1 {
+        font-size: 2rem;
+    }
+
+    #audioControls {
+        position: fixed;
+        top: 5px;
+        right: 5px;
+        scale: 1;
+        z-index: 1000;
+    }
+
+    #audioControls button {
+        padding: 6px 10px;
+        font-size: 0.9rem;
+        min-width: 44px;
+        min-height: 44px;
+    }
+}
+/* Utility classes for game states */
+.pulse {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+}
+
+.shake {
+    animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.zoom-in {
+    animation: zoomIn 0.3s ease-out;
+}
+
+@keyframes zoomIn {
+    from { 
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to { 
+        transform: scale(1);
+        opacity: 1;
+    }
+}

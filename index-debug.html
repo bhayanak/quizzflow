@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizFlow - You can be millionaire</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="gameContainer">
+        <!-- Phaser will create its canvas here -->
+    </div>
+    
+    <!-- Loading screen with better feedback -->
+    <div id="loadingScreen">
+        <div class="loading-content">
+            <h1>QuizFlow</h1>
+            <div class="loading-spinner"></div>
+            <p id="loadingText">Loading your quiz adventure...</p>
+            <div id="loadingDetails" style="font-size: 0.8rem; color: #888; margin-top: 10px;">
+                Initializing...
+            </div>
+        </div>
+    </div>
+
+    <!-- Audio controls -->
+    <div id="audioControls">
+        <button id="muteBtn" title="Toggle Sound">🔊</button>
+        <button id="languageBtn" title="Switch Language">EN</button>
+    </div>
+
+    <!-- Error handling -->
+    <script>
+        // Enhanced error handling
+        window.addEventListener('error', (event) => {
+            console.error('Global error:', event.error);
+            document.getElementById('loadingText').textContent = 'Error loading game';
+            document.getElementById('loadingDetails').innerHTML = 
+                `Error: ${event.error?.message || event.message}<br>
+                 <button onclick="location.reload()" style="margin-top: 10px; padding: 5px 10px;">Reload</button>`;
+        });
+        
+        // Update loading status
+        function updateLoadingStatus(message) {
+            document.getElementById('loadingDetails').textContent = message;
+        }
+        
+        updateLoadingStatus('Loading Phaser 3...');
+    </script>
+
+    <!-- Load Phaser first -->
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.70.0/dist/phaser.min.js"></script>
+    
+    <!-- Load game scripts in order -->
+    <script>
+        updateLoadingStatus('Loading game configuration...');
+    </script>
+    <script src="src/utils/GameConfig.js"></script>
+    
+    <script>
+        updateLoadingStatus('Loading translation manager...');
+    </script>
+    <script src="src/utils/TranslationManager.js"></script>
+    <script>
+        updateLoadingStatus('Loading audio manager...');
+    </script>
+    <script src="src/utils/AudioManager.js"></script>
+    
+    <script>
+        updateLoadingStatus('Loading question manager...');
+    </script>
+    <script src="src/utils/QuestionManager.js"></script>
+    
+    <script>
+        updateLoadingStatus('Loading game scenes...');
+    </script>
+    <script src="src/scenes/MenuScene.js"></script>
+    <script src="src/scenes/GameScene.js"></script>
+    <script src="src/scenes/GameOverScene.js"></script>
+    
+    <script>
+        updateLoadingStatus('Starting game...');
+    </script>
+    <script src="src/game.js"></script>
+    
+    <script>
+        // Final check after all scripts loaded
+        setTimeout(() => {
+            updateLoadingStatus('Checking game status...');
+            if (typeof Phaser !== 'undefined') {
+                console.log('✅ All scripts loaded successfully');
+            } else {
+                updateLoadingStatus('❌ Scripts failed to load');
+            }
+        }, 1000);
+    </script>
+</body>
+</html>

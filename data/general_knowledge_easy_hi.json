@@ -1,0 +1,162 @@
+[
+  {
+    "id": "68bd99200d6463953456a3ab",
+    "question": "आवर्त सारणी में 11वीं संख्या वाले रासायनिक तत्व का प्रतीक Na है, यह कौन सा तत्व है?",
+    "correctAnswer": "सोडियम",
+    "incorrectAnswers": [
+      "कार्बन",
+      "सीसा",
+      "नाइट्रोजन"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "29f62086ebdad763aedc05f65baeeec19478603947e6c16fafc081b75f85d9f9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd99200d6463953456a386",
+    "question": "एक अपराधी जिसने 'खाता-किताब में गड़बड़ी' की है, वह किस प्रकार के अवैध व्यवहार में शामिल है?",
+    "correctAnswer": "लेखांकन धोखाधड़ी",
+    "incorrectAnswers": [
+      "मनी लॉन्ड्रिंग",
+      "जबरन वसूली",
+      "ब्लैकमेल"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd99200d6463953456a387",
+    "question": "भारत की राजधानी कौन सी है?",
+    "correctAnswer": "नई दिल्ली",
+    "incorrectAnswers": [
+      "मुंबई",
+      "कोलकाता",
+      "चेन्नई"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd99200d6463953456a388",
+    "question": "विश्व का सबसे बड़ा महासागर कौन सा है?",
+    "correctAnswer": "प्रशांत महासागर",
+    "incorrectAnswers": [
+      "अटलांटिक महासागर",
+      "हिंद महासागर",
+      "आर्कटिक महासागर"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd99200d6463953456a389",
+    "question": "गंगा नदी किस राज्य से निकलती है?",
+    "correctAnswer": "उत्तराखंड",
+    "incorrectAnswers": [
+      "उत्तर प्रदेश",
+      "बिहार",
+      "पश्चिम बंगाल"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd99200d6463953456a390",
+    "question": "भारत में कुल कितने राज्य हैं?",
+    "correctAnswer": "28",
+    "incorrectAnswers": [
+      "29",
+      "27",
+      "30"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd99200d6463953456a391",
+    "question": "भारत का राष्ट्रीय पक्षी कौन सा है?",
+    "correctAnswer": "मोर",
+    "incorrectAnswers": [
+      "बाज",
+      "कौआ",
+      "कबूतर"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd99200d6463953456a392",
+    "question": "विश्व का सबसे ऊंचा पर्वत कौन सा है?",
+    "correctAnswer": "माउंट एवरेस्ट",
+    "incorrectAnswers": [
+      "K2",
+      "कंचनजंगा",
+      "मकालू"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd99200d6463953456a393",
+    "question": "भारत का राष्ट्रीय खेल कौन सा है?",
+    "correctAnswer": "हॉकी",
+    "incorrectAnswers": [
+      "क्रिकेट",
+      "फुटबॉल",
+      "बैडमिंटन"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd99200d6463953456a394",
+    "question": "भारत की सबसे लंबी नदी कौन सी है?",
+    "correctAnswer": "गंगा",
+    "incorrectAnswers": [
+      "यमुना",
+      "नर्मदा",
+      "गोदावरी"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0",
+    "usageCount": 0
+  }
+]

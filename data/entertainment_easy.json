@@ -1,0 +1,6066 @@
+[
+  {
+    "id": "68bd96808fcfed5c856dad35",
+    "question": "Aubrey Graham is better known as",
+    "correctAnswer": "Drake",
+    "incorrectAnswers": [
+      "Travis Scott",
+      "Lil Wayne",
+      "2 Chainz"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "Celebrities",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e99fd2f585ed1b818ae59947599c35b00c9e5c0501988202358e12316459d2fb",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd926064d094e2837ea507",
+    "question": "By which name is Ramon Estevez better known as?",
+    "correctAnswer": "Martin Sheen",
+    "incorrectAnswers": [
+      "Charlie Sheen",
+      "Ramon Sheen",
+      "Emilio Estevez"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "Celebrities",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "764648d35dcb0e89ce692f12db105f936352073d06d4a8df4ed242f9dd2d0c9c",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd926064d094e2837ea503",
+    "question": "Gwyneth Paltrow has a daughter named...?",
+    "correctAnswer": "Apple",
+    "incorrectAnswers": [
+      "Lily",
+      "French",
+      "Dakota"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "Celebrities",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0b15224991090439d7da3f277c88001e649ab8d06b219161cda77e116c343d45",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96808fcfed5c856dad34",
+    "question": "Named after a character he played in a 1969 film, what is the name of the ski resort in Utah that Robert Redford bought in 1968?",
+    "correctAnswer": "Sundance",
+    "incorrectAnswers": [
+      "Woodward",
+      "Turner",
+      "Booker"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "Celebrities",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "2f331c62ca02ebd7f268febfdcbae757ce4b0047db4e4f20329229f13922df5e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd926064d094e2837ea504",
+    "question": "Neil Hamburger is played by which comedian?",
+    "correctAnswer": "Gregg Turkington",
+    "incorrectAnswers": [
+      "Nathan Fielder",
+      "Tim Heidecker",
+      "Todd Glass"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "Celebrities",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b6959b4a75271257d8a80bd0426af797b393facd3364328c8c738dae13fe1c88",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96808fcfed5c856dad33",
+    "question": "What does film maker Dan Bell typically focus his films on?",
+    "correctAnswer": "Abandoned Buildings and Dead Malls",
+    "incorrectAnswers": [
+      "Historic Landmarks",
+      "Action Films",
+      "Documentaries "
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "Celebrities",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "35c2c5999c752dda2de2db7e0d263b2b55e8f6db293940de02641d61b130d858",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd926064d094e2837ea505",
+    "question": "What was James Coburn's last film role before his death?",
+    "correctAnswer": "American Gun",
+    "incorrectAnswers": [
+      "Monsters Inc",
+      "Texas Rangers",
+      "Snow Dogs"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "Celebrities",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "fc121d040d6f9dc5d5caa59a5e5d5e5238e8b8c47305f4eb2f727d28324b5ba3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd926064d094e2837ea506",
+    "question": "What was the cause of Marilyn Monroes suicide?",
+    "correctAnswer": "Drug Overdose",
+    "incorrectAnswers": [
+      "Knife Attack",
+      "House Fire",
+      "Gunshot"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "Celebrities",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ca402e632dcd99d28722de28a2e25bfc6e867a421b092f2abc64a9690c77a05b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194ce",
+    "question": "\"Doctor Jones\", \"Turn Back Time\" and \"Barbie Girl\" were UK number ones for which Eurodance group?",
+    "correctAnswer": "Aqua",
+    "incorrectAnswers": [
+      "Vengaboys",
+      "Eiffel 65",
+      "Sash!"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f6e06d4d7fdd75df3b2125768e8eb64ce5a4b0245356e3130f9c8ddc87386ab2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd958f8fcfed5c856dac80",
+    "question": "\"Doctor Who\" star David Tennant performed in a rendition of which Shakespearean play?",
+    "correctAnswer": "Hamlet",
+    "incorrectAnswers": [
+      "The Tempest",
+      "Othello",
+      "The Taming of the Shrew"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "03d3eb98f2055b466ddc825c2e7a7efa57c85e1556bc1bf52b1ce68668c6aedb",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194b1",
+    "question": "\"Grande Valse\" is a phrase from the song \"Gran Vals\". What is that song segment known as?",
+    "correctAnswer": "Nokia Tune",
+    "incorrectAnswers": [
+      "Hello Moto [Motorola Ringtone]",
+      "Droid Ringtone",
+      "Microsoft Ringtone"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "bb4a3a13d488db7a07637587073cca0b9f1e701611fb3e7a25c11b9f99c30761",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194b2",
+    "question": "\"Hallelujah\" is a song written by which Canadian recording artist?",
+    "correctAnswer": "Leonard Cohen",
+    "incorrectAnswers": [
+      "Kory Lefkowits",
+      "Ryan Letourneau ",
+      "Justin Bieber "
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4ad617ca7f960146922d27994bd2e58775bf4840ac1cab5c7eb35efcac4650d5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95b48fcfed5c856dac96",
+    "question": "\"Minecraft\" was released from beta in 2011 during a convention held in which city?",
+    "correctAnswer": "Las Vegas",
+    "incorrectAnswers": [
+      "Paris",
+      "Bellevue",
+      "London"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "399f44b0726b643e6650a0f92d477920201478075f49bd2e1246934d72f791be",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdacd84949b6f3fc889e34",
+    "question": "\"The first rule is: you don't talk about it\" is a reference to which movie?",
+    "correctAnswer": "Fight Club",
+    "incorrectAnswers": [
+      "The Island",
+      "Unthinkable",
+      "American Pie"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "6ce83078d8126fac41e5a93b8d0bff31700b62f6784bdd2a1b3855f17b7754af",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194bf",
+    "question": "\"The Singing Cowboy\" Gene Autry is credited with the first recording for all but which classic Christmas jingle?",
+    "correctAnswer": "White Christmas",
+    "incorrectAnswers": [
+      "Frosty the Snowman",
+      "Rudolph the Red-Nosed Reindeer",
+      "Here Comes Santa Claus"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "57f43f7710863111ff66b847cf6b8988925bcfeb73382f7ff085bdb704b4a77f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdab6ddd0b01bd939aee5a",
+    "question": "7-Eleven stores were temporarily converted into Kwik E-marts to promote the release of what movie?",
+    "correctAnswer": "The Simpsons Movie",
+    "incorrectAnswers": [
+      "Spider-Man 3",
+      "Shrek the Third",
+      "Ratatouille"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "fc473476426210a9605c77a2a2e208e1cb399040ceeab9da792de1f48688ab14",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd915d64d094e2837ea410",
+    "question": "A classic 1976 song by Blue Oyster Cult features the advice &ldquo;Don&rsquo;t Fear The&rdquo; what?",
+    "correctAnswer": "Reaper",
+    "incorrectAnswers": [
+      "Dark",
+      "Silence",
+      "Clowns"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "44d47210e775706f974e47a9c887ef3e8f0aefdf5b550dce3f79ad614331ab4a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdae7ad6cd33070596e99d",
+    "question": "According to a song by Belinda Carlisle, Heaven is a place on what?",
+    "correctAnswer": "Earth",
+    "incorrectAnswers": [
+      "Venus",
+      "Mars",
+      "Uranus"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "3e5006c83c892753f2ae47864a9d192359f598e574e3f2fec2c581296e6f6c20",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194b6",
+    "question": "According to the American rapper Nelly, what should you do when its hot in here?",
+    "correctAnswer": "Take off all your clothes",
+    "incorrectAnswers": [
+      "Take a cool shower",
+      "Drink some water",
+      "Go skinny dipping"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "799378e65063e5315553039f84b5009b5a3efd76c4114e740d5f55c6ecea40e6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319589",
+    "question": "Aperture Science CEO Cave Johnson is voiced by which American actor?",
+    "correctAnswer": "J.K. Simmons",
+    "incorrectAnswers": [
+      "Nolan North",
+      "John Patrick Lowrie",
+      "Christopher Lloyd"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f7c7da85310cf833e7d90b9c046bbd4f581edf9ce63fc0aff97a62afe697266a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd956a8fcfed5c856dac5f",
+    "question": "At the end of the 2001 film \"Rat Race\", whose concert do the contestants crash?",
+    "correctAnswer": "Smash Mouth",
+    "incorrectAnswers": [
+      "Bowling for Soup",
+      "Sum 41",
+      "Linkin Park"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5494fcc6531204c607a4c1cdbebe867526bfefdbd0cff66ba838965d84c264db",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194b7",
+    "question": "Brian May was the guitarist for which band?",
+    "correctAnswer": "Queen",
+    "incorrectAnswers": [
+      "Pink Floyd",
+      "Rolling Stones",
+      "The Doors"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "1e733f7c38f758d4d28393d1630531e5d10ee137b147451b05738d0c6b1faae3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d3831953f",
+    "question": "British actor David Morrissey stars as which role in \"The Walking Dead\"?",
+    "correctAnswer": "The Governor",
+    "incorrectAnswers": [
+      "Negan",
+      "Rick Grimes",
+      "Daryl Dixon"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0997fc5eabbb14d1f9c2ca27ba1057128c92f4f71cf2243d3f6c02ed3583e2ae",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96f08fcfed5c856dad80",
+    "question": "Butters Stotch, Pip Pirrup, and Wendy Testaburger are all characters in which long running animated TV series?",
+    "correctAnswer": "South Park",
+    "incorrectAnswers": [
+      "The Simpsons",
+      "Family Guy",
+      "Bob's Burgers"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "48c67b80ac6cc1557fb9228d6bbbc524f615906c0528bba6a38e13d0dc8d4ff1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319463",
+    "question": "Daniel Radcliffe became a global star in the film industry due to his performance in which film franchise?",
+    "correctAnswer": "Harry Potter",
+    "incorrectAnswers": [
+      "Ted",
+      "Spy Kids",
+      "Pirates of the Caribbean "
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0971d6ffc0a601fe206a38571afb8068858a5abf1acc384b81b3ceaa32c625db",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd915d64d094e2837ea40f",
+    "question": "Finish these lyrics from the 2016 song \"Panda\" by Desiigner: \"I got broads in _______\".",
+    "correctAnswer": "Atlanta",
+    "incorrectAnswers": [
+      "Savannah",
+      "Augusta",
+      "Marietta"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8287aa3c2f6765a5e1706fba67e002efcbc4875f197660dcd75e1321256d6a58",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdafb84a1e48de0dd2f2f8",
+    "question": "For the film \"Raiders of The Lost Ark\", what was Harrison Ford sick with during the filming of the Cairo chase?",
+    "correctAnswer": "Dysentery",
+    "incorrectAnswers": [
+      "Anemia",
+      "Constipation",
+      "Acid Reflux "
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "10a91d5058a600dfad754a88ec29d051a431351b9ba2d358f9799c0bc3254011",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdad164949b6f3fc889e41",
+    "question": "From which country did the song \"Gangnam Style\" originate from?",
+    "correctAnswer": "South Korea",
+    "incorrectAnswers": [
+      "Japan",
+      "North Korea",
+      "China"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e88517346de0158f53eda76501413e0a947f374a45754c8082ca3d01ec8617e2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319583",
+    "question": "Gordon Freeman is said to have burnt and destroyed what food in the break room microwave?",
+    "correctAnswer": "Casserole",
+    "incorrectAnswers": [
+      "Sub Sandwich",
+      "Chicken Soup",
+      "Pepperoni Pizza"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "9956fab5e3f9df2e5fdadb931c5795f10c412456b62ad905d4acfd429f31b9a1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d3831953a",
+    "question": "Grant Gustin plays which superhero on the CW show of the same name?",
+    "correctAnswer": "The Flash",
+    "incorrectAnswers": [
+      "The Arrow",
+      "Black Canary",
+      "Daredevil"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "dab3a50ccc21eaf91c3e5a978254f523e7a2a35eb219a28db6a08a916688feac",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319535",
+    "question": "Guy's Grocery Games is hosted by which presenter?",
+    "correctAnswer": "Guy Fieri",
+    "incorrectAnswers": [
+      "Guy Martin",
+      "Guy Ritchie",
+      "Ainsley Harriott"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4b4e883814a3b2579cf1507c4250ab77c9d37525e6376309b2358ef01abf0a2e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaa07329caddc52d6217f",
+    "question": "How do you tame a horse in Minecraft?",
+    "correctAnswer": "By continually mounting it",
+    "incorrectAnswers": [
+      "By feeding it Wheat",
+      "By feeding it Sugar",
+      "By petting it"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f59a1fb5ca328fc9ab6db7de2f0ff8983499bfdc0e7856aeabf640aab6bc4090",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d3831959e",
+    "question": "How many Chaos Emeralds are there in the \"Sonic the Hedgehog\" universe?",
+    "correctAnswer": "7",
+    "incorrectAnswers": [
+      "6",
+      "8",
+      "14"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5bc0f75f3b679d4bf562b8352a87202ead6c0ee1dee6bda84a75c5f421c3a418",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91a664d094e2837ea457",
+    "question": "How many dice are used in the game of Yahtzee?",
+    "correctAnswer": "Five",
+    "incorrectAnswers": [
+      "Four",
+      "Six",
+      "Eight"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f913f9b15d07aada9feff90497344585e516afbe80c566130a457e3a0bce52d5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95c68fcfed5c856daca9",
+    "question": "How many dots are on a single die?",
+    "correctAnswer": "21",
+    "incorrectAnswers": [
+      "24",
+      "15",
+      "18"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "1ac3f57aa0a3fc5f21d71cde612050fb50d34d064ed8c7286ecc06608acd32d4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdabc9dd0b01bd939aee86",
+    "question": "How many flagship monsters appear in Monster Hunter Gernerations?",
+    "correctAnswer": "4",
+    "incorrectAnswers": [
+      "1",
+      "2",
+      "3"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "370fe34a046bc4e4a2463b05a8878c1ca93b37fd6179737d13615160ffd86cee",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319584",
+    "question": "How many games in the Crash Bandicoot series were released on the original Playstation?",
+    "correctAnswer": "5",
+    "incorrectAnswers": [
+      "4",
+      "3",
+      "6"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e0350af369a7eb6b3a6c5a70e5c66598683d50fe0cbfbf988cae7bbc3d25a79c",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194ab",
+    "question": "How many members are there in the band Nirvana?",
+    "correctAnswer": "Three",
+    "incorrectAnswers": [
+      "Two",
+      "Four",
+      "Five"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "2ae5c9674fc7e8fa5df297d74ea4ddb4e1f7de8c55ec043c23682762a2811aca",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdad574949b6f3fc889e5a",
+    "question": "How many obsidian blocks are required to build a nether portal in Minecraft?",
+    "correctAnswer": "10",
+    "incorrectAnswers": [
+      "14",
+      "13",
+      "16"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "71d2518c4679da91039dc795e1fe3aac344efc009af599f9d709a7765b692433",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd918264d094e2837ea434",
+    "question": "How many seasons did \"Stargate SG-1\" have?",
+    "correctAnswer": "10",
+    "incorrectAnswers": [
+      "3",
+      "7",
+      "12"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a026043cf3787963951aedd15bd936c89eaa5d4068b9f54b06b24c1d0830fbd6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d3831954e",
+    "question": "How many seasons did the Sci-Fi television show \"Stargate Atlantis\" have?",
+    "correctAnswer": "5",
+    "incorrectAnswers": [
+      "10",
+      "2",
+      "7"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f501e33613ee592f0e267e22d45b01fc6bf33c387157e818cfdd834a718b311a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d3831952c",
+    "question": "How many seasons did the Sci-Fi television show \"Stargate Universe\" have?",
+    "correctAnswer": "2",
+    "incorrectAnswers": [
+      "10",
+      "5",
+      "3"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "27e99c5c883f32d3498ae6908cdb964a043f177c2243adf8872d5639f92110de",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91a664d094e2837ea456",
+    "question": "How many spaces are there on a standard Monopoly board?",
+    "correctAnswer": "40",
+    "incorrectAnswers": [
+      "28",
+      "55",
+      "36"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "cf2e4166e256994059a73444a311253ad058b1fbf1e37dbf1ee6affc47901c81",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194cc",
+    "question": "How many strings are there on a cello?",
+    "correctAnswer": "4",
+    "incorrectAnswers": [
+      "5",
+      "6",
+      "8"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "eca8f577d2a3f4276081a23fdf54e651b16f734641a40d6280f7f24210966a9b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaa07329caddc52d62181",
+    "question": "In \"A Hat in Time\", what must Hat Kid collect to finish a level",
+    "correctAnswer": "A time piece",
+    "incorrectAnswers": [
+      "A heart fragment",
+      "A relic fragment",
+      "A hat"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ae7a372920af80026c060c67b38c47a286feba03d8c143d3faf0f5dc8d9927b9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8f9d158fd25b9c1d7f6c",
+    "question": "In \"ALF\", what was ALF's real name?",
+    "correctAnswer": "Gordon Shumway",
+    "incorrectAnswers": [
+      "Gordon Milipp",
+      "Gordon Foster",
+      "Gordon von Gam"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4d7a7cbf7f72506a279fd1c955c9704b4d6abd27994d3a1ca7b046c78a097a3d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319544",
+    "question": "In \"Breaking Bad\", Walter White is a high school teacher diagnosed with which form of cancer?",
+    "correctAnswer": "Lung Cancer",
+    "incorrectAnswers": [
+      "Prostate Cancer",
+      "Brain Cancer",
+      "Testicular Cancer"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a269c9d0d78cb04fd13b70ed1c64216fb5380d6b643bf33c34f64c6e2985d0b1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaa07329caddc52d62175",
+    "question": "In \"Call Of Duty: Zombies\", what is the name of the machine that upgrades weapons?",
+    "correctAnswer": "Pack-A-Punch",
+    "incorrectAnswers": [
+      "Wunderfizz",
+      "Gersch Device",
+      "Mule Kick"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4bcdfffcd02046cb8473150ebf2aefe0a2efceb885f21e3a1986c1018079709a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdb0094a1e48de0dd2f315",
+    "question": "In \"Fallout 4\" which faction is not present in the game?",
+    "correctAnswer": "The Enclave",
+    "incorrectAnswers": [
+      "The Minutemen",
+      "The Brotherhood of Steel",
+      "The Institute"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ccc74c4cb471d1be56ee0466282e9be51f095d37ed3f144b41f7026756cc22df",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96b68fcfed5c856dad5c",
+    "question": "In \"Homestuck\" the \"Kingdom of Darkness\" is also known as?",
+    "correctAnswer": "Derse",
+    "incorrectAnswers": [
+      "Skaia",
+      "Prospit",
+      "The Medium"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d553d6780d1892cf01713c7d569c66666de1ef72b853068d5a9f1ee3663bded2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd929964d094e2837ea538",
+    "question": "In \"Homestuck\" what is Dave Strider's guardian?",
+    "correctAnswer": "Bro",
+    "incorrectAnswers": [
+      "Becquerel",
+      "Doc Scratch",
+      "Halley"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "13bbbe17fed8febd1609c951e5afe6282bd68ae19dc125caac038ab1c209de2f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8f9d158fd25b9c1d7f67",
+    "question": "In \"Jurassic World\", what is the name of the dinosaur that is a genetic hybrid?",
+    "correctAnswer": "Indominus Rex",
+    "incorrectAnswers": [
+      "Mosasaurus",
+      "Pteranodon",
+      "Tyrannosaurus Rex "
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "cefac3d57ae15c74c0440479800d23276045002fb3c290c6f59dbf732cfa683a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d383195a2",
+    "question": "In \"Mario & Sonic at the Olympic Games\", characters are split into how many types?",
+    "correctAnswer": "4",
+    "incorrectAnswers": [
+      "6",
+      "5",
+      "3"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "cfa6ba47558c2122a4c108b1ef53d4ff616a9222207923150a80fc0cc3ae9a7c",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8f9d158fd25b9c1d7f6e",
+    "question": "In \"Mean Girls\", who has breasts that tell when it's raining?",
+    "correctAnswer": "Karen Smith",
+    "incorrectAnswers": [
+      "Gretchen Weiners",
+      "Janice Ian",
+      "Cady Heron"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "cf02993cd46a34d8ed36120a44e019e9d822a8245a93225cd59d601043ba582a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaa07329caddc52d6217b",
+    "question": "In \"Overwatch\", what is the name of the company that made D.Va's mech?",
+    "correctAnswer": "MEKA",
+    "incorrectAnswers": [
+      "MI8",
+      "KPAMC",
+      "JSAMB"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "bdc4215d8645232350745654398fb81b84853ff45e72f95d217407f3e6fe5321",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdad574949b6f3fc889e57",
+    "question": "In \"PUBATTLEGROUNDS\" which ammo type does the M24 use?",
+    "correctAnswer": "7.62mm",
+    "incorrectAnswers": [
+      "5.56mm",
+      "9mm",
+      ".300 Magnum"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "7d45282910531a2707349398563cdd6d5127729a999706fdc70bdd898cf3815c",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95a28fcfed5c856dac8a",
+    "question": "In \"Rick And Morty\", who shot \"Mr. Poopybutthole\" in the episode \"Total Rickall\"?",
+    "correctAnswer": "Beth",
+    "incorrectAnswers": [
+      "Rick",
+      "Jerry",
+      "Morty"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "51495b08842bb6a61961895caa0bb7fc0997d1d2652393d47c58731001008a24",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319539",
+    "question": "In \"Star Trek: Voyager\", which episode did Voyager establish real-time communication with Starfleet Headquarters?",
+    "correctAnswer": "Pathfinder",
+    "incorrectAnswers": [
+      "Message In A Bottle",
+      "Someone To Watch Over Me",
+      "Counterpoint"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ea3a1dcfaf64664fbf60f8c3cf086ba97668eee74049c07e1afd2c9b04c70535",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194ac",
+    "question": "In 2006, which band released their debut album \"A Fever You Can't Sweat Out\"?",
+    "correctAnswer": "Panic! At the Disco",
+    "incorrectAnswers": [
+      "Twenty One Pilots",
+      "My Chemical Romance",
+      "Fall Out Boy"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0486b86da549b74763b8ad2f14d11b34883847e739beb0a6ef097d8470724fe7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d3831952d",
+    "question": "In AMC's TV Series \"The Walking Dead\" what are \"Zombies\" referred to as?",
+    "correctAnswer": "Walkers",
+    "incorrectAnswers": [
+      "Creepers",
+      "Maggots",
+      "Hell Pigs"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c17ab2797faa7e0d327bb1048e874b7520a8cf4cbd766f3a43a7848f0c11aa55",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194c7",
+    "question": "In an orchestra, what is the lowest member of the brass family?",
+    "correctAnswer": "Tuba",
+    "incorrectAnswers": [
+      "Trombone",
+      "Contrabass",
+      "Bassoon"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "7e1035341fa1953e5f94f09171761519d8c5d9b262055e9a98409cc731908fb5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8f9d158fd25b9c1d7f70",
+    "question": "In Big Hero 6, what fictional city is the Big Hero 6 from?",
+    "correctAnswer": "San Fransokyo",
+    "incorrectAnswers": [
+      "San Tokyo",
+      "Tokysisco",
+      "Sankyo"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8a3fdb7a755d7848e46d3ef8c194047f15025ffe86ad662926bb4c6199399868",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96b68fcfed5c856dad5d",
+    "question": "In Black Hammer, what city did the heroes save from the Anti-God?",
+    "correctAnswer": "Spiral City",
+    "incorrectAnswers": [
+      "Mega-City One",
+      "Rockwood",
+      "Star City"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "cd93866033ae08943506707c421b6221fded1cc67b5f9f50e2504fc9a7040334",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95c68fcfed5c856dacaa",
+    "question": "In board games, an additional or ammended rule that applies to a certain group or place is informally known as a \"what\" rule?",
+    "correctAnswer": "House",
+    "incorrectAnswers": [
+      "Custom",
+      "Extra",
+      "Change"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e887e8e864f0cabbf2b76bba9cf9bba6b34db470412edaf6576987fb0c52c672",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91a664d094e2837ea454",
+    "question": "In chess, which is a characteristic of the King's Gambit?",
+    "correctAnswer": "Sacrificing a pawn",
+    "incorrectAnswers": [
+      "Sacrificing the king for a queen",
+      "Castling kingside",
+      "Moving the king on the 2nd move"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "1527214022cb82ed117245fba6bf4029e0a9093a2914d906672ad8c4eb86c74d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319580",
+    "question": "In CoD: Black Ops III, what is the name of the rogue A.I. antagonist?",
+    "correctAnswer": "Corvus",
+    "incorrectAnswers": [
+      "Cabal",
+      "Legion",
+      "Icarus"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "fb816795b1654166d9b360891f95ed9a9b33309ef4d0204458f9199883d7169e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d3831959d",
+    "question": "In Counter-Strike: Global Offensive, what's the rarity of discontinued skins called?",
+    "correctAnswer": "Contraband",
+    "incorrectAnswers": [
+      "Discontinued",
+      "Diminished",
+      "Limited"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4063f61af5264b091700af6d0b5bb6aee3cdb6336769c7eaa1aa6513e09a3966",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaa07329caddc52d62177",
+    "question": "In Danganronpa: Trigger Happy Havoc, what is the protagonist's name?",
+    "correctAnswer": "Makoto Naegi",
+    "incorrectAnswers": [
+      "Hajime Hinata",
+      "Nagito Komaeda",
+      "Komaru Naegi"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "178daa6426e82b0c3eef792114a63f1032b38c4899687f6c63c4bb1af2472e80",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdabaedd0b01bd939aee7c",
+    "question": "In DuckTales, what is the name of the city where all the main characters live?",
+    "correctAnswer": "Duckburg",
+    "incorrectAnswers": [
+      "Duckwing",
+      "Tailspin",
+      "Wingford"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "78f4c8b344226993c966cab1b436237cd1abc54c39f1b168c1c43b21d0cb0854",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d3831958d",
+    "question": "In Fallout: New Vegas, which one of these casinos can you not play in?",
+    "correctAnswer": "Lucky 38",
+    "incorrectAnswers": [
+      "The Tops",
+      "Gammorah",
+      "Ultra-Luxe"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "599d63907ba3623e9dc302ac66f96fdd86b5b253c95984790d3fee2f977424d3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319547",
+    "question": "In Game of Thrones, what continent lies across the Narrow Sea from Westeros?",
+    "correctAnswer": "Essos",
+    "incorrectAnswers": [
+      "Easteros",
+      "Westereast",
+      "Esuntos"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0316ceebda3f613eeb07b4a65ea6aa1e7e18e1cc66ecd88f4dd418a412458ee2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda9ec329caddc52d6216a",
+    "question": "In Game of Thrones, what is Littlefinger's real name?",
+    "correctAnswer": "Petyr Baelish",
+    "incorrectAnswers": [
+      "Podrick Payne",
+      "Lancel Lannister",
+      "Torrhen Karstark"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "07ad7b3534df80454891e89069defe0c7950740528eb6b1042d6368fc9a6cbde",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96db8fcfed5c856dad6f",
+    "question": "In Ms. Kobayashi's Dragon Maid, who is Kobayashi's maid?",
+    "correctAnswer": "Tohru",
+    "incorrectAnswers": [
+      "Lucoa",
+      "Kanna",
+      "Elma"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e9da78ca8f8f1eae3ce303677d00d5d84b57fb9764f4f1443dc18446423c08a9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaebcd6cd33070596e9b0",
+    "question": "In Portal 2, how did CEO of Aperture Science, Cave Johnson, presumably die?",
+    "correctAnswer": "Moon Rock Poisoning",
+    "incorrectAnswers": [
+      "Accidentally sending a portal to the Moon",
+      "Slipped in the shower",
+      "Asbestos Poisoning"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "9a6ecc3c3828d49ad23304ef26c179c2f3373ff223220ff7b6f3d5e62eee52f6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d383195a9",
+    "question": "In PROTOTYPE 2. who is referred to as \"Tango Primary\"?",
+    "correctAnswer": "James Heller",
+    "incorrectAnswers": [
+      "Alex Mercer",
+      "Dana Mercer",
+      "Any Goliaths roaming around"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a55ad08d2da2acaca41a3da79992e1ab45b4214d7293939ef926d90725cffa37",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95a28fcfed5c856dac8c",
+    "question": "In season one of the Netflix political drama \"House of Cards\", what government position does Frank Underwood hold?",
+    "correctAnswer": "House Majority Whip",
+    "incorrectAnswers": [
+      "Attorney General",
+      "President",
+      "Chief of Staff"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8a38aa4f30be6a730b3ef3b4610de995f1ee0d4f94ebde0e14edf0de8a4c1f7e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd916f64d094e2837ea424",
+    "question": "In Shakespeare's play Julius Caesar, Caesar's last words were...",
+    "correctAnswer": "Et tu, Brute? ",
+    "incorrectAnswers": [
+      "Iacta alea est!",
+      "Vidi, vini, vici.",
+      "Aegri somnia vana."
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "56a3209c56e3647b83a51371980d0be78e04e57dd3f79a56debbba7ff81519ce",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319540",
+    "question": "In Star Trek: The Next Generation, what is the name of Data's cat?",
+    "correctAnswer": "Spot",
+    "incorrectAnswers": [
+      "Mittens",
+      "Tom",
+      "Kitty"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "64f6fe6ca6a22e2f76fc7311fa863c846874088fce9e4ad3615dd3329d6adcab",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda9ec329caddc52d62169",
+    "question": "In Supernatural, what's is Sam's brothers name?",
+    "correctAnswer": "Dean",
+    "incorrectAnswers": [
+      "Dave",
+      "Steve",
+      "Mike"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4e628ea9ca349f7a8afe42ae52f42a390dc846f1dd4ff1bd2ff32aec40debfd7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194a8",
+    "question": "In the  Rossini opera, what was the name of 'The Barber of Seville'?",
+    "correctAnswer": "Figaro",
+    "incorrectAnswers": [
+      "Angelo",
+      "Fernando",
+      "Dave"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "03d40169b9b8d7b48ebed21c439fcd757f59c4ed3dcb17e724a8bc1ba6760b0e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319597",
+    "question": "In the \"Worms\" series of video games, which of these weapons is affected by wind?",
+    "correctAnswer": "Bazooka",
+    "incorrectAnswers": [
+      "Grenade",
+      "Air Strike",
+      "Mortar"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "744b5d0502957c97c953d2368a995dc7ee36ade5ac903aec1d23178726a3cdca",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319457",
+    "question": "In the 1986 film \"The Wraith\", what concept car is used for the Turbo Interceptor?",
+    "correctAnswer": "Dodge M4S",
+    "incorrectAnswers": [
+      "Pontiac Banshee",
+      "General Motors Firebird",
+      "Dodge Copperhead"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0c22b63dbb7c84b593bbb18b56cd951b3f3ba6d294ce5e1075e670871ae02b51",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8f9d158fd25b9c1d7f66",
+    "question": "In the 1995 film \"Balto\", who are Steele's accomplices?",
+    "correctAnswer": "Kaltag, Nikki, and Star",
+    "incorrectAnswers": [
+      "Dusty, Kirby, and Ralph",
+      "Nuk, Yak, and Sumac",
+      "Jenna, Sylvie, and Dixie"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5e60bdb6dde4fa129a84bf7841314b7f9331672c3034b5b5dea1c3e360338c56",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d3831946b",
+    "question": "In the 2012 film, \"The Lorax\", who is the antagonist?",
+    "correctAnswer": "Aloysius O'Hare",
+    "incorrectAnswers": [
+      "Ted Wiggins",
+      "The Once-Ler",
+      "Grammy Norma"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "704bb5698474b19ccb7e5e3a6babf449b303a7d3007dacf6be77bf39ae23ccda",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319549",
+    "question": "In the cartoon 'SpongeBob SquarePants', what did the acronym E.V.I.L stand for?",
+    "correctAnswer": "Every Villain Is Lemons",
+    "incorrectAnswers": [
+      "Every Villain Is Lemonade",
+      "Every Villain Is Limes",
+      "Each Villain Is Lemonade"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d00fa58544e72ec8f6a5513e936a9827fa39b931dce6be5b85bc5850b1cb86d2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d383195a1",
+    "question": "In the first game of the Sly Cooper franchise, what family heirloom did Sly Cooper want to steal back?",
+    "correctAnswer": "Thievius Raccoonus",
+    "incorrectAnswers": [
+      "Raccoon Training 101",
+      "The Art of Sneak",
+      "Raccoonus Teachus"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f075c36c44e651970888e97988919b4819c8706b29052f918c130e7eb67b3b0e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdad574949b6f3fc889e55",
+    "question": "In the game \"Fire Emblem: Shadow Dragon\", what is the central protagonist's name?",
+    "correctAnswer": "Marth",
+    "incorrectAnswers": [
+      "Roy",
+      "Eliwood",
+      "Robin"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "090e822399d764ed84412fef2bad8e080694865faabfd63a1102d93eba8565b8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d383195a6",
+    "question": "In the game \"Hearthstone\", what is the best rank possible?",
+    "correctAnswer": "Rank 1 Legend",
+    "incorrectAnswers": [
+      "Rank 1 Elite",
+      "Rank 1 Master",
+      "Rank 1 Supreme"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "93a95588a33656cae0bb3cfa6c7c2aebf64adc64449eeef45b2c6ce2bcc4de6a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319582",
+    "question": "In the game Half-Life, which enemy is showcased as the final boss?",
+    "correctAnswer": "The Nihilanth",
+    "incorrectAnswers": [
+      "Dr. Wallace Breen",
+      "G-Man",
+      "The Gonarch"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "1fd703ee683d052e9583384fdae130a629cca6cca98e09e2fadb8ccc0c226aff",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdad574949b6f3fc889e5b",
+    "question": "In the game Sonic Forces, which of the following was not from a previous game?",
+    "correctAnswer": "Infinite",
+    "incorrectAnswers": [
+      "Metal Sonic",
+      "Zavoc",
+      "Chaos"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f156a42da613084af2baad8f05c3ca16bffc8bc68c26d365879df9c6e175856b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdb0094a1e48de0dd2f319",
+    "question": "In the Half-Life series, Gordon Freeman's signature weapon is a:",
+    "correctAnswer": "Crowbar",
+    "incorrectAnswers": [
+      "Sledgehammer",
+      "Fiber Wire",
+      "Katana"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "57d4b158a128354a3d6618db998499962b01266f872d529b6ea2124cb76b1947",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8f9d158fd25b9c1d7f71",
+    "question": "In the Lord of the Rings: The Two Towers, where are the party of orcs taking the hobbits?",
+    "correctAnswer": "Isengard",
+    "incorrectAnswers": [
+      "Rivendell",
+      "Mordor",
+      "Moria"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "885ef2f045c03b2035d8724ac7316a46911a0702be5d58e5b7a2ad5aeb48119c",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdad574949b6f3fc889e54",
+    "question": "In the lore of the PAYDAY series, which criminal was arrested and then latered rescued by the PAYDAY gang?",
+    "correctAnswer": "Hoxton",
+    "incorrectAnswers": [
+      "Dallas",
+      "Wolf",
+      "Chains"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f11035aec136286849f67d225b9133d93ad35419cd6a08b4916ee5a7fc8dfca7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319458",
+    "question": "In the movie \"Blade Runner\", what is the term used for human-like androids ?",
+    "correctAnswer": "Replicants",
+    "incorrectAnswers": [
+      "Cylons",
+      "Synthetics",
+      "Skinjobs"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "298d0c5ff1ba771a440a8cd4351b5ec35b7a2022eecacc4d89b0b9341fcd440f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319454",
+    "question": "In the movie \"Spaceballs\", what are the Spaceballs attempting to steal from Planet Druidia?",
+    "correctAnswer": "Air",
+    "incorrectAnswers": [
+      "The Schwartz",
+      "Princess Lonestar",
+      "Meatballs"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e7c67ab97b97f83cea1b9cc948a3399fb890eeb9ecc22875b57849fd9cf5f1cd",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d3831945e",
+    "question": "In the movie \"V for Vendetta,\" what is the date that masked vigilante \"V\" urges people to remember?",
+    "correctAnswer": "November 5th",
+    "incorrectAnswers": [
+      "November 6th",
+      "November 4th",
+      "September 5th"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "7de3269ceff633c79326c6d99ab65f073971e7d3eadc65026915bfebc54dfc34",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8f9d158fd25b9c1d7f6d",
+    "question": "In the movie Gremlins, after what time of day should you not feed Mogwai?",
+    "correctAnswer": "Midnight",
+    "incorrectAnswers": [
+      "Evening",
+      "Morning",
+      "Afternoon"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "2daa88bd1b1d2ee6b0ced789d9dfe9324a7b9382e9ad5f0469a420bca165c600",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d3831958a",
+    "question": "In the Nintendo DS game 'Ghost Trick: Phantom Detective', what is the name of the hitman seen at the start of the game?",
+    "correctAnswer": "Nearsighted Jeego",
+    "incorrectAnswers": [
+      "One Step Ahead Tengo",
+      "Missile",
+      "Cabanela"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "eaa93853e1ebd8625bc69391ece6c46c8210080f0d12d0b5d6858e06759869aa",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319533",
+    "question": "In the original Star Trek TV series, what was Captain James T. Kirk's middle name?",
+    "correctAnswer": "Tiberius",
+    "incorrectAnswers": [
+      "Trevor",
+      "Travis",
+      "Tyrone"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e1df669f809d12a4ea93f93caa9d789995dbce7f8281e8acd3b0dbd1c5415e8d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaa07329caddc52d6217c",
+    "question": "In the PAYDAY series, who betrayed the PAYDAY gang that got Hoxton arrested?",
+    "correctAnswer": "Hector",
+    "incorrectAnswers": [
+      "Vlad",
+      "The Dentist",
+      "The Elephant"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c8d8eaaf1a1860af3907559ae96c6d73ff221e1963deddf075103b6571dc58ad",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdabaedd0b01bd939aee7a",
+    "question": "In the show \"Dragonball Z\", what is the name of Cell's most powerful attack?",
+    "correctAnswer": "Solar Kamehameha",
+    "incorrectAnswers": [
+      "Super Kamehameha",
+      "Cell Kamehameha",
+      "Android Kamehameha"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "491251613529e4302962dd921eba2ec67af6d12b3262ec29824e99d00aab98c7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319550",
+    "question": "In the show \"Futurama\" what is Fry's full name?",
+    "correctAnswer": "Philip J. Fry",
+    "incorrectAnswers": [
+      "Fry J. Philip",
+      "Fry Rodr&iacute;guez",
+      "Fry Philip"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "46b2b04490bee8b6dbda4c3628d938537ecdf221fa391e6e9f68d8bb210e6be2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319553",
+    "question": "In the show \"Tengen Toppa Gurren Lagann\" what is the name of the character who force everyone to live underground?",
+    "correctAnswer": "Lordgenome",
+    "incorrectAnswers": [
+      "Kingloname",
+      "Lord Genome",
+      "King Loname"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "3bf67288575b682457dfd05d4ff1c4e703e6d5e296eef47537be7731c23a38d2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319534",
+    "question": "In the show Stranger Things, what is Eleven's favorite breakfast food?",
+    "correctAnswer": "Eggo Waffles",
+    "incorrectAnswers": [
+      "Toast",
+      "Captain Crunch",
+      "Bacon and Eggs"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e2aecab6b9de772aa744367d3c3d0d2bc806176f5688eefd2a468e5c838d2796",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319541",
+    "question": "In the show, Doctor Who, what does T.A.R.D.I.S stand for?",
+    "correctAnswer": "Time And Relative Dimensions In Space",
+    "incorrectAnswers": [
+      "Time And Resting Dimensions In Space",
+      "Time And Relative Dimensions In Style",
+      "Toilet Aid Rope Dog Is Soup"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "6a07a5e542a5a4119ea2b19822309fc89544485ea241a651ccd5598cc430e826",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd92d164d094e2837ea570",
+    "question": "In The Simpsons, which war did Seymour Skinner serve in the USA Army as a Green Beret?",
+    "correctAnswer": "Vietnam War",
+    "incorrectAnswers": [
+      "World War 2",
+      "World War 1",
+      "Cold War"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0289cdda506c9227ee4b0410118f356e373c072187f2394b5edabd0fe5490257",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319551",
+    "question": "In the Star Trek universe, what color is Vulcan blood?",
+    "correctAnswer": "Green",
+    "incorrectAnswers": [
+      "Blue",
+      "Red",
+      "Purple"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8546b415f6cb7bf90c99206c11b59eeb5dcf819bc2d44843bbfd4ab2f537b839",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d3831944d",
+    "question": "In the Super Mario Bros. Movie (2023), who plays Toad?",
+    "correctAnswer": "Keegan-Michael Key",
+    "incorrectAnswers": [
+      "Seth Rogan",
+      "Charlie Day",
+      "Jack Black"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "257bd97a781c23270cee304c48c7a17aae8891011e8d095eba6f712b2400f1ef",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d383195a3",
+    "question": "In the Super Smash Bros. series, which character was the first one to return to the series after being absent from a previous game?",
+    "correctAnswer": "Dr. Mario",
+    "incorrectAnswers": [
+      "Mewtwo",
+      "Lucas",
+      "Roy"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "eb7db5af6d0b3eff8716ac97d8ea39331a3962339f1da0cadb5fa55d377b41d8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d3831954f",
+    "question": "In the television show Breaking Bad, what is the street name of Walter and Jesse's notorious product?",
+    "correctAnswer": "Blue Sky",
+    "incorrectAnswers": [
+      "Baby Blue",
+      "Rock Candy",
+      "Pure Glass"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ddabf8424c5c6a968c957a7d5d2a16b4ddea16925ee6b7715313f9583d9a61bf",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95a28fcfed5c856dac89",
+    "question": "In the TV show 'M*A*S*H', what was the nickname of Corporal Walter O'Reilly?",
+    "correctAnswer": "Radar",
+    "incorrectAnswers": [
+      "Hawkeye",
+      "Hot Lips",
+      "Trapper"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "1aa12b0b858eaec254ffe800cb88e8a34fd569ba8a5f5ae60d83a8829c848d1f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d3831953d",
+    "question": "In the TV show \"Cheers\", Sam Malone was a former relief pitcher for which baseball team?",
+    "correctAnswer": "Boston Red Sox",
+    "incorrectAnswers": [
+      "New York Mets",
+      "Baltimore Orioles",
+      "Milwaukee Brewers"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "05b70b88f5e60aaaf592bf91b5f0603b02dec55137d217e959db24b43add4930",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d3831954d",
+    "question": "In the TV show \"Mad Men\", what was Donald Draper's birthname?",
+    "correctAnswer": "Richard \"Dick\" Whitman",
+    "incorrectAnswers": [
+      "Donald Draper",
+      "John Ashbury",
+      "Michael \"Mikey\" Wilhelm"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8993da111b0b8ab82489eac5d0076b84cf2a3300bff90a1943ab536f56cbfed5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd919464d094e2837ea443",
+    "question": "In the video game \"Team Fortress 2\", which class is able to double jump?",
+    "correctAnswer": "Scout",
+    "incorrectAnswers": [
+      "Spy",
+      "Engineer",
+      "Pyro"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "9f53cca27fb2f206fdc7d0664958a11cf1a895034045cd52a5aa4594c930e51d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaa07329caddc52d6217e",
+    "question": "In the video game franchise \"Halo\", what is the UNSC's main opposing faction called?",
+    "correctAnswer": "The Covenant",
+    "incorrectAnswers": [
+      "The Reckoning",
+      "The Peoples",
+      "The Slaughterers"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4f6a8de06b3e2e5eb9410dae1c6a10873e4607c6604e8ac99824822d4a9f4cc1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaa07329caddc52d6217d",
+    "question": "In the Video Game, Half-life, what type of US military force starts clearing out the Black Mesa Research Facility?",
+    "correctAnswer": "The HECU",
+    "incorrectAnswers": [
+      "Navy Seals",
+      "The Combine",
+      "The Marines"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "82066902341454384d50af0df9388d23286611079c8158b3e1461df8900e11b6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d3831953b",
+    "question": "In Two and a Half Men, what is Alan Harper's son's name?",
+    "correctAnswer": "Jake",
+    "incorrectAnswers": [
+      "John",
+      "Jeremy",
+      "James"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e5731b374a5f526657186ffbe721d4a7be0eb0d6c950c3cb6aeeebd7fdc6267c",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdb0094a1e48de0dd2f316",
+    "question": "In what year was \"Metal Gear Solid\" released in North America?",
+    "correctAnswer": "1998",
+    "incorrectAnswers": [
+      "1987",
+      "2001",
+      "2004"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4570d5d801903ff03a2486f7eadee24b51a17d23dfcd3e2107e35eaf4c456a87",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaa07329caddc52d62180",
+    "question": "In what year was Garry's Mod released as a standalone title on Valve's Steam distribution service?",
+    "correctAnswer": "2006",
+    "incorrectAnswers": [
+      "2007",
+      "2004",
+      "2003"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "1122612b72950d5c6980b4af5d2ddbcddd1c81ccf612e004d4831b2a140014c1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaebcd6cd33070596e9b6",
+    "question": "In what year was the game \"Fallout\" released?",
+    "correctAnswer": "1997",
+    "incorrectAnswers": [
+      "1998",
+      "1999",
+      "1996"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ac35dd492d71d87f27b56cc4ad9ebc303f9f35af1b91253b1e48d53c8e3caae3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319554",
+    "question": "In which British seaside town was the BBC sitcom \"Fawlty Towers\" set?",
+    "correctAnswer": "Torquay",
+    "incorrectAnswers": [
+      "Blackpool",
+      "Bournemouth",
+      "Great Yarmouth"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "88734d0fd518584fc05f639dc60f1838eada48d4a94188a8d53fe3775a7e2a49",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d3831946e",
+    "question": "In which film does Humphrey Bogart say the famous line, \"Here's looking at you, kid\"?",
+    "correctAnswer": "Casablanca",
+    "incorrectAnswers": [
+      "The Maltese Falcon",
+      "The Treasure of the Sierra Madre",
+      "Citizen Kane"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "1554912c0e9cfa412057bc73b9da7e89d573291515bc82e96402477883e3c4ea",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdb0094a1e48de0dd2f31b",
+    "question": "In which series of games do you collect souls to empower you and buy weaponry and armor with?",
+    "correctAnswer": "Souls ",
+    "incorrectAnswers": [
+      "Final Fantasy ",
+      "Monster Hunter",
+      "The Legend of Zelda"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "fbdbf0f84a97533411e951c31def0159bf23f75d49660ad9adf2ab96313e46b9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaebcd6cd33070596e9b1",
+    "question": "In which year was League of Legends released?",
+    "correctAnswer": "2009",
+    "incorrectAnswers": [
+      "2010",
+      "2003",
+      "2001"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "acba3d35e82d0cd093aa4469107c0a1c16461999aa0dee9d1163191ab5dd31fa",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95c68fcfed5c856daca8",
+    "question": "In which year was the pen and paper RPG \"Deadlands\" released?",
+    "correctAnswer": "1996",
+    "incorrectAnswers": [
+      "2003",
+      "1999",
+      "1993"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "cdf4e81893fb06af2ff7c66a1ae0d3be4a0ea4385f8550b01f0c654da71a779b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194a9",
+    "question": "Kanye West at 2009 VMA's interrupted which celebrity?",
+    "correctAnswer": "Taylor Swift",
+    "incorrectAnswers": [
+      "MF DOOM",
+      "Beyonce",
+      "Beck"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "192972214d4642a8e28f025abd5b943f5670f1764a4100ae8d8b77cbe195f01f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda9c5329caddc52d62151",
+    "question": "Kanye West's \"Gold Digger\" featured which Oscar-winning actor?",
+    "correctAnswer": "Jamie Foxx",
+    "incorrectAnswers": [
+      "Alec Baldwin",
+      "Dwayne Johnson",
+      " Bruce Willis"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "2adea5f06d935e8691ce8dcee30da678df7122dc90924c97f69bd93c1ea822cd",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319536",
+    "question": "On the NBC show Community, whose catch-phrase was \"Pop! Pop!\"?",
+    "correctAnswer": "Magnitude",
+    "incorrectAnswers": [
+      "Star Burns",
+      "Leonard",
+      "Senoir Chang"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "43c745070e659885f41cdf60cfcdb0db082a69cc8bc822293c804ee88b430992",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319532",
+    "question": "On the show \"Rick and Morty\", in episode \"Total Rickall\", who was a parasite?",
+    "correctAnswer": "Pencilvester",
+    "incorrectAnswers": [
+      "Beth Smith",
+      "Summer Smith",
+      "Mr. Poopy Butthole"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "db0a4c5d438433accd617a76eec0db8c3b4f77d058d1effdcc2c118883c80b9d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdad574949b6f3fc889e53",
+    "question": "Pok&eacute;mon Go is a location-based augmented reality game developed and published by which company?",
+    "correctAnswer": "Niantic",
+    "incorrectAnswers": [
+      "Rovio",
+      "Zynga",
+      "Supercell"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "62d11a4dc27618cefdb9a7cb4322345928f8261cf1ddcb92795b59f7d37b1877",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda9c5329caddc52d6214f",
+    "question": "Ringo Starr of The Beatles mainly played what instrument?",
+    "correctAnswer": "Drums",
+    "incorrectAnswers": [
+      "Bass",
+      "Guitar",
+      "Piano"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5ee3c3720b0ea9ec8f586d90a86c5f755642097af56cb47e23f6452d2658abae",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaa07329caddc52d62178",
+    "question": "Rocket League is a game which features..",
+    "correctAnswer": "Cars",
+    "incorrectAnswers": [
+      "Helicopters",
+      "Planes",
+      "Submarines"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8c7df940cf66a1b0a7d86420215b0dd9bba8d0893beb6afd76e03e5025f9aef4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdad164949b6f3fc889e40",
+    "question": "Sting, the lead vocalist of The Police, primarily plays what instrument?",
+    "correctAnswer": "Bass Guitar",
+    "incorrectAnswers": [
+      "Drums",
+      "Guitar",
+      "Keyboards"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d01594c615641045ecc11007f315ce928b10a9b8575a7319240353d9e1a872cb",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdad164949b6f3fc889e3e",
+    "question": "The \"British Invasion\" was a cultural phenomenon in music where British boy bands became popular in the USA in what decade?",
+    "correctAnswer": "60's",
+    "incorrectAnswers": [
+      "50's",
+      "40's",
+      "30's"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ebbd1e2e255459823e1e1db9165ffef0894deb1fd04b465cefc27ed66b0323b1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95a28fcfed5c856dac8d",
+    "question": "The \"Psycho\" series of videos on YouTube was created by which of the following?",
+    "correctAnswer": "RiDGiD STUDiOS",
+    "incorrectAnswers": [
+      "Dan Bell",
+      "Billy Familia",
+      "VeganGainz"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "75ead373f1e9ef30ce7be0c42ef497d312b380ca143bb36466f50a7852a96056",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319465",
+    "question": "The 1996 film 'Fargo' is primarily set in which US state?",
+    "correctAnswer": "Minnesota",
+    "incorrectAnswers": [
+      "North Dakota",
+      "South Dakota",
+      "Wisconsin"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "07ceca2e164145ccc96c2160060917e521d9b9e2c98660e89eeffe0a90a60555",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8f9d158fd25b9c1d7f65",
+    "question": "The 2002 film \"28 Days Later\" is mainly set in which European country?",
+    "correctAnswer": "United Kingdom",
+    "incorrectAnswers": [
+      "France",
+      "Italy",
+      "Germany"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0e629259a56ca5b69ceb735bf24fab32046157d60fd0f4aca842d43ea513014b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8f9d158fd25b9c1d7f64",
+    "question": "The 2016 Disney animated film 'Moana' is based on which culture?",
+    "correctAnswer": "Polynesian",
+    "incorrectAnswers": [
+      "Native American",
+      "Japanese",
+      "Nordic"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "bebd3b884ce2e2d7b8a328edf402e0b7be45bf6f44b62f3f36c4f55b427243b3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194b9",
+    "question": "The band Muse released their first album, Showbiz, in what year?",
+    "correctAnswer": "1999",
+    "incorrectAnswers": [
+      "1998",
+      "2000",
+      "2001"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ef08ea1440907e4085fdaf47061586ed0dffd1fcbfb89f95d9f752d3967bd39f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96db8fcfed5c856dad70",
+    "question": "The characters of \"Log Horizon\" are trapped in what game?",
+    "correctAnswer": "Elder Tale",
+    "incorrectAnswers": [
+      "Sword Art Online",
+      "Tower Unite",
+      "Yggdrasil"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "1ce0b0fa99256371611c72e20101f5593653873c0e640cd4b7cf5e79788f8b49",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194bb",
+    "question": "The four strings on a violin are the G string, D string, A string, and...",
+    "correctAnswer": "E string",
+    "incorrectAnswers": [
+      "C string",
+      "B string",
+      "F string"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ab3ce601cfc3e0936939e1e725ac4f24b78b2aa1b4fdfb3b3642810afbcad7cc",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319531",
+    "question": "The HBO series \"Game of Thrones\" is based on which series of books?",
+    "correctAnswer": "A Song of Ice and Fire",
+    "incorrectAnswers": [
+      "The Wheel of Time",
+      "Harry Potter",
+      "The Notebook"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "bb2bb0069ff467d52045e1a449225e3d7381de648ab5299ebeeead0e47d3c946",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319588",
+    "question": "The Khajiit are a race of cat-like creatures from which epic series of role-playing games, set across the land of Tamriel?",
+    "correctAnswer": "The Elder Scrolls",
+    "incorrectAnswers": [
+      "Lord of the Rings",
+      "The Witcher",
+      "Neverwinter Nights"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "011a81344cfd81e2a8d1eaed6025e964e26886015fb5f3323957ea786cf8412e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96db8fcfed5c856dad6e",
+    "question": "The name of Junko Enoshima's imposter at the beginning of Danganronpa: Trigger Happy Havoc is?",
+    "correctAnswer": "Mukuro Ikusaba",
+    "incorrectAnswers": [
+      "Ryota Mitarai",
+      "Ultimate Imposter",
+      "Komaru Naegi"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ecb641ce1ff7e39a1190ee1c0b8d1d7115a515de68684a7af0834594f42f2f02",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd956a8fcfed5c856dac60",
+    "question": "The Queen song `A Kind Of Magic` is featured in which 1986 film?",
+    "correctAnswer": "Highlander",
+    "incorrectAnswers": [
+      "Flash Gordon",
+      "Labyrinth",
+      "Howard the Duck"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "2581b3831f408290cc3b55657c9a6a016479a98d1a9f0509c97bd5501d8696e2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194ae",
+    "question": "The Red Hot Chili Pepper song \"Give It Away\" is from what album?",
+    "correctAnswer": "Blood Sugar Sex Magik",
+    "incorrectAnswers": [
+      "One Hot Minute",
+      "By the Way",
+      "Stadium Arcadium"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ee92bb1ca7467a07347a2565bd30fbe6bf1d4feb67693e2f6cedbc9f4913ef34",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95b48fcfed5c856dac99",
+    "question": "The starting pistol of the Terrorist team in a competitive match of Counter Strike: Global Offensive is what?",
+    "correctAnswer": "Glock-18",
+    "incorrectAnswers": [
+      "Tec-9",
+      "Desert Eagle",
+      "Dual Berretas"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c4da2f67047c9a68df18e2b9e8f4e14dde226f496d6771ce3095a54877af29bc",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda9c5329caddc52d62153",
+    "question": "The tuba is a part of which musical family?",
+    "correctAnswer": "Brass",
+    "incorrectAnswers": [
+      "Percussion",
+      "Strings",
+      "Woodwind"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "52171922e2f55ad194c0acf8b75493b6724734a28106e2213501ee8a1f546af3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd929964d094e2837ea53a",
+    "question": "This Marvel superhero is often called \"The man without fear\".",
+    "correctAnswer": "Daredevil",
+    "incorrectAnswers": [
+      "Thor",
+      "Wolverine",
+      "Hulk"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "30476519af36e7a00aa164c38bd3dc7d9ba8c6ee9abe79eac93837b86f4b7cb7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d3831946f",
+    "question": "This movie contains the quote, \"Houston, we have a problem.\"",
+    "correctAnswer": "Apollo 13",
+    "incorrectAnswers": [
+      "The Right Stuff",
+      "Capricorn One",
+      "Marooned"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a9e960667cf6ed1cfd9354162be6dae797e46b4110f23b52b26400194f9a59eb",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319469",
+    "question": "This movie contains the quote, \"I feel the need ... the need for speed!\"",
+    "correctAnswer": "Top Gun",
+    "incorrectAnswers": [
+      "Days of Thunder",
+      "The Color of Money",
+      "Cocktail"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "2ecb51374a19ce7055315a7ce296d4f6409ac0b3d0d1f8715c20b8d8308a5f71",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd914a64d094e2837ea3fe",
+    "question": "This movie contains the quote, \"Nobody puts Baby in a corner.\"",
+    "correctAnswer": "Dirty Dancing",
+    "incorrectAnswers": [
+      "Three Men and a Baby",
+      "Ferris Bueller's Day Off",
+      "Pretty in Pink"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "9bc20585bdf5a7ce0fca9ddd959114e103358d8730345fb463949454adeb6337",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319593",
+    "question": "Valve Corporation is an American video game developer located in which city?",
+    "correctAnswer": "Bellevue, Washington",
+    "incorrectAnswers": [
+      "Austin, Texas",
+      "Seattle, Washington",
+      "San Francisco, California"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b781b1f4b602b0f6990bf7eb2be02502f7a9795585ca9bb33472ada9ef5d3304",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194a6",
+    "question": "What 1970's American ballad referred to the 1959 plane crash as the \"the day the music died\"?",
+    "correctAnswer": "American Pie",
+    "incorrectAnswers": [
+      "Kentucky Rain",
+      "I Will Always Love You",
+      "Rock 'n' Roll Suicide"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "db63e0ea7aa8efe559487f6ea297623b7377eb3d3d12fa57dcc615f665187a68",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194c6",
+    "question": "What album did The Lumineers release in 2016?",
+    "correctAnswer": "Cleopatra",
+    "incorrectAnswers": [
+      "Winter",
+      "The Lumineers",
+      "Tracks From The Attic"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "bb371ebe2f8a23f1c2d73106b8c5aafa7ae6304a73142f960f641e2bf3c6b036",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8f9d158fd25b9c1d7f69",
+    "question": "What breed of dog was Marley in the film \"Marley & Me\" (2008)?",
+    "correctAnswer": "Labrador Retriever",
+    "incorrectAnswers": [
+      "Golden Retriever",
+      "Dalmatian",
+      "Shiba Inu"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a9d96be2fc231e6a29fc315569523063323190f11eb4875b9d87434afa90a800",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd957c8fcfed5c856dac71",
+    "question": "What collaborative album was released by Kanye West and Jay-Z in 2011?",
+    "correctAnswer": "Watch the Throne",
+    "incorrectAnswers": [
+      "Distant Relatives",
+      "What a Time to be Alive",
+      "Unfinished Business"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "6f5d2fd07b28b3257814e0c463a4ef39fdae5b8235b1923a47e808dab04d7f73",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd92be64d094e2837ea55a",
+    "question": "What color is Ryūko Matoi's half of the Scissor Blade in the anime Kill la KIll?",
+    "correctAnswer": "Red",
+    "incorrectAnswers": [
+      "Green",
+      "Blue",
+      "Purple"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b8f84e99f2f7b3b0c062bae8d04b618bec3a2b07afc3a8b84e19b8ac5658ced6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaea1d6cd33070596e9ab",
+    "question": "What country is Cory in the House set in?",
+    "correctAnswer": "The United States of America",
+    "incorrectAnswers": [
+      "Canada",
+      "Venezuala",
+      "England"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "069d311b2c95cab07f362a44f6731c0c0cf067b5d5520f1726d9bad99cd8994d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319581",
+    "question": "What does IWHBYD stand for on the skull in the Halo series?",
+    "correctAnswer": "I Would Have Been Your Daddy",
+    "incorrectAnswers": [
+      "I Wanna Have Babies You Down",
+      "I Would Hate Being Your Driver",
+      "I Would Have Bought Your Dog"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5228b11a3182ff1b107e138ea8f9366557c1dd055c30bad49173059695a5ef07",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d383195a5",
+    "question": "What game mode was not in the original \"Wii Sports\"?",
+    "correctAnswer": "Table Tennis",
+    "incorrectAnswers": [
+      "Boxing",
+      "Baseball",
+      "Bowling"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "025b7e73127ee651706abc7b2452cb73e909ab635c4577a571f14c9d41cd808d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda9aa329caddc52d62140",
+    "question": "What historical time period was the center of the Assassin&rsquo;s Creed movie (2016)?",
+    "correctAnswer": "Spanish Inquisition",
+    "incorrectAnswers": [
+      "Victorian England",
+      "French Revolution",
+      "Colonial America"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0ee3ff9ef8d9b5f7adeaee2585e9177f76686ecb7c7925fe814e63e6dea94a26",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96f08fcfed5c856dad7e",
+    "question": "What is Everest's favorite food in the Nickelodeon/Nick Jr. series \"PAW Patrol\"?",
+    "correctAnswer": "Liver",
+    "incorrectAnswers": [
+      "Chicken",
+      "Steak",
+      "Caribou"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8aae1dadfe509e1b3de98b5edc9a2b1e1b1583cdba4b89ce2421ecd9f369508d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdb0094a1e48de0dd2f31c",
+    "question": "What is Gabe Newell's favorite class in Team Fortress 2?",
+    "correctAnswer": "Spy",
+    "incorrectAnswers": [
+      "Heavy",
+      "Medic",
+      "Pyro"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "57a802dcbfcc2d1c4474fe0b2e2fce3c07d2a36fb2a0dc35d4fed9245b1ca05e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd916f64d094e2837ea422",
+    "question": "What is Jean ValJean's first prisoner number?",
+    "correctAnswer": "24601",
+    "incorrectAnswers": [
+      "9430",
+      "1729",
+      "32769"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "35d832281c4fbe189df5db7f1b0d9dbfe55f724df174e483b7159ab3576deac0",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194a2",
+    "question": "What is not a wind instrument?",
+    "correctAnswer": "Viola",
+    "incorrectAnswers": [
+      "Oboe",
+      "Trombone",
+      "Duduk"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "cef65d53d07ee28e8a9989d374a86a2df36a0ca8b078f82f5e8788974caafc25",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd919464d094e2837ea445",
+    "question": "What is the boss round featured in the \"Call Of Duty: Zombies\" map \"Five\"?",
+    "correctAnswer": "The Pentagon Thief",
+    "incorrectAnswers": [
+      "Hellhounds",
+      "Jumping Jacks",
+      "Napalm Zombie"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "6eb297c572fc6c90c5c7c850b86bec52d2329626ca2fecea7e05d8e71d921df9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdad574949b6f3fc889e59",
+    "question": "What is the default alias that Princess Garnet goes by in Final Fantasy IX?",
+    "correctAnswer": "Dagger",
+    "incorrectAnswers": [
+      "Dirk",
+      "Garnet",
+      "Quina"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "40547da2432a44eb5f38ee243821061ddcf4496e56298cdd43de5c872df6b208",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319587",
+    "question": "What is the first weapon you acquire in Half-Life?",
+    "correctAnswer": "A crowbar",
+    "incorrectAnswers": [
+      "A pistol",
+      "The H.E.V suit",
+      "Your fists"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "56f1c4eed74a1e7fd76c60be71decf7f653957b41f74e5e05600062665e9c51a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdabc9dd0b01bd939aee83",
+    "question": "What is the last name of the primary female protagonist of Final Fantasy VIII?",
+    "correctAnswer": "Heartilly",
+    "incorrectAnswers": [
+      "Loire",
+      "Almasy",
+      "Trepe"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "15cc4ded891ca26953dc3ad446c744c88ed5e7edce2e6474d8289be58e5d5dd3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319598",
+    "question": "What is the main ship used by Commander Shepard in the Mass Effect Franchise called?",
+    "correctAnswer": "Normandy",
+    "incorrectAnswers": [
+      "Osiris",
+      "Infinity",
+      "Endeavour"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a697aad70b221c45d4d038fa8dfa7f7fa7f3fa1497b91d2b5db8501d8738d954",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdb0094a1e48de0dd2f31d",
+    "question": "What is the maximum HP in Terraria?",
+    "correctAnswer": "500",
+    "incorrectAnswers": [
+      "400",
+      "1000",
+      "100"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0c5f6847f797996c3a7e39513e05d3b17d7f4104c7959ca1d2c54860a6de3ba3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d3831953e",
+    "question": "What is the name of Chris's brother in \"Everybody Hates Chris\"?",
+    "correctAnswer": "Drew",
+    "incorrectAnswers": [
+      "Jerome",
+      "Greg",
+      "Joe"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "3e96c6f2ef3f77346a35ed657977e4f0ff3fd6c32d0508ba2e7e3d5f80db9567",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdae7ad6cd33070596e99b",
+    "question": "What is the name of Finnish DJ Darude's hit single released in October 1999?",
+    "correctAnswer": "Sandstorm",
+    "incorrectAnswers": [
+      "Dust Devil",
+      "Sirocco",
+      "Khamsin"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "bd5442fa64a53a6e89de8f7bb4933fa3a0bfabe32607d20f17e3347b834fe2e7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdab88dd0b01bd939aee65",
+    "question": "What is the name of Rivers Cuomo's wife?",
+    "correctAnswer": "Kyoko Ito",
+    "incorrectAnswers": [
+      "Yoko Ono",
+      "Kyary Pamyu Pamyu",
+      "LiSA"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5438687012e6748c14445b8e200036e6333d6158a18ae980e34e62aede03f3ba",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd915d64d094e2837ea40e",
+    "question": "What is the name of the album released in 2014 by American band Maroon 5?",
+    "correctAnswer": "V",
+    "incorrectAnswers": [
+      "X",
+      "III",
+      "IV"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8636d969e1c8d50bab232b590018f1268a70c6919a022ada667646ce92bfbf2f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96f08fcfed5c856dad7f",
+    "question": "What is the name of the city that The Flintstones is based in?",
+    "correctAnswer": "Bedrock",
+    "incorrectAnswers": [
+      "Stoneville",
+      "Rockhampton",
+      "Boulder City"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5caa76aeff2dbfcf21cfeb0a9cfd3a012b12d8bdb5b17537acde451db5113749",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd92d164d094e2837ea56d",
+    "question": "What is the name of the creatures that the protagonists of the webshow RWBY fight against?",
+    "correctAnswer": "Grimm",
+    "incorrectAnswers": [
+      "Reavers",
+      "Heartless",
+      "Dark Ones"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d9414bcdb64f42c2a0c9f5dd2ffdeb9454cc87442c81e719ff945dea796d7a29",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda9aa329caddc52d62141",
+    "question": "What is the name of the fictional retro-mod band starring Austin Powers as the lead vocalist?",
+    "correctAnswer": "Ming Tea",
+    "incorrectAnswers": [
+      "Cough Fi",
+      "Spear Mint",
+      "Mister E"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "bb77c0be241d92041bc2b6bd2e9d9adeed99f13c1cf220408b8516afc3f201c2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8f9d158fd25b9c1d7f6a",
+    "question": "What is the name of the island that \"Jurassic Park\" is built on?",
+    "correctAnswer": "Isla Nublar",
+    "incorrectAnswers": [
+      "Isla Sorna",
+      "Isla Muerta",
+      "Isla Pena"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "3d2dad881d10630fb4f028ebfa1a87d8298cc1ca37d30af1c6a63b7818a735d3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319595",
+    "question": "What is the name of the largest planet in Kerbal Space Program?",
+    "correctAnswer": "Jool",
+    "incorrectAnswers": [
+      "Eeloo",
+      "Kerbol",
+      "Minmus"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "aa6bf2cc6a954a8b23ef62b6a3ec5ffe6b4dac67b4fe5e02973b50b04903219e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95b48fcfed5c856dac9a",
+    "question": "What is the name of the main character in \"Life is Strange\"?",
+    "correctAnswer": "Maxine Caulfield",
+    "incorrectAnswers": [
+      "Victoria Chase",
+      "Stella Hill",
+      "Chloe Price"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5e6bad4ccd04b65811c8a8426faaff99ffb5c35272998a0861e809e3b6b21060",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd918264d094e2837ea436",
+    "question": "What is the name of the main character in \"The Flash\" TV series?",
+    "correctAnswer": "Barry Allen",
+    "incorrectAnswers": [
+      "Oliver Queen",
+      "Bart Allen",
+      "Bruce Wayne"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "152ae053966762974024b2aebda37df377bab6fe743154b2ebeb498089b6c4d7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d383195a4",
+    "question": "What is the name of the main protagonist in \"Xenoblade Chronicles\"?",
+    "correctAnswer": "Shulk",
+    "incorrectAnswers": [
+      "Reyn",
+      "Fiora",
+      "Dunban"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b8b90d920049308a45aa494524404c3513983e5e2c56dc8b57346fc17b6b66c9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319543",
+    "question": "What is the name of the planet that the Doctor from television series \"Doctor Who\" comes from?",
+    "correctAnswer": "Gallifrey",
+    "incorrectAnswers": [
+      "Sontar",
+      "Skaro",
+      "Mondas"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "03d2352d6efb97d6f83b4ae57a61f64857ca4af9378a7f866444df4bb1b55c86",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d3831957e",
+    "question": "What is the name of the talking cat in Persona 5?",
+    "correctAnswer": "Morgana",
+    "incorrectAnswers": [
+      "Teddie",
+      "Marie",
+      "Ryuji"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "492c75014c680f12161a1725cad52f18c4412e8741b5465a061f970a903fb93a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd913764d094e2837ea3ea",
+    "question": "What is the name of the three headed dog in Harry Potter and the Sorcerer's Stone?",
+    "correctAnswer": "Fluffy",
+    "incorrectAnswers": [
+      "Spike",
+      "Poofy",
+      "Spot"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "2885915b70478e04ea93c96f473ae3da69d3bef196ff8260435f79605a590a2b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd914a64d094e2837ea400",
+    "question": "What is the oldest Disney film?",
+    "correctAnswer": "Snow White and the Seven Dwarfs",
+    "incorrectAnswers": [
+      "Pinocchio",
+      "Dumbo",
+      "Fantasia"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "9112d2a540afc52c4a1ade6b94911fc96b126972d23cba7f06f76029c3e735a5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319467",
+    "question": "What is the orange and white bot's name in \"Star Wars: The Force Awakens\"?",
+    "correctAnswer": "BB-8",
+    "incorrectAnswers": [
+      "BB-3",
+      "AA-A",
+      "R2-D2"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ce03cee29c3e9baf8b16b7e1f8f4b3efe322550ea533c21ca9d9e63f01477c29",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda9ec329caddc52d6216d",
+    "question": "What is the real name of the famous spanish humorist, El Risitas?",
+    "correctAnswer": "Juan Joya Borga",
+    "incorrectAnswers": [
+      "Gabriel Garcia Marquez",
+      "Jesus Quintero",
+      "Ernesto Guevara"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c463334bd99feb0d20cdec5fa2b34b7d389dfc33ae13eae2f1702341bf823db4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd92d164d094e2837ea56c",
+    "question": "What is the relationship between Rick and Morty in the show \"Rick and Morty\"?",
+    "correctAnswer": "Grandfather and Grandson",
+    "incorrectAnswers": [
+      "Father and Son",
+      "Best Friends",
+      "Crimefighting Partners"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "6987b24ba941c71c45def34c29ca33725e2cca38089e6ea4d8b29255a329597a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194c5",
+    "question": "What is the stage name of English female rapper Mathangi Arulpragasam, who is known for the song \"Paper Planes\"?",
+    "correctAnswer": "M.I.A.",
+    "incorrectAnswers": [
+      "K.I.A.",
+      "C.I.A.",
+      "A.I.A."
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a6065037ab35a42fd664dcf47cca7939bee864acbad22d6c76e8a75a38feb59d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd919464d094e2837ea444",
+    "question": "What is the title of song on the main menu in Halo?",
+    "correctAnswer": "Halo",
+    "incorrectAnswers": [
+      "Opening Suite",
+      "Shadows",
+      "Suite Autumn"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "23b0b47bd101d5391d6226b2893926160e6d5c498ad72b46880a47c5395d8417",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194a4",
+    "question": "What Led Zeppelin album contains \"Stairway to Heaven\"?",
+    "correctAnswer": "Led Zeppelin IV",
+    "incorrectAnswers": [
+      "Houses of the Holy",
+      "Physical Graffiti",
+      "Led Zeppelin III"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a41b6593d2c9dc2c06b015f19f835983641ea61561c5e0b6d9f93fa92b961c6e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdae5ed6cd33070596e992",
+    "question": "What name did Tom Hanks give to his volleyball companion in the film `Cast Away`?",
+    "correctAnswer": "Wilson",
+    "incorrectAnswers": [
+      "Friday",
+      "Jones",
+      "Billy"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5c92e4fca9015001ee4b8da8314410592382a35b45808dfe2690de4677841132",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319552",
+    "question": "What NBC sitcom once saw two of its characters try to pitch NBC on a sitcom about nothing?",
+    "correctAnswer": "Seinfeld",
+    "incorrectAnswers": [
+      "Frasier",
+      "Becker",
+      "Friends"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "cea61b296653fed9754519de7d2dddf6911921dda51039f0d79ae19809f8739a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda9ec329caddc52d6216b",
+    "question": "What Nickelodeon game show featured a house on the set that the contestants would ransack to find hidden objects?",
+    "correctAnswer": "Finders Keepers",
+    "incorrectAnswers": [
+      "Double Dare",
+      "Nickelodeon Guts",
+      "Nick Arcade"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "3f987a3b4dd99b17ab93948513a7322b427d171ae1394bc46723a78d25d04553",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319546",
+    "question": "What TV show is about a grandfather dragging his grandson around on adventures?",
+    "correctAnswer": "Rick & Morty",
+    "incorrectAnswers": [
+      "Family Guy",
+      "South Park",
+      "American Dad"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "66fa00183c6dfa6be1d284322f5a00e3a5c4f36b253410bcaa074a930a68bac0",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdb0094a1e48de0dd2f318",
+    "question": "What Ultimate does Makoto Naegi, protagonist of Danganronpa: Trigger Happy Havoc, have? ",
+    "correctAnswer": "Ultimate Lucky Student",
+    "incorrectAnswers": [
+      "Ultimate Unlucky Student",
+      "Ultimate Detective",
+      "Ultimate Runner"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c9614721d5d738d4aa6eabc50768dd9d92080577f95c9711f9dacee2f87734bf",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319591",
+    "question": "What video game engine does the videogame Quake 2 run in?",
+    "correctAnswer": "iD Tech 2",
+    "incorrectAnswers": [
+      "iD Tech 3",
+      "iD Tech 1",
+      "Unreal Engine"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "1f5588d797325bcd48d6af1d4e450f88471f19c6287cff994900ddaafe900ffb",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd92be64d094e2837ea55e",
+    "question": "What was Ash Ketchum's second Pokemon?",
+    "correctAnswer": "Caterpie",
+    "incorrectAnswers": [
+      "Charmander",
+      "Pikachu",
+      "Pidgey"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "cad9bbe9a514cd09b38c28f61acb269b59d195b3d32bcfad5c1d3f6e761ecc1e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdafb84a1e48de0dd2f2f7",
+    "question": "What was Dorothy's surname in 'The Wizard Of Oz'?",
+    "correctAnswer": "Gale",
+    "incorrectAnswers": [
+      "Perkins",
+      "Day",
+      "Parker"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "61f94718d67848a7074fabb0b806099c064b254d667c80bcb9f45fdb23efd776",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194c8",
+    "question": "What was Rage Against the Machine's debut album?",
+    "correctAnswer": "Rage Against the Machine",
+    "incorrectAnswers": [
+      "Evil Empire",
+      "Bombtrack",
+      "The Battle Of Los Angeles"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d23af43b672b99bf38d6334360cde127d4ca639c935a4e935de31731048c7ec6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd913764d094e2837ea3ed",
+    "question": "What was Sir Handel's original name in \"The Railway Series\" and it's animated counterpart \"Thomas and Friends?\"",
+    "correctAnswer": "Falcon",
+    "incorrectAnswers": [
+      "Eagle",
+      "Kyte",
+      "Swallow"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "18edc030bdf531a3aa9688a7bc0abee588c9b0da00b8d4fc55a01d0bb667ccda",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194a5",
+    "question": "What was the best selling album of 2015?",
+    "correctAnswer": "Adele, 25",
+    "incorrectAnswers": [
+      "Fetty Wap, Fetty Wap",
+      "Taylor Swift, 1989",
+      "Justin Bieber, Purpose"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "dc7172193311ed89e63129d4407e8599df1d13072c351fa50b1c9bfb81b27740",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd913764d094e2837ea3ec",
+    "question": "What was the first ever entry written for the SCP Foundation collaborative writing project?",
+    "correctAnswer": "SCP-173",
+    "incorrectAnswers": [
+      "SCP-001",
+      "SCP-999",
+      "SCP-1459"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "9d107a922f5c7bc10c6b0355ba374e1894eaaf9c549eac37ca788ecab886df1d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319460",
+    "question": "What was the first feature-length computer-animated movie?",
+    "correctAnswer": "Toy Story",
+    "incorrectAnswers": [
+      "Tron",
+      "Lion king",
+      "101 Dalmatians"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5fc6f2f03023a7adbd7196505137574926354963fe148b893d7ad67148cf3741",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319585",
+    "question": "What was the first game in the \"Battlefield\" series?",
+    "correctAnswer": "Battlefield 1942",
+    "incorrectAnswers": [
+      "Battlefield Vietnam",
+      "Battlefield 2",
+      "Battlefield 1"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "bbc4c022cc5e8a930ecc6c12adcb7886a2be249983f3237a5a1af18f24827f53",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d3831944e",
+    "question": "What was the first James Bond film?",
+    "correctAnswer": "Dr. No",
+    "incorrectAnswers": [
+      "Goldfinger",
+      "From Russia With Love",
+      "Thunderball"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8b8c368dd3f7fe884336e6d3f76cc8da36c11f51709d351ce2625529cc731915",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319453",
+    "question": "What was the first monster to appear alongside Godzilla?",
+    "correctAnswer": "Anguirus",
+    "incorrectAnswers": [
+      "King Kong",
+      "Mothra",
+      "King Ghidora"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c74f41618e2660ca31c0db150cc93c675f58246dec7a5e67b9563c46ace15b54",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d3831959b",
+    "question": "What was the first video game in the Batman \"Arkham\" series?",
+    "correctAnswer": "Arkham Asylum",
+    "incorrectAnswers": [
+      "Arkham Knight",
+      "Arkham City",
+      "Arkham Origins"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b8d529884f23975b43a746d9097a0058665093022ec632fa82c74597f628685d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194c9",
+    "question": "What was the name of singer Frank Ocean's second studio album, which was released on August 20, 2016?",
+    "correctAnswer": "Blonde",
+    "incorrectAnswers": [
+      "Brunette",
+      "Black",
+      "Burgundy"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "9b458296bcf6c69fe1c198f3dd88d8650bb994f2a00258abf655e3bf1c9941f3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d3831957f",
+    "question": "What was the name of the canceled projected by Blizzard Entertainment that would be later become Overwatch?",
+    "correctAnswer": "Titan",
+    "incorrectAnswers": [
+      "Omnic",
+      "Omega",
+      "Ghost"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "6a99cda194b74a7b287609b5fbe1a84f94e467eae53041bf2ad41ac8bbc35471",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaebcd6cd33070596e9b5",
+    "question": "What was the name of the cancelled sequel of Team Fortress?",
+    "correctAnswer": "Team Fortress 2: Brotherhood of Arms",
+    "incorrectAnswers": [
+      "Team Fortress 2: Desert Mercenaries",
+      "Team Fortress 2: Operation Gear Grinder",
+      "Team Fortress 2: Return to Classic"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "126177384fe1b139d6c9e382acf97570fad2612d25a1694c4c984a36e8514773",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d3831954a",
+    "question": "What was the name of the police officer in the cartoon \"Top Cat\"?",
+    "correctAnswer": "Dibble",
+    "incorrectAnswers": [
+      "Barbrady",
+      "Mahoney",
+      "Murphy"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "09d3156c4df30d083bbc54c7ef5770b609e9d5cbf5ec9bf36c32ab1a903c5a32",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdabaedd0b01bd939aee7b",
+    "question": "What was the name of the teenage witch played by Melisa Joan Hart who lives with her witch aunts Hilda and Zelda?",
+    "correctAnswer": "Sabrina",
+    "incorrectAnswers": [
+      "Hermione",
+      "Dorothy",
+      "Dahlia"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4518f8cd2dfb49b5d8bceb526753c85b5ec3389abe37dd7b9fc4f6ffb3affa18",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d3831952e",
+    "question": "What was the name of the the first episode of Doctor Who to air in 1963?",
+    "correctAnswer": "An Unearthly Child",
+    "incorrectAnswers": [
+      "The Daleks",
+      "The Aztecs",
+      "The Edge of Destruction"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "148a20dc1559c63fb996a367aebf440a5549ac0c2ab2064c408d0f06d02339f4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d3831958e",
+    "question": "What was the release date of \"Grand Theft Auto IV\"?",
+    "correctAnswer": "April 29, 2008",
+    "incorrectAnswers": [
+      "May 21, 2009",
+      "June 22, 2010",
+      "July 28, 2008"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "115b010c90441ea72292612b0d7d4401fe85b3b7694cb839e72cd75405ff6a38",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194ad",
+    "question": "What was the subject of the 2014 song \"CoCo\" by American rapper O. T. Genasis?",
+    "correctAnswer": "Cocaine",
+    "incorrectAnswers": [
+      "Conan O'Brien",
+      "Cobalt(II) carbonate",
+      "Coconut cream pie"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "094fea92cfe4e6785e95d8adb4148dd903eb7bf4fb8dc862ca03857c682c5d3a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319466",
+    "question": "What was the title of the first Bond movie, released in 1962?",
+    "correctAnswer": "Dr. No",
+    "incorrectAnswers": [
+      "From Russia with Love",
+      "Goldfinger",
+      "Thunderball"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "52bee5349f1bbb06809dd1f5b2f9a68f683d42537c847155aec256cfb6b3086f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d3831958b",
+    "question": "What were the first two blocks in \"Minecraft\"?",
+    "correctAnswer": "Grass and Cobblestone",
+    "incorrectAnswers": [
+      "Grass and Stone",
+      "Crafting Table and Cobblestone",
+      "Cobblestone and Stone"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c0ce531a5ce63c679d3561295e0456a76d4d41e0559ddec563284db389a31f3e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd92be64d094e2837ea55d",
+    "question": "What year did \"Attack on Titan\" first air?",
+    "correctAnswer": "2013",
+    "incorrectAnswers": [
+      "2014",
+      "2012",
+      "2015"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "7c83276e1c43c1ae45c1ef4fe44cd3c77846843aadc9742fbf16c775922d9894",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd92be64d094e2837ea55b",
+    "question": "What's the English Dub Name of \"Smile Precure\"?",
+    "correctAnswer": "Glitter Force",
+    "incorrectAnswers": [
+      "Sparkle Girls",
+      "Fairy Tale Patrol",
+      "Power Princesses"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "2267dccd24c6816203660c536d5d1d7438c08cb511ff30742bc7b66f98fc14ac",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd929964d094e2837ea536",
+    "question": "What's the race of Invincible's father?",
+    "correctAnswer": "Viltrumite",
+    "incorrectAnswers": [
+      "Kryptonian",
+      "Kree",
+      "Irken"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "fd5eb3def2af89f9b88c40e29fdfedfdb739b9aaa49bb601e139f8fdf7a24e52",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd918264d094e2837ea435",
+    "question": "When did the TV show Rick and Morty first air on Adult Swim?",
+    "correctAnswer": "2013",
+    "incorrectAnswers": [
+      "2014",
+      "2016",
+      "2015"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "fb59c9db03473b0944149c4fd7859bcdddb27219dac993781c88e1c8fb9b543a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd914a64d094e2837ea3ff",
+    "question": "When does \"Rogue One: A Star Wars Story\" take place chronologically in the series?",
+    "correctAnswer": "Between Episode 3 and 4",
+    "incorrectAnswers": [
+      "After Episode 6",
+      "Before Episode 1",
+      "Between Episode 4 and 5"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "9b395b6dc548b074048f14138ca97424fa00ead1b24432fc93acd8c9f9e89711",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d3831953c",
+    "question": "When Donkey Kong died in the \"Donkey Kong Country\" episode \"It's a Wonderful Life\", who was his guardian angel?",
+    "correctAnswer": "Eddie the Mean Old Yeti",
+    "incorrectAnswers": [
+      "Kiddy Kong",
+      "Diddy Kong",
+      "King K. Rool"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "9179efd97ecbac0f668ca2fc7b34be8153b4c5ec5aaf1d2a7648098b22df41f1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdabc9dd0b01bd939aee88",
+    "question": "When was \"Luigi's Mansion 3\" released?",
+    "correctAnswer": "October 31st, 2019",
+    "incorrectAnswers": [
+      "January 13th, 2019",
+      "September 6th, 2018",
+      "October 1st, 2019"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0e23aee869538325258a789e143b20a8b8bbce7ed8a1b975b905394f6cacd5cb",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194b4",
+    "question": "When was Gangnam Style uploaded to YouTube?",
+    "correctAnswer": "2012",
+    "incorrectAnswers": [
+      "2013",
+      "2014",
+      "2011"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a17196c08732f81e7dc0cbf394ecc821531129f3b875cf30b174d8d233740e55",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd929964d094e2837ea539",
+    "question": "When was Marvel Comics founded?",
+    "correctAnswer": "1939",
+    "incorrectAnswers": [
+      "1932",
+      "1951",
+      "1936"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "49a7396dadb6ceac6b66a768f06f33911d1326f0bef93a7993dd0cdc2fb117ec",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319590",
+    "question": "When was Minecraft first released to the public?",
+    "correctAnswer": "May 17th, 2009",
+    "incorrectAnswers": [
+      "September 17th, 2009",
+      "November 18th, 2011",
+      "October 7th, 2011"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d6c00e21d1230e43c75b85bdc71c60220bb20e74e31cc4327dc2d8f6553540db",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d3831959a",
+    "question": "When was the game 'Portal 2' released?",
+    "correctAnswer": "2011",
+    "incorrectAnswers": [
+      "2014",
+      "2009",
+      "2007"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "36f3af9a93aed6b8bbf47410f39443437a039554a5cc57348b31731ae6d28cb6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d3831944f",
+    "question": "When was the movie 'Con Air' released?",
+    "correctAnswer": "1997",
+    "incorrectAnswers": [
+      "1985",
+      "1999",
+      "1990"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "bd9ef0cb9b109ddb3d538d8f083e5ebf546321336e1d3ea6bb22e597c6bddf5a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda9c5329caddc52d6214e",
+    "question": "Where does the Mac part of the name Fleetwood Mac come from?",
+    "correctAnswer": "John McVie",
+    "incorrectAnswers": [
+      "Christine McVie",
+      "Mac McAnally",
+      "David Tennant"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "03cf675f4f2214c4c1f57732e53071f2edd1e007b033b04929a8dfc047cef5b1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d3831944b",
+    "question": "Where does the original Friday The 13th movie take place?",
+    "correctAnswer": "Camp Crystal Lake",
+    "incorrectAnswers": [
+      "Packanack",
+      "Higgins Haven",
+      "Camp Forest Green"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "04c101aef0a77559a6464e015412f64f2af7331ab1c7dd1f86327584f1af23a9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d3831957d",
+    "question": "Which \"Call Of Duty: Zombies\" map introduced the \"Staffs Of The Ancients\"?",
+    "correctAnswer": "Origins",
+    "incorrectAnswers": [
+      "Shangri-La",
+      "Revelations",
+      "Nuketown"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "07730d18c505fa481efa05c81e03e1a8b87c3fac071d9bb7813d7a7bb178a4d3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdabc9dd0b01bd939aee87",
+    "question": "Which \"Fallout: New Vegas\" quest is NOT named after a real-life song?",
+    "correctAnswer": "They Went That-a-Way",
+    "incorrectAnswers": [
+      "Come Fly With Me",
+      "Ain't That a Kick in the Head",
+      "Ring-a-Ding Ding"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "fcf8289770afa06520761598144ce1109b117f466379d33584670554ae91c1aa",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319462",
+    "question": "Which actor plays Obi-Wan Kenobi in Star Wars Episodes I-III?",
+    "correctAnswer": "Ewan McGregor",
+    "incorrectAnswers": [
+      "Alec Guinness",
+      "Hayden Christensen",
+      "Liam Neeson"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4be778efb983396ee41ea13375836401321974fecee053b4b571debe24f6f3d2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd918264d094e2837ea433",
+    "question": "Which actor portrays \"Walter White\" in the series \"Breaking Bad\"?",
+    "correctAnswer": " Bryan Cranston",
+    "incorrectAnswers": [
+      "Andrew Lincoln",
+      "Aaron Paul",
+      "RJ Mitte"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "53c455fd36549135cb60e54893784ba27c53eab730fc84debeca1460c77aebc3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319459",
+    "question": "Which actress danced the twist with John Travolta in 'Pulp Fiction'?",
+    "correctAnswer": "Uma Thurman",
+    "incorrectAnswers": [
+      "Kathy Griffin",
+      "Pam Grier",
+      "Bridget Fonda"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d75a4048fa1c509c6a7429885dff21bcb0cdfcf568be4ce914f351d4088ec6c0",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdabc9dd0b01bd939aee89",
+    "question": "Which Animal Crossing game was for the Nintendo Wii?",
+    "correctAnswer": "Animal Crossing: City Folk",
+    "incorrectAnswers": [
+      "Animal Crossing: New Leaf",
+      "Animal Crossing: Wild World",
+      "Animal Crossing: Population Growing!"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "3dcfa62736162da727e66a443d0a879a013594e1264333dfa438b6a71d84ccaf",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d3831945c",
+    "question": "Which animated movie was first to feature a celebrity as a voice actor?",
+    "correctAnswer": "Aladdin",
+    "incorrectAnswers": [
+      "Toy Story",
+      "James and the Giant Peach",
+      "The Hunchback of Notre Dame"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "66a01132159b6d93e770ac1300356225d30c588e68cce15e120b109e82c66e25",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd957c8fcfed5c856dac6f",
+    "question": "Which artist released the 2012 single \"Harlem Shake\", which was used in numerous YouTube videos in 2013?",
+    "correctAnswer": "Baauer",
+    "incorrectAnswers": [
+      "RL Grime",
+      "NGHTMRE",
+      "Flosstradamus"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "171be245929ecddc144ad2047fe96541378438cbb5093dcfb8c90e74446a4ea5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdad164949b6f3fc889e3d",
+    "question": "Which band recorded the album \"Parallel Lines\"?",
+    "correctAnswer": "Blondie",
+    "incorrectAnswers": [
+      "Paramore",
+      "Coldplay",
+      "The Police"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c0131e819127267947caa9cb303acbf559b9b421b630e249fd1fb9487baa486f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194c4",
+    "question": "Which band released songs suchs as \"Rio\", \"Girls on Film\", and \"The Reflex\"?",
+    "correctAnswer": "Duran Duran",
+    "incorrectAnswers": [
+      "The Cure",
+      "New Order",
+      "Depeche Mode"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "15e5191997fdb682dfcb5ed5c3af28c50f17619acd116693742de26c14754572",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194c3",
+    "question": "Which Beatles album does NOT feature any of the band members on it's cover?",
+    "correctAnswer": "The Beatles (White Album)",
+    "incorrectAnswers": [
+      "Rubber Soul",
+      "Abbey Road",
+      "Magical Mystery Tour"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0f29d8a37c63516a31e9535a2a08a1d1bfe8013bd4e2bcef661995741d6c2724",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdab88dd0b01bd939aee66",
+    "question": "Which brass instrument has the lowest pitch in an orchestra?",
+    "correctAnswer": "Tuba",
+    "incorrectAnswers": [
+      "Trumpet",
+      "Saxophone",
+      "Trombone"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "154d6d32db400ad08dc0a053bcfdadcc7b0be21887f62a59ecd47e753af80d76",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194c1",
+    "question": "Which Canadian reggae musician had a 1993 hit with the song 'Informer'?",
+    "correctAnswer": "Snow",
+    "incorrectAnswers": [
+      "Rain",
+      "Hail",
+      "Sleet"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "503bae1f31b7753af33c5678bc442e572657e9376998cd87b80170dfeff488b2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d383195aa",
+    "question": "Which character in the \"Animal Crossing\" series uses the phrase \"zip zoom\" when talking to the player?",
+    "correctAnswer": "Scoot",
+    "incorrectAnswers": [
+      "Drake",
+      "Bill",
+      "Mallary"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "cc3a8249b86ef95438a5dcaf6ec656ccc54bc33b21333c72cd5ced00c32b9d13",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdad3c4949b6f3fc889e4d",
+    "question": "Which character was played by Dustin Diamond in the sitcom 'Saved by the Bell'?",
+    "correctAnswer": "Screech",
+    "incorrectAnswers": [
+      "Zack",
+      "Mr. Belding",
+      "A.C. Slater"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c800ccd152ea555d64583ae4c52b357d09089d11a1eaa57d0f7f47201357939d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194a3",
+    "question": "Which classical composer wrote the \"Moonlight Sonata\"?",
+    "correctAnswer": "Ludvig Van Beethoven",
+    "incorrectAnswers": [
+      "Chief Keef",
+      "Wolfgang Amadeus Mozart",
+      "Johannes Brahms"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5af33251c7aa79ba5451564042955ea160145ffa79c4a9833a6d2ee94c6a6c1e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda9ec329caddc52d62168",
+    "question": "Which company has exclusive rights to air episodes of the \"The Grand Tour\"?",
+    "correctAnswer": "Amazon",
+    "incorrectAnswers": [
+      "Netflix",
+      "BBC",
+      "CCTV"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f417563604e4912ef6b052d220ef5963d7e8a39023ff088407c1c42b8ef1010f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaa07329caddc52d6217a",
+    "question": "Which company is the one responsible for creating the strategy videogame Stellaris?",
+    "correctAnswer": "Paradox Development Studio",
+    "incorrectAnswers": [
+      "Overkill Software",
+      "Tripwire Interactive LLC",
+      "Ensemble Studios"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4dfd93248d44e720e05476efdf5b5e29f9e10151c17924bde8e53ccf02c73867",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194b3",
+    "question": "Which country does the band Rammstein hail from?",
+    "correctAnswer": "Germany",
+    "incorrectAnswers": [
+      "Austria",
+      "Armenia",
+      "Belgium"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ac4e962dfc1cc3f9cab501fdd1008bcb68ba38eb81c07519d261816ab6744915",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194ba",
+    "question": "Which Disney character sings the song \"A Dream is a Wish Your Heart Makes\"?",
+    "correctAnswer": "Cinderella",
+    "incorrectAnswers": [
+      "Belle",
+      "Snow White",
+      "Pocahontas"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d1a5af1d3722552b5336a9bd76465cf95d8c3c08dd0cad3096df2234cff2b6a8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d3831958c",
+    "question": "Which Elite Four member from the first generation of Pok&eacute;mon became the champion in the next generation?",
+    "correctAnswer": "Lance",
+    "incorrectAnswers": [
+      "Agatha",
+      "Bruno",
+      "Lorelei"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "adaa908851941295355c1a6e92a8ca7c0244b4dfff9c09684be4bf584a50e1d4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194a1",
+    "question": "Which English guitarist has the nickname \"Slowhand\"?",
+    "correctAnswer": "Eric Clapton",
+    "incorrectAnswers": [
+      "Mark Knopfler",
+      "Jeff Beck",
+      "Jimmy Page"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0e59935fd7ee79c027cdf8d946dac7beb2a96ea07b88619fd83776bcd4298b29",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd957c8fcfed5c856dac72",
+    "question": "Which famous artist featured on Rowdy Rebel's 2015 song \"Computers\"?",
+    "correctAnswer": "Bobby Shmurda ",
+    "incorrectAnswers": [
+      "Lil Wayne",
+      "Will.I.AM",
+      "Kendrick Lamar"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "3f2e5b5fb73bf6f5232004b08555f05629bfd5ae701af56633568dfbb05c5ec3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95578fcfed5c856dac50",
+    "question": "Which famous book is sub-titled 'The Modern Prometheus'?",
+    "correctAnswer": "Frankenstein",
+    "incorrectAnswers": [
+      "Dracula",
+      "The Strange Case of Dr. Jekyll and Mr. Hyde ",
+      "The Legend of Sleepy Hollow"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "17ed1b6525af5a22304c7c339d04c6ccd495eeadee60b87d85485e509ec80eea",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194a7",
+    "question": "Which famous rapper is featured in Jack &Uuml; (Skrillex and Diplo)'s 2015 single called \"Febreze\"?",
+    "correctAnswer": "2 Chainz",
+    "incorrectAnswers": [
+      "Kendrick Lamar",
+      "Future",
+      "Fatman Scoop"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8f6adcbcba12b139e56d01c3e32f0113bae692d34fcba50710131ebde9b79b9f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd914a64d094e2837ea3fc",
+    "question": "Which film has been critically regarded as the best film of all time?",
+    "correctAnswer": "Citizen Kane",
+    "incorrectAnswers": [
+      "Avatar",
+      "The Godfather Part II",
+      "The Room"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "421450c551fde45ba4e40f4bdf2a730b522e80ba40955ef25a651d6325199264",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194cd",
+    "question": "Which former boy-band star released hit solo single \"Angels\" in 1997?",
+    "correctAnswer": "Robbie Williams",
+    "incorrectAnswers": [
+      "Justin Timberlake",
+      "Harry Styles",
+      "Gary Barlow"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "fcaa3398fb926d6550c61786ff6577cde6f5cc24ee937f46285a4caf6f29923b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdad574949b6f3fc889e56",
+    "question": "Which franchise does the creature \"Slowpoke\" originate from?",
+    "correctAnswer": "Pokemon",
+    "incorrectAnswers": [
+      "Dragon Ball",
+      "Sonic The Hedgehog",
+      "Yugioh"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0275798e05bcbb9e2b13385ad8bf71d75cc69e627efd3fefffc1762cd3061622",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdb0094a1e48de0dd2f317",
+    "question": "Which Game Boy from the Game Boy series of portable video game consoles was released first?",
+    "correctAnswer": "Game Boy Color",
+    "incorrectAnswers": [
+      "Game Boy Advance",
+      "Game Boy Micro",
+      "Game Boy Advance SP"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "40c204b5719f351c62a95f995b27058751868a17b14f07bff633aaaf54990b57",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaa07329caddc52d62174",
+    "question": "Which Grand Theft Auto (GTA) games have the same setting?",
+    "correctAnswer": "GTA V and GTA San Andreas",
+    "incorrectAnswers": [
+      "GTA V and GTA Vice City",
+      "GTA IV and GTA San Andreas",
+      "GTA IV and GTA Vice City"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b9aeeac7e3da232660ba62207f205b6d01a6ca2ed0cb96ac9d3d2fcf3a6fb3d3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdafd34a1e48de0dd2f2ff",
+    "question": "Which group performs the song \"Crash into Me\"?",
+    "correctAnswer": "Dave Matthews Band",
+    "incorrectAnswers": [
+      "Phish",
+      "The Grateful Dead",
+      "Destiny's Child"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "77e3abc145be5361bd671c6cb4a428a66325c2f2cfe446d5906a62bcc0ed6b02",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d3831946c",
+    "question": "Which James Bond film had the theme song written and performed by English singer-songwriter Adele?",
+    "correctAnswer": "Skyfall",
+    "incorrectAnswers": [
+      "Casino Royale",
+      "Quantum Solace",
+      "Spectre"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "58c91e585587f3e07e0f5b9e0f0ee22ed0f81b515d9f82bdd732e40ec25a06d3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194b0",
+    "question": "Which member of the Foo Fighters was previously the drummer for Nirvana?",
+    "correctAnswer": "Dave Grohl",
+    "incorrectAnswers": [
+      "Taylor Hawkins",
+      "Nate Mendel",
+      "Chris Shiflett"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ccaa60a9f670448d9950d820a3d7699177ae2a28a42938b50ed1cbba48fb621f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd914a64d094e2837ea3fd",
+    "question": "Which movie contains the quote, \"Say hello to my little friend!\"?",
+    "correctAnswer": "Scarface",
+    "incorrectAnswers": [
+      "Reservoir Dogs",
+      "Heat",
+      "Goodfellas"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "11c41e17711625d7f8f0bd6c221ee1802b7e289fe4bce7d9e51d3e4ebb0090ca",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd956a8fcfed5c856dac61",
+    "question": "Which movie includes a giant bunny-like spirit who has magic powers including growing trees?",
+    "correctAnswer": "My Neighbor Totoro",
+    "incorrectAnswers": [
+      "Hop",
+      "Rise of the Guardians",
+      "Alice in Wonderland"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ef8eb04cd1ea6b796eb2f1bf1ce37fe4131f251fae1d17c54cd76453b2ede3fe",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d3831946a",
+    "question": "Which movie released in 2016 features Superman and Batman fighting?",
+    "correctAnswer": "Batman v Superman: Dawn of Justice",
+    "incorrectAnswers": [
+      "Batman v Superman: Superapocalypse",
+      "Batman v Superman: Black of Knight",
+      "Batman v Superman: Knightfall"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "762dcfed20d78a56506e93aa7f5ba0fec49a3509293ce596e647c3c176bf32bc",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319592",
+    "question": "Which of 2 Valve Games are set in the same universe?",
+    "correctAnswer": "Half-life and Portal",
+    "incorrectAnswers": [
+      "Portal and Left 4 Dead",
+      "Half-life and Left 4 Dead",
+      "Half-life and Counter Strike"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c637a59fefef03feeffd21230543d2c0eb02cea05be6b956c740907b1dacc6b9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdacd84949b6f3fc889e35",
+    "question": "Which of the following actors has only been in a Quentin Tarantino directed film once?",
+    "correctAnswer": "John Travolta",
+    "incorrectAnswers": [
+      "Christoph Waltz",
+      "Harvey Keitel",
+      "Samuel L. Jackson"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "485ddd6ab24e96d643d5ea6eaff09ed3833ddbb7d5d914f6ab8c8afa37659b18",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319537",
+    "question": "Which of the following awards do Matt Stone and Trey Parker NOT have?",
+    "correctAnswer": "Oscar",
+    "incorrectAnswers": [
+      "Emmy",
+      "Tony",
+      "Grammy"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e0b56252338b1e29557d8751f0789fd97cd2d7c63ddb90041d0f13a91b88167f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d3831958f",
+    "question": "Which of the following games has the largest map size?",
+    "correctAnswer": "Just Cause 2",
+    "incorrectAnswers": [
+      "Grand Theft Auto 5",
+      "The Elder Scrolls 4:  Oblivion",
+      "The Witcher 3:  Wild Hunt"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "6cb23b15175d1a4d43ac9d1c13556ebae2cec803b0c726579eaad0b6a37e825a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdabc9dd0b01bd939aee85",
+    "question": "Which of the following games was NOT included in Valve's \"The Orange Box\"?",
+    "correctAnswer": "Left 4 Dead",
+    "incorrectAnswers": [
+      "Half-Life 2: Episode Two",
+      "Portal",
+      "Team Fortress 2"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0ea1e8ae296de31e5a898dab4ae65bd844a9c4eab99a9597ca1bf1432d243550",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdafd34a1e48de0dd2f300",
+    "question": "Which of the following is an album by punk rock band Anti-Flag?",
+    "correctAnswer": "For Blood And Empire",
+    "incorrectAnswers": [
+      "Infinity On High",
+      "21st Century Breakdown",
+      "No Pads, No Helmets...Just Balls"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b9d491fa1a70995c995ecc13ddd7fcec559785834d07a83dcca2f8b15856eee4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdabc9dd0b01bd939aee84",
+    "question": "Which of the following is NOT a summon in the game \"South Park: The Stick of Truth\"?",
+    "correctAnswer": "Towelie",
+    "incorrectAnswers": [
+      "Jesus",
+      "Mr. Hankey",
+      "Mr. Slave"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4d208dd5c5cdafc37e8b4172befa9fbbb09e328de5ab32d57494b2218605f45e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdae5ed6cd33070596e991",
+    "question": "Which of the following is not the name of a \"Bond Girl\"? ",
+    "correctAnswer": "Vanessa Kensington",
+    "incorrectAnswers": [
+      "Pam Bouvier",
+      "Mary Goodnight",
+      "Wai Lin"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "00baff76e4365f83be9a438885989dee5f9781105a4163ac3c149b0f937cec6e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95578fcfed5c856dac4e",
+    "question": "Which of the following is the world's best-selling book?",
+    "correctAnswer": "The Lord of the Rings",
+    "incorrectAnswers": [
+      "The Little Prince",
+      "Harry Potter and the Philosopher's Stone",
+      "The Da Vinci Code"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b612a088c13bc2aa3c7dedf7da42302018c3bc04ec2393d03480acbc01048a5e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdae5ed6cd33070596e98f",
+    "question": "Which of the following movies was not based on a novel by Stephen King? ",
+    "correctAnswer": "The Thing",
+    "incorrectAnswers": [
+      "Carrie",
+      "Misery",
+      "The Green Mile"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "39d278fdbb5591a39c812822144f2f905be9df65e7e31cfc74f6cbf6358d4075",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd92be64d094e2837ea55c",
+    "question": "Which of the following originated as a manga?",
+    "correctAnswer": "Akira",
+    "incorrectAnswers": [
+      "Cowboy Bebop",
+      "High School DxD",
+      "Gurren Lagann"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "48434402d974c110a5a56d88b7c6aec04e8e95bf318f890013dad04ec47552ec",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194af",
+    "question": "Which of the following songs did Elton John perform following Princess Diane's passing?",
+    "correctAnswer": "Candles in the Wind",
+    "incorrectAnswers": [
+      "I Guess That's Why They Call It The Blues",
+      "Your Song",
+      "Island Girl"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f16dd76d7f7da1235ec3dc7a01b57fd4ba68366a207548d5fb4d96b0a298f297",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194c2",
+    "question": "Which of the following songs was not originally released by Sir Elton John? ",
+    "correctAnswer": "You'll Be In My Heart",
+    "incorrectAnswers": [
+      "Crocodile Rock",
+      "Candle in the Wind",
+      "I Don't Wanna Go On With You Like That"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "26efe75233f3885da33437dda0198bb20b5ad7a7bc930d9c36410be6fef20888",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdabc9dd0b01bd939aee8a",
+    "question": "Which of the following was a map that was in Team Fortress 2 at launch?",
+    "correctAnswer": "Gravel Pit",
+    "incorrectAnswers": [
+      "Hoodoo",
+      "Gold Rush",
+      "Upward"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "2fa1b9651de235c8bdad579880f05b67f99ebeb9f56c69a23a03e46799687ed9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d3831945f",
+    "question": "Which of the following was not one of \"The Magnificent Seven\"?",
+    "correctAnswer": "Clint Eastwood",
+    "incorrectAnswers": [
+      "Steve McQueen",
+      "Charles Bronson",
+      "Robert Vaughn"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "26f43c35c26514fd15f00b53e9fea407b2018d987ac54f9485cb9e2d83adbbec",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319599",
+    "question": "Which of the following weapons in \"Counter-Strike: Global Offensive\" does not have a right-click function?",
+    "correctAnswer": "XM1014",
+    "incorrectAnswers": [
+      "SG553",
+      "R8 Revolver",
+      "USP-S"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b6ad1dab4b0a1b06eb086f87673291695b224e56ff8964d79805da65423f8a2d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319545",
+    "question": "Which of the following won the first season of American Idol in 2002?",
+    "correctAnswer": "Kelly Clarkson",
+    "incorrectAnswers": [
+      "Justin Guarini",
+      "Ruben Studdard",
+      "Chris Daughtry"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f4dcf10d3921f8a45f0d13edfc23df4f4c6c79e7337aad9a2b0d7930a29e69d6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d383195ab",
+    "question": "Which of the following Zelda games did not feature Ganon as a final boss?",
+    "correctAnswer": "Majora's Mask",
+    "incorrectAnswers": [
+      "Ocarina of Time",
+      "Skyward Sword",
+      "Breath of the Wild"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "fd2260916e224d712406adc1f4ee0c6ffca981ece98f0cd2bdb777578a169ef7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d3831946d",
+    "question": "Which of these actors does NOT appear in the 1998 movie \"Saving Private Ryan\"?",
+    "correctAnswer": "Ralph Fiennes",
+    "incorrectAnswers": [
+      "Tom Hanks",
+      "Vin Diesel",
+      "Matt Damon"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4f335d334cb7ec5223592b90d68cbd250b77161d7da002b28ffb3491d4a29746",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdafd34a1e48de0dd2f2fe",
+    "question": "Which of these are NOT a Men at Work song?",
+    "correctAnswer": "Basket Case",
+    "incorrectAnswers": [
+      "Dr. Heckyll and Mr. Jive",
+      "Who Can It Be Now?",
+      "Be Good Johnny"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4c2e21e1a2583b6bb074de0a81a08efb79cf67daf33526b03d578819cfc8ae91",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319548",
+    "question": "Which of these Bojack Horseman characters is a human?",
+    "correctAnswer": "Todd Chavez",
+    "incorrectAnswers": [
+      "Lennie Turtletaub",
+      "Princess Carolyn",
+      "Tom Jumbo-Grumbo"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d21fb720b8ec2538588f4783ce84fb33352fa66902902ec76750d09de6beaa1b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd92d164d094e2837ea56f",
+    "question": "Which of these characters from \"SpongeBob SquarePants\" is not a squid?",
+    "correctAnswer": "Gary",
+    "incorrectAnswers": [
+      "Orvillie",
+      "Squidward",
+      "Squidette"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "89026fc33c35e9369d4290d3f11047ede7cf0a1f8687a6e2da010bd98a8a3999",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d3831954c",
+    "question": "Which of these characters in \"Stranger Things\" has the power of Telekinesis?",
+    "correctAnswer": "Eleven",
+    "incorrectAnswers": [
+      "Mike",
+      "Lucas",
+      "Karen"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0e346244e4127045f7a5af4e9a9a95e2dd0e804b9ccc30950f5449817c626d6b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319596",
+    "question": "Which of these characters is the mascot of the video game company SEGA?",
+    "correctAnswer": "Sonic the Hedgehog",
+    "incorrectAnswers": [
+      "Dynamite Headdy",
+      "Alex Kidd",
+      "Opa-Opa"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "1b867d9191eaf2474e0c3fa967c5b912349413aff5951c376c839574c8576fd6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd92d164d094e2837ea56e",
+    "question": "Which of these characters live in a pineapple under the sea in the cartoon \"SpongeBob SquarePants\".",
+    "correctAnswer": "SpongeBob SquarePants ",
+    "incorrectAnswers": [
+      "Patrick Star",
+      "Squidward Tentacles",
+      "Mr. Krabs"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "67d87afe2db96f0058d4fde6358fb256ed37bc7e7df086cc375d4913d60cb45d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319538",
+    "question": "Which of these Disney shows is classified as an anime?",
+    "correctAnswer": "Stitch!",
+    "incorrectAnswers": [
+      "Cory in the House",
+      "The Emperor's New School",
+      "Hannah Montana"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e24fe47cb84c6a454ff01b3c934d07131d60488ede713d022058c8feab905d70",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8f9d158fd25b9c1d7f63",
+    "question": "Which of these films is NOT set in Los Angeles?",
+    "correctAnswer": "RoboCop",
+    "incorrectAnswers": [
+      "Blade Runner",
+      "The Terminator",
+      "Predator 2"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f714933053163b3bcbfebf9e16edcf7a3c07e672091b02e08cddf64a9f1f7d6d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95b48fcfed5c856dac97",
+    "question": "Which of these following weapon or equipment exists in Counter Strike but not in Counter Strike: Source?",
+    "correctAnswer": "Tactical Shield",
+    "incorrectAnswers": [
+      "Molotov Cocktail",
+      "MP5 Navy",
+      "TMP"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "9e24e3ef394357b9d04c27492892ce6427b457446cc5ff915c139a492c75b848",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91a664d094e2837ea455",
+    "question": "Which of these games includes the phrase \"Do not pass Go, do not collect $200\"?",
+    "correctAnswer": "Monopoly",
+    "incorrectAnswers": [
+      "Pay Day",
+      "Cluedo",
+      "Coppit"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0fd1e92c964965aadb88134abec16fbbb036148564b5c8b90a3fdd9067d50333",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d3831959c",
+    "question": "Which of these is a type of monster found in Minecraft?",
+    "correctAnswer": "Skeleton",
+    "incorrectAnswers": [
+      "Werewolf",
+      "Vampire",
+      "Minotaur"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d69fb45954aef9187fc03f76561e701a675be21b9c7423193d700d87c34e06a3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d3831959f",
+    "question": "Which of these is NOT a main playable character in \"Grand Theft Auto V\"?",
+    "correctAnswer": "Lamar",
+    "incorrectAnswers": [
+      "Trevor",
+      "Michael",
+      "Franklin"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0f1989eb17647b7dfa279a6febb09612b23138227d9bda131b11e4db02985ac5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdabc9dd0b01bd939aee8c",
+    "question": "Which of these is NOT a playable character in \"Left 4 Dead\"?",
+    "correctAnswer": "Nick",
+    "incorrectAnswers": [
+      "Louis",
+      "Zoey",
+      "Bill"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8a664a402dca37a1d07e964640409edde586ef484da557714129cf79addcc3da",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d383195a7",
+    "question": "Which of these is not a wonder weapon in \"Call Of Duty: Zombies\"?",
+    "correctAnswer": "R115 Resonator",
+    "incorrectAnswers": [
+      "GKZ-45 Mk3",
+      "Ray Gun",
+      "Scavenger"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "322678d9d9ecffe1cf6b3b6e0cf1338209c3b9cf40d5a1fd2844536535516d0f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194be",
+    "question": "Which of these is NOT considered a woodwind instrument?",
+    "correctAnswer": "Trombone",
+    "incorrectAnswers": [
+      "Oboe",
+      "Clarinet",
+      "Bassoon"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "355d02d27086607f7347c43aa72465bf4949c6ec1133a3456f2864932a6705d8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaebcd6cd33070596e9b2",
+    "question": "Which of these is NOT the name of a rival gang in the video game Saint's Row 2?",
+    "correctAnswer": "The Zin Empire",
+    "incorrectAnswers": [
+      "The Brotherhood",
+      "The Ronin",
+      "The Sons of Samedi"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "98d3a5911a4671dc261fcbe04ed230139dcce69b43daa1644f01c8d352e8cb97",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8f9d158fd25b9c1d7f68",
+    "question": "Which of these movies did Jeff Bridges not star in?",
+    "correctAnswer": "The Hateful Eight",
+    "incorrectAnswers": [
+      "Tron: Legacy",
+      "The Giver",
+      "True Grit"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "25e4b8ce007109ddaedd792c9faaa774000146e425b6e48e8d39f2c4dc669b65",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd919464d094e2837ea441",
+    "question": "Which of these video game engines was made by the company Epic Games?",
+    "correctAnswer": "Unreal",
+    "incorrectAnswers": [
+      "Unity",
+      "Game Maker: Studio",
+      "Cry Engine"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "cc219655fe46a09ebacfd4096336d55cd286f6a44c9c972e088226db0f0fa375",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91a664d094e2837ea453",
+    "question": "Which one of these is not a real game in the Dungeons & Dragons series?",
+    "correctAnswer": "Extreme Dungeons & Dragons",
+    "incorrectAnswers": [
+      "Advanced Dungeons & Dragons",
+      "Dungeons & Dragons 3.5th edition",
+      "Advanced Dungeons & Dragons 2nd edition"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c544ce6961cfc7a215a2b494794f14f027a3ad698075635122247102272ce0c3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194c0",
+    "question": "Which punk rock band released hit songs such as \"Californication\", \"Can't Stop\" and \"Under the Bridge\"?",
+    "correctAnswer": "Red Hot Chilli Peppers",
+    "incorrectAnswers": [
+      "Green Day",
+      "Linkin Park",
+      "Foo Fighters"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "3bc50de3e4634660a7cbb9a602e1e8c70f5f70bdebcef1b74ba5953e78e013c5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda9c5329caddc52d62150",
+    "question": "Which rap group released the album \"Straight Outta Compton\"?",
+    "correctAnswer": "N.W.A",
+    "incorrectAnswers": [
+      "Wu-Tang Clan",
+      "Run-D.M.C.",
+      "Beastie Boys"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "3af2ad384002a0677c3cab5400a46bdff4e40eb5662431433879d839dc65b1e6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd958f8fcfed5c856dac7f",
+    "question": "Which Shakespeare play inspired the musical 'West Side Story'?",
+    "correctAnswer": "Romeo & Juliet",
+    "incorrectAnswers": [
+      "Hamlet",
+      "Macbeth",
+      "Othello"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "59c6daa54a2a23767fc7f95e6b9b40be4c4f281dbdc9ad91cc783255eb61df72",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d3831952f",
+    "question": "Which show is known for the songs \"You are a Pirate\", \"Cooking by the Book\" and \"We Are Number One\"?",
+    "correctAnswer": "LazyTown",
+    "incorrectAnswers": [
+      "Sofia the First",
+      "DuckTales",
+      "Tom and Jerry"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "21de4ede5e81eda4e79a8980f2112bc6a7982a4949504405eab67127b460821a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194ca",
+    "question": "Which singer was featured in Jack &Uuml; (Skrillex & Diplo)'s 2015 song 'Where Are &Uuml; Now'?",
+    "correctAnswer": "Justin Bieber",
+    "incorrectAnswers": [
+      "Selena Gomez",
+      "Ellie Goulding",
+      "The Weeknd"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8bfff3e515519fd7d42c23daccf1154db450b88bc82c241d345654c138157d88",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd915d64d094e2837ea412",
+    "question": "Which song on Daft Punk's \"Random Access Memories\" features Pharrell Williams?",
+    "correctAnswer": "Get Lucky",
+    "incorrectAnswers": [
+      "Doin' It Right",
+      "Instant Crush",
+      "The Game of Love"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4e0454c41bb64e414f400336268fff95b7f8adf29dbbc2e17c55bf605cede81a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319555",
+    "question": "Which Star Trek race advances itself through assimilation?",
+    "correctAnswer": "Borg",
+    "incorrectAnswers": [
+      "Vulcan",
+      "Betazoid",
+      "Klingon"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ff795347f2e4832d2c4b05a260748977898ff573275d22f038e28b81766444be",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d383195a8",
+    "question": "Which student in Yandere Simulator is known for asking irritating and stupid questions?",
+    "correctAnswer": "Midori Gurin",
+    "incorrectAnswers": [
+      "Kokona Hruka",
+      "Oka Ruto",
+      "Pipi Osu"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "05ed6c76e73098c288c19ff88c904ef1e43bb43ee65d76802dd0c2ce6841290f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194b5",
+    "question": "Which term best describes the connection of two sections of a musical piece through a transitional passage?",
+    "correctAnswer": "Bridge",
+    "incorrectAnswers": [
+      "Coda",
+      "Capo",
+      "Binary Form"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ac2573fdf4fbe268b6410311dbb6fa874ca68909a5cb921867bc63ef7f36930b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194aa",
+    "question": "Which Twitch streamer is the vocalist for Red Vox?",
+    "correctAnswer": "Vinesauce",
+    "incorrectAnswers": [
+      "The8BitDrummer",
+      "LIRIK",
+      "Sodapoppin"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0c73d1cec66bd4216252f9f02380b70ba7bb2feacfbeb93c66b760aafbd43122",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd929964d094e2837ea537",
+    "question": "Which universe crossover was introduced in the \"Sonic the Hedgehog\" comic issue #247?",
+    "correctAnswer": "Mega Man",
+    "incorrectAnswers": [
+      "Super Mario Brothers",
+      "Alex Kidd",
+      "Super Monkey Ball"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f27bbd03bb6867477511512fa220f24ea4cbc6fc5fbe1c60c608012316d5afa3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8f9d158fd25b9c1d7f6b",
+    "question": "Which year was the first official Youtube Rewind released?",
+    "correctAnswer": "2010",
+    "incorrectAnswers": [
+      "2012",
+      "2011",
+      "2013"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "33d731e4ce3f808bee8c00d1d4fd502120d8720dc2b5ef05887d6a554d54f963",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaa07329caddc52d62176",
+    "question": "Who created the \"Metal Gear\" Series?",
+    "correctAnswer": "Hideo Kojima",
+    "incorrectAnswers": [
+      "Hiroshi Yamauchi",
+      "Shigeru Miyamoto",
+      "Gunpei Yokoi"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e44968791c7aed3babe82092103056476190b08e5f601d3d9d1f12d2020451a6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95b48fcfed5c856dac98",
+    "question": "Who created the 2011 Video Game \"Minecraft\"?",
+    "correctAnswer": "Markus Persson",
+    "incorrectAnswers": [
+      "Jens Bergensten",
+      "Daniel Rosenfeld",
+      "Carl Manneh"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4cd65053fc93e815106daf8f8cac88d9201dc0592293d503c8565bf9a55c491d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaebcd6cd33070596e9b3",
+    "question": "Who created the indie adventure game \"Night in the Woods\"?",
+    "correctAnswer": "Alec Holowka",
+    "incorrectAnswers": [
+      "Ron Gilbert",
+      "Tim Schafer",
+      " Tommy Refenes"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8faa66aba1b5a35f626f3c708baa9a758fb4b81219fdbdcb0a201dc00dcc71c0",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319452",
+    "question": "Who directed \"E.T. the Extra-Terrestrial\" (1982)?",
+    "correctAnswer": "Steven Spielberg",
+    "incorrectAnswers": [
+      "Stanley Kubrick",
+      "James Cameron",
+      "Tim Burton"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5da75197e74dd363dafd2190b71bb4d56ba74694297ed72e5454a026ad4d19df",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d3831945a",
+    "question": "Who directed the 2015 movie \"The Revenant\"?",
+    "correctAnswer": "Alejandro G. I&ntilde;&aacute;rritu",
+    "incorrectAnswers": [
+      "Christopher Nolan",
+      "David Fincher",
+      "Wes Anderson"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "59ca0e84d957067f7d20829685f63a38b19d2e295969e6ee58c580d8495e143f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319455",
+    "question": "Who directed the movies \"Pulp Fiction\", \"Reservoir Dogs\" and \"Django Unchained\"?",
+    "correctAnswer": "Quentin Tarantino",
+    "incorrectAnswers": [
+      "Martin Scorcese",
+      "Steven Spielberg",
+      "James Cameron"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0b88116cbf0b223323986185abf883872633f6ea0a66b219f4ff4ed5191a56e6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd915d64d094e2837ea411",
+    "question": "Who had a 1969 top 5 hit with the song,  'A Boy Named Sue'?",
+    "correctAnswer": "Johnny Cash",
+    "incorrectAnswers": [
+      "Bob Dylan",
+      "Willie Nelson",
+      "Kris Kristofferson"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "9b8c8963274f8712dc81c5f2928336c82f320a08668136cad45a12481bee2e45",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319456",
+    "question": "Who in Pulp Fiction says \"No, they got the metric system there, they wouldn't know what the f*** a Quarter Pounder is.\"",
+    "correctAnswer": "Vincent Vega",
+    "incorrectAnswers": [
+      "Jules Winnfield",
+      "Jimmie Dimmick",
+      "Butch Coolidge"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "49b2082e708c764e1b61e98e17af5ec446a8ac57a778d5f2f21a819b51966666",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d3831957c",
+    "question": "Who in this list is one of the co-founders of Valve?",
+    "correctAnswer": "Gabe Newell",
+    "incorrectAnswers": [
+      "Robin Walker",
+      "Marc Laidlaw",
+      "Ray Ueno"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "fef597c9004fc6347c45bd86d126a94440511b78b1cc5d6da066c4b4422cb967",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdae5ed6cd33070596e990",
+    "question": "Who is frozen at the end of the movie \"Goldeneye\"?",
+    "correctAnswer": "Boris Grishenko",
+    "incorrectAnswers": [
+      "James Bond",
+      "Natalya Simonova",
+      "Alec Travelyan"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e532235feddc26822688195f86676863a6ebdb302c6dcb5e50cf8f85c2d900f4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319586",
+    "question": "Who is Sonic's sidekick?",
+    "correctAnswer": "Tails",
+    "incorrectAnswers": [
+      "Shadow",
+      "Amy",
+      "Knuckles"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ec34319d34396c72c5f2d02eafe4d1a3c8d76f3a2df9282fac87feaf5abb0e4f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96db8fcfed5c856dad71",
+    "question": "Who is the colossal titan in \"Attack On Titan\"?",
+    "correctAnswer": "Bertolt Hoover",
+    "incorrectAnswers": [
+      "Reiner",
+      "Eren",
+      "Sasha"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "476cb78585e3c284fceaad57ae046f24849cc84be5f15a416899d40b85aa0898",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96b68fcfed5c856dad5b",
+    "question": "Who is the creator of the comic series \"The Walking Dead\"?",
+    "correctAnswer": "Robert Kirkman",
+    "incorrectAnswers": [
+      "Stan Lee",
+      "Malcolm Wheeler-Nicholson",
+      "Robert Crumb"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "9872ffbf96a423e4dbb1985a5683eb724663e187d1105687426eeb9cb6badb5e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdad574949b6f3fc889e58",
+    "question": "Who is the creator of the Super Smash Bros. Series?",
+    "correctAnswer": "Masahiro Sakurai",
+    "incorrectAnswers": [
+      "Reggie Fils-Aim&eacute;",
+      "Bill Trinen",
+      "Hideo Kojima"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "306207a942f042935b36ceb1a7529610c00e4e247a40a49eed45040623e98106",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdae7ad6cd33070596e99c",
+    "question": "Who is the frontman of the band 30 Seconds to Mars?",
+    "correctAnswer": "Jared Leto",
+    "incorrectAnswers": [
+      "Gerard Way",
+      "Matthew Bellamy",
+      "Mike Shinoda"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "1b16724f7cff3c0b18e3a6416437e14183a846ed30bcd848341147285acaf2d6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda9c5329caddc52d62152",
+    "question": "Who is the lead singer of Arctic Monkeys?",
+    "correctAnswer": "Alex Turner",
+    "incorrectAnswers": [
+      "Jamie Cook",
+      "Matt Helders",
+      "Nick O'Malley"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "7440c605d29261662e29a9287ea902cb1237f5e693f2b8fba15022c2e1d04f1b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd957c8fcfed5c856dac70",
+    "question": "Who is the lead singer of Foo Fighters?",
+    "correctAnswer": "Dave Grohl",
+    "incorrectAnswers": [
+      "Dave Mustaine",
+      "James Hetfield",
+      "Little Red Riding Hood"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5bcea0076726fa6d05f036bf29c229ffa0ed7b3a8c09173d2dd824ceb9564197",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194bc",
+    "question": "Who is the lead singer of Pearl Jam?",
+    "correctAnswer": "Eddie Vedder",
+    "incorrectAnswers": [
+      "Ozzy Osbourne",
+      "Stone Gossard",
+      "Kurt Cobain"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b347097cec9cc1b399bfd2d5f538343c0661930e83fccee905f60468870b05f0",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdad164949b6f3fc889e3f",
+    "question": "Who is the lead singer of the band Coldplay?",
+    "correctAnswer": "Chris Martin",
+    "incorrectAnswers": [
+      "Chris Isaak",
+      "Chris Wallace",
+      "Chris Connelly"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a0aa840c02d5a3d088032544e62882a42681519f368a80350a90c4c5a48049b8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194bd",
+    "question": "Who is the lead singer of the British pop rock band Coldplay?",
+    "correctAnswer": "Chris Martin",
+    "incorrectAnswers": [
+      "Jonny Buckland",
+      "Guy Berryman",
+      "Will Champion"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "28f0b751aeb22a599a56ba412bcfe66d198b0092c18a5503a5cc2baba3911ba1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaebcd6cd33070596e9b4",
+    "question": "Who is the leader of Team Mystic in Pok&eacute;mon Go?",
+    "correctAnswer": "Blanche",
+    "incorrectAnswers": [
+      "Candela",
+      "Spark",
+      "Willow"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "07c5498b97e0dffa583472433e726a54f04cbbb3ede3fa58c9bba3adea6d4b88",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdb0094a1e48de0dd2f314",
+    "question": "Who is the leader of Team Valor in Pok&eacute;mon Go?",
+    "correctAnswer": "Candela",
+    "incorrectAnswers": [
+      "Willow",
+      "Blanche",
+      "Spark"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "87f66456fb337202adc41c0da972096e9de1f4914e9fc28395cc25753d1ef194",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdabc9dd0b01bd939aee82",
+    "question": "Who is the main antagonist in the Portal franchise?",
+    "correctAnswer": "GLaDOS",
+    "incorrectAnswers": [
+      "Chell",
+      "Wheatley",
+      "Rick"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5756a03f441e7b883b6d4ade3cf1b0bf14e832590bcd5dc4575a55935b342f5e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d383195ac",
+    "question": "Who is the main antagonist of Ori and the Blind Forest?",
+    "correctAnswer": "Kuro",
+    "incorrectAnswers": [
+      "Nibel",
+      "Gumo",
+      "King Rammer XII"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4cee8c920cc3dd5b44142e078d6d4bfba1b581a94462c9baff4cd14783726391",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaa07329caddc52d62179",
+    "question": "Who is the main character in Metal Gear Rising: Revengeance?",
+    "correctAnswer": "Raiden",
+    "incorrectAnswers": [
+      "Solid Snake",
+      "Otacon",
+      "Revolver Ocelot"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "39be3177cbda9b0c6950d1568185a42e37a5bcd393cb835547e8ae4affcf5fd8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319542",
+    "question": "Who is the main character in the show \"Burn Notice\"?",
+    "correctAnswer": "Michael Westen",
+    "incorrectAnswers": [
+      "Sam Axe",
+      "Fiona Glenanne",
+      "Madeline Westen"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "64001f90d7c325479db36bd244e46baaa4141ffd275332cd28063f4b7bdf48e4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdad574949b6f3fc889e5c",
+    "question": "Who is the main character of the game Half-Life: Opposing Force?",
+    "correctAnswer": "Adrian Shephard",
+    "incorrectAnswers": [
+      "Gordon Freeman",
+      "Alyx Vance",
+      "Barney Calhoun"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "87756c13c6c47dbdb2f0c0d8c62b4626a5f3a56660a51dffb458fd741c21e76a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8f9d158fd25b9c1d7f6f",
+    "question": "Who is the main protagonist in, the 1985 film, Back to the Future?",
+    "correctAnswer": "Marty McFly",
+    "incorrectAnswers": [
+      "Emmett \"Doc\" Brown",
+      "Biff Tannen",
+      "George McFly"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "929deba14c9461dfa510ce5b1fe71f6fdaf5e4a7c4cb00391250a2c7f07559c7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d38319594",
+    "question": "Who is the protagonist in Dead Rising (2006)?",
+    "correctAnswer": "Frank West",
+    "incorrectAnswers": [
+      "Chuck Greene",
+      "John North",
+      "Jason Grey"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "963281fe6ca6e11f26685721ab8199d61bc7589a0eaffb8342dfef63b0ed543c",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda9ec329caddc52d6216c",
+    "question": "Who is the star of the AMC series Breaking Bad?",
+    "correctAnswer": "Walter White",
+    "incorrectAnswers": [
+      "Saul Goodman",
+      "Jesse Pinkman",
+      "Skyler White"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "57f9c951d4a4799eb948430073183c515cb57551eb4d6b3e6fb67c035d6a3ba6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda078ee9c0a5d383195a0",
+    "question": "Who is the writer of the game \"Half-Life\"?",
+    "correctAnswer": "Marc Laidlaw",
+    "incorrectAnswers": [
+      "Gabe Newell",
+      "Robin Walker",
+      "Chet Faliszek"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d35c6e02897475d4adc5c98a57fb4116010b0973374f1128b324b540ef755203",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdabc9dd0b01bd939aee8b",
+    "question": "Who made Garry's Mod?",
+    "correctAnswer": "Garry Newman",
+    "incorrectAnswers": [
+      "Randy Newman",
+      "Facepunch Studios",
+      "Gabe Newell"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "79df10edfafa81469263a90a0804b26e8cf7d7849706169a4da02f0c5c16ee0c",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d38319530",
+    "question": "Who played Agent Fox Mulder in the TV sci-fi drama \"The X-Files\"?",
+    "correctAnswer": "David Duchovny",
+    "incorrectAnswers": [
+      "Gillian Anderson",
+      "Robert Patrick",
+      "Mitch Pileggi"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e3f635bcd879e2fb3fcb0240b758e48762a748f4f96cc43f678fabcd1680785e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d3831945d",
+    "question": "Who played Deputy Marshal Samuel Gerard in the 1993 film \"The Fugitive\"?",
+    "correctAnswer": "Tommy Lee Jones",
+    "incorrectAnswers": [
+      "Harrison Ford",
+      "Harvey Keitel",
+      "Martin Landau"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5ceea9d0225eec1cb21589dda52460a63cda8ac365806f06a0d4718c669b7b5f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319451",
+    "question": "Who played Thanos in Avengers: Infinity War and Avengers: End Game?",
+    "correctAnswer": "Josh Brolin",
+    "incorrectAnswers": [
+      "Tom Hiddleston",
+      "Adam Sandler",
+      "Sean Gunn"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "bf09600c685c805cb97a0bb5077fe9226005dc6df29d927b2da853710f0725e6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d3831944c",
+    "question": "Who played the female lead in the 1933 film \"King Kong\"?",
+    "correctAnswer": "Fay Wray",
+    "incorrectAnswers": [
+      "Jean Harlow",
+      "Vivien Leigh",
+      "Mae West"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b931536f0c0596ff0dc6643b7b264af61e7562af5916d27382a358dd08b097d1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319464",
+    "question": "Who plays Alice in the Resident Evil movies?",
+    "correctAnswer": "Milla Jovovich",
+    "incorrectAnswers": [
+      "Madison Derpe",
+      "Milla Johnson",
+      "Kim Demp"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "174186b99b138447d3fe8f0938b035c5ab70ddd43c536493af9bafd6311f56b7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdab6ddd0b01bd939aee5b",
+    "question": "Who plays Jack Burton in the movie \"Big Trouble in Little China?\"",
+    "correctAnswer": "Kurt Russell",
+    "incorrectAnswers": [
+      "Patrick Swayze",
+      "John Cusack",
+      "Harrison Ford"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "eb0e81971b2569a9835fff901d148459dd6a7b8209111f3f8ecf80a9a2ac2f45",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319461",
+    "question": "Who plays protagonist Ethan Hunt in the \"Mission: Impossible\" film-series?",
+    "correctAnswer": "Tom Cruise",
+    "incorrectAnswers": [
+      "Johnny Depp",
+      "Sean Connery",
+      "Pierce Brosnan"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "cf184e75cecc703719c88a89ae8917a2186d0c46b3f31341ff9ad48503f8eda4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319450",
+    "question": "Who plays the character of Po in the Kung Fu Panda movies?",
+    "correctAnswer": "Jack Black",
+    "incorrectAnswers": [
+      "Mirana Jonnes",
+      "McConahey Ramses",
+      "Jim Petersson"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "40f077f7bea858ceef1481c2836a79fdc9f0806494c839e3690eb63739e565b2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d3831945b",
+    "question": "Who starred in the film 1973 movie \"Enter The Dragon\"?",
+    "correctAnswer": "Bruce Lee",
+    "incorrectAnswers": [
+      "Jackie Chan",
+      "Jet Li",
+      " Yun-Fat Chow"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "6c075908bf8a209dd28aa9e0a83f127dd76c4967f120f79bed795d9ae34cf667",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdb0094a1e48de0dd2f31a",
+    "question": "Who voices GLaDOS in the Portal games?",
+    "correctAnswer": "Ellen McLain",
+    "incorrectAnswers": [
+      "Michelle Forbes ",
+      "Mary Kae Irvin ",
+      "Natasha Radski"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c29ae49a1dd7c391b659216162d038c0f8ddef08c88f02f3a196cb8895f5dc05",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194b8",
+    "question": "Who was featured in the song \"Words\" by Feint? ",
+    "correctAnswer": "Laura Brehm",
+    "incorrectAnswers": [
+      "Anna Yvette ",
+      "Danyka Nadeau",
+      "Veela"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5b3923dacfbd06a88e5219fcd227b60a105e858ea381144b3eeeb800ec4ded15",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd913764d094e2837ea3ee",
+    "question": "Who was the author of the 1954 novel, \"Lord of the Flies\"?",
+    "correctAnswer": "William Golding",
+    "incorrectAnswers": [
+      "Stephen King",
+      "F. Scott Fitzgerald",
+      "Hunter Fox"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "3f8150a6607a29afa2fe7e249328bdbbedf477e82cc7322a5c4d3fb5aea5759d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95a28fcfed5c856dac8b",
+    "question": "Who was the first ever actor to play \"The Doctor\" on \"Doctor Who\"?",
+    "correctAnswer": "William Hartnell",
+    "incorrectAnswers": [
+      "David Tennant",
+      "Peter Capaldi",
+      "Tom Baker"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d33696993236444b1a9d6bf8ed38eecb1bc30bb40f86f234ac77e07b960d2e26",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95578fcfed5c856dac4f",
+    "question": "Who was the original author of Frankenstein?",
+    "correctAnswer": "Mary Shelley",
+    "incorrectAnswers": [
+      "Edgar Allan Poe",
+      "Bram Stoker",
+      "H. P. Lovecraft"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d96bf12bf45e37ee94550daa5a81b00b71f62e71226e879ff25ee300009f1821",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd919464d094e2837ea442",
+    "question": "Who was the voice actor for Snake in Metal Gear Solid V: The Phantom Pain?",
+    "correctAnswer": "Kiefer Sutherland",
+    "incorrectAnswers": [
+      "David Hayter",
+      "Norman Reedus",
+      "Hideo Kojima"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "1205f577f25188975b48d2832f91fe718fcbc06055325aa6441695ed9d4bc2f1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda065ee9c0a5d3831954b",
+    "question": "Who won Big Brother 2014 UK?",
+    "correctAnswer": "Helen Wood",
+    "incorrectAnswers": [
+      "Christopher Hall",
+      "Pauline Bennett",
+      "Pavandeep \"Pav\" Paul"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "46df8535184f26922e7202b5768232c698be6dccfb87242d9c724dccb654b198",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd918264d094e2837ea432",
+    "question": "Who won the 10th season of Big Brother in the United States?",
+    "correctAnswer": "Dan Gheesling",
+    "incorrectAnswers": [
+      "Adam Jasinski",
+      "Hayden Moss",
+      "Dick Donato"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "266a1c4dff6292e6411e845b7478998f70355976803699c4ce69697f3136b734",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda031ee9c0a5d38319468",
+    "question": "Who wrote and directed the 1986 film 'Platoon'?",
+    "correctAnswer": "Oliver Stone",
+    "incorrectAnswers": [
+      "Francis Ford Coppola",
+      "Stanley Kubrick",
+      "Michael Cimino"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "7d1aa596986a29127ef1b315b004ff3fbabe388d61c5b79961a129741560ee22",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd916f64d094e2837ea420",
+    "question": "Who wrote the award winning musical \"In The Heights\"?",
+    "correctAnswer": "Lin-Manuel Miranda",
+    "incorrectAnswers": [
+      "Steven Sondheim",
+      "Francis Scott Key",
+      "John Phillips Sousa"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "73e420fe7eba3e6f61a7b9fd9526eecd8a42a4525a9eeb25269005181c6f1a90",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd916f64d094e2837ea423",
+    "question": "Who wrote the musical \"Hamilton\"?",
+    "correctAnswer": "Lin-Manuel Miranda",
+    "incorrectAnswers": [
+      "Andrew Lloyd Webber",
+      "Nell Benjamin",
+      "Tom Kitt"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "37eb7ba9afc6081ef7e3a024879c0444c3bc570b2ae153af24a7c68cedbb16d2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd913764d094e2837ea3eb",
+    "question": "Who wrote the novel 'Fear And Loathing In Las Vegas'?",
+    "correctAnswer": "Hunter S. Thompson",
+    "incorrectAnswers": [
+      "F. Scott Fitzgerald",
+      "Henry Miller",
+      "William S. Burroughs"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "36df76aab71c9a63a67412e4dc03402ccdfec06407a9e048c808486f1e7abee0",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd916f64d094e2837ea421",
+    "question": "Who wrote the play 'Angels in America'?",
+    "correctAnswer": "Tony Kusher",
+    "incorrectAnswers": [
+      "Tom Stoppard",
+      "Matthew Lopez",
+      "Anthony Neilson"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5755ef15f6ced9cbacb0e0d6371dfaadc81b741c6fc8ca313abec18229659b1e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdae7ad6cd33070596e99e",
+    "question": "Who wrote the Sinead O`Connor hit 'Nothing Compares 2 U'?",
+    "correctAnswer": "Prince",
+    "incorrectAnswers": [
+      "Michael Jackson",
+      "Cameo",
+      "Rick James"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f6d43f2293c1f398838c54245f4f434c8a852693ebccf0fcc4093484203535b8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95578fcfed5c856dac51",
+    "question": "Who wrote the young adult novel \"The Fault in Our Stars\"?",
+    "correctAnswer": "John Green",
+    "incorrectAnswers": [
+      "Stephenie Meyer",
+      "Suzanne Collins",
+      "Stephen Chbosky"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "015936ace51936eb2d33aef998894627865a87c41151061cb313e200c7c307de",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194cb",
+    "question": "Whose albums included \"Back in Black\" and \"Ballbreaker\"?",
+    "correctAnswer": "AC/DC",
+    "incorrectAnswers": [
+      "Iron Maiden",
+      "Black Sabbath",
+      "Metallica"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "6e48eac8bf9937f2bb521b400229a60e2c453266a10c7d93a7003700e248fe5a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda044ee9c0a5d383194cf",
+    "question": "Whose signature guitar technique is called the \"windmill\"?",
+    "correctAnswer": "Pete Townshend",
+    "incorrectAnswers": [
+      "Jimmy Page",
+      "Eddie Van Halen",
+      "Jimi Hendrix"
+    ],
+    "broadCategory": "Entertainment",
+    "subCategory": "General Entertainment",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "353fe3975a474a98db0618634b790fd3a7b5a61cb74095f4105f34a6d2fc6da4",
+    "usageCount": 0
+  }
+]

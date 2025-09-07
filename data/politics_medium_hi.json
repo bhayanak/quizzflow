@@ -1,0 +1,82 @@
+[
+  {
+    "id": "65c7a8b9d2e3f456789013a1",
+    "question": "भारतीय संसद के दोनों सदनों की संयुक्त बैठक कौन बुलाता है?",
+    "correctAnswer": "राष्ट्रपति",
+    "incorrectAnswers": [
+      "प्रधानमंत्री",
+      "लोकसभा अध्यक्ष",
+      "राज्यसभा सभापति"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Indian Politics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6",
+    "usageCount": 0
+  },
+  {
+    "id": "65c7a8b9d2e3f456789013a2",
+    "question": "UN Security Council में स्थायी सदस्यों की संख्या कितनी है?",
+    "correctAnswer": "5",
+    "incorrectAnswers": [
+      "4",
+      "6",
+      "7"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "International Politics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7",
+    "usageCount": 0
+  },
+  {
+    "id": "65c7a8b9d2e3f456789013a3",
+    "question": "भारत में 'Money Bill' को कौन सा सदन प्रस्तुत कर सकता है?",
+    "correctAnswer": "केवल लोकसभा",
+    "incorrectAnswers": [
+      "केवल राज्यसभा",
+      "दोनों सदन",
+      "राष्ट्रपति"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Indian Politics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8",
+    "usageCount": 0
+  },
+  {
+    "id": "65c7a8b9d2e3f456789013a4",
+    "question": "NATO का मुख्यालय कहाँ स्थित है?",
+    "correctAnswer": "Brussels",
+    "incorrectAnswers": [
+      "Geneva",
+      "Paris",
+      "London"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "International Politics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9",
+    "usageCount": 0
+  },
+  {
+    "id": "65c7a8b9d2e3f456789013a5",
+    "question": "भारतीय संविधान के किस अनुच्छेद में 'Right to Constitutional Remedies' दिया गया है?",
+    "correctAnswer": "अनुच्छेद 32",
+    "incorrectAnswers": [
+      "अनुच्छेद 30",
+      "अनुच्छेद 34",
+      "अनुच्छेद 36"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Indian Politics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0",
+    "usageCount": 0
+  }
+]

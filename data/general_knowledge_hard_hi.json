@@ -1,0 +1,82 @@
+[
+  {
+    "id": "69f0a1b2c3d4e5f6789012a1",
+    "question": "वैदिक काल में 'सोम' का संबंध किससे था?",
+    "correctAnswer": "यज्ञ में प्रयुक्त पेय",
+    "incorrectAnswers": [
+      "सूर्य देवता",
+      "चांद्र कैलेंडर",
+      "एक ऋषि का नाम"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Ancient History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6",
+    "usageCount": 0
+  },
+  {
+    "id": "69f0a1b2c3d4e5f6789012a2",
+    "question": "मौर्य वंश के किस राजा ने 'अर्थशास्त्र' लिखवाया था?",
+    "correctAnswer": "चंद्रगुप्त मौर्य (कौटिल्य द्वारा)",
+    "incorrectAnswers": [
+      "अशोक",
+      "बिंदुसार",
+      "कुणाल"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Ancient History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7",
+    "usageCount": 0
+  },
+  {
+    "id": "69f0a1b2c3d4e5f6789012a3",
+    "question": "भारत की सबसे पुरानी पर्वत श्रृंखला कौन सी है?",
+    "correctAnswer": "अरावली",
+    "incorrectAnswers": [
+      "हिमालय",
+      "पश्चिमी घाट",
+      "विंध्याचल"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8",
+    "usageCount": 0
+  },
+  {
+    "id": "69f0a1b2c3d4e5f6789012a4",
+    "question": "भारतीय संविधान के निर्माण में कितना समय लगा था?",
+    "correctAnswer": "2 वर्ष 11 महीने 18 दिन",
+    "incorrectAnswers": [
+      "3 वर्ष 2 महीने",
+      "2 वर्ष 6 महीने",
+      "3 वर्ष 1 महीना"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Constitution",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9",
+    "usageCount": 0
+  },
+  {
+    "id": "69f0a1b2c3d4e5f6789012a5",
+    "question": "भारत में सबसे ज्यादा बारिश कहाँ होती है?",
+    "correctAnswer": "मावसिनराम (मेघालय)",
+    "incorrectAnswers": [
+      "चेरापूंजी",
+      "शिलांग",
+      "अगरतला"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0",
+    "usageCount": 0
+  }
+]

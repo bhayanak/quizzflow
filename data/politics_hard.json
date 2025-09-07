@@ -1,0 +1,130 @@
+[
+  {
+    "id": "68bd96678fcfed5c856dad24",
+    "question": "\"Yes, America Can!\" was this United States politician's de facto campaign slogan in 2004.",
+    "correctAnswer": "George W. Bush",
+    "incorrectAnswers": [
+      "John Kerry",
+      "Barack Obama",
+      "Al Gore"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "81ed165fff6bbbc052a2453baefb80f51d87c0379e430667cb5b1982d9a9db67",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96678fcfed5c856dad26",
+    "question": "In June 2017, Saudi Arabia and Egypt broke off ties with which country over its supposed support for terrorism?",
+    "correctAnswer": "Qatar",
+    "incorrectAnswers": [
+      "Bahrain",
+      "United States of America",
+      "Russia"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "126de1a2c5edab757b46f8d050684d48c24c037651d40bce4191787fe599e426",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd924764d094e2837ea4ec",
+    "question": "What is centralism?",
+    "correctAnswer": " Concentration of power and authority in a central organization.",
+    "incorrectAnswers": [
+      "Conforming to one single common political agenda.",
+      "Remaining politically neutral.",
+      "The grey area in the spectrum of political left and right."
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3740673096b41df5f132b1fc190ad5c9d59b339810bb4af8de91a07d4eef82c2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd924764d094e2837ea4ef",
+    "question": "What is the name of Niccol&ograve; Machiavelli's work that argued effective leaders needed to crush their opponents at all costs?",
+    "correctAnswer": "The Prince",
+    "incorrectAnswers": [
+      "The Rape of Lucrece",
+      "Will to Power",
+      "Love's Labours Lost"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "68b3de5cf83fe03b76d8584c8763d8bddb5f8b5f2eba22907681b90288f8bb10",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96678fcfed5c856dad25",
+    "question": "What year did the effort to deploy the Common Core State Standards (CCSS) in the US begin?",
+    "correctAnswer": "2009",
+    "incorrectAnswers": [
+      "2012",
+      "2006",
+      "1997"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "92fa7760dc278f548c6e05342e610c7794c2f960c47aa71364b08542f50448df",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd924764d094e2837ea4eb",
+    "question": "Which Native American tribe/nation requires at least one half blood quantum (equivalent to one parent) to be eligible for membership?",
+    "correctAnswer": "Yomba Shoshone Tribe",
+    "incorrectAnswers": [
+      "Standing Rock Sioux Tribe",
+      "Kiowa Tribe of Oklahoma",
+      "Pawnee Nation of Oklahoma"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "d18790cf3d1fd608826d10ee3354ad1a1e46c6f29d6c183a0ad6d13a50491f6b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd924764d094e2837ea4ee",
+    "question": "Which of these was an official candidate in the 2017 British General Election?",
+    "correctAnswer": "Lord Buckethead",
+    "incorrectAnswers": [
+      "James Francis",
+      "Robert Wimbledon",
+      "Sir Crumpetsby"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "9b78fef133d7336e50b9e9ccd240eb2fe5de2416b9a586d85a6b9bd78e877877",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd924764d094e2837ea4ed",
+    "question": "Who was the longest-serving senator in US history, serving from 1959 to 2010?",
+    "correctAnswer": "Robert Byrd",
+    "incorrectAnswers": [
+      "Daniel Inouye",
+      "Strom Thurmond",
+      "Joe Biden"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "287c5bd279e921be279dfc2baf9be176a377f65b2f4b1a97937aa9a34888bd59",
+    "usageCount": 0
+  }
+]

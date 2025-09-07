@@ -1,0 +1,82 @@
+[
+  {
+    "id": "64b8c9e2a1f5d789e123457a",
+    "question": "ग्रीक पुराणों में Zeus के पिता कौन हैं?",
+    "correctAnswer": "Cronus",
+    "incorrectAnswers": [
+      "Uranus",
+      "Titan",
+      "Prometheus"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Greek",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1",
+    "usageCount": 0
+  },
+  {
+    "id": "64b8c9e2a1f5d789e123457b",
+    "question": "महाभारत में कौन सा युद्ध 18 दिन तक चला था?",
+    "correctAnswer": "कुरुक्षेत्र युद्ध",
+    "incorrectAnswers": [
+      "द्वारका युद्ध",
+      "हस्तिनापुर युद्ध",
+      "पांडव युद्ध"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Hindu",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2",
+    "usageCount": 0
+  },
+  {
+    "id": "64b8c9e2a1f5d789e123457c",
+    "question": "ग्रीक पुराणों में किस देवी को 'Owl' से जोड़ा जाता है?",
+    "correctAnswer": "Athena",
+    "incorrectAnswers": [
+      "Artemis",
+      "Hera",
+      "Demeter"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Greek",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3",
+    "usageCount": 0
+  },
+  {
+    "id": "64b8c9e2a1f5d789e123457d",
+    "question": "रामायण में सीता को किसने अपहृत किया था?",
+    "correctAnswer": "रावण",
+    "incorrectAnswers": [
+      "मेघनाद",
+      "कुंभकर्ण",
+      "विभीषण"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Hindu",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4",
+    "usageCount": 0
+  },
+  {
+    "id": "64b8c9e2a1f5d789e123457e",
+    "question": "ग्रीक पुराणों में 'Golden Fleece' किस नायक से जुड़ा है?",
+    "correctAnswer": "Jason",
+    "incorrectAnswers": [
+      "Perseus",
+      "Theseus",
+      "Hercules"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Greek",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5",
+    "usageCount": 0
+  }
+]
