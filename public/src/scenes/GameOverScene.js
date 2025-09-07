@@ -41,7 +41,7 @@ class GameOverScene extends Phaser.Scene {
         this.titleText = this.add.text(width / 2, height * 0.15, titleText, {
             fontSize: '64px',
             fontFamily: 'Orbitron, monospace',
-            fill: titleColor.toString(16),
+            fill: '#' + titleColor.toString(16).padStart(6, '0'),
             stroke: '#000000',
             strokeThickness: 2
         }).setOrigin(0.5);
@@ -61,7 +61,7 @@ class GameOverScene extends Phaser.Scene {
         this.scoreText = this.add.text(width / 2, height * 0.35, `Final Score: ${this.gameData.score}`, {
             fontSize: '36px',
             fontFamily: 'Orbitron, monospace',
-            fill: config.COLORS.GOLD.toString(16),
+            fill: '#' + config.COLORS.GOLD.toString(16).padStart(6, '0'),
             stroke: '#000000',
             strokeThickness: 1
         }).setOrigin(0.5);
@@ -114,15 +114,15 @@ class GameOverScene extends Phaser.Scene {
         const percentage = (this.gameData.questionsAnswered / this.gameData.totalQuestions) * 100;
         
         if (percentage >= 90) {
-            return { text: 'Excellent! 🌟', color: config.COLORS.SUCCESS.toString(16) };
+            return { text: 'Excellent! 🌟', color: '#' + config.COLORS.SUCCESS.toString(16).padStart(6, '0') };
         } else if (percentage >= 75) {
-            return { text: 'Great! 👍', color: config.COLORS.PRIMARY.toString(16) };
+            return { text: 'Great! 👍', color: '#' + config.COLORS.PRIMARY.toString(16).padStart(6, '0') };
         } else if (percentage >= 50) {
-            return { text: 'Good! 👌', color: config.COLORS.WARNING.toString(16) };
+            return { text: 'Good! 👌', color: '#' + config.COLORS.WARNING.toString(16).padStart(6, '0') };
         } else if (percentage >= 25) {
             return { text: 'Keep Trying! 💪', color: '#ff8800' };
         } else {
-            return { text: 'Practice More! 📚', color: config.COLORS.DANGER.toString(16) };
+            return { text: 'Practice More! 📚', color: '#' + config.COLORS.DANGER.toString(16).padStart(6, '0') };
         }
     }
     
@@ -130,8 +130,8 @@ class GameOverScene extends Phaser.Scene {
         const { width, height } = this.scale;
         const config = GameConfig.config;
         
-        const buttonY = height * 0.78;
-        const buttonSpacing = 180; // Increased spacing
+        const buttonY = height * 0.75;
+        const buttonSpacing = 200; // Increased from 120 to 200 to prevent overlap
         
         // Play Again Button
         this.playAgainButton = this.createButton(
@@ -173,32 +173,26 @@ class GameOverScene extends Phaser.Scene {
     createButton(x, y, text, color) {
         const button = this.add.container(x, y);
         
-        // Button background with better styling
-        const bg = this.add.rectangle(0, 0, 160, 50, color, 0.8);
-        bg.setStrokeStyle(3, 0xFFD700, 0.8);
+        // Button background
+        const bg = this.add.rectangle(0, 0, 140, 45, color, 0.8);
+        bg.setStrokeStyle(2, 0xffffff, 0.5);
         
-        // Add inner glow effect
-        const innerGlow = this.add.rectangle(0, 0, 156, 46, 0xFFFFFF, 0.1);
-        
-        // Button text with better styling
+        // Button text
         const label = this.add.text(0, 0, text, {
             fontSize: '16px',
-            fontFamily: 'Orbitron, monospace',
-            fill: '#ffffff',
-            fontWeight: 'bold'
+            fontFamily: 'Roboto, sans-serif',
+            fill: '#ffffff'
         }).setOrigin(0.5);
         
-        button.add([bg, innerGlow, label]);
+        button.add([bg, label]);
         
         // Make interactive
         bg.setInteractive({ useHandCursor: true });
         
-        // Enhanced hover effects
+        // Hover effects
         bg.on('pointerover', () => {
             bg.setFillStyle(color, 1.0);
-            bg.setStrokeStyle(3, 0xFFFFFF, 1.0);
-            button.setScale(1.08);
-            label.setTint(0xFFD700);
+            button.setScale(1.05);
             if (window.audioManager) {
                 window.audioManager.playSFX('answer_select');
             }
@@ -206,9 +200,7 @@ class GameOverScene extends Phaser.Scene {
         
         bg.on('pointerout', () => {
             bg.setFillStyle(color, 0.8);
-            bg.setStrokeStyle(3, 0xFFD700, 0.8);
             button.setScale(1.0);
-            label.clearTint();
         });
         
         bg.on('pointerdown', () => {
@@ -219,7 +211,7 @@ class GameOverScene extends Phaser.Scene {
         });
         
         bg.on('pointerup', () => {
-            button.setScale(1.08);
+            button.setScale(1.05);
         });
         
         return bg;
