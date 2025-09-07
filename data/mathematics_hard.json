@@ -1,0 +1,146 @@
+[
+  {
+    "id": "68bd960a8fcfed5c856dacdf",
+    "question": "How many Millibars (mbar) to 1 Inch of Mercury (inHg)",
+    "correctAnswer": "33.9",
+    "incorrectAnswers": [
+      "30.0",
+      "27.4",
+      "10.6"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "a45d7051f6483e4673c68012b1ac5e438ad809bd73ba2f007bcd3d5b28433dca",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91eb64d094e2837ea497",
+    "question": "How many zeptometres are inside one femtometre?",
+    "correctAnswer": "1,000,000",
+    "incorrectAnswers": [
+      "10",
+      "1,000,000,000",
+      "1000"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "a6a8ae5874f3ecb3222b9fbff9c8b96053c158ffb43e51031b322799797fead7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd960a8fcfed5c856dacde",
+    "question": "Integration is the reverse of what mathematical operation?",
+    "correctAnswer": "Derivation",
+    "incorrectAnswers": [
+      "Division",
+      "Standard Deviation",
+      "Multiplication"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "5428c36cfb985d0b8d83a19d52d333c350e1969c44dd6e8ba1bece781b2b35ca",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91eb64d094e2837ea498",
+    "question": "The decimal number 31 in hexadecimal would be what?",
+    "correctAnswer": "1F",
+    "incorrectAnswers": [
+      "3D",
+      "2E",
+      "1B"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "a1461d086f0832f3cd3c5d38694e5770fdd271136ceb7bee77065d3018ff9727",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd960a8fcfed5c856dacdd",
+    "question": "The French mathematician &Eacute;variste Galois is primarily known for his work in which?",
+    "correctAnswer": "Galois Theory",
+    "incorrectAnswers": [
+      "Galois' Continued Fractions",
+      "Galois' Method for PDE's ",
+      "Abelian Integration"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "8afccb730bd0bb289009ac972380233c77a91af9c294b0f3a5862539b3983b32",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd960a8fcfed5c856dacdc",
+    "question": "What is the smallest number that can be expressed as the sum of two positive cubes in two different ways?",
+    "correctAnswer": "1729",
+    "incorrectAnswers": [
+      "91",
+      "561",
+      "4104"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "51bf123ae7130dc6566510fb09b12c5c91aec03c05cd79d15cc754b4606a626e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91eb64d094e2837ea495",
+    "question": "Which of the following famous mathematicians died in a duel at the age of 20?",
+    "correctAnswer": "Galois",
+    "incorrectAnswers": [
+      "Abel",
+      "Euler",
+      "Gauss"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "17ca566cd72f03403cc61b257aa253a68135ee61bb6b5ba189d9ad986f44d889",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91eb64d094e2837ea496",
+    "question": "Which of the following mathematicians made major contributions to game theory?",
+    "correctAnswer": "John Von Neumann",
+    "incorrectAnswers": [
+      "Carl Friedrich Gauss",
+      "Leonhard Euler",
+      "Stefan Banach"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "edef6b4b1c4b93cfcbde045c5ff9623568fec2b42946bbf44618050a25853943",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91eb64d094e2837ea499",
+    "question": "Which of these numbers is closest to the total number of possible states for an army standard Enigma Machine?",
+    "correctAnswer": "1.58 x 10^20",
+    "incorrectAnswers": [
+      "1.58 x 10^22",
+      "1.58 x  10^18",
+      "1.58 x 10^24"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "13df4e79f036afbf9deb60a7e834238adf158b94dc16a24f651572bcfa6aff6c",
+    "usageCount": 0
+  }
+]

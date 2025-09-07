@@ -1,0 +1,130 @@
+[
+  {
+    "id": "68bd924164d094e2837ea4e9",
+    "question": "What country saw a world record 315 million voters turn out for elections on May 20, 1991?",
+    "correctAnswer": "India",
+    "incorrectAnswers": [
+      "United States of America",
+      "Soviet Union",
+      "Poland"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "d7ee057c732a57b10a1c42897d2d970d13bd66f85505d5d0993433653f8763a1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96618fcfed5c856dad20",
+    "question": "What is former United States President Bill Clinton's full name?",
+    "correctAnswer": "William Jefferson Clinton",
+    "incorrectAnswers": [
+      "William Roosevelt Clinton",
+      "William Truman Clinton",
+      "William Lincoln Clinton"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "1b25333ff7372908f991f998da040a246c33e11334289a7350cb6b7cf05b33bd",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd924164d094e2837ea4e7",
+    "question": "Which former US president used \"Let's Make America Great Again\" as his campaign slogan before Donald Trump's campaign?",
+    "correctAnswer": "Ronald Reagan",
+    "incorrectAnswers": [
+      "Jimmy Carter",
+      "Gerald Ford",
+      "Richard Nixon"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "62929e8bf28d8be3b59b70ddd0c84cd175a0b387d0b3ffdd13ef45e3974ca9c8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96618fcfed5c856dad22",
+    "question": "Which U.S. president is said to have had the longest beard?",
+    "correctAnswer": "Rutherford B. Hayes",
+    "incorrectAnswers": [
+      "Zachary Taylor",
+      "John Quincy Adams",
+      "James A. Garfield"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "5a16b178d0f025bc7eed6243b0391b1299b808f258b7da9e32318a8bdd57f423",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd924164d094e2837ea4e5",
+    "question": "Who succeeded Joseph Stalin as General Secretary of the Communist Party of the Soviet Union?",
+    "correctAnswer": "Nikita Khrushchev",
+    "incorrectAnswers": [
+      "Leonid Brezhnev",
+      "Mikhail Gorbachev",
+      "Boris Yeltsin"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "041cc4d153f26f8dca72174966a435072dace4732de8dd28ebdfd0a08194203b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96618fcfed5c856dad21",
+    "question": "Who was elected leader of the UK Labour Party in September 2015?",
+    "correctAnswer": "Jeremy Corbyn",
+    "incorrectAnswers": [
+      "Ed Miliband",
+      "David Cameron",
+      "Theresa May"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "2d943e7bd3b924599d9fe60748dcbea3b04038ff5534606a39d18cb9a3a39a14",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd924164d094e2837ea4e6",
+    "question": "Who was the 40th President of the USA?",
+    "correctAnswer": "Ronald Reagan",
+    "incorrectAnswers": [
+      "Jimmy Carter",
+      "Bill Clinton",
+      "Richard Nixon"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "e9a01967485143799ca07446c17ec16ba379d6565b8cb96e420f0ba95c6af18c",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd924164d094e2837ea4e8",
+    "question": "Who was the only president to not be in office in Washington D.C?",
+    "correctAnswer": "George Washington",
+    "incorrectAnswers": [
+      "Abraham Lincoln",
+      "Richard Nixon",
+      "Thomas Jefferson"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "c176f022177ac7778016593b01bd4b5481fe3c69cd8734bb25f968be51376df8",
+    "usageCount": 0
+  }
+]

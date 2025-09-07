@@ -1,0 +1,114 @@
+[
+  {
+    "id": "68bd924e64d094e2837ea4f5",
+    "question": "What is the name of the Japanese art of folding paper into decorative shapes and figures?",
+    "correctAnswer": "Origami",
+    "incorrectAnswers": [
+      "Sumi-e",
+      "Ukiyo-e",
+      "Haiku"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "2c5e01543d72aed8a28a0ef04e9c8d7e5c05a2a1afda9ec87c6ee238bba604a2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd966d8fcfed5c856dad29",
+    "question": "Which Van Gogh painting depicts the view from his asylum in Saint-R&eacute;my-de-Provence in southern France?",
+    "correctAnswer": "The Starry Night",
+    "incorrectAnswers": [
+      "Wheatfields with Crows",
+      "The Sower with Setting Sun",
+      "The Church at Auvers"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "94301da8462a778246f8c47f398c7e085fb3d3cd0574c81af9704bebc49f3eb1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd966d8fcfed5c856dad28",
+    "question": "Who painted \"Swans Reflecting Elephants\", \"Sleep\", and \"The Persistence of Memory\"?",
+    "correctAnswer": "Salvador Dali",
+    "incorrectAnswers": [
+      "Jackson Pollock",
+      "Vincent van Gogh",
+      "Edgar Degas"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "08ad055133bf6db88978dcc8e3b3d6a6d0c05b2fa3bb91a620c9774dab8ba308",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd924e64d094e2837ea4f4",
+    "question": "Who painted \"The Starry Night\"?",
+    "correctAnswer": "Vincent van Gogh",
+    "incorrectAnswers": [
+      "Edvard Munch",
+      "Pablo Picasso",
+      "Claude Monet"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "eed11f7680cea961fab34fcb4736a8e1116535a25d2571f405328f344e73cb87",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd924e64d094e2837ea4f2",
+    "question": "Who painted the biblical fresco The Creation of Adam?",
+    "correctAnswer": "Michelangelo",
+    "incorrectAnswers": [
+      "Leonardo da Vinci",
+      "Caravaggio",
+      "Rembrandt"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a448944642e56da8417d3e10fab40bb83671c02b1f265b04bf5a83b8984fefb8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd924e64d094e2837ea4f1",
+    "question": "Who painted the Sistine Chapel?",
+    "correctAnswer": "Michelangelo",
+    "incorrectAnswers": [
+      "Leonardo da Vinci",
+      "Pablo Picasso",
+      "Raphael"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5f3d28ef8208aa15d3bf9b021c75dba4c3e367c0d4d5e2e968cbcb90e8da1a4d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd924e64d094e2837ea4f3",
+    "question": "Who painted The Starry Night?",
+    "correctAnswer": "Vincent van Gogh",
+    "incorrectAnswers": [
+      "Pablo Picasso",
+      "Leonardo da Vinci",
+      "Michelangelo"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0929e5b8fddcb879b14e1208f1c45461c2df1e0dec2357b6088a8396ab6d1e63",
+    "usageCount": 0
+  }
+]

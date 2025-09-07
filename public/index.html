@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizFlow - You can be millionaire!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="gameContainer">
+        <!-- Phaser will create its canvas here -->
+    </div>
+    
+    <!-- Loading screen -->
+    <div id="loadingScreen">
+        <div class="loading-content">
+            <h1>QuizFlow</h1>
+            <div class="loading-spinner"></div>
+            <p>Loading your quiz adventure...</p>
+            <button id="skipLoadingBtn" style="
+                background: transparent;
+                border: 2px solid #007bff;
+                color: #007bff;
+                padding: 8px 16px;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 0.9rem;
+                margin-top: 20px;
+                display: none;
+            ">Skip Loading</button>
+        </div>
+    </div>
+
+    <!-- Audio controls -->
+    <div id="audioControls">
+        <button id="muteBtn" title="Toggle Sound">🔊</button>
+        <button id="languageBtn" title="Switch Language">EN</button>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.70.0/dist/phaser.min.js"></script>
+    <script src="src/utils/TranslationManager.js"></script>
+    <script src="src/utils/AudioManager.js"></script>
+    <script src="src/utils/QuestionManager.js"></script>
+    <script src="src/utils/GameConfig.js"></script>
+    <script src="src/scenes/MenuScene.js"></script>
+    <script src="src/scenes/GameScene.js"></script>
+    <script src="src/scenes/GameOverScene.js"></script>
+    <script src="src/game.js"></script>
+</body>
+</html>

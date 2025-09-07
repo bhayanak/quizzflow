@@ -1,0 +1,146 @@
+[
+  {
+    "id": "68bd921064d094e2837ea4b7",
+    "question": "Etihad Stadium is the home stadium for which team?",
+    "correctAnswer": "Manchester City",
+    "incorrectAnswers": [
+      "Manchester United",
+      "Arsenal",
+      "Blackpool"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "d4812549dd410ab8d67e13b9206bc6ef28b22f42f91016a85f8e4538d773f663",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd921064d094e2837ea4b8",
+    "question": "How many times did Martina Navratilova win the Wimbledon Singles Championship?",
+    "correctAnswer": "Nine",
+    "incorrectAnswers": [
+      "Ten",
+      "Seven",
+      "Eight"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "c02cf8b416df67e15e71b9da9afcdef035be4948a29c877503b693c2b4d6a7dc",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd921064d094e2837ea4b5",
+    "question": "Prior to 2018, which car company is the only Japanese company which won the 24 Hours of Le Mans?",
+    "correctAnswer": "Mazda",
+    "incorrectAnswers": [
+      "Toyota",
+      "Subaru",
+      "Nissan"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "f8aa195d89ace455c44e467715b6f333490a1857d8462921d633d696fb662558",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd962e8fcfed5c856dacf7",
+    "question": "What is &ldquo;The Sport of Kings&rdquo;?",
+    "correctAnswer": "Horse Racing",
+    "incorrectAnswers": [
+      "Chess",
+      "Jousting",
+      "Fencing"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "fff1f003f285bde968d2531119cfd538830762fc6ea7d7fc9f6c9bbc6ee0c80b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd921064d094e2837ea4b6",
+    "question": "What is the full name of the footballer \"Cristiano Ronaldo\"?",
+    "correctAnswer": "Cristiano Ronaldo dos Santos Aveiro",
+    "incorrectAnswers": [
+      "Cristiano Ronaldo los Santos Diego",
+      "Cristiano Armando Diego Ronaldo",
+      "Cristiano Luis Armando Ronaldo"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "260440ba5545156566ba4732ff1d01b4822a8640cda5dd05cdb240a0437cb857",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd921064d094e2837ea4b9",
+    "question": "Where was the Games of the XXII Olympiad held?",
+    "correctAnswer": "Moscow",
+    "incorrectAnswers": [
+      "Barcelona",
+      "Tokyo",
+      "Los Angeles"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "614dbed4b5a89f3743321891afba34522e44259009c3e22bfbb2fe52f2705a4b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd962e8fcfed5c856dacf8",
+    "question": "Which male player won the gold medal of table tennis singles in 2016 Olympics Games?",
+    "correctAnswer": "Ma Long (China)",
+    "incorrectAnswers": [
+      "Zhang Jike (China)",
+      "Jun Mizutani (Japan)",
+      "Vladimir Samsonov (Belarus)"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "f2e6690d22b15e64e0837e4889dc6423475a8000317e78c0469b6fbca6029f19",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd962e8fcfed5c856dacf9",
+    "question": "Which of these European cities was the first to host the modern Summer Olympic Games three times?",
+    "correctAnswer": "London",
+    "incorrectAnswers": [
+      "Paris",
+      "Athens",
+      "Rome"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "7284b8e1c415ace0a7e2b18445b4f2eb56cbe4f5170b9bc2e3c6ef298ba3a8a4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd962e8fcfed5c856dacf6",
+    "question": "With which doubles partner did John McEnroe have most success?",
+    "correctAnswer": "Peter Fleming",
+    "incorrectAnswers": [
+      "Mark Woodforde",
+      "Michael Stich",
+      "Mary Carillo"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "e28f109d29652d77aa7b4ba99e8d39e7236557db97c17fd1f45630262c920f27",
+    "usageCount": 0
+  }
+]

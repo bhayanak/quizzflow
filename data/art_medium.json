@@ -1,0 +1,130 @@
+[
+  {
+    "id": "68bd925464d094e2837ea4f7",
+    "question": "What nationality was the surrealist painter Salvador Dali?",
+    "correctAnswer": "Spanish",
+    "incorrectAnswers": [
+      "Italian",
+      "French",
+      "Portuguese"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "e4b12f76a6877011e41dcea1ec1cd92cffa809831d04975917548c81d1946ce0",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd925464d094e2837ea4fa",
+    "question": "Which artist painted &ldquo;The Treachery of Images,&rdquo; a painting of a pipe with the description \"this is not a pipe\"?",
+    "correctAnswer": "Magritte",
+    "incorrectAnswers": [
+      "Matisse",
+      "Modigliani",
+      "Munch "
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "fe39432460b7edad2d972bb32c961f44707211fe2a163f7cc524a8c9b4a3041e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd925464d094e2837ea4fb",
+    "question": "Which artist's style was to use small different colored dots to create a picture?",
+    "correctAnswer": "Georges Seurat",
+    "incorrectAnswers": [
+      "Paul C&eacute;zanne",
+      "Vincent Van Gogh",
+      "Henri Rousseau"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "1991baaed50f112870cfcb92810da22bafcb2afcd03d984a63c610e7eb1894e8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd925464d094e2837ea4f8",
+    "question": "Which of these are the name of a famous marker brand?",
+    "correctAnswer": "Copic",
+    "incorrectAnswers": [
+      "Dopix",
+      "Cofix",
+      "Marx"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "49f2c538f09ce9191b8a9d1dc8245bf5bc2b4286584d15b89ce39c9be5688a4a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd925464d094e2837ea4f9",
+    "question": "Which one of these paintings is not by Caspar David Friedrich?",
+    "correctAnswer": "The Black Sea",
+    "incorrectAnswers": [
+      "The Sea of Ice",
+      "Wanderer above the Sea of Fog",
+      "The Monk by the Sea"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "7cb42056b3a97672d85d6b593d6dd6c06cad0b32bd46e66b8afc42e3d68596f1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96738fcfed5c856dad2b",
+    "question": "Which time signature is commonly known as &ldquo;Cut Time?&rdquo;",
+    "correctAnswer": "2/2",
+    "incorrectAnswers": [
+      "4/4",
+      "6/8",
+      "3/4"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "71822e53cdf2fdba56b0ef6870a7a64b00a20861ab78783cf33ff79bd93c25ad",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96738fcfed5c856dad2d",
+    "question": "Who designed the Chupa Chups logo?",
+    "correctAnswer": "Salvador Dali",
+    "incorrectAnswers": [
+      "Pablo Picasso",
+      "Andy Warhol",
+      "Vincent van Gogh"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "3fc091f83ad517e861f8ac1c774d2c7f910e7dac952d84d4ff7b5072ae0067b3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96738fcfed5c856dad2c",
+    "question": "Who painted the epic mural Guernica?",
+    "correctAnswer": "Pablo Picasso",
+    "incorrectAnswers": [
+      "Francisco Goya",
+      "Leonardo da Vinci",
+      "Henri Matisse"
+    ],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "bc65676cacba04fb15d7deb66ad97d0c0ce50ee005516ccedd554a71e97bc4a9",
+    "usageCount": 0
+  }
+]

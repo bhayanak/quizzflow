@@ -1,0 +1,130 @@
+[
+  {
+    "id": "68bd91e564d094e2837ea490",
+    "question": "At what temperature does temp in &deg;C equal temp in &deg;F?",
+    "correctAnswer": "-40",
+    "incorrectAnswers": [
+      "+40",
+      "0",
+      "+100"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "9e30e6b7fdbc4a08c36cff37aeaaee34e69a7d10b9d43dbca9c3360f09f4cbee",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96038fcfed5c856dacda",
+    "question": "In the hexadecimal system, what number comes after 9?",
+    "correctAnswer": "The Letter A",
+    "incorrectAnswers": [
+      "10",
+      "The Number 0",
+      "16"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "196e581480b742dd8eb08c47cf6e2de4132dba4190f6717c1ba7d4a287244fb0",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96038fcfed5c856dacd9",
+    "question": "To the nearest whole number, how many radians are in a whole circle?",
+    "correctAnswer": "6",
+    "incorrectAnswers": [
+      "3",
+      "4",
+      "5"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "589a812b21025089cdc8abb2211e8b6309a7a0bd685325471ec3a915252acec0",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91e564d094e2837ea492",
+    "question": "What Greek letter is used to signify summation?",
+    "correctAnswer": "Sigma",
+    "incorrectAnswers": [
+      "Delta",
+      "Alpha",
+      "Omega"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "77deeb22ea4d6298a749647611bd93f32f2f196593b4bcded5e958619d0c88a5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96038fcfed5c856dacd8",
+    "question": "What is the area of a circle with a diameter of 20 inches if &pi;= 3.1415?",
+    "correctAnswer": "314.15 Inches",
+    "incorrectAnswers": [
+      "380.1215 Inches",
+      "3141.5 Inches",
+      "1256.6 Inches"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "65b22691c9ab2cd7851de94168e24d4d37a5231c3aeab8d8a3de3a1b1e72a949",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91e564d094e2837ea48f",
+    "question": "What is the Roman numeral for 500?",
+    "correctAnswer": "D",
+    "incorrectAnswers": [
+      "L",
+      "C",
+      "X"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "19721a7baac0b2b88a1da9b87c9cc7eb3390673b18d3bc1f103ee59d97bfdb02",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91e564d094e2837ea491",
+    "question": "What type of function is x&sup2;+2x+1?",
+    "correctAnswer": "Quadratic",
+    "incorrectAnswers": [
+      "Rational",
+      "Linear",
+      "Exponential"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "6de514afddbc45a4341fa11d29eeb7e7178655e41342a69d69f64b211bb421c7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91e564d094e2837ea493",
+    "question": "Which of the following dice is not a platonic solid?",
+    "correctAnswer": "10-sided die",
+    "incorrectAnswers": [
+      "12-sided die",
+      "20-sided die",
+      "8-sided die"
+    ],
+    "broadCategory": "Mathematics",
+    "subCategory": "Mathematics",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "5ca41f575d9efbb4a17d3e1417ed90d353daeec5a827f775417e5923e385533b",
+    "usageCount": 0
+  }
+]

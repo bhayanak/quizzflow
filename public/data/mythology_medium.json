@@ -1,0 +1,290 @@
+[
+  {
+    "id": "68bd8fac158fd25b9c1d7f9a",
+    "question": "A minotaur is half human half what?",
+    "correctAnswer": "Bull",
+    "incorrectAnswers": [
+      "Cow",
+      "Horse",
+      "Eagle"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "520d5a38171ea23a47a05927f6f4ed2c19e3b3826b2ce2055c5103b1cd4cddda",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8fac158fd25b9c1d7f98",
+    "question": "According to Japanese folklore, what is the favorite food of the Kappa.",
+    "correctAnswer": "Cucumbers",
+    "incorrectAnswers": [
+      "Kabocha",
+      "Nasu",
+      "Soba"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "caac57540427eb7b1694c658b320cacc73b361b4e345e0f21bc10f2c0d8862ea",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8fac158fd25b9c1d7f95",
+    "question": "According to the Egyptian Myth of Osiris, who murdered Osiris?",
+    "correctAnswer": "Set",
+    "incorrectAnswers": [
+      "Horus",
+      "Ra",
+      "Anhur"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "9b73337259cca95f22bbebc3a9b139cf5db59bced410fd174d5e3be049fdac3f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8fac158fd25b9c1d7f9f",
+    "question": "Hel was the daughter of which Norse Mythological figure?",
+    "correctAnswer": "Loki",
+    "incorrectAnswers": [
+      "Thor",
+      "Odin",
+      "Balder"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "84d6ec2452a94ec894e123b49c3713718feabd51062a9392c8991d0e1035a792",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96168fcfed5c856dace7",
+    "question": "In African mythology, Anansi is a trickster and storyteller who takes the shape of which animal?",
+    "correctAnswer": "Spider",
+    "incorrectAnswers": [
+      "Wild dog",
+      "Monkey",
+      "Crocodile"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "e4885e2273a720cb5440516e5f6e793b0048e95a7e70e25af94172c0a0a710e1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91f764d094e2837ea4a1",
+    "question": "In Greek mythology, Persephone must return to the underworld because she had eaten what kind of seeds?",
+    "correctAnswer": "Pomegranate",
+    "incorrectAnswers": [
+      "Sunflower",
+      "Orange",
+      "Fig"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "4ab690460c6e3e55f2b3b80b55fdc55aa29cbb7cc2a04f57abeb0500e069d9ff",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8fac158fd25b9c1d7fa0",
+    "question": "In Greek Mythology, who killed Achilles?",
+    "correctAnswer": "Paris",
+    "incorrectAnswers": [
+      "Hector",
+      "Helen",
+      "Pericles"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "57c30f095f1a1f4c045cf1d7bcddea44e95b23009efcb49c20da2388e03c468c",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8fac158fd25b9c1d7f9c",
+    "question": "In Norse Mythology, Baldr was killed by Loki with a magical spear made from what plant?",
+    "correctAnswer": "Mistletoe",
+    "incorrectAnswers": [
+      "Wolf's Bane",
+      "Buckthorn",
+      "Hemlock"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "dce12e74ef6fc56f1838903a3aa02a392e5f6d463923384e4a4af176a1c993a9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8fac158fd25b9c1d7f9e",
+    "question": "Neptune's greek name was...",
+    "correctAnswer": "Poseidon",
+    "incorrectAnswers": [
+      "Ares",
+      "Zeus",
+      "Apollo"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "fde0d09c7b1092689c92a96b7afb1789fb573ca800c47bc7f2c938396a88ff65",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8fac158fd25b9c1d7fa1",
+    "question": "The Maori hold that which island nation was founded by Kupe, who discovered it under a long white cloud?",
+    "correctAnswer": "New Zealand",
+    "incorrectAnswers": [
+      "Vanuatu",
+      "Fiji",
+      "Hawaii"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "2bba0e8cd5deb57f4858dd343403ba0c571295bca54e547bc05a35ebe6ef7fda",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8fac158fd25b9c1d7f93",
+    "question": "This Greek mythological figure is the god/goddess of battle strategy (among other things).",
+    "correctAnswer": "Athena",
+    "incorrectAnswers": [
+      "Ares",
+      "Artemis",
+      "Apollo"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "6e9a54e994d6d82fd1c27911bf783b62b09da32421d44fbec52ff492563e5a70",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8fac158fd25b9c1d7f9b",
+    "question": "What is the name of the Greek god of peaceful deaths?",
+    "correctAnswer": "Thanatos",
+    "incorrectAnswers": [
+      "Tartarus",
+      "Hades",
+      "Moros"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "0a966079dd4ef331e5bc74b94ad802ab5f5517d72d5466d3cd2642371ae6d6ac",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8fac158fd25b9c1d7f96",
+    "question": "Which of the following is not one of the Greek Fates?",
+    "correctAnswer": "Narcissus",
+    "incorrectAnswers": [
+      "Clotho",
+      "Atropos",
+      "Lachesis"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "969345154341117de29e3ff4e481afd5933be81dccdf28c12728fe376ab254cc",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8fac158fd25b9c1d7f94",
+    "question": "Which of the following Mesopotamian mythological figures was NOT a deity?",
+    "correctAnswer": "Enkidu",
+    "incorrectAnswers": [
+      "Enki",
+      "Enlil",
+      "Enkimdu"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "6dd6feb0118d9253b754ce373204b1baec2666817ed374aca8401f87840dbeff",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8fac158fd25b9c1d7f9d",
+    "question": "Which of these Roman gods doesn't have a counterpart in Greek mythology?",
+    "correctAnswer": "Janus",
+    "incorrectAnswers": [
+      "Vulcan",
+      "Juno",
+      "Mars"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "6f6f023c5ef65ed0eb2e41e060802adfe15465566d7d24a9214958b3c5b7a2a2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96168fcfed5c856dace8",
+    "question": "Who is the God Loki's son? ",
+    "correctAnswer": "Fenrir ",
+    "incorrectAnswers": [
+      "Odin",
+      "Hel",
+      "Sigyn"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "e1c885b74b5061655d5430844f5738eb4af439a25889d7a26c607327bff414fb",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8fac158fd25b9c1d7f97",
+    "question": "Who is the god of war in Polynesian mythology?",
+    "correctAnswer": "'Oro",
+    "incorrectAnswers": [
+      "Hina",
+      "Kohara",
+      "Māui"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "b181e29cd999bdd9434ef37a60bde8d2cefa621807c173ccf2ade8610b121dfb",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd8fac158fd25b9c1d7f99",
+    "question": "Who was the Roman god of fire?",
+    "correctAnswer": "Vulcan",
+    "incorrectAnswers": [
+      "Apollo",
+      "Jupiter",
+      "Mercury"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "f927f54bdca51436a741498d72a43ecc747e54cb6d69dfa0494e444d12ee3018",
+    "usageCount": 0
+  }
+]

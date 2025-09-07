@@ -1,0 +1,216 @@
+{
+  "totalFiles": 27,
+  "broadCategories": {
+    "Animals": 28,
+    "Art": 23,
+    "Entertainment": 853,
+    "General Knowledge": 672,
+    "Mathematics": 25,
+    "Mythology": 35,
+    "Politics": 23,
+    "Science": 209,
+    "Sports": 26
+  },
+  "difficulties": {
+    "easy": 632,
+    "hard": 532,
+    "medium": 730
+  },
+  "subCategories": {
+    "Animals": 28,
+    "Art": 23,
+    "Celebrities": 32,
+    "General Entertainment": 821,
+    "General Knowledge": 272,
+    "Geography": 157,
+    "History": 215,
+    "Vehicles": 28,
+    "Mathematics": 25,
+    "Mythology": 35,
+    "Politics": 23,
+    "Computers & Technology": 27,
+    "General Science": 182,
+    "Sports": 26
+  },
+  "filesBreakdown": {
+    "animals_easy.json": {
+      "count": 9,
+      "subCategories": [
+        "Animals"
+      ]
+    },
+    "animals_hard.json": {
+      "count": 9,
+      "subCategories": [
+        "Animals"
+      ]
+    },
+    "animals_medium.json": {
+      "count": 10,
+      "subCategories": [
+        "Animals"
+      ]
+    },
+    "art_easy.json": {
+      "count": 7,
+      "subCategories": [
+        "Art"
+      ]
+    },
+    "art_hard.json": {
+      "count": 8,
+      "subCategories": [
+        "Art"
+      ]
+    },
+    "art_medium.json": {
+      "count": 8,
+      "subCategories": [
+        "Art"
+      ]
+    },
+    "entertainment_easy.json": {
+      "count": 284,
+      "subCategories": [
+        "Celebrities",
+        "General Entertainment"
+      ]
+    },
+    "entertainment_hard.json": {
+      "count": 225,
+      "subCategories": [
+        "Celebrities",
+        "General Entertainment"
+      ]
+    },
+    "entertainment_medium.json": {
+      "count": 344,
+      "subCategories": [
+        "Celebrities",
+        "General Entertainment"
+      ]
+    },
+    "general_knowledge_easy.json": {
+      "count": 228,
+      "subCategories": [
+        "General Knowledge",
+        "Geography",
+        "History",
+        "Vehicles"
+      ]
+    },
+    "general_knowledge_hard.json": {
+      "count": 186,
+      "subCategories": [
+        "General Knowledge",
+        "Geography",
+        "History",
+        "Vehicles"
+      ]
+    },
+    "general_knowledge_medium.json": {
+      "count": 258,
+      "subCategories": [
+        "General Knowledge",
+        "Geography",
+        "History",
+        "Vehicles"
+      ]
+    },
+    "mathematics_easy.json": {
+      "count": 8,
+      "subCategories": [
+        "Mathematics"
+      ]
+    },
+    "mathematics_hard.json": {
+      "count": 9,
+      "subCategories": [
+        "Mathematics"
+      ]
+    },
+    "mathematics_medium.json": {
+      "count": 8,
+      "subCategories": [
+        "Mathematics"
+      ]
+    },
+    "mythology_easy.json": {
+      "count": 10,
+      "subCategories": [
+        "Mythology"
+      ]
+    },
+    "mythology_hard.json": {
+      "count": 7,
+      "subCategories": [
+        "Mythology"
+      ]
+    },
+    "mythology_medium.json": {
+      "count": 18,
+      "subCategories": [
+        "Mythology"
+      ]
+    },
+    "politics_easy.json": {
+      "count": 7,
+      "subCategories": [
+        "Politics"
+      ]
+    },
+    "politics_hard.json": {
+      "count": 8,
+      "subCategories": [
+        "Politics"
+      ]
+    },
+    "politics_medium.json": {
+      "count": 8,
+      "subCategories": [
+        "Politics"
+      ]
+    },
+    "science_easy.json": {
+      "count": 70,
+      "subCategories": [
+        "Computers & Technology",
+        "General Science"
+      ]
+    },
+    "science_hard.json": {
+      "count": 71,
+      "subCategories": [
+        "Computers & Technology",
+        "General Science"
+      ]
+    },
+    "science_medium.json": {
+      "count": 68,
+      "subCategories": [
+        "Computers & Technology",
+        "General Science"
+      ]
+    },
+    "sports_easy.json": {
+      "count": 9,
+      "subCategories": [
+        "Sports"
+      ]
+    },
+    "sports_hard.json": {
+      "count": 9,
+      "subCategories": [
+        "Sports"
+      ]
+    },
+    "sports_medium.json": {
+      "count": 8,
+      "subCategories": [
+        "Sports"
+      ]
+    }
+  },
+  "totalQuestions": 1894,
+  "generatedAt": "2025-09-07T15:31:29.841Z"
+}

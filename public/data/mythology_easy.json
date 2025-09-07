@@ -1,0 +1,162 @@
+[
+  {
+    "id": "68bd91f164d094e2837ea49b",
+    "question": "How many heads does Cerberus have?",
+    "correctAnswer": "3",
+    "incorrectAnswers": [
+      "2",
+      "1",
+      "5"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "80a2a8990c435f7f9951bff004e48fa7e6f1b2689fd0b039b3f2a5e1d3d5b377",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91f164d094e2837ea49d",
+    "question": "In Greek mythology, who is the god of wine?",
+    "correctAnswer": "Dionysus",
+    "incorrectAnswers": [
+      "Hephaestus",
+      "Demeter",
+      "Apollo"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "85bc6a00e2bb4b5718a4849e0f49559ffdeed661931e8625de2b4abc6c877347",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91f164d094e2837ea49c",
+    "question": "In most traditions, who was the wife of Zeus?",
+    "correctAnswer": "Hera",
+    "incorrectAnswers": [
+      "Aphrodite",
+      "Athena",
+      "Hestia"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8f3bdf3a7ef32b82014a1c0c6e2cce012710b23829f3b7e12cb6cb39f50798d9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96108fcfed5c856dace4",
+    "question": "The ancient Roman god of war was commonly known as which of the following?",
+    "correctAnswer": "Mars",
+    "incorrectAnswers": [
+      "Jupiter",
+      "Juno",
+      "Ares"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "3364a432bb349c94973d035612a280583697da531d0fd450cc4c4db3454ef452",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96108fcfed5c856dace3",
+    "question": "What mythology did the god \"Apollo\" come from?",
+    "correctAnswer": "Greek and Roman",
+    "incorrectAnswers": [
+      "Roman and Spanish",
+      "Greek and Chinese",
+      "Greek, Roman and Norse"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "2a08c42805bf7769225174dbe69eed480304ad9d0c835819e372fb8535425f16",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91f164d094e2837ea49e",
+    "question": "Which figure from Greek mythology traveled to the underworld to return his wife Eurydice to the land of the living?",
+    "correctAnswer": "Orpheus",
+    "incorrectAnswers": [
+      "Hercules",
+      "Perseus",
+      "Daedalus"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4a52636e796169868e82bb0bf72b0ee555b83c0c9f481a8dde797c8dbe8b926f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91f164d094e2837ea49f",
+    "question": "Which of the following is not true about the life of Tiresias?",
+    "correctAnswer": "Sailed with the Argonauts to find the golden fleece",
+    "incorrectAnswers": [
+      "Athena turned him into a woman, and then years later back into a man",
+      "Hera blinded him after he agreed with Zeus in an argument",
+      "Revealed to Oedipus that Oedipus had married his own mother"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "6f6c45ee0764ad95bc04cabe1dae4c3cea4057d642f6a89c146f0e38ff596daa",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96108fcfed5c856dace1",
+    "question": "Which of these mythological creatures is said to be half-man and half-horse?",
+    "correctAnswer": "Centaur",
+    "incorrectAnswers": [
+      "Minotaur",
+      "Pegasus",
+      "Gorgon"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8f97b1bb7cdcf88cab3dd3f93e91a09851921800c28aff825163495362ab93df",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96108fcfed5c856dace2",
+    "question": "Who was the King of Gods in Ancient Greek mythology?",
+    "correctAnswer": "Zeus",
+    "incorrectAnswers": [
+      "Apollo",
+      "Hermes",
+      "Poseidon"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8c7841c80851bcb796c626e7f47f836bfdc7611e9b5e47f433556932e8b4ff37",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96108fcfed5c856dace5",
+    "question": "Who was the only god from Greece who did not get a name change in Rome?",
+    "correctAnswer": "Apollo",
+    "incorrectAnswers": [
+      "Demeter",
+      "Zeus",
+      "Athena"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "cb03acb86e46e6a3ab5f944ff61c224c10a534e83ad18aab61b9a7e2097f45c7",
+    "usageCount": 0
+  }
+]

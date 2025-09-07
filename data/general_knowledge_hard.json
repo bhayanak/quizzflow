@@ -1,0 +1,3138 @@
+[
+  {
+    "id": "68bd95518fcfed5c856dac48",
+    "question": "According to Fair Works Australia, how long do you have to work to get Long Service Leave?",
+    "correctAnswer": "7 years",
+    "incorrectAnswers": [
+      "2 years",
+      "8 years",
+      "6 months"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "317f2fb061806b600bd6e341879dc1d5ec673e5e32eaa8b8252f6bd5b1466eec",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3de",
+    "question": "According to the 2014-2015 Australian Bureau of Statistics, what percentage of Australians were born overseas?",
+    "correctAnswer": "28%",
+    "incorrectAnswers": [
+      "13%",
+      "20%",
+      "7%"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "bdceca7c297db49a6432db10a026afaa91f654b3370dd9c8aca697d9f442494b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3fb",
+    "question": "Before the 19th Century, the \"Living Room\" was originally called the...",
+    "correctAnswer": "Parlor",
+    "incorrectAnswers": [
+      "Open Room",
+      "Sitting Room",
+      "Loft"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "13ba41e3b830482f677b7552ccf75d0b5bb1b72579619106a9b65f0f7e6c5d9f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9bb82eada75c45a56356",
+    "question": "Chartreuse is a color between yellow and what?",
+    "correctAnswer": "Green",
+    "incorrectAnswers": [
+      "Red",
+      "Black",
+      "Purple"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "cee4ce081f9c00da40b1e1604400dd1edb32f0068c878217ab039addc72305ca",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3e8",
+    "question": "De Eemhof, Port Zelande and Het Heijderbos are holiday villas owned by what company?",
+    "correctAnswer": "Center Parcs",
+    "incorrectAnswers": [
+      "Yelloh Village",
+      "Keycamp",
+      "Villa Plus"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3b4554a20125c274442b897ad04bd8a005a7b91e55f417489227508ab05d819a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3fc",
+    "question": "Disney's Haunted Mansion is home to a trio of Hitchhiking Ghosts. Which of these is NOT one of them?",
+    "correctAnswer": "Harry",
+    "incorrectAnswers": [
+      "Gus",
+      "Phineas",
+      "Ezra"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3fca23a85a938bdc25dbbfafedb4f300ee1f1ff96b2da61310618457e2a066c1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a404",
+    "question": "Electronic music producer Kygo's popularity skyrocketed after a certain remix. Which song did he remix?",
+    "correctAnswer": "Ed Sheeran - I See Fire",
+    "incorrectAnswers": [
+      "Marvin Gaye - Sexual Healing",
+      "Coldplay - Midnight",
+      "a-ha - Take On Me"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "9876127a273eb0aa9c7c7c54a02406736944618f33ff52af1b6cfb55e53562f5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95518fcfed5c856dac49",
+    "question": "Going by the International Code of Signals, which single flag is interpreted as \"I require assistance (not distress)\"?",
+    "correctAnswer": "Victor",
+    "incorrectAnswers": [
+      "Kilo",
+      "Papa",
+      "Delta"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "b48cf085fcdd3b41d012e32c37d768d3bd2c62d1735f7618acbd6527d2df2293",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd913164d094e2837ea3e8",
+    "question": "How long did it take the motorized window washers of the original World Trade Center to clean the entire exterior of the building?",
+    "correctAnswer": "1 Month",
+    "incorrectAnswers": [
+      "3 Weeks",
+      "1 Week",
+      "2 Months"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "56ce0c53535364cedd5773dba12ed777d2caf5b8a219c3cd3fb3f41fab23d5a7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3f6",
+    "question": "How many calories are in a 355 ml can of Pepsi Cola?",
+    "correctAnswer": "150",
+    "incorrectAnswers": [
+      "200",
+      "100",
+      "155"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "9d4386e269866495af72ee2aa5a859bf9cd2b9f08573774f70521c7429b61f6e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9add690a4b8ffcf90e62",
+    "question": "How many notes are there on a standard grand piano?",
+    "correctAnswer": "88",
+    "incorrectAnswers": [
+      "98",
+      "108",
+      "78"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "0ce65cb4e8d0d02065906b9572c90f90815ad1a651e01bb15da045b2fb6b8482",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3f9",
+    "question": "If someone said \"you are olid\", what would they mean?",
+    "correctAnswer": "You smell extremely unpleasant.",
+    "incorrectAnswers": [
+      "You are out of shape/weak.",
+      "Your appearance is repulsive.",
+      "You are incomprehensible/an idiot."
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "6ba884e9f262dc91436e92c2b7209c1b05ec28fda8c7af93e9cda920a7e86cbe",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3fa",
+    "question": "If you planted the seeds of Quercus robur, what would grow?",
+    "correctAnswer": "Trees",
+    "incorrectAnswers": [
+      "Grains",
+      "Vegetables",
+      "Flowers"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "9497be71ecc6366eb02939a860b6ba62ae5ec4d7b65a6c0a54507b7b40cd9f7b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3f0",
+    "question": "In \"Battle Cats\", what is Moneko / MISS Moneko's critical percentage rate?",
+    "correctAnswer": "15%",
+    "incorrectAnswers": [
+      "20%",
+      "10%",
+      "25%"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "f631b98db05024b3441a9ae2dfb0a792e34f028295895d9f01eb680bccc81dc1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95518fcfed5c856dac4a",
+    "question": "In \"Resident Evil 3\", how many inventory slots does Jill have at the start of the game?",
+    "correctAnswer": "8",
+    "incorrectAnswers": [
+      "6",
+      "10",
+      "12"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "bff952a941cd4e205601457612c1c764d761ea673ebc4f0cf370beda825e0049",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3f5",
+    "question": "In flight systems, what does the initialism \"TCAS\" stand for?",
+    "correctAnswer": "Traffic Collision Avoidance System",
+    "incorrectAnswers": [
+      "Traffic Communication Alert System",
+      "Traffic Configuration Alignment System",
+      "Traffic Call-sign Abbreviation System"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "4c1a6288322043b930a1065bdb77c5d9fdfd01cc187a336019718b22589ef61d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3f3",
+    "question": "In the MMO RPG \"Realm of the Mad God\", what dungeon is widely considered to be the most difficult?",
+    "correctAnswer": "The Shatter's",
+    "incorrectAnswers": [
+      "Snake Pit",
+      "The Tomb of the Acient's",
+      "The Puppet Master's Theater"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "0cb30173d0775c914b1e6c9fe85beb0bd9f1d1f812c75d14fa4c914400f17275",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3ec",
+    "question": "Located in Chile, El Teniente is the world's largest underground mine for what metal?",
+    "correctAnswer": "Copper",
+    "incorrectAnswers": [
+      "Iron",
+      "Nickel",
+      "Silver"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "111c2e31f5415dd1c895cf9d57b3dabc91df15f11265a367a0e7500539ce2830",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3ed",
+    "question": "Named after the mallow flower, mauve is a shade of what?",
+    "correctAnswer": "Purple",
+    "incorrectAnswers": [
+      "Red",
+      "Brown",
+      "Pink"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "730f48cc0688a5ea1d63179a5418b052a5e8f2e259f63917cb678ee2b2ad3de9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9add690a4b8ffcf90e61",
+    "question": "Nephelococcygia is the practice of doing what?",
+    "correctAnswer": "Finding shapes in clouds",
+    "incorrectAnswers": [
+      "Sleeping with your eyes open",
+      "Breaking glass with your voice",
+      "Swimming in freezing water"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "06d217b9327230d17dad152b902f1e521d96e6e1801f0f52522a534bf86985ed",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3fe",
+    "question": "Originally another word for poppy, coquelicot is a shade of what?",
+    "correctAnswer": "Red",
+    "incorrectAnswers": [
+      "Green",
+      "Blue",
+      "Pink"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "04c7be769c572e7e2be7d1b131404f6aa2c38c0fcf9b999f19d0c3794b14d4f6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3ea",
+    "question": "Sciophobia is the fear of what?",
+    "correctAnswer": "Shadows",
+    "incorrectAnswers": [
+      "Eating",
+      "Bright lights",
+      "Transportation"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "d5ab1f47c87216b89457710450cf4d115c06fd7c40ea310db91275e9747e84f1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd913164d094e2837ea3e5",
+    "question": "The Quadrangularis Reversum is best described as which of the following?",
+    "correctAnswer": "A percussion instrument",
+    "incorrectAnswers": [
+      "A building in Oxford University",
+      "A chess move",
+      "A geometric theorem"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "2700d522a826852560080bf9d5613cdbf8969473e8e0598c74a6af1748a68b84",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3f7",
+    "question": "The Swedish word \"Grunka\" means what in English?",
+    "correctAnswer": "Thing",
+    "incorrectAnswers": [
+      "People",
+      "Place",
+      "Pineapple"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "bb586fa3331a5fbba2ac0d9822ea07dbe6256aeebae7e228f51a5ffe03c32c83",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3e2",
+    "question": "The word \"abulia\" means which of the following?",
+    "correctAnswer": "The inability to make decisions",
+    "incorrectAnswers": [
+      "The inability to stand up",
+      "The inability to concentrate on anything",
+      "A feverish desire to rip one's clothes off"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "67f4f085e2ff38cfa0605ae084eff78272613db7993906c5eae9647d60da790c",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95518fcfed5c856dac4c",
+    "question": "The word \"aprosexia\" means which of the following?",
+    "correctAnswer": "The inability to concentrate on anything",
+    "incorrectAnswers": [
+      "The inability to make decisions",
+      "A feverish desire to rip one's clothes off",
+      "The inability to stand up"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "48c40cdbb93d33a484b2bc40a93f160c4975c5b5e90a6102913603eedb26fcd7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3df",
+    "question": "The word \"astasia\" means which of the following?",
+    "correctAnswer": "The inability to stand up",
+    "incorrectAnswers": [
+      "The inability to make decisions",
+      "The inability to concentrate on anything",
+      "A feverish desire to rip one's clothes off"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3c1aed3c4e3445f286e1f63f5cd93f756dc1a0bce8250f56fe45d7732ae63aed",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3ef",
+    "question": "The words \"bungalow\" and \"shampoo\" originate from the languages of which country?",
+    "correctAnswer": "India",
+    "incorrectAnswers": [
+      "Papua New Guinea",
+      "Ethiopia",
+      "China"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "4fe8b66e5db72a86861d0ea4d44d9600ca090b8103bc6144dd5f4b774cfd9531",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3e7",
+    "question": "Virtual reality company Oculus VR lost which of it's co-founders in a freak car accident in 2013?",
+    "correctAnswer": "Andrew Scott Reisse",
+    "incorrectAnswers": [
+      "Nate Mitchell",
+      "Jack McCauley",
+      "Palmer Luckey"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3db2af0f25deda6100d605c2d7229ff7d5b98e1c3f2931a7ed8d5718ed80cef1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3f1",
+    "question": "What does the Latin phrase \"Veni, vidi, vici\" translate into English?",
+    "correctAnswer": "I came, I saw, I conquered",
+    "incorrectAnswers": [
+      "See no evil, hear no evil, speak no evil",
+      "Life, liberty, and happiness",
+      "Past, present, and future"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "df8f8c87582785171023013239cfa6672ef7176ff013c7c17bae752ce27d9e72",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd913164d094e2837ea3e6",
+    "question": "What is the airspeed velocity of an unladen swallow?",
+    "correctAnswer": "24 MPH",
+    "incorrectAnswers": [
+      "15 MPH",
+      "20 MPH",
+      "200 MPH"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "4da790924043ed156809b2bd3c1048937fc251a523846ff23fc4742201fdfb09",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3e3",
+    "question": "What is the most commonly used noun in the English language?",
+    "correctAnswer": "Time",
+    "incorrectAnswers": [
+      "Home",
+      "Water",
+      "Man"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "39f4f8ee53000a3e1b4c5fceafbe193af46f49e5d4445074c1b6f4d29a36e2d8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3e5",
+    "question": "What is the romanized Arabic word for \"moon\"?",
+    "correctAnswer": "Qamar",
+    "incorrectAnswers": [
+      "Najma",
+      "Kawkab",
+      "Shams"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "665d62260ce595a3ca75be36bf9ae5a2616d8bbcd42abd6d75c9ffae2b09704d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a405",
+    "question": "What is the romanized Chinese word for \"airplane\"?",
+    "correctAnswer": "Feiji",
+    "incorrectAnswers": [
+      "Qiche",
+      "Zongxian",
+      "Huojian"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "86621699a5d2f7ef1285ef97d04eb57feae78c6566167be4284ed9775ab45852",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3f4",
+    "question": "What is the romanized Korean word for \"heart\"?",
+    "correctAnswer": "Simjang",
+    "incorrectAnswers": [
+      "Aejeong",
+      "Jeongsin",
+      "Segseu"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "e932264972f17640d36fe71b9a5ee4339ec08caccf0d5af89f9a234b7320f669",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd913164d094e2837ea3e4",
+    "question": "What is the weight of a Gold Bar in Fallout: New Vegas?",
+    "correctAnswer": "35 Pounds",
+    "incorrectAnswers": [
+      "30 Pounds",
+      "40 Pounds",
+      "32.50 Pounds"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "fd9f15ba3f2a3b391945c25316a641fb02deb77a62d0cac56926bbd3b05fc3fa",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3ee",
+    "question": "What type of dog is 'Handsome Dan', the mascot of Yale University?",
+    "correctAnswer": "Bulldog",
+    "incorrectAnswers": [
+      "Yorkshire Terrier",
+      "Boxer",
+      "Pug"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "fc68544e77e16127eae8b10ca36f8150fe49049f4342a6ec51491c8ba2eda47b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3e4",
+    "question": "What was Bank of America originally established as?",
+    "correctAnswer": "Bank of Italy",
+    "incorrectAnswers": [
+      "Bank of Long Island",
+      "Bank of Pennsylvania",
+      "Bank of Charlotte"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3c811e5a02dfa22dc3e152c1c62911ce67b82c403184918e278ca1d5181130d9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3e1",
+    "question": "What was the third country to have a McDonald's restaurant?",
+    "correctAnswer": "Costa Rica",
+    "incorrectAnswers": [
+      "Japan",
+      "France",
+      "Australia"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "98b0714434d6f8329661737406eefcf6614dd8534ebcc6979fdf90814e1d2936",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a403",
+    "question": "What year was Queen Elizabeth II born?",
+    "correctAnswer": "1926",
+    "incorrectAnswers": [
+      "1923",
+      "1929",
+      "1930"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3d242eb8598f24b5350e1c48f8ca072f34d63d09872e798e6426d2e9cc3a9469",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a401",
+    "question": "What year was the RoboSapien toy robot released?",
+    "correctAnswer": "2004",
+    "incorrectAnswers": [
+      "2000",
+      "2001",
+      "2006"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "be06fa112a232e03206c5d417c2daf4edd8a22c0fa85ae53f8bec7f881a6adde",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3ff",
+    "question": "When was \"YouTube\" founded?",
+    "correctAnswer": "February 14, 2005",
+    "incorrectAnswers": [
+      "May 22, 2004",
+      "September 12, 2005",
+      "July 19, 2009"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "d4bb0d603fea2ebdbb60e77b64ec466e74d8350b0a7023811560bb336553e9e8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3dd",
+    "question": "Where is Apple Inc. headquartered?",
+    "correctAnswer": "Cupertino, California",
+    "incorrectAnswers": [
+      "Redwood City, California",
+      "Redmond, Washington",
+      "Santa Monica, CA"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "8fd037bd3773d7df17b2b13373cc56b4fae66d1ea15041f500c92f0462f5f08b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9add690a4b8ffcf90e63",
+    "question": "Which church's interior in Vatican City was designed in 1503 by renaissance architects including Bramante, Michelangelo and Bernini?",
+    "correctAnswer": "St. Peter's Basilica",
+    "incorrectAnswers": [
+      "Catania Cathedral",
+      "St. Mark&rsquo;s Basilica",
+      "The Duomo of Florence"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "19709d999d3bcfe81954bfc0b00b3c3c5c7278b16ea9c84b7037207e46ad8674",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3f2",
+    "question": "Which film star has his statue in Leicester Square?",
+    "correctAnswer": "Charlie Chaplin",
+    "incorrectAnswers": [
+      "Paul Newman",
+      "Rowan Atkinson ",
+      "Alfred Hitchcock"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "bb5e8f30705173553774ca961bbc34c0b8c25a8dae9325daf32f79a94e481309",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a400",
+    "question": "Which musician has collaborated with American producer Porter Robinson and released the 2016 song \"Shelter\"?",
+    "correctAnswer": "Madeon",
+    "incorrectAnswers": [
+      "Mat Zo",
+      "deadmau5",
+      "Zedd"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "22bf98a90ed944f14ece804812f8a44cd6ce9551449a20f49bac9d2e51dc7814",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3f8",
+    "question": "Which of the following  British Monarchs never appeared on a circulated pound sterling coin?",
+    "correctAnswer": "Edward VIII",
+    "incorrectAnswers": [
+      "Victoria",
+      "George VI",
+      "Charles II"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "b7683d4ddd84d6f02e49334fe2afc71f6665829a708ae37ef9d79074ba7a75f1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95518fcfed5c856dac4b",
+    "question": "Which of the following chemicals are found in eggplant seeds?",
+    "correctAnswer": "Nicotine",
+    "incorrectAnswers": [
+      "Mescaline",
+      "Cyanide",
+      "Psilocybin"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "dcaaacd26c60758483a98154179243a4f27e5cc9042beb36472fc39d93589412",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3e6",
+    "question": "Which of the following is an existing family in \"The Sims\"?",
+    "correctAnswer": "The Goth Family",
+    "incorrectAnswers": [
+      "The Family",
+      "The Simoleon Family",
+      "The Proud Family"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "24221b2bd402147bd684d8971dceee779c18f077c97d9e6f9a4a3284a91483a6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3e0",
+    "question": "Which of the following is not another name for the eggplant?",
+    "correctAnswer": "Potimarron",
+    "incorrectAnswers": [
+      "Brinjal",
+      "Guinea Squash",
+      "Melongene"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "2dd068f9530ead4561ea7c9085dd36a79e38791e2264c4dcb300ecdc019e2657",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9add690a4b8ffcf90e60",
+    "question": "Which of the following languages does NOT use gender as a part of its grammar?",
+    "correctAnswer": "Turkish",
+    "incorrectAnswers": [
+      "German",
+      "Danish",
+      "Polish"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "620ed9c5dd5360606f467176b535f9111f3e20ffa31c18e11253c409cdeee684",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3eb",
+    "question": "Which of these banks are NOT authorized to issue currency notes in Hong Kong?",
+    "correctAnswer": "OCBC",
+    "incorrectAnswers": [
+      "HSBC",
+      "Standard Chartered",
+      "Bank of China"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "57ab9d3a61e049c51f8bad64dbae3467be1bcce23a40dde9467619132dfbaab0",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3fd",
+    "question": "Which of these cities does NOT have a United States Minting location?",
+    "correctAnswer": "St. Louis, MO",
+    "incorrectAnswers": [
+      "San Fransisco, CA",
+      "Philidelphia, PA",
+      "West Point, NY"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "9e9e1f1f47b855359b623efa20b4b32676fa8fc0be43586699f2a747b2c7f725",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a402",
+    "question": "Which one of these Swedish companies was founded in 1943?",
+    "correctAnswer": "IKEA",
+    "incorrectAnswers": [
+      "H & M",
+      "Lindex",
+      "Clas Ohlson"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "10d6c9d8253e24213468cef6eacb70add992d2ab8d8d278ad1e8d6cb0931d3b1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd992d0d6463953456a3e9",
+    "question": "Which product did Nokia, the telecommunications company, originally sell?",
+    "correctAnswer": "Paper",
+    "incorrectAnswers": [
+      "Phones",
+      "Computers",
+      "Processors"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "69aa14af864933a064d7b0590184d557d06875968648d4268212f28358e60c57",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd913164d094e2837ea3e7",
+    "question": "Who founded the Khan Academy?",
+    "correctAnswer": "Sal Khan",
+    "incorrectAnswers": [
+      "Ben Khan",
+      "Kitt Khan",
+      "Adel Khan"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "General Knowledge",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "ff412773b9cbf419028e5ced83dd81d6dba869082f608438e95647df34070f34",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196f8",
+    "question": "Bir Tawil, an uninhabited track of land claimed by no country, is located along the border of which two countries?",
+    "correctAnswer": "Egypt and Sudan",
+    "incorrectAnswers": [
+      "Israel and Jordan",
+      "Chad and Libya",
+      "Iraq and Saudi Arabia"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "2171fac3933e76a30eb67eaca3bc749b62c21961304adac31810a9e4a4ae9266",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196e5",
+    "question": "How many countries border Kyrgyzstan?",
+    "correctAnswer": "4",
+    "incorrectAnswers": [
+      "3",
+      "1",
+      "6"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "81697dee81ae0e3e92221cf2e4541419ee4ec4853a9769f8c9f9857a9ea4dedf",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196e8",
+    "question": "How many stations does the Central Line have on the London Underground?",
+    "correctAnswer": "49",
+    "incorrectAnswers": [
+      "51",
+      "43",
+      "47"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "21954e7ee4aee90f8d3f3f3955ddbadebe8fd9afd09a3fdfa542d12206d0e37d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196e6",
+    "question": "In 2012 the German-speaking microstate \"Liechtenstein\" in Central Europe had a population of how many inhabitants?",
+    "correctAnswer": "36,600",
+    "incorrectAnswers": [
+      "2,400",
+      "90,000",
+      "323,400"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "ba892c0a3b4181db531254f88008ac09dc9bf063657a9234180a2e113008208b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196db",
+    "question": "In which city, is the Big Nickel located in Canada?",
+    "correctAnswer": "Sudbury, Ontario",
+    "incorrectAnswers": [
+      "Calgary, Alberta",
+      "Halifax, Nova Scotia ",
+      "Victoria, British Columbia"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "7f52a8c73fb07a58ffbafd39114d6953b13ad60eabb20f6626629f27d1c0ba94",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196e4",
+    "question": "In which country is Tallinn located?",
+    "correctAnswer": "Estonia",
+    "incorrectAnswers": [
+      "Finland",
+      "Sweden",
+      "Poland"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "226d4408d4329f90f7b585dc79cac0342800320a65bc55a89f9e4ee9d77d7aaf",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196f6",
+    "question": "Into which basin does the Jordan River flow into?",
+    "correctAnswer": "Dead Sea",
+    "incorrectAnswers": [
+      "Aral Sea",
+      "Caspian Sea",
+      "Salton Sea"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "ba28d3ef82b6452cf156dddce0d7bf9d663db8b37b3fad48e23e2431fd1a605f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196dd",
+    "question": "Llanfair&shy;pwllgwyngyll&shy;gogery&shy;chwyrn&shy;drobwll&shy;llan&shy;tysilio&shy;gogo&shy;goch is located on which Welsh island?",
+    "correctAnswer": "Anglesey",
+    "incorrectAnswers": [
+      "Barry",
+      "Bardsey",
+      "Caldey"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "7a2dc003b1cfd518cea3f588d2b43c0d2db87cc311dbe86def205de40b3966fb",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196fa",
+    "question": "The Andaman and Nicobar Islands in South East Asia are controlled by which country?",
+    "correctAnswer": "India",
+    "incorrectAnswers": [
+      "Vietnam",
+      "Thailand",
+      "Indonesia"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "daab267c46a18503932185605c5d47a10a2d048001b33e702ff012edcfd7929e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd922364d094e2837ea4c8",
+    "question": "The emblem on the flag of the Republic of Tajikistan features a sunrise over mountains below what symbol?",
+    "correctAnswer": "Crown",
+    "incorrectAnswers": [
+      "Bird",
+      "Sickle",
+      "Tree"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "eced9dce9e3d8310f64b02ca3c3475d1c18a69c2242a6b992ba1c16ac8d5edd5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196e0",
+    "question": "The Hunua Ranges is located in...",
+    "correctAnswer": "New Zealand",
+    "incorrectAnswers": [
+      "Nepal",
+      "China",
+      "Mexico"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "5e5ce16e952f22c65ee1cdd7db0a02d15271cf622b4d934e20680bd9ac942807",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196e9",
+    "question": "The Maluku islands (informally known as the Spice Islands) belong to which country?",
+    "correctAnswer": "Indonesia",
+    "incorrectAnswers": [
+      "Chile",
+      "New Zealand",
+      "Fiji"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "4025ac2b4f05c8dbffd7858fe77c3590038dd8cad1e732e13f1d0b6078c72165",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196fb",
+    "question": "The mountainous Khyber Pass connects which of the two following countries?",
+    "correctAnswer": "Afghanistan and Pakistan",
+    "incorrectAnswers": [
+      "India and Nepal",
+      "Pakistan and India",
+      "Tajikistan and Kyrgyzstan"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "f4c49e3c017f85baf1f7a824a97c1dbac626edfe1aa3e50a415cb00eb6e74780",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d38319702",
+    "question": "The prefix Sino- (As in Sino-American) is used to refer to what nationality?",
+    "correctAnswer": "Chinese",
+    "incorrectAnswers": [
+      "Japanese",
+      "Russian",
+      "Indian"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "23e32327963e06140d10110b3922e497410419f248ccbe1d3a8b38eaaa981c28",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196f3",
+    "question": "What city is known as the Rose Capital of the World?",
+    "correctAnswer": "Tyler, Texas",
+    "incorrectAnswers": [
+      "San Diego, California",
+      "Miami, Florida",
+      "Anaheim, California"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "acb2a67ac45bbbf1e9ca684e94ae94c7ce7ab08cdb3fd0ca7bf5a07707266734",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd922364d094e2837ea4cb",
+    "question": "What country is not a part of Scandinavia?",
+    "correctAnswer": "Finland",
+    "incorrectAnswers": [
+      "Norway",
+      "Sweden",
+      "Denmark"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "d436eba9f6fd728319a9369c2d5a9d4d3c1d65e04bffc66ccbe5f8534539aa7e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196ef",
+    "question": "What is Canada's largest island?",
+    "correctAnswer": "Baffin Island",
+    "incorrectAnswers": [
+      "Prince Edward Island",
+      "Vancouver Island",
+      "Newfoundland"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "92853606cad3f4c6c616b852648fd59a9015220e448baa3d0365ff0a67ecd8ef",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196e2",
+    "question": "What is the area of Vatican City?",
+    "correctAnswer": "0.44km^2",
+    "incorrectAnswers": [
+      "0.10km^2",
+      "0.86km^2",
+      "12.00km^2"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "bbed52d16d84e1bd355f9c7ca233e4155c52c28cd5b25ba1b9a5d7be27ddd9cd",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd922364d094e2837ea4c9",
+    "question": "What is the capital city of Bermuda?",
+    "correctAnswer": "Hamilton",
+    "incorrectAnswers": [
+      "Santo Dominigo",
+      "San Juan",
+      "Havana"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "eafa7c1e0f279837f8c1761a21fea6e918e565c37f315e8007054eb7e5e28b9c",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d38319701",
+    "question": "What is the capital of Mauritius?",
+    "correctAnswer": "Port Louis",
+    "incorrectAnswers": [
+      "Port Moresby",
+      "Port Vila",
+      "Port-au-Prince"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "1463c18d37802ca1255383ccd2b9c4b496eae8f9b193785f963941ac09df0a4d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196e1",
+    "question": "What is the capital of Wisconsin, USA?",
+    "correctAnswer": "Madison",
+    "incorrectAnswers": [
+      "Milwaukee",
+      "Wisconsin Dells",
+      "Green Bay"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "4affac74cf02320954251070b3fc1687d49f846755aa5372a4086ae40d34dab8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196dc",
+    "question": "What is the county seat of King County, Washington?",
+    "correctAnswer": "Seattle",
+    "incorrectAnswers": [
+      "Bellevue",
+      "Enumclaw",
+      "Skykomish"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3c97991b3d4d3bccfff3056e3446b362f9fa9daa7b8dac808b9cf6b0f0704bbe",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdac21dd0b01bd939aeeb7",
+    "question": "What is the Finnish word for \"Finland\"?",
+    "correctAnswer": "Suomi",
+    "incorrectAnswers": [
+      "Eesti",
+      "Magyarorsz&aacute;g",
+      "Sverige"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "6d85f083370e45e3c74b50474c03c0bb3352f87e5800d8e6014e3f1eb9af3f42",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196de",
+    "question": "What is the land connecting North America and South America?",
+    "correctAnswer": "Isthmus of Panama",
+    "incorrectAnswers": [
+      "Isthmus of Suez",
+      "Urals",
+      "Australasia"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "f47e55f7344b1eb8fef91ae71cff180b2d4f5e99deedc4102420d55db8c86996",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96418fcfed5c856dad09",
+    "question": "What is the largest city and commercial capital of Sri Lanka?",
+    "correctAnswer": "Colombo",
+    "incorrectAnswers": [
+      "Moratuwa",
+      "Negombo",
+      "Kandy"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "a68ec343cc8535e8ab28f91264ad898af1f93b4c9c74339af4207c21788f43be",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96418fcfed5c856dad08",
+    "question": "What is the largest freshwater lake by volume?",
+    "correctAnswer": "Lake Baikal",
+    "incorrectAnswers": [
+      "Lake Superior",
+      "Lake Huron",
+      "Lake Michigan"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "eb01460a4f9eb4cfc3bc2e128887ff3c609ff030c90810f10969075db18a3d7d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196f5",
+    "question": "What is the most common climbing route for the second highest mountain in the world, K2?",
+    "correctAnswer": "Abruzzi Spur",
+    "incorrectAnswers": [
+      "Magic Line",
+      "Cesen Route",
+      "Polish Line"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "c5ca8806b740903ffc15d1a63e361d66abd94f141811a4ed30f854ff671fbefe",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd922364d094e2837ea4ca",
+    "question": "What is the most populous Muslim-majority nation in 2010?",
+    "correctAnswer": "Indonesia",
+    "incorrectAnswers": [
+      "Saudi Arabia",
+      "Iran",
+      "Sudan"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "45c04460a3bbbfd8aaafdafd8b457ce1588d4329cd8e82449f9d43344f161633",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196f0",
+    "question": "What is the name of one of the Neo-Aramaic languages spoken by the Jewish population from Northwestern Iraq?",
+    "correctAnswer": "Lishana Deni",
+    "incorrectAnswers": [
+      "Hulaul&aacute;",
+      "Lishan Didan",
+      "Chaldean Neo-Aramaic"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "4342f1ff95f598dfa382ee4b647e8b9452604c160e473b67117e36449c8effb1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196df",
+    "question": "What is the name of rocky region that spans most of eastern Canada?",
+    "correctAnswer": "Canadian Shield",
+    "incorrectAnswers": [
+      "Rocky Mountains",
+      "Appalachian Mountains",
+      "Himalayas"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "4f47ecc7cdb397c694e55f9469254a8f9284357fa8bf47d3cd1dcca5b9d692be",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196ff",
+    "question": "What is the name of the Canadian national anthem?",
+    "correctAnswer": "O Canada",
+    "incorrectAnswers": [
+      "O Red Maple",
+      "Leaf-Spangled Banner",
+      "March of the Puck Drop"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "f3358fd9e3ccd1c034d2e0c3c23ff2004743ac49b1353eb21b105545fee9add7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196f1",
+    "question": "What is the name of the formerly rich fishing grounds off the island of Newfoundland, Canada?",
+    "correctAnswer": "Grand Banks",
+    "incorrectAnswers": [
+      "Great Barrier Reef",
+      "Mariana Trench",
+      "Hudson Bay"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "6afceaea9e24dcff3580b22097d3d7df83a7417bc7abe57fcffaf0247cd6f01b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196e7",
+    "question": "What is the official German name of the Swiss Federal Railways?",
+    "correctAnswer": "Schweizerische Bundesbahnen",
+    "incorrectAnswers": [
+      "Schweizerische Nationalbahnen",
+      "Bundesbahnen der Schweiz",
+      "Schweizerische Staatsbahnen"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "f12df5b8770b29724c7299770a22a8f24cc8716e1ca769271ca777c16a485a9a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196ec",
+    "question": "What is the second-largest city in Lithuania?",
+    "correctAnswer": "Kaunas",
+    "incorrectAnswers": [
+      "Panevėžys",
+      "Vilnius",
+      "Klaipėda"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3dc00ff8e06635af57d7cc5065a8ea7d2910d8967050a41bead3338a48ff0a0c",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196f7",
+    "question": "What is the tallest mountain in Canada?",
+    "correctAnswer": "Mount Logan",
+    "incorrectAnswers": [
+      "Mont Tremblant",
+      "Whistler Mountain",
+      "Blue Mountain"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "636235f256e3ba494ef2cb189a91695fbef84c7e4c74a295a4fa27f9edfaf03d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196f4",
+    "question": "What national museum will you find in Cooperstown, New York?",
+    "correctAnswer": "National Baseball Hall of Fame",
+    "incorrectAnswers": [
+      "Metropolitan Museum of Art",
+      "National Toy Hall of Fame",
+      "Museum of Modern Art"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "258929900acb86a2720087df461c1d915e7838b9d7b05285bd1ea2eab1668253",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196ee",
+    "question": "What North American tourist attraction is served by the \"Maid of the Mist\" tour company?",
+    "correctAnswer": "Niagara Falls",
+    "incorrectAnswers": [
+      "Whistler, British Columbia",
+      "Disney World",
+      "Yosemite National Park"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "12599955b0622d5893215842a74f528ee9ccbf42c060c523433241bb3f1f38bf",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196fe",
+    "question": "What year is on the flag of the US state Wisconsin?",
+    "correctAnswer": "1848",
+    "incorrectAnswers": [
+      "1634",
+      "1783",
+      "1901"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "1aa59cba2dde74d14df7e6a327beff130789454f8be6cd5cd616fef7a7760dd3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196ea",
+    "question": "When does Finland celebrate their independence day?",
+    "correctAnswer": "December 6th",
+    "incorrectAnswers": [
+      "January 2nd",
+      "November 12th",
+      "February 8th"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "400a11500464a90c8f2ad4cc252454606f7ad9ccd147c3e8504850668f448ec1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196da",
+    "question": "Where is the fast food chain \"Panda Express\" headquartered?",
+    "correctAnswer": "Rosemead, California",
+    "incorrectAnswers": [
+      "Sacramento, California",
+      "Fresno, California",
+      "San Diego, California"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "367e03c493eb99251ebcab388f523962b0202747741a1f7cd0743b7ebdd1cf91",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96418fcfed5c856dad07",
+    "question": "Which country is completely landlocked by South Africa?",
+    "correctAnswer": "Lesotho",
+    "incorrectAnswers": [
+      "Swaziland",
+      "Botswana",
+      "Zimbabwe"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "464bbeca6730387c5a0c00fff0c07a11c6ee028a4f7f0f63d18d1c956dea555d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdadaf4949b6f3fc889e7d",
+    "question": "Which country is the Taedong River in?",
+    "correctAnswer": "North Korea",
+    "incorrectAnswers": [
+      "South Korea",
+      "Japan",
+      "China"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "2a5f1ddad47667520b83bc6b3bc8caff7740ead8c3ebe15c58e6447d46844696",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196fd",
+    "question": "Which country was NOT formerly part of Yugoslavia?",
+    "correctAnswer": "Albania",
+    "incorrectAnswers": [
+      "Croatia",
+      "Serbia",
+      "Macedonia"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "17cb1566a7c67b094b1c16e7757c1105d7f315cab6c6a22aa73f6674a39aad17",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaa6a329caddc52d621b7",
+    "question": "Which is not a country in Africa?",
+    "correctAnswer": "Guyana",
+    "incorrectAnswers": [
+      "Senegal",
+      "Liberia",
+      "Somalia"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "276a6bb759531182b90c80768c825f42d901a220d8f560f11a6978defff2f38e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196d9",
+    "question": "Which is the largest freshwater lake in the world?",
+    "correctAnswer": "Lake Superior ",
+    "incorrectAnswers": [
+      "Caspian Sea",
+      "Lake Michigan",
+      "Lake Huron"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "f84c3bd6228e08f174f5d1d45d6d2450ac2e306e4db78220253d62c1e3a78f66",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196f2",
+    "question": "Which of the following Inuit languages was the FIRST to use a unique writing system not based on the Latin alphabet?",
+    "correctAnswer": "Inuktitut",
+    "incorrectAnswers": [
+      "Inuinnaqtun",
+      "Greenlandic",
+      "Inupiat"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3764d4c24c0e842d291789b8266c51554b7713e887aea13d7f9aaaa9700ccddf",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196f9",
+    "question": "Which of these cities has a 4&deg; East longitude. ",
+    "correctAnswer": "Amsterdam",
+    "incorrectAnswers": [
+      "Rio de Janero",
+      "Toronto",
+      "Hong Kong"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "226a3ff1c31aa63ba8c039d80eb2c4e08cfacccb468708782d004171a8f683e1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd922364d094e2837ea4c7",
+    "question": "Which of these cities is NOT in England?",
+    "correctAnswer": "Edinburgh",
+    "incorrectAnswers": [
+      "Oxford",
+      "Manchester",
+      "Southampton"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "e6a4178cf80f86f18105eb9c9ef26bb53a05ae04c08be5618142d1e668aacb66",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d38319700",
+    "question": "Which of these countries is NOT a part of the Asian continent?",
+    "correctAnswer": "Suriname",
+    "incorrectAnswers": [
+      "Georgia",
+      "Russia",
+      "Singapore"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "17038859819d514d431e46d48d88383126480fbce447d23220faefda290b9358",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196eb",
+    "question": "Which of these is NOT a city in India?",
+    "correctAnswer": "Islamabad",
+    "incorrectAnswers": [
+      "Hyderabad",
+      "Ahmedabad",
+      "Ghaziabad"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "da3f7de89f75322efc6c9be406fc898a7082980014ea79762827cc6ce4336cb6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196ed",
+    "question": "Which of these is NOT a province in China?",
+    "correctAnswer": "Yangtze",
+    "incorrectAnswers": [
+      "Fujian",
+      "Sichuan",
+      "Guangdong"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "0a885dc3f494c0c8c9b52f982096956894ddc0bafdaa7053a2c09b472ccef52e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196e3",
+    "question": "Which of these is NOT a real tectonic plate?",
+    "correctAnswer": "Atlantic Plate",
+    "incorrectAnswers": [
+      "North American Plate",
+      "Eurasian Plate",
+      "Nazca Plate"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "36566e05b71635ba25b6485b4ca7e7221fd8a25e6c827455d3ffd4f9f6c5a950",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0e2ee9c0a5d383196fc",
+    "question": "Which of these island countries is located in the Caribbean?",
+    "correctAnswer": "Barbados",
+    "incorrectAnswers": [
+      "Fiji",
+      "Maldives",
+      "Seychelles"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Geography",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "aeda2804ca284a9361c945dfc410c16378326ca4803c29026f79a1c680f6ee8a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90e91",
+    "question": "After the 1516 Battle of Marj Dabiq, the Ottoman Empire took control of Jerusalem from which sultanate?",
+    "correctAnswer": "Mamluk",
+    "incorrectAnswers": [
+      "Ayyubid",
+      "Ummayyad",
+      "Seljuq"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "dd0339e407afa1dcb18aa3680d1e1310c2a85b53cf4bc5dd6381066ad876625f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90e96",
+    "question": "Before the American colonies switched to the Gregorian calendar in 1752, on what date did their new year start?",
+    "correctAnswer": "March 25th",
+    "incorrectAnswers": [
+      "June 1st",
+      "September 25th",
+      "December 1st"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "fba15ead4e6ca1b646770e81b9122a6b715c6fc9f9f6a9c0514bb652c9bbd3f8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90eb8",
+    "question": "Bohdan Khmelnytsky was which of the following?",
+    "correctAnswer": "Leader of the Ukrainian Cossacks",
+    "incorrectAnswers": [
+      "General Secretary of the Communist Party of the USSR",
+      "Prince of Wallachia",
+      "Grand Prince of Novgorod"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "a1258bed23ec96bdf92fc8525b79a451e1c8eb9ded5aee8735a7c92a5c92f317",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90eae",
+    "question": "During the Roman Triumvirate of 42 BCE, what region of the Roman Republic was given to Lepidus?",
+    "correctAnswer": "Hispania ",
+    "incorrectAnswers": [
+      "Italia",
+      "Gallia",
+      "Asia"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "0a8b17f30a3a7766fa0dacd84fb73602d9f4e6e0c0bdbf15f41b71d0d4615104",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90eaf",
+    "question": "During the Spanish Civil War (1936), Francisco Franco fought for which political faction?",
+    "correctAnswer": "Nationalist Spain",
+    "incorrectAnswers": [
+      "Republican Spain",
+      "Popular Front",
+      "Papal State"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "5c0533124a7d3e85410d0d7abe316e3db849cff74bbf216836c507e8d83e5236",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96558fcfed5c856dad1a",
+    "question": "During the Wars of the Roses (1455 - 1487) which Englishman was dubbed \"the Kingmaker\"?",
+    "correctAnswer": "Richard Neville",
+    "incorrectAnswers": [
+      "Richard III",
+      "Henry V",
+      "Thomas Warwick"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "29ff385ac8e6063ce9e9ed580d0a8a4af1e9e0a37e69dd09e7d8ec4476d7c4d4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd923564d094e2837ea4da",
+    "question": "During World War I, which nation's monarchs were blood related?",
+    "correctAnswer": "England, Germany, Russia",
+    "incorrectAnswers": [
+      "France, Russia, Germany",
+      "Serbia, Russia, Croatia",
+      "Germany, Spain, Austria"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "fc516abc40f2ef4f9ddf02fa56b96f3622aeae76f0532078b820d1931511dc08",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90eb9",
+    "question": "From 1940 to 1942, what was the capital-in-exile of Free France ?",
+    "correctAnswer": "Brazzaville",
+    "incorrectAnswers": [
+      "Algiers",
+      "Paris",
+      "Tunis"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "1c71777d4290d99779ba4b8a83f8a56d7c640b4828252ceef073ec902fcec4e1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90eb1",
+    "question": "How long did the Warsaw Uprising during World War II last?",
+    "correctAnswer": "63 Days",
+    "incorrectAnswers": [
+      "20 Days",
+      "55 Days",
+      "224 Days"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "ca51bd0d45cfe482473f873a4233dcd1f8883df61c4288db749c4e5b0268375b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0faee9c0a5d38319756",
+    "question": "How many sonatas did Ludwig van Beethoven write?",
+    "correctAnswer": "32",
+    "incorrectAnswers": [
+      "50",
+      "31",
+      "21"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "9e49f2804304f3d246ede4422c4a4e9b06c7478237127f5bb2fe0f874c28e063",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90e9a",
+    "question": "How many women joined the United States Armed Services during World War II?",
+    "correctAnswer": "350,000",
+    "incorrectAnswers": [
+      "225,000",
+      "100,000",
+      "500,000"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "0f57b130023daa4db8f5c4bab8e3a0fcd8f95d64518c4c2aa046c96a85222977",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90eb0",
+    "question": "In 1547 who became the 1st Tsar of Russia",
+    "correctAnswer": "Ivan the Terrible",
+    "incorrectAnswers": [
+      "Alexis of Russia",
+      "Mikhail Romanov",
+      "Peter the Great"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "2456cbc04a149687f8fa11d5758748c91e96474d1c86cb499c46648ceafaff2d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90ea4",
+    "question": "In addition to his career as an astrologer and \"prophet\", Nostradamus published a 1555 treatise that included a section on what?",
+    "correctAnswer": "Making jams and jellies",
+    "incorrectAnswers": [
+      "Teaching parrots to talk",
+      "Cheating at card games",
+      "Digging graves"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "93ec6678db2a33c7e1a0344a49c0e93eb880e4732317bc4a918652d343ba6149",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaa92329caddc52d621c0",
+    "question": "In the Seven Wonders of the World, which wonder is the only that has survived to this day?",
+    "correctAnswer": "Great Pyramid of Giza",
+    "incorrectAnswers": [
+      "Colossus of Rhodes",
+      "Lighthouse of Alexandria",
+      "Statue of Zeus at Olympia"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "6b180507fe0a4081a2bfbfc4fb95206ce714c05930290beb3ec765c093414e4e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96558fcfed5c856dad19",
+    "question": "In the year 1900, what were the most popular first names given to boy and girl babies born in the United States?",
+    "correctAnswer": "John and Mary",
+    "incorrectAnswers": [
+      "Joseph and Catherine",
+      "William and Elizabeth",
+      "George and Anne"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "66f6afbf587a1f7005042b77f06317fb8b01bd64f7d5173e1231bbb3ed9e040d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90ea1",
+    "question": "In which year did the Tokyo Subway Sarin Attack occur?",
+    "correctAnswer": "1995",
+    "incorrectAnswers": [
+      "2001",
+      "2011",
+      "1991"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "aeb02880046194768a9520d37a555e324f4d34809e919bf0f8f9c29fbdc7e84d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0faee9c0a5d3831974a",
+    "question": "List the following Iranic empires in chronological order:",
+    "correctAnswer": "Median, Achaemenid, Parthian, Sassanid",
+    "incorrectAnswers": [
+      "Median, Achaemenid, Sassanid, Parthian",
+      "Achaemenid, Median, Parthian, Sassanid",
+      "Achaemenid, Median, Sassanid, Parthian"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "4009dfddd6c0b4f17da0b892a194dadb7a8acaba51280df7fd841c1cd1ed0ba1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90e97",
+    "question": "On which day did ARPANET suffer a 4 hour long network crash?",
+    "correctAnswer": "October 27, 1980",
+    "incorrectAnswers": [
+      "November 21, 1969",
+      "October 29, 1969",
+      "December 9, 1991"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "35e1fb2e737af2322e9ce9735b9bc1131c02c9639f7dd51e0d6fb3c2d81a4bf6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90ea6",
+    "question": "Pianist Fr&eacute;d&eacute;ric Chopin was a composer of which musical era?",
+    "correctAnswer": "Romantic",
+    "incorrectAnswers": [
+      "Classic",
+      "Baroque",
+      "Renaissance"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "4fb8e9e185a6f80deb966a92e3a5d5671ffe0cb470e9bba4c7bb22ca0a46804d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90ead",
+    "question": "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?",
+    "correctAnswer": "Aragon",
+    "incorrectAnswers": [
+      "Galicia",
+      "Le&oacute;n",
+      "Navarre"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "e6957553250b22c174bdae0dbaa8df77a63afc5349e10db00226b56fef0946a4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90ebe",
+    "question": "The ancient city of Chich&eacute;n Itz&aacute; was built by which civilization?",
+    "correctAnswer": "Mayans",
+    "incorrectAnswers": [
+      "Aztecs",
+      "Incas",
+      "Toltecs"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "98d75585ca3757991593156ad56fb19c0b5729262d2020e9006729e0ec5136ac",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90e93",
+    "question": "The Battle of Hastings was fought in which year?",
+    "correctAnswer": "1066",
+    "incorrectAnswers": [
+      "911",
+      "1204",
+      "1420"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "6d3b9970d188d6efac8ad5d32ff092523e8ecb1a356ffd3a08a42c4f9f1073bf",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90ea9",
+    "question": "The Bohemian Revolt (1618-1620) started after Protestants in Prague did what to their Catholic Lords Regents?",
+    "correctAnswer": "Threw them out of a window",
+    "incorrectAnswers": [
+      "Insulted their mothers",
+      "Locked them in stockades",
+      "Hung them."
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "d0a22ce996bdb961a2f191286c9435a3d45bf6333009e8d3039c5fd335889da8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90ea7",
+    "question": "The coat of arms of the King of Spain contains the arms from the monarchs of Castille, Leon, Aragon and which other former Iberian kingdom?",
+    "correctAnswer": "Navarre",
+    "incorrectAnswers": [
+      "Galicia",
+      "Granada",
+      "Catalonia"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "4d43772bd40abf35bc80b975c7c20ed0f6aab278050de6351422c67776640440",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0faee9c0a5d38319755",
+    "question": "The Hagia Sophia was commissioned by which emperor of the Byzantine Empire?",
+    "correctAnswer": "Justinian I",
+    "incorrectAnswers": [
+      "Constantine IV",
+      "Arcadius",
+      "Theodosius the Great"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "317a63c2abf02807448a3ee82b2a56b938a40a1a2d0293bb938b20494f995ece",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90ebc",
+    "question": "The main objective of the German operation \"Case Blue\" during World War II was originally to capture what?",
+    "correctAnswer": "Caucasus",
+    "incorrectAnswers": [
+      "Stalingrad",
+      "Crimea",
+      "Voronezh"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "ce968e7acb83826ff5b5c603d770c115c86293e6424151c7c0bf4906d6c9c4c4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90ea8",
+    "question": "The ontological argument for the proof of God's existence is first attributed to whom?",
+    "correctAnswer": "Anselm of Canterbury",
+    "incorrectAnswers": [
+      "Ren&eacute; Descartes",
+      "Immanuel Kant",
+      "Aristotle"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "f55f74182f94865c571162b418af54b72df3246eba32e51fdb3df9357a32b1bd",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90eaa",
+    "question": "The pantheon in Rome was used to worship what god?",
+    "correctAnswer": "Any god they wanted",
+    "incorrectAnswers": [
+      "Athena",
+      "Zeus",
+      "Both Athena and Zeus"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "e74c5630c0e23cb0b7e5d6c38117c063d9e9ab6c35ceaba574eb5508317d51c9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90ebb",
+    "question": "The Second Boer War in 1899 was fought where?",
+    "correctAnswer": "South Africa",
+    "incorrectAnswers": [
+      "Argentina",
+      "Nepal",
+      "Bulgaria"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "d86466fc90c238c3a832500643811fd3e1634434590490d015725bdd0b333590",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90eac",
+    "question": "The son of which pope supposedly held a lecherous f&ecirc;te involving 50 courtesans in the papal palace?",
+    "correctAnswer": "Alexander VI",
+    "incorrectAnswers": [
+      "Innocent V",
+      "Urban II",
+      "Pius III"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "a734ac2204ff83a850fc696d99cd6189b77675f3fd2313360a93de7d5b32d1bb",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90eb6",
+    "question": "Toussaint Louverture led a successful slave revolt in which country?",
+    "correctAnswer": "Haiti",
+    "incorrectAnswers": [
+      "France",
+      "Cuba",
+      "United States"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "e83e0379917487e261a7ac560a315ba6a3828d032a101bfb1b881ed37f7ed302",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdb0664a1e48de0dd2f343",
+    "question": "What age was King Henry V when he died?",
+    "correctAnswer": "35",
+    "incorrectAnswers": [
+      "62",
+      "87",
+      "73"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "d9e9af900660df7a10a8ccf9f102939776c03fba0dd4f470d07690d2d9722083",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90ea0",
+    "question": "What did the abbreviation \"RMS\" stand for in the RMS Titanic in 1912?",
+    "correctAnswer": "Royal Mail Ship",
+    "incorrectAnswers": [
+      "Royal Majesty Service",
+      "Regular Maritime Schedule ",
+      "Regulated Maelstrom Sensor"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "d49126e823bc30c0e7f23b084edaf1f9c5654cd0de791e2eea9632cdad015eb1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaf3bd6cd33070596e9e1",
+    "question": "What did the first vending machines in the early 1880's dispense?",
+    "correctAnswer": "Post cards",
+    "incorrectAnswers": [
+      "Alcohol",
+      "Cigarettes",
+      "Sodas "
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "bef6e21aec8b62204926f718c63052aca0acb45e16e24cfd83cceff1326912fc",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd923564d094e2837ea4db",
+    "question": "What is the name of the Boeing B-29 that dropped the 'Little Boy' atomic bomb on Hiroshima?",
+    "correctAnswer": "Enola Gay",
+    "incorrectAnswers": [
+      "Necessary Evil",
+      "The Great Artiste",
+      "Full House"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "0de0ab6062bf2d423ecd982257d796f9f6708ad29993b5925feb5dd400016e8d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90e94",
+    "question": "What micro-state is considered to have the oldest constitution still in effect?",
+    "correctAnswer": "San Marino",
+    "incorrectAnswers": [
+      "Andorra",
+      "Monaco",
+      "Saint Kitts and Nevis"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "c7a750773df14327370a210a1cb21f922c818587acf59b6edd66bd20553bfb4f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0faee9c0a5d38319751",
+    "question": "What Southeast Asian country was formerly known as 'Lan Xang'?",
+    "correctAnswer": "Laos",
+    "incorrectAnswers": [
+      "Cambodia",
+      "Vietnam",
+      "Thailand"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "079208cd1a03c535fbc93831d7e2a94d1c80412f1eb59e9064e3dc692c98820d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd923564d094e2837ea4dc",
+    "question": "What was found in 1946 by two young shepards near a cave?",
+    "correctAnswer": "Dead Sea Scrolls",
+    "incorrectAnswers": [
+      "The Blackbeard Chest",
+      "Sheep",
+      "The First Oaxaca Cave Sleeper"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "351bad306a9d6824ab96f9ea0972ece54cf0b72978dac2b2e206afdb63304f2b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90e95",
+    "question": "What was the aim of the \"Umbrella Revolution\" in Hong Kong in 2014?",
+    "correctAnswer": "Genuine universal suffrage",
+    "incorrectAnswers": [
+      "Gaining Independence",
+      "Go back under British Rule",
+      "Lower taxes"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "001968d342b9f53e277933444cc2c6499e31bc3bd742f3524899e6e75f1b385b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90e9d",
+    "question": "What was the code name for the Allied invasion of Southern France on August 15th, 1944?",
+    "correctAnswer": "Operation Dragoon",
+    "incorrectAnswers": [
+      "Operation Overlord",
+      "Operation Market Garden",
+      "Operation Torch"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "25a16492623b0b1b0ef12590768b2e28dc6b0c2b0b3c5e9dd9700ed611c59fff",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0faee9c0a5d38319753",
+    "question": "What was the last colony the UK ceded marking the end of the British Empire?",
+    "correctAnswer": "Hong Kong",
+    "incorrectAnswers": [
+      "India",
+      "Australia",
+      "Ireland"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3138caa51755dc36b7f22b54d2b0632edf7eb3cfd3e82bc457f4a6ab5786141c",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd923564d094e2837ea4d9",
+    "question": "What was the name of the German offensive operation in October 1941 to take Moscow before winter?",
+    "correctAnswer": "Operation Typhoon",
+    "incorrectAnswers": [
+      "Operation Sunflower",
+      "Operation Barbarossa",
+      "Case Blue"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "d127198f180d232102a16c21479702a32bda1cca6eafd7c9882a8a587e84533b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaf3bd6cd33070596e9e0",
+    "question": "What was the name of the spy ring that helped the United States win the Revolutionary War?",
+    "correctAnswer": "Culper Ring",
+    "incorrectAnswers": [
+      "New York Spy Ring",
+      "Washington's Spies",
+      "Unnamed"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "a05a9aa7e04ff85dbb4f5237360cd1eb6754f1a155ce84ae074f0719eb32d67a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdaf3bd6cd33070596e9e2",
+    "question": "What was the original name of New York City?",
+    "correctAnswer": "New Amsterdam",
+    "incorrectAnswers": [
+      "New London",
+      "New Paris",
+      "New Rome"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "7610d135b5c3fa01890a97390e2c96cc1dd9a789060e064a5ba295be3d3dc502",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90e99",
+    "question": "What was the real name of the Albanian national leader Skanderbeg?",
+    "correctAnswer": "Gjergj Kastrioti",
+    "incorrectAnswers": [
+      "Diturak Zhulati",
+      "Iskander Bejko",
+      "Mirash Krasniki"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "6456d3738252dedc41e0f2f754cc80a0f1b5e4c41a00414758b88bd2b885c68b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90eab",
+    "question": "What year was Canada founded in?",
+    "correctAnswer": "1867",
+    "incorrectAnswers": [
+      "1798",
+      "1859",
+      "1668"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "6ffa968b6219154515d3614da4cef6f9b99f1f6290cf7cd94f06f56ab5e11f76",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd923564d094e2837ea4dd",
+    "question": "What year was the United States Declaration of Independence signed?",
+    "correctAnswer": "1776",
+    "incorrectAnswers": [
+      "1775",
+      "1774",
+      "1777"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "db3a164e04a6596c0423341d924cb395e62ecad56b9f0cde7b32bae0da9de83d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90e9c",
+    "question": "When did Canada leave the confederation to become their own nation?",
+    "correctAnswer": "July 1st, 1867",
+    "incorrectAnswers": [
+      "July 1st, 1763",
+      "July 1st, 1832",
+      "July 1st, 1902"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "6606cac0156b11bc5f7abb78d9f0f88caa4ec646b6bdf68b4248cde23c537c81",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90ea5",
+    "question": "When did Lithuania declare independence from the Soviet Union?",
+    "correctAnswer": "March 11th, 1990",
+    "incorrectAnswers": [
+      "December 25th, 1991",
+      "December 5th, 1991",
+      "April 20th, 1989"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "b0ad9b0076ea103b003682e3b768363cd162770e51df7e75270c30034cd01910",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0faee9c0a5d3831974b",
+    "question": "When did Spanish Peninsular War start?",
+    "correctAnswer": "1808",
+    "incorrectAnswers": [
+      "1806",
+      "1810",
+      "1809"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "930c5ad9f065c833511c23f892a645f7ea8f00e43cfb3fa19244261868d6f12b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0faee9c0a5d38319749",
+    "question": "When did the French Revolution begin?",
+    "correctAnswer": "May 05 1789",
+    "incorrectAnswers": [
+      "April 12 1789",
+      "April 05 1789",
+      "May 06 1799"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "0dffe85a21df5a76caedfe43b6fadd203d27cdcb22c2d2f700219485722e529e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90ea2",
+    "question": "When was Adolf Hitler appointed as Chancellor of Germany?",
+    "correctAnswer": "January 30, 1933",
+    "incorrectAnswers": [
+      "September 1, 1939",
+      "February 27, 1933",
+      "October 6, 1939"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "b141750cb53ade239331ea5a15bb3cecaabed4f82db4c62fa0a7a8a7c0713a0f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdac47dd0b01bd939aeec2",
+    "question": "When was Finland's 100th year of being independent?",
+    "correctAnswer": "2017",
+    "incorrectAnswers": [
+      "2016",
+      "2018",
+      "2015"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "912a330046d4936b063141424fd3b5a2255b2d9a13124d4103e44cd26cffe8b1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90eb7",
+    "question": "When was the \"Siege of Leningrad\" lifted during World War II?",
+    "correctAnswer": "January 1944",
+    "incorrectAnswers": [
+      "September 1943",
+      "November 1943",
+      "March 1944"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "06c9d9e6e67e98b3c6d9217cc2b7d01e625cae4332098dda8c943e2264b5b3bb",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90eb4",
+    "question": "When was the city of Rome, Italy founded?",
+    "correctAnswer": "753 BCE",
+    "incorrectAnswers": [
+      "902 BCE",
+      "524 BCE",
+      "697 BCE"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "77ca77fb3e6827ef2d02a1d0eed1f1b8c0b03b5032d4dded4da68f08c1f5a95c",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90e9e",
+    "question": "When was the SS or Schutzstaffel established?",
+    "correctAnswer": "April 4th, 1925",
+    "incorrectAnswers": [
+      "September 1st, 1941",
+      "March 8th, 1935",
+      "February 21st, 1926"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "e0f18f5bb5424d8231d837ba90746b3af3295b4de4b67c32452cd751a4a53e4a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90e98",
+    "question": "Which countries participated in the Lobster War?",
+    "correctAnswer": "France and Brazil",
+    "incorrectAnswers": [
+      "Canada and Norway",
+      "Australia and New Zealand",
+      "United States and England"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "ee7a1cfeb7a63fd05edc66783386928311aecf18a8a5b6fca9bd6bfb286a028e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90e9f",
+    "question": "Which country did the Eureka Rebellion, an 1856 battle against colonial rule, take place in?",
+    "correctAnswer": "Australia",
+    "incorrectAnswers": [
+      "India",
+      "Canada",
+      "Brazil"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "e145ac1a92360b36f3f6887f67a00d3d6378033e7a5b54843a61da374e5aaf3a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90e9b",
+    "question": "Which day did World War I begin?",
+    "correctAnswer": "July 28",
+    "incorrectAnswers": [
+      "January 28",
+      "June 28",
+      "April 28"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "d2ee934de4484bb09ee71538e163376a391860eaf65a8bc7df5f9133c72bab3d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90ea3",
+    "question": "Which English king was married to Eleanor of Aquitaine?",
+    "correctAnswer": "Henry II",
+    "incorrectAnswers": [
+      "Richard I",
+      "Henry I",
+      "Henry V"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "24cfb0b535640d1df265abbb6d79ce8342cb5f8db64af7d2500ab4b91237b262",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90eba",
+    "question": "Which is the hull NO. of the Fletcher class destroyer Fletcher?",
+    "correctAnswer": "DD-445",
+    "incorrectAnswers": [
+      "DD-992",
+      "DD-444",
+      "DD-446"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "f8002ec99696fadac14246da59a3e30d7c0f0bb44aac15b312ddad2204b57ddf",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90eb3",
+    "question": "Which King of England was faced with the Peasants' Revolt in 1381?",
+    "correctAnswer": "Richard II",
+    "incorrectAnswers": [
+      "Edward III",
+      "Edward II",
+      "Henry IV"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3cc49def21d13e9aa18ac42c7a6218d14e42c6bfcd867732bf1dcf9723dddee1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0faee9c0a5d3831974d",
+    "question": "Which naval battle was considered the turning point of the Pacific Ocean Theater during World War 2?",
+    "correctAnswer": "Battle of Midway",
+    "incorrectAnswers": [
+      "Attack on Truk Island",
+      "Attack on Pearl Harbor",
+      "Battle of the Coral Sea"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "de069592da38f16e26cbbe7e0e80e72fcd2fe3f75091b28d7f48aecb004b0547",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0faee9c0a5d3831974f",
+    "question": "Which of the following Physicists aided Nazi Germany in their production of a nuclear weapon?",
+    "correctAnswer": "Werner Heisenberg",
+    "incorrectAnswers": [
+      "John von Neumann",
+      "Albert Einstein",
+      "Max Planck"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "4b12da2e7a0e84066b503ccd2229a3c6fdc122becab37e077b5617df422f8dab",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0faee9c0a5d3831974c",
+    "question": "Which of the following physicists did NOT work on the Manhattan project?",
+    "correctAnswer": "Murray Gell-Mann",
+    "incorrectAnswers": [
+      "Richard Feynman",
+      "J. Robert Oppenheimer",
+      "John Von-Neumann"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "4c722e26f1f755748b74d98714444313e82f379e202c5fa1dfea8c3189b29c57",
+    "usageCount": 0
+  },
+  {
+    "id": "68bdb0664a1e48de0dd2f344",
+    "question": "Which of the following was not one of Joseph Stalin's ten blows during World War II?",
+    "correctAnswer": "Vistula-Oder Offensive",
+    "incorrectAnswers": [
+      "Crimean Offensive",
+      "Leningrad-Novgorod Offensive",
+      "Operation Bagration"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "abff26ac07068fadd79c67514467b1a16fd7bcf2e81684b65c71a5a771077f6f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0faee9c0a5d38319750",
+    "question": "Which of these positions did the astronomer and physicist Isaac Newton not hold?",
+    "correctAnswer": "Surveyor to the City of London",
+    "incorrectAnswers": [
+      "Professor of Mathematics",
+      "Warden of the Royal Mint",
+      "Member of Parliament"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "d6e5d9f1b042178067f53b61e4951eb812e9fb9cf2bdf7a9718da801202c1daf",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90eb5",
+    "question": "Which of these theoretical phycisists first predicted the existence of antimatter?",
+    "correctAnswer": "Paul Dirac",
+    "incorrectAnswers": [
+      "Niels Bohr",
+      "Albert Einstein",
+      "Werner Heisenberg"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "8886f0414aaa28063af706093560cfc1c54ec2e744fe967604a169fe096b34e7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96558fcfed5c856dad18",
+    "question": "Which one of these rulers did not belong to the Habsburg dynasty?",
+    "correctAnswer": "Philip V",
+    "incorrectAnswers": [
+      "Charles V",
+      "Philip II",
+      "Francis Joseph"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "07b9c8a3a7a1c6a632ec9abb242d795ea197fc3ac64551cf59cf6cce18337cdf",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90ebd",
+    "question": "Which U.S. president was said to have been too honest to lie to his father about chopping down a cherry tree?",
+    "correctAnswer": "George Washington",
+    "incorrectAnswers": [
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "James Monroe"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "583a87c3a5e89cbca585b05bc8c388fc5445eee12db67118b5ddd9fd82669a60",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96558fcfed5c856dad1b",
+    "question": "Who assassinated President James A. Garfield?",
+    "correctAnswer": "Charles Guiteau",
+    "incorrectAnswers": [
+      "Sirhan Sirhan",
+      "Leon Czolgosz",
+      "John Wilkes Booth"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "c73e0d7d0614a37d5c7bc509d5fd50be656805f89b232e80d663f8924e7142d3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96558fcfed5c856dad17",
+    "question": "Who invented the \"Flying Shuttle\" in 1738; one of the key developments in the industrialization of weaving?",
+    "correctAnswer": "John Kay",
+    "incorrectAnswers": [
+      "James Hargreaves",
+      "Richard Arkwright",
+      "John Deere"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "048383b2ce25aadbb9e3e1c078c2b789ad9414a6e0f5787283c501dacb1b4a96",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0faee9c0a5d38319752",
+    "question": "Who is the creator of the soft drink, Dr. Pepper?",
+    "correctAnswer": "Charles Alderton",
+    "incorrectAnswers": [
+      "James Wellington",
+      "Johnson Hinsin",
+      "Boris Heviltik"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "5c7d8aae2ede299fd861d07e92ca7628c44b0506613be31a8fcc80e0d87287cd",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0faee9c0a5d38319754",
+    "question": "Who was the first man to travel into outer space twice?",
+    "correctAnswer": "Gus Grissom",
+    "incorrectAnswers": [
+      "Vladimir Komarov",
+      "Charles Conrad",
+      "Yuri Gagarin"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "a615e03507f832ac21af3dfe2fa6d54a8fb35f3b36c429e5ba1759bd30a2de71",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda0faee9c0a5d3831974e",
+    "question": "Who was the last emperor of Mexico?",
+    "correctAnswer": "Ferdinand Maximilian",
+    "incorrectAnswers": [
+      "Andr&eacute;s Manuel L&oacute;pez Obrador",
+      "Napoleon III",
+      "Agust&iacute;n de Iturbide"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "d54412ae07c6889ad3000c6674141cf5867b8c9e81c1d442aaf68a3432ffbfb2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90eb2",
+    "question": "Who was the President of the United States during the signing of the Gadsden Purchase?",
+    "correctAnswer": "Franklin Pierce",
+    "incorrectAnswers": [
+      "Andrew Johnson",
+      "Abraham Lincoln",
+      "James Polk"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "700550bba46c28f2fcbde4da6c0c7290a2e05029dffc54474075ca5396c106d9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd9af8690a4b8ffcf90e92",
+    "question": "With which Greek philosopher would you associate the phrase, \"I know that I know nothing\"?",
+    "correctAnswer": "Socrates",
+    "incorrectAnswers": [
+      "Aristotle",
+      "Plato",
+      "Pythagoras"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "History",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "d47436c23feab573915efe61203492a3644746449d76ca8db783b68e8c73cf53",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd929164d094e2837ea531",
+    "question": "How much horsepower is produced by the SD40-2 Locomotive?",
+    "correctAnswer": "3,000",
+    "incorrectAnswers": [
+      "3,200",
+      "2,578",
+      "2,190"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Vehicles",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3d5f831fd497fdf8cf66f8c820f4148981e3fc35fccdd6c1bb2a16564d3e4c75",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd929164d094e2837ea532",
+    "question": "Volkswagen's legendary VR6 engine has cylinders positioned at what degree angle?",
+    "correctAnswer": "15 Degree",
+    "incorrectAnswers": [
+      "30 Degree",
+      "45 Degree",
+      "90 Degree"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Vehicles",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "51e82aa9e4c1ab7cf33de488b5d3c4d439fbd37fed80662c832564e063a9325e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96b08fcfed5c856dad56",
+    "question": "What car manufacturer gave away their patent for the seat-belt in the interest of saving lives?",
+    "correctAnswer": "Volvo",
+    "incorrectAnswers": [
+      "Ferrari",
+      "Ford",
+      "Renault"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Vehicles",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "c8a2fc380934558f977599b96c915b899bde30cca12417860dc378528056fec6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96b08fcfed5c856dad57",
+    "question": "What kind of train was Stepney, a train on the Bluebell Railway notable for his appearance in \"The Railway Series\"?",
+    "correctAnswer": "LB&SCR A1X",
+    "incorrectAnswers": [
+      "LB&SCR E2",
+      "LB&SCR J1",
+      "LB&SCR D1"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Vehicles",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "95dc329677dc2d8c65c7d798759bd37b80de82f6026079d5bd6d7cd6027cca96",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd929164d094e2837ea534",
+    "question": "What model was the sports car gifted to Yuri Gagarin by the French government in 1965?",
+    "correctAnswer": "Matra Djet",
+    "incorrectAnswers": [
+      "Porsche 911",
+      "Alpine A110",
+      "AC Cobra"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Vehicles",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "c20798ae8fe0373d9ed11d79bf6378dba1aa0d38871fc3be78399027d1f79a06",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96b08fcfed5c856dad58",
+    "question": "What year did the Chevrolet LUV mini truck make its debut?",
+    "correctAnswer": "1972",
+    "incorrectAnswers": [
+      "1982",
+      "1975",
+      "1973"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Vehicles",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "2c3f11e9eb876a141b0b1d37ad74cb23083d8977f79aea43c5cdd5bfe0312bb3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96b08fcfed5c856dad59",
+    "question": "Which Audi does not use Haldex based all wheel drive system?",
+    "correctAnswer": "Audi A8",
+    "incorrectAnswers": [
+      "Audi TT",
+      "Audi S3",
+      "Audi A3"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Vehicles",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "1f408856155f0cc1b1a035eb54a369ece3ba46b457a834ae89ac5eb55f767128",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96b08fcfed5c856dad55",
+    "question": "Which of the following FIA Rally cars was approved for use in the Group B class first? ",
+    "correctAnswer": "Porsche 911 Turbo",
+    "incorrectAnswers": [
+      "Audi Quattro A2",
+      "BMW M1",
+      "Lancia Rally 037"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Vehicles",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "7909849b7255e5254d8c014af1fd376d2da46f694b28c18aa4dfbdff7ead2bd2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd929164d094e2837ea533",
+    "question": "Which one of the following is NOT a sub-company of the Volkswagen Group?",
+    "correctAnswer": "Opel",
+    "incorrectAnswers": [
+      "Porsche",
+      "Bugatti",
+      "Bentley"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Vehicles",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "bc1d4ee75d8ef8c57ce1a2abcc7696518cf7c2d10f7d32836641837a169642ec",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd929164d094e2837ea530",
+    "question": "Which Variable Valve Timing technology is used by BMW?",
+    "correctAnswer": "VANOS",
+    "incorrectAnswers": [
+      "VVT-iw",
+      "VVEL",
+      "MultiAir"
+    ],
+    "broadCategory": "General Knowledge",
+    "subCategory": "Vehicles",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "8f73626b7ce5e447f9df4dc875f05118a45d13d39378044597d31e87d18b68a8",
+    "usageCount": 0
+  }
+]

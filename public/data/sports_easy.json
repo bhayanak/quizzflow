@@ -1,0 +1,146 @@
+[
+  {
+    "id": "68bd920464d094e2837ea4ad",
+    "question": "\"Stadium of Light\" is the home stadium for which soccer team?",
+    "correctAnswer": "Sunderland FC",
+    "incorrectAnswers": [
+      "Barcelona FC",
+      "Paris Saints-Germain",
+      "Manchester United"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "9ffd37df98498f2aa8972628182d0f9071d76775c7dca6a4e87a60230372f375",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd920464d094e2837ea4ab",
+    "question": "How many soccer players should be on the field at the same time?",
+    "correctAnswer": "22",
+    "incorrectAnswers": [
+      "20",
+      "24",
+      "26"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4b08a746ee8851daba7e8160bdab5601d7a19b32583c09e60b24a5924e257eed",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd920464d094e2837ea4ac",
+    "question": "In Baseball, how many times does the ball have to be pitched outside of the strike zone before the batter is walked?",
+    "correctAnswer": "4",
+    "incorrectAnswers": [
+      "1",
+      "2",
+      "3"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "cb15e7ee487b44bd0f27eefbb3c47fb9b1f7f3f4862d60b1df4a24d823c73825",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96228fcfed5c856dacef",
+    "question": "This Canadian television sportscaster is known for his \"Hockey Night in Canada\" role, a commentary show during hockey games.",
+    "correctAnswer": "Don Cherry",
+    "incorrectAnswers": [
+      "Don McKellar",
+      "Don Taylor ",
+      "Donald Sutherland"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d3a8e78868da20db3b119854bba6abc535498c0b84e19bd9f99ce6ea6fbb2cc5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96228fcfed5c856daced",
+    "question": "When was the first official international game played?",
+    "correctAnswer": "1872",
+    "incorrectAnswers": [
+      "1880",
+      "1863",
+      "1865"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f0ec3e165c97e7c73157f18b2b9667c7221edeb7d0d82bd76a4dfeb8924db7f7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd920464d094e2837ea4aa",
+    "question": "Which boxer was banned for taking a bite out of Evander Holyfield's ear in 1997?",
+    "correctAnswer": "Mike Tyson",
+    "incorrectAnswers": [
+      "Roy Jones Jr.",
+      "Evander Holyfield",
+      "Lennox Lewis"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d28e3c3d9c4e9e0e1d73792fb94b58cedf06192a83ad8b47ce9da4e6699da90a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd920464d094e2837ea4a9",
+    "question": "Which player holds the NHL record of 2,857 points?",
+    "correctAnswer": "Wayne Gretzky",
+    "incorrectAnswers": [
+      "Mario Lemieux ",
+      "Sidney Crosby",
+      "Gordie Howe"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "971880fa789041334e593f722106781197f5e88f7cfd291fb5ec803041e4a661",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96228fcfed5c856dacee",
+    "question": "Who won the 2017 Formula One World Drivers' Championship?",
+    "correctAnswer": "Lewis Hamilton",
+    "incorrectAnswers": [
+      "Sebastian Vettel",
+      "Nico Rosberg",
+      "Max Verstappen"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "d445c3495b9ca95da1a8fed531d6deb19077fa3741f80e03ccb824302a31db02",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96228fcfed5c856dacf0",
+    "question": "Who won the premier league title in the 2015-2016 season following a fairy tale run?",
+    "correctAnswer": "Leicester City",
+    "incorrectAnswers": [
+      "Tottenham Hotspur",
+      "Watford",
+      "Stoke City"
+    ],
+    "broadCategory": "Sports",
+    "subCategory": "Sports",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "bb64519d19495253a2732e82937a50f0d380a08bc1efbf20a207e873c406800d",
+    "usageCount": 0
+  }
+]

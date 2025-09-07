@@ -1,0 +1,162 @@
+[
+  {
+    "id": "68bd927964d094e2837ea51b",
+    "question": "\"Decapods\" are an order of ten-footed crustaceans.  Which of these are NOT decapods?",
+    "correctAnswer": "Krill",
+    "incorrectAnswers": [
+      "Lobsters",
+      "Shrimp",
+      "Crabs"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "69de92478fceaa77757234aa690521e924f1b1df423b95c1063cae6346d00cb2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927964d094e2837ea51a",
+    "question": "For what reason would a spotted hyena \"laugh\"?",
+    "correctAnswer": "Nervousness",
+    "incorrectAnswers": [
+      "Excitement",
+      "Aggression",
+      "Exhaustion"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "52029d0b15cd42b88afcc096b0773a89377cad2877b34f00ded9d5ca2133371b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96978fcfed5c856dad42",
+    "question": "The dish Fugu, is made from what family of fish?",
+    "correctAnswer": "Pufferfish",
+    "incorrectAnswers": [
+      "Bass",
+      "Salmon",
+      "Mackerel"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "595d2b7960d48f01a551804efde1c5f616f7330ffde08ed037fe69ac0eafdfdb",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927964d094e2837ea51c",
+    "question": "What are rhino's horn made of?",
+    "correctAnswer": "Keratin",
+    "incorrectAnswers": [
+      "Bone",
+      "Ivory",
+      "Skin"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "81b339cc5889266fa9d54c060433185d070f60a3246d2563934a4e97c10299cb",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96978fcfed5c856dad41",
+    "question": "What color/colour is a polar bear's skin?",
+    "correctAnswer": "Black",
+    "incorrectAnswers": [
+      "White",
+      "Pink",
+      "Green"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "e2b5fde82cc1ad9a9796d875d0702acef16ac80a153068a3af1bcdcd0c692792",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927964d094e2837ea519",
+    "question": "What does \"hippopotamus\" mean and in what langauge?",
+    "correctAnswer": "River Horse (Greek)",
+    "incorrectAnswers": [
+      "River Horse (Latin)",
+      "Fat Pig (Greek)",
+      "Fat Pig (Latin)"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "b4dbedba1e8b656001e66fa846942feab54495c68e2a3e365b0ed5337fb1ff44",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96988fcfed5c856dad44",
+    "question": "What dog breed is one of the oldest breeds of dog and has flourished since before 400 BCE.",
+    "correctAnswer": "Pugs",
+    "incorrectAnswers": [
+      "Bulldogs",
+      "Boxers",
+      "Chihuahua"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "38a1fce39801e8d5048697a999c363c4d3c610bd53e8dbc8cfe361436c2b208b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96978fcfed5c856dad43",
+    "question": "What is the name of the family that the domestic cat is a member of?",
+    "correctAnswer": "Felidae",
+    "incorrectAnswers": [
+      "Felinae",
+      "Felis",
+      "Cat"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "4648669b434cc2ab50b5d58a8915127f61f8a2dec4002efbb885c4ac84d97a48",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96978fcfed5c856dad40",
+    "question": "What is the scientific name for the \"Polar Bear\"?",
+    "correctAnswer": "Ursus Maritimus",
+    "incorrectAnswers": [
+      "Polar Bear",
+      "Ursus Spelaeus",
+      "Ursus Arctos"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "63cf46b082f0116bcebaa8da1e4329b8125c4cba8de25a5c80356b9aa712a97c",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927964d094e2837ea518",
+    "question": "What is the scientific name of the Common Chimpanzee?",
+    "correctAnswer": "Pan troglodytes",
+    "incorrectAnswers": [
+      "Gorilla gorilla",
+      "Pan paniscus",
+      "Panthera leo"
+    ],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "medium",
+    "type": "multiple",
+    "questionHash": "49c2b97e7a0fed0890aa6c1d3c800e04e2e86c9e5193413caeba6a1c244bbb72",
+    "usageCount": 0
+  }
+]

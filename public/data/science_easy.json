@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "68bd91cb64d094e2837ea478",
+    "question": "In \"Hexadecimal\", what color would be displayed from the color code? \"#00FF00\"?",
+    "correctAnswer": "Green",
+    "incorrectAnswers": [
+      "Red",
+      "Blue",
+      "Yellow"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "50789ebd62f38d7ecbb82135a05c8f45c5735c47428863e8a78394f2b4a305b9",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91cb64d094e2837ea47b",
+    "question": "In computing, what does LAN stand for?",
+    "correctAnswer": "Local Area Network",
+    "incorrectAnswers": [
+      "Long Antenna Node",
+      "Light Access Node",
+      "Land Address Navigation"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "943bb5e074b9e82fa72c11acf3b752d384e8abae5348c1f2461a68b957eca79a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95eb8fcfed5c856dacc7",
+    "question": "The numbering system with a radix of 16 is more commonly referred to as ",
+    "correctAnswer": "Hexidecimal",
+    "incorrectAnswers": [
+      "Binary",
+      "Duodecimal",
+      "Octal"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c98b4ebcf542e59a7b6b5518f969c3f26561e3c8c0de3200086fd169636f27ee",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95eb8fcfed5c856dacc8",
+    "question": "What does CPU stand for?",
+    "correctAnswer": "Central Processing Unit",
+    "incorrectAnswers": [
+      "Central Process Unit",
+      "Computer Personal Unit",
+      "Central Processor Unit"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "6357b7bc3894bef1120c336530bbd788444a07b6b1e2ec73344cb8259b2dca07",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95eb8fcfed5c856dacc5",
+    "question": "What does the \"MP\" stand for in MP3?",
+    "correctAnswer": "Moving Picture",
+    "incorrectAnswers": [
+      "Music Player",
+      "Multi Pass",
+      "Micro Point"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c508b01b9f67365f498de1f0f3408c00b73c89991173034cbb69b59563f2bc43",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91cb64d094e2837ea479",
+    "question": "What does the computer software acronym JVM stand for?",
+    "correctAnswer": "Java Virtual Machine",
+    "incorrectAnswers": [
+      "Java Vendor Machine",
+      "Java Visual Machine",
+      "Just Virtual Machine"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "87762c045eef37021fb46125b27038fc92ed076c9a2d5a5705ec74d2f7dfac34",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91cb64d094e2837ea47a",
+    "question": "What language does Node.js use?",
+    "correctAnswer": "JavaScript",
+    "incorrectAnswers": [
+      "Java",
+      "Java Source",
+      "Joomla Source Code"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "9ab4715a2a9eb4aee7d267497c0b99bd91920af871fdd91c1ec5bf634a4f506a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95eb8fcfed5c856dacc6",
+    "question": "Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?",
+    "correctAnswer": "Apple",
+    "incorrectAnswers": [
+      "Microsoft",
+      "Atari",
+      "Commodore"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ab2950e27ebe748c1acb296b03ef8da72e213b5b07c9462fd895adbfdcb2fb41",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91cb64d094e2837ea477",
+    "question": "Which SQL keyword is used to fetch data from a database?",
+    "correctAnswer": "SELECT",
+    "incorrectAnswers": [
+      "INDEX",
+      "VALUES",
+      "EXEC"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "Computers & Technology",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "78103930101e8ee9f436751e47d76ac41a9da20fc3bc65305e1d2e439ab3634a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319618",
+    "question": "Alzheimer's disease primarily affects which part of the human body?",
+    "correctAnswer": "Brain",
+    "incorrectAnswers": [
+      "Lungs",
+      "Skin",
+      "Heart"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "9bb2a52d93427fa891a730d9e1fc86647e2e3ae672de227ae7fb6daed6bd3606",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319616",
+    "question": "Dry ice is the solid form of what substance?",
+    "correctAnswer": "Carbon dioxide",
+    "incorrectAnswers": [
+      "Nitrogen",
+      "Ammonia",
+      "Oxygen"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "2cadc2971c27bdd3a0171af9e379c12ec5b3f2541fd52c89032bea4452ad0e5f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95d88fcfed5c856dacb8",
+    "question": "How many bones are in the human body?",
+    "correctAnswer": "206",
+    "incorrectAnswers": [
+      "203",
+      "209",
+      "200"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "14f57736237e7a88dedaa921b57fb01f108b0f11b209cbb3920cb2935bcfd679",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319626",
+    "question": "How many chromosomes are in your body cells?",
+    "correctAnswer": "23",
+    "incorrectAnswers": [
+      "21",
+      "22",
+      "24"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5456e709f5b2f42a20f6094cb020754ea135bca429430af29322c3047d8c8722",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319619",
+    "question": "How many laws of thermodynamics are there?",
+    "correctAnswer": "Four",
+    "incorrectAnswers": [
+      "Three",
+      "Two",
+      "Five"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c89ff75ab2446630ca7f2d8416eac0d91b8a879b417f8232e74c6dcbc5034734",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831961d",
+    "question": "How many planets are in our Solar System?",
+    "correctAnswer": "Eight",
+    "incorrectAnswers": [
+      "Nine",
+      "Seven",
+      "Ten"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0d81b375bc2b3181fb7fb25404014bc146d344eb5ba521ac259becb7d88b803e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319608",
+    "question": "How many planets make up our Solar System?",
+    "correctAnswer": "8",
+    "incorrectAnswers": [
+      "7",
+      "9",
+      "6"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e015abd56a6cbdb12393d555dadea89ad7917e40e4bcd2e9e92294c2667fed64",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319621",
+    "question": "Human cells typically have how many copies of each gene?",
+    "correctAnswer": "2",
+    "incorrectAnswers": [
+      "1",
+      "4",
+      "3"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "db6fe550c90a633fe33504f63367f428d589a2282acb2ec6ab85257dd73e1ec2",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319609",
+    "question": "Rhinoplasty is a surgical procedure on what part of the human body?",
+    "correctAnswer": "Nose",
+    "incorrectAnswers": [
+      "Ears",
+      "Chin",
+      "Neck"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "2251902279d82e911f23e0164ca970b4324cca74ca4d9137e51d95ca01619212",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831962f",
+    "question": "Stars consist mainly of hydrogen and which other gas?",
+    "correctAnswer": "Helium",
+    "incorrectAnswers": [
+      "Oxygen",
+      "Argon",
+      "Nitrogen"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "7ac32d5329933d3530aed3bc5ee030c3e9c1c20240b64d75a8c38794b0d16cad",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319614",
+    "question": "The asteroid belt is located between which two planets?",
+    "correctAnswer": "Mars and Jupiter",
+    "incorrectAnswers": [
+      "Jupiter and Saturn",
+      "Mercury and Venus",
+      "Earth and Mars"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "3711120b733a65a13babe25a81215f10c703c3ef288d63a85dae8c69fa2095da",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91b964d094e2837ea467",
+    "question": "The biggest distinction between a eukaryotic cell and a prokaryotic cell is:",
+    "correctAnswer": "The presence or absence of a nucleus",
+    "incorrectAnswers": [
+      "The overall size",
+      "The presence or absence of certain organelles",
+      "The mode of reproduction"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8f27fc3fdcb5a1dcd2756022aaf9cc5366bc5c2f3d6518924a0aedc7a5dad9ea",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91b964d094e2837ea468",
+    "question": "The element involved in making human blood red is which of the following?",
+    "correctAnswer": "Iron",
+    "incorrectAnswers": [
+      "Copper",
+      "Iridium",
+      "Cobalt"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ab2db29f3739cb44bd1da03378d7d5830498ef8a9311e4aeb270bdf6f7889fe8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319623",
+    "question": "The human heart has how many chambers?",
+    "correctAnswer": "4",
+    "incorrectAnswers": [
+      "2",
+      "6",
+      "3"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4a38235b0dc2a6bb5a77f30059f243044bee8483cf7062b5313978e169c7aa2d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831962a",
+    "question": "The medical term for the belly button is which of the following?",
+    "correctAnswer": "Umbilicus",
+    "incorrectAnswers": [
+      "Nevus",
+      "Nares",
+      "Paxillus"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "da76bf5eee3e5844ab58f2b89e489207b8b84bd4be2fab34e6477a0e1e511d27",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd92ab64d094e2837ea54a",
+    "question": "The term \"battery\" to describe an electrical storage device was coined by?",
+    "correctAnswer": "Benjamin Franklin",
+    "incorrectAnswers": [
+      "Nikola Tesla",
+      "Luigi Galvani",
+      " Alessandro Volta"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "83ea87000483c54923951c79cd361ff484e0de5758b1ed7161c63d533989cc96",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319620",
+    "question": "This element, when overcome with extreme heat and pressure, creates diamonds.",
+    "correctAnswer": "Carbon",
+    "incorrectAnswers": [
+      "Nitrogen",
+      "Oxygen",
+      "Hydrogen"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "450e51b09c72742a3a9a56011f0201a08f7f3cba4b3876865d10c4c0222f86b0",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319625",
+    "question": "What did Gregory Mendel use to test genetic crossovers?",
+    "correctAnswer": "Peas",
+    "incorrectAnswers": [
+      "Cats",
+      "Flowers",
+      "Parrots"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f086bd8c487865698831f0868ad95025d40502a75cf7d7659a751af3b67e9b52",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95d88fcfed5c856dacb9",
+    "question": "What does DNA stand for?",
+    "correctAnswer": "Deoxyribonucleic Acid",
+    "incorrectAnswers": [
+      "Deoxyribogenetic Acid",
+      "Deoxyribogenetic Atoms",
+      "Detoxic Acid"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "1bd5b2c393b3fee1e3d7658f8c6bd475bd6dd7adf8de366b82216dbdcb92d150",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd92ab64d094e2837ea549",
+    "question": "What does GPS stand for?",
+    "correctAnswer": "Global Positioning System",
+    "incorrectAnswers": [
+      "Global Personal System",
+      "General Positioning System",
+      "General Personal Satellite"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "755f159db2ca4cde0c9f830a7aaa0031f4b0c847dbf33ba0a24e929fe59f9767",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319624",
+    "question": "What does LASER stand for?",
+    "correctAnswer": "Light amplification by stimulated emission of radiation",
+    "incorrectAnswers": [
+      "Lite analysing by stereo ecorazer",
+      "Light amplifier by standby energy of radio",
+      "Life antimatter by standing entry of range"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "2a0cf08c5f97beba45722744fde6b60dffd74cfe88f15cef5ab440a0f6e841d0",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96c88fcfed5c856dad69",
+    "question": "What does SSD stand for in the context of computer storage?",
+    "correctAnswer": " Solid State Drive",
+    "incorrectAnswers": [
+      "Software Storage Device",
+      "Super Speed Data",
+      "Secure System Disk"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "110903aa3ab0dc04590229d53b9f7fd3643ddf0728109cae4fe81ca5e5fd9da4",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95d88fcfed5c856dacb6",
+    "question": "What does the letter 'S' stand for in 'NASA'?",
+    "correctAnswer": "Space",
+    "incorrectAnswers": [
+      "Science",
+      "Society",
+      "Star"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c0ed9354d70ccae64894a601852a1a14aa9ddd2b45f88d052d1ac4c3e79730e6",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831960c",
+    "question": "What is the \"powerhouse\" of the Eukaryotic animal cell?",
+    "correctAnswer": "Mitochondria",
+    "incorrectAnswers": [
+      "Nucleus",
+      "Chloroplast",
+      "Endoplasmic Reticulum"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "edc420bd83385086fc41fbb1e30dd73e1dc1a39a9fe9caa2cad85b19ce035c0b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831962e",
+    "question": "What is the atomic mass of Carbon?",
+    "correctAnswer": "12",
+    "incorrectAnswers": [
+      "14",
+      "16",
+      "10"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "2005d016533a7736ccf32a2b4584cb5e8354dda3bb4d5610dac1bcb37ccc8b35",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319611",
+    "question": "What is the chemical makeup of water?",
+    "correctAnswer": "H20",
+    "incorrectAnswers": [
+      "C12H6O2",
+      "CO2",
+      "H"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e77895a006fe6209399aa02403c3302a5d88756641d99ea167cd530cb5ae01ee",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319605",
+    "question": "What is the first element on the periodic table?",
+    "correctAnswer": "Hydrogen",
+    "incorrectAnswers": [
+      "Helium",
+      "Oxygen",
+      "Lithium"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "2a406b6b0e23cba573e582ef1ac1537a078f62a4af0fef2f4e5a0480add1830d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91b964d094e2837ea469",
+    "question": "What is the hottest planet in the solar system",
+    "correctAnswer": "Venus",
+    "incorrectAnswers": [
+      "Jupiter",
+      "Mercury ",
+      "Mars"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "e20bbea73e9e57540dd88cb23bf2758b098c58c351d82b4579078b23ed88347b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319604",
+    "question": "What is the hottest planet in the Solar System?",
+    "correctAnswer": "Venus",
+    "incorrectAnswers": [
+      "Mars",
+      "Mercury",
+      "Jupiter"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ce01afdc8e4cd237c7826255d2901b1372e4a12b038e6edbcf0ee64ad874ac3a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319610",
+    "question": "What is the largest animal currently on Earth?",
+    "correctAnswer": "Blue Whale",
+    "incorrectAnswers": [
+      "Orca",
+      "Colossal Squid",
+      "Giraffe"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "48051cdc2556625d2824a14e80862ce4a8e6e44bfcc347e36410bddbde3f8b5c",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831962d",
+    "question": "What is the largest planet in the Solar System?",
+    "correctAnswer": "Jupiter",
+    "incorrectAnswers": [
+      "Saturn",
+      "Earth",
+      "Mars"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "467fb9f43389742bbb83435d243b2b94159bde1f594f503920869cc80a3dd4bc",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd95d88fcfed5c856dacb7",
+    "question": "What is the official name of the star located closest to the North Celestial Pole?",
+    "correctAnswer": "Polaris",
+    "incorrectAnswers": [
+      "Eridanus",
+      "Gamma Cephei",
+      "Iota Cephei"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0196990523ac8d2257fa07b8d521b8b366b9b33e1b43381284a2fb881fc8d368",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831961a",
+    "question": "What is the powerhouse of the cell?",
+    "correctAnswer": "Mitochondria",
+    "incorrectAnswers": [
+      "Ribosome",
+      "Redbull",
+      "Nucleus"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "858a256ad03f5aa8ed80d6f80cfb8b22a5608f321233eab8b43e00f9916f835e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831962c",
+    "question": "What is the primary addictive substance found in tobacco?",
+    "correctAnswer": "Nicotine",
+    "incorrectAnswers": [
+      "Cathinone",
+      "Ephedrine",
+      "Glaucine"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "2e81781838af3c153be16aac5db713fbfd18e7cf12a258a6eb54db638d2ded1b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319613",
+    "question": "What is the speed of light in a vacuum?",
+    "correctAnswer": "299,792,458 m/s",
+    "incorrectAnswers": [
+      "50,461 m/s",
+      "308,215,043 m/s",
+      "751,665,014,151 m/s"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "eba81be5953305d0611fff85f53b067c54ca1c34f839070e7682e8dcf0175cad",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831961c",
+    "question": "What is the standard atomic weight of a Plutonium nucleus?",
+    "correctAnswer": "244",
+    "incorrectAnswers": [
+      "94",
+      "481",
+      "128"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "6ce4bf10046e01fefd1458350b2a74f827e47b3df394073bb4e76dde39e85cfe",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831961f",
+    "question": "What is the standard SI unit for temperature?",
+    "correctAnswer": "Kelvin",
+    "incorrectAnswers": [
+      "Fahrenheit",
+      "Celsius",
+      "Rankine"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a4770197b71e21d6d756a47ae5869c60ab38e2b2d620285ae09429f4c5aea221",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831960f",
+    "question": "What is the unit of electrical resistance?",
+    "correctAnswer": "Ohm",
+    "incorrectAnswers": [
+      "Mho",
+      "Tesla",
+      "Joule"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "7c30b33aacb976cddebb846f7f6504f5917c307f0f179c9a77b7930eeb657e9e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319622",
+    "question": "What lies at the center of our galaxy?",
+    "correctAnswer": "A black hole",
+    "incorrectAnswers": [
+      "A wormhole",
+      "A supernova",
+      "A quasar"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "47606c60749fc49698f5c2e2d5ce3b91065c29af764e008b8043e0de75fac494",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831960b",
+    "question": "What name is given to all baby marsupials?",
+    "correctAnswer": "Joey",
+    "incorrectAnswers": [
+      "Calf",
+      "Pup",
+      "Cub"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "64f2ea64e2c766c54dca28a438c02e9cf4a7c1a3a0821172cabe67da6b4301bd",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831961e",
+    "question": "What organelle aids in synthesis of DNA in cells?",
+    "correctAnswer": "Ribosomes",
+    "incorrectAnswers": [
+      "Nuclei",
+      "Lysosomes",
+      "Mitochondria"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "b78739fbd81c83cbe28470b1a8fdb5c663821558fbd71a179a0b0d291b0ca592",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96c88fcfed5c856dad68",
+    "question": "What round is a classic AK-47 chambered in?",
+    "correctAnswer": "7.62x39mm",
+    "incorrectAnswers": [
+      "7.62x51mm",
+      "5.56x45mm",
+      "5.45x39mm"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "36bccfef1c3320e065ec7cc71f78ecadd0e3f0efbc1996a5345d783c248725c8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831960d",
+    "question": "What was the name of the first artificial Earth satellite, launched by the Soviet Union in 1957?",
+    "correctAnswer": "Sputnik 1",
+    "incorrectAnswers": [
+      "Soyuz 7K-OK",
+      "Zenit-2",
+      "Voskhod 3KV"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "579731bc3057a441c0e4c2577687cead5891ebe618c1e5627f14e7f94068a50a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319615",
+    "question": "Which Apollo mission was the first one to land on the Moon?",
+    "correctAnswer": "Apollo 11",
+    "incorrectAnswers": [
+      "Apollo 10",
+      "Apollo 9",
+      "Apollo 13"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "0ee781feea86856c59e0f2419bab3b968fa8da8f02044c4d5e03729ca197b03e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96c88fcfed5c856dad6a",
+    "question": "Which buzzword did Apple Inc. use to describe their removal of the headphone jack?",
+    "correctAnswer": "Courage",
+    "incorrectAnswers": [
+      "Innovation",
+      "Revolution",
+      "Bravery"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "f4af29c489274c25a8495b8aa9a12b2f38f8ddfa4000a08cc18527e4b3b9aa66",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831960e",
+    "question": "Which element has the chemical symbol 'Fe'?",
+    "correctAnswer": "Iron",
+    "incorrectAnswers": [
+      "Gold",
+      "Silver",
+      "Tin"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "dc3c50db3e1e1ca72f55bdb67c1a46997ba36ea85e2c1700c83a46fffd211244",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319617",
+    "question": "Which element has the highest melting point?",
+    "correctAnswer": "Carbon",
+    "incorrectAnswers": [
+      "Tungsten",
+      "Platinum",
+      "Osmium"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "08575e2efe2013fbde7b25f7f746744f56b718125c98cf345ac60aff487972ec",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd92ab64d094e2837ea54c",
+    "question": "Which gaming console is developed by Sony?",
+    "correctAnswer": "PlayStation",
+    "incorrectAnswers": [
+      "Xbox",
+      "Atari",
+      "Nintendo Switch"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "aeba947ddf4a7173694347d8c8e1140fec252cdfc1a8af978a12a853d90e968b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831960a",
+    "question": "Which gas forms about 78% of the Earth&rsquo;s atmosphere?",
+    "correctAnswer": "Nitrogen",
+    "incorrectAnswers": [
+      "Oxygen",
+      "Argon",
+      "Carbon Dioxide"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "363fd12ac4a735c91a1d2a4fcd51a79aa78d26e689f9df7f39959c5a1e37f3ba",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319606",
+    "question": "Which is the longest bone in the human body? ",
+    "correctAnswer": "Femur",
+    "incorrectAnswers": [
+      "Scapula",
+      "Fibula",
+      "Ulna"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "fe8429ee9f75d4efc302ee0a2eb9789d404db8ef9727b96b03f64245ab876122",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319627",
+    "question": "Which is the most abundant element in the universe?",
+    "correctAnswer": "Hydrogen",
+    "incorrectAnswers": [
+      "Helium",
+      "Lithium",
+      "Oxygen"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "4a6dc1e283f0042d217a0316782dfe8a194d63121034dff1b072d9cd0602e9c5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831961b",
+    "question": "Which noble gas has the lowest atomic number?",
+    "correctAnswer": "Helium",
+    "incorrectAnswers": [
+      "Neon",
+      "Argon",
+      "Krypton"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "6513d27e588d25996f6b19000703bab815c85c3756f7462e5c336de2c93ee6e8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91b964d094e2837ea465",
+    "question": "Which of the following blood vessels carries deoxygenated blood?",
+    "correctAnswer": "Pulmonary Artery",
+    "incorrectAnswers": [
+      "Pulmonary Vein",
+      "Aorta",
+      "Coronary Artery"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "1a6c8e038af31522c39ed5d3c985d3db1a420d184e7e03b3543dee98944d278b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91b964d094e2837ea466",
+    "question": "Which of the following bones is not in the leg?",
+    "correctAnswer": "Radius",
+    "incorrectAnswers": [
+      "Patella",
+      "Tibia",
+      "Fibula "
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "aa38a0dd4c7fc129da2fe3a973fc77205ff07dc5573b8a8cd04fae29cce0d016",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd92ab64d094e2837ea54b",
+    "question": "Which of the following is not a type of computer mouse?",
+    "correctAnswer": "Smoothie mouse",
+    "incorrectAnswers": [
+      "Drum mouse",
+      "Trackball mouse",
+      "Optical mouse"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "dbe2a3385e90bd7f67d59a0e5eba7cf25cfe8c635e2e07f1f0d3303d7873de16",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d3831962b",
+    "question": "Which of these bones is hardest to break?",
+    "correctAnswer": "Femur",
+    "incorrectAnswers": [
+      "Cranium",
+      "Humerus",
+      "Tibia"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "835ba609229ce8fadc953aa3c5107825c06b618c2c9bd3c65979efce1e0e40fa",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319628",
+    "question": "Which of these Elements is a metalloid?",
+    "correctAnswer": "Antimony",
+    "incorrectAnswers": [
+      "Tin",
+      "Bromine",
+      "Rubidium"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "8d7d0dc59f4f49533352132fb67987c82a1580d3c9c7cb519a313508629c21a8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319607",
+    "question": "Which type of rock is created by intense heat AND pressure?",
+    "correctAnswer": "Metamorphic",
+    "incorrectAnswers": [
+      "Sedimentary",
+      "Igneous",
+      "Diamond"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "daa08bc502d7f8b842c2d57490213de5059bea17f0b6aea6a585ac704a43a9f8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd92ab64d094e2837ea548",
+    "question": "Which virtual assistant is developed by Amazon?",
+    "correctAnswer": "Alexa",
+    "incorrectAnswers": [
+      "Google Assistant",
+      "Siri",
+      "Cortana"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "6de20db0c4dcac7786deeaf2cdeb55e9de591fe33b640225164f02218b8ad81d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319612",
+    "question": "Who discovered the Law of Gravity?",
+    "correctAnswer": "Sir Isaac Newton",
+    "incorrectAnswers": [
+      "Galileo Galilei",
+      "Charles Darwin",
+      "Albert Einstein"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "838c5bae6459398a8de3840b3b03944ac80ebb7b5cfc09cbad3d6df00babfc24",
+    "usageCount": 0
+  },
+  {
+    "id": "68bda098ee9c0a5d38319629",
+    "question": "Who is the chemical element Curium named after?",
+    "correctAnswer": "Marie & Pierre Curie",
+    "incorrectAnswers": [
+      "The Curiosity Rover",
+      "Curious George",
+      "Stephen Curry"
+    ],
+    "broadCategory": "Science",
+    "subCategory": "General Science",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a44ba6947d97aa75f489960ac4d1b1453509452ee090b8250d2352570c41baf2",
+    "usageCount": 0
+  }
+]

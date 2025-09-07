@@ -1,0 +1,114 @@
+[
+  {
+    "id": "68bd923b64d094e2837ea4e0",
+    "question": "According to the United States Constitution, how old must a person be to be elected President of the United States?",
+    "correctAnswer": "35",
+    "incorrectAnswers": [
+      "30",
+      "40",
+      "45"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "5ddb459852c9e327363c9cccaa6aa178161ee26a97ab7b1e6f58070a1bf78dcd",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd965b8fcfed5c856dad1d",
+    "question": "Former United States President Bill Clinton famously played which instrument?",
+    "correctAnswer": "Saxophone",
+    "incorrectAnswers": [
+      "Baritone horn",
+      "Piano",
+      "Violin"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "ea3c54f52e8051453b4030b184bb1742cfb8ce84c0cbea351562ddf93efe50fe",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd923b64d094e2837ea4e2",
+    "question": "How many people are in the U.S. House of Representatives?",
+    "correctAnswer": "435",
+    "incorrectAnswers": [
+      "260",
+      "415",
+      "50"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "3c06c8f9fbc92fce3457e576e82f53a40d9fb8537fa097170ec98b95979ed597",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd923b64d094e2837ea4e1",
+    "question": "The largest consumer market in 2015 was...",
+    "correctAnswer": "The United States of America",
+    "incorrectAnswers": [
+      "Germany",
+      "Japan",
+      "United Kingdom"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "c00b92a6d74ecf140fcd56714a069a0bedcc55c79415c0e77ec3614d2eed363b",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd965b8fcfed5c856dad1e",
+    "question": "Which former US president was nicknamed \"Teddy\" after he refused to shoot a defenseless black bear?",
+    "correctAnswer": "Theodore Roosevelt",
+    "incorrectAnswers": [
+      "Woodrow Wilson",
+      "James F. Fielder",
+      "Andrew Jackson"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "33e6daf5fa161c8ec76907435cfa0f6f529a2a30cc2b57a5797e2dd2e669bae7",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd923b64d094e2837ea4df",
+    "question": "Which of the following Pacific Islander countries is ruled by a constitutional monarchy?",
+    "correctAnswer": "Tonga",
+    "incorrectAnswers": [
+      "Palau",
+      "Fiji",
+      "Kiribati"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "a92ad78d3e7a5a3f4134f2c9c47c1d786e4966041a9f59317bbe6192d11c94d1",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd923b64d094e2837ea4e3",
+    "question": "Who was the 45th President of the United States?",
+    "correctAnswer": "Donald Trump",
+    "incorrectAnswers": [
+      "Barack Obama",
+      "Bill Clinton",
+      "George Bush"
+    ],
+    "broadCategory": "Politics",
+    "subCategory": "Politics",
+    "difficulty": "easy",
+    "type": "multiple",
+    "questionHash": "66db4673fc7c220b6fd375ebefab5d5756f0579f10d91da766aef6d64b49e3a9",
+    "usageCount": 0
+  }
+]

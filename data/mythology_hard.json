@@ -1,0 +1,114 @@
+[
+  {
+    "id": "68bd961c8fcfed5c856dacea",
+    "question": "Nidhogg is a mythical creature from what mythology?",
+    "correctAnswer": "Norse",
+    "incorrectAnswers": [
+      "Egyptian",
+      "Greek",
+      "Hindu"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "f4aa48a0048baa039a3f76c90236a5b03eeeae60608ec1a34c0823c80b460e2a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91fe64d094e2837ea4a3",
+    "question": "Talos, the mythical giant bronze man, was the protector of which island?",
+    "correctAnswer": "Crete",
+    "incorrectAnswers": [
+      "Sardinia",
+      "Sicily",
+      "Cyprus"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "b51b76312766ab12f12afca3b7d5156f53fd0b6dce536b4cce984087f02cb2ad",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91fe64d094e2837ea4a4",
+    "question": "What immense structure is referred to in Norse Mythology as the Yggdrasil.",
+    "correctAnswer": "Tree",
+    "incorrectAnswers": [
+      "Mountain",
+      "Temple",
+      "Castle"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3bfedb83203ea405483763e3fee4fe4b18110e1164d0687ae4821621ca004cd0",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91fe64d094e2837ea4a5",
+    "question": "What was the punishment for Sysiphus's craftiness?",
+    "correctAnswer": "Cursed to roll a boulder up a hill for eternity.",
+    "incorrectAnswers": [
+      "Tied to a boulder for eternity, being pecked by birds.",
+      "Standing in a lake filled with water he could not drink.",
+      "To fell a tree that regenerated after every axe swing."
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "8347485ca4a78132f974a061090073526a921863028702e31b8b31d2085bc46a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91fe64d094e2837ea4a7",
+    "question": "Which Norse God has a horse named Sleipnir?",
+    "correctAnswer": "Odin",
+    "incorrectAnswers": [
+      "Thor",
+      "Frigg",
+      "Balder"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3e336a4c65951f2681ddc35530b9f8e278161476562ca41ad2a3961f9cc6ed9e",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91fe64d094e2837ea4a6",
+    "question": "Which of the following is NOT a god in Norse Mythology.",
+    "correctAnswer": "Jens",
+    "incorrectAnswers": [
+      "Loki",
+      "Tyr",
+      "Snotra"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "ffd70ba64754c0d5733f117de3d1707c078c87ad0fc88c0ca01de9e362424dd5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd961c8fcfed5c856daceb",
+    "question": "Who is a minor god that is protector and creator of various arts, such as cheese making and bee keeping.",
+    "correctAnswer": "Aristaeus",
+    "incorrectAnswers": [
+      "Autonoe",
+      "Carme",
+      "Cephisso"
+    ],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3ceae504e28b11584871cc296ee3889fc8484311a4437adb197efde968d6e296",
+    "usageCount": 0
+  }
+]
