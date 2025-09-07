@@ -41,6 +41,31 @@ class GameScene extends Phaser.Scene {
         
         // Create atmospheric effects
         this.createGameEffects();
+        
+        // Set up resize handler for mobile responsiveness
+        this.events.on('resize', this.handleResize, this);
+        this.scale.on('resize', this.handleResize, this);
+    }
+    
+    handleResize() {
+        const { width, height } = this.scale;
+        
+        // Recreate layout for new dimensions
+        this.children.removeAll(true);
+        
+        // Recreate all elements with new dimensions
+        this.createMillionaireGameBackground();
+        this.createHeader();
+        this.createQuestionArea();
+        this.createAnswerOptions();
+        this.createLifelines();
+        this.createFooter();
+        this.createGameEffects();
+        
+        // Restore current question if exists
+        if (this.currentQuestion) {
+            this.updateQuestionDisplay();
+        }
     }
     
     createMillionaireGameBackground() {
@@ -178,23 +203,30 @@ class GameScene extends Phaser.Scene {
         this.questionNumberBg.lineStyle(2, 0xFFFFFF, 0.8);
         this.questionNumberBg.strokeRoundedRect(width * 0.07, height * 0.17, 100, 30, 15);
 
+        // Mobile-responsive question positioning and sizing
+        const isMobile = width < 768;
+        const questionY = isMobile ? height * 0.15 : height * 0.225;
+        const questionFontSize = isMobile ? '20px' : '24px';
+        const questionWrapWidth = isMobile ? width * 0.95 : width * 0.8;
+        
         this.questionNumberText = this.add.text(width * 0.12, height * 0.185, '', {
-            fontSize: '16px',
+            fontSize: isMobile ? '14px' : '16px',
             fontFamily: 'Orbitron, monospace',
             fill: '#000000',
             fontWeight: 'bold'
         }).setOrigin(0.5);
 
-        // Question text with enhanced styling
-        this.questionText = this.add.text(width / 2, height * 0.225, '', {
-            fontSize: '24px',
+        // Question text with enhanced styling and mobile responsiveness
+        this.questionText = this.add.text(width / 2, questionY, '', {
+            fontSize: questionFontSize,
             fontFamily: 'Roboto, sans-serif',
             fill: '#FFFFFF',
             stroke: '#000000',
             strokeThickness: 1,
             align: 'center',
             fontWeight: '400',
-            wordWrap: { width: width * 0.8 }
+            wordWrap: { width: questionWrapWidth },
+            lineSpacing: isMobile ? 4 : 6
         }).setOrigin(0.5);
         
         // Add question category indicator
@@ -209,18 +241,32 @@ class GameScene extends Phaser.Scene {
     createAnswerOptions() {
         const { width, height } = this.scale;
         
-        // Create 4 answer buttons in a 2x2 grid
-        const startY = height * 0.45;
-        const spacing = 120;
-        const buttonWidth = width * 0.4;
-        const buttonHeight = 80;
+        // Mobile-responsive button sizing
+        const isMobile = width < 768;
+        const startY = isMobile ? height * 0.5 : height * 0.45;
+        const spacing = isMobile ? 100 : 120;
+        const buttonWidth = isMobile ? width * 0.9 : width * 0.4;
+        const buttonHeight = isMobile ? 70 : 80;
         
-        const positions = [
-            { x: width * 0.25, y: startY, label: 'A' },
-            { x: width * 0.75, y: startY, label: 'B' },
-            { x: width * 0.25, y: startY + spacing, label: 'C' },
-            { x: width * 0.75, y: startY + spacing, label: 'D' }
-        ];
+        let positions;
+        
+        if (isMobile) {
+            // Stack buttons vertically on mobile for better readability
+            positions = [
+                { x: width * 0.5, y: startY, label: 'A' },
+                { x: width * 0.5, y: startY + spacing, label: 'B' },
+                { x: width * 0.5, y: startY + spacing * 2, label: 'C' },
+                { x: width * 0.5, y: startY + spacing * 3, label: 'D' }
+            ];
+        } else {
+            // 2x2 grid for desktop/tablet
+            positions = [
+                { x: width * 0.25, y: startY, label: 'A' },
+                { x: width * 0.75, y: startY, label: 'B' },
+                { x: width * 0.25, y: startY + spacing, label: 'C' },
+                { x: width * 0.75, y: startY + spacing, label: 'D' }
+            ];
+        }
         
         this.optionButtons = positions.map((pos, index) => {
             const button = this.createAnswerButton(pos.x, pos.y, buttonWidth, buttonHeight, pos.label, index);
@@ -230,6 +276,7 @@ class GameScene extends Phaser.Scene {
     
     createAnswerButton(x, y, width, height, label, index) {
         const container = this.add.container(x, y);
+        const isMobile = this.scale.width < 768;
         
         // Button background with rich gradient
         const background = this.add.graphics();
@@ -246,29 +293,33 @@ class GameScene extends Phaser.Scene {
 
         container.add(background);
 
-        // Option label (A, B, C, D) with styling
+        // Option label (A, B, C, D) with mobile-responsive sizing
         const labelBg = this.add.graphics();
+        const labelSize = isMobile ? 30 : 40;
+        const labelHeight = isMobile ? 30 : 35;
+        
         labelBg.fillGradientStyle(0xFFD700, 0xFFA500);
-        labelBg.fillRoundedRect(-width / 2 + 10, -height / 2 + 10, 40, 35, 8);
+        labelBg.fillRoundedRect(-width / 2 + 10, -height / 2 + 10, labelSize, labelHeight, 8);
         labelBg.lineStyle(2, 0xFFFFFF, 0.8);
-        labelBg.strokeRoundedRect(-width / 2 + 10, -height / 2 + 10, 40, 35, 8);
+        labelBg.strokeRoundedRect(-width / 2 + 10, -height / 2 + 10, labelSize, labelHeight, 8);
         container.add(labelBg);
         
-        const labelText = this.add.text(-width / 2 + 30, -height / 2 + 27, label, {
-            fontSize: '24px',
+        const labelText = this.add.text(-width / 2 + 10 + labelSize/2, -height / 2 + 10 + labelHeight/2, label, {
+            fontSize: isMobile ? '20px' : '24px',
             fontFamily: 'Orbitron, monospace',
             fill: '#000000',
             fontWeight: 'bold'
         }).setOrigin(0.5);
         container.add(labelText);
         
-        // Answer text
-        const answerText = this.add.text(-width / 2 + 60, 0, '', {
-            fontSize: '18px',
+        // Answer text with mobile-optimized positioning and sizing
+        const textStartX = isMobile ? -width / 2 + 50 : -width / 2 + 60;
+        const answerText = this.add.text(textStartX, 0, '', {
+            fontSize: isMobile ? '16px' : '18px',
             fontFamily: 'Roboto, sans-serif',
             fill: '#FFFFFF',
             fontWeight: '400',
-            wordWrap: { width: width - 80 }
+            wordWrap: { width: isMobile ? width - 60 : width - 80 }
         }).setOrigin(0, 0.5);
         container.add(answerText);
 
