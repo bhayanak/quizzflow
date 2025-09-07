@@ -56,50 +56,117 @@ class AudioManager {
         }
     }
     
-    // Setup mobile audio fix for iOS Safari
-    setupMobileAudioFix() {
-        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-        const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+    // Enhanced mobile device detection
+    isMobile() {
+        const userAgent = navigator.userAgent.toLowerCase();
+        const mobileKeywords = [
+            'iphone', 'ipad', 'ipod', 'android', 'webos', 'blackberry',
+            'windows phone', 'opera mini', 'iemobile'
+        ];
 
-        if (isMobile || isIOS) {
-            console.log('🔊 Mobile device detected, setting up audio fix...');
+        // Check user agent
+        const isMobileUA = mobileKeywords.some(keyword => userAgent.includes(keyword));
+
+        // Check for touch capability
+        const hasTouch = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
+        // Check screen size (mobile-like dimensions)
+        const isSmallScreen = window.innerWidth <= 768 || window.innerHeight <= 768;
+
+        return isMobileUA || (hasTouch && isSmallScreen);
+    }
+
+    // Setup mobile audio fix for iOS Safari and other mobile browsers
+    setupMobileAudioFix() {
+        const isMobile = this.isMobile();
+        const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+        const isAndroid = /Android/i.test(navigator.userAgent);
+
+        if (isMobile) {
+            console.log('🔊 Mobile device detected:', { isMobile, isIOS, isAndroid });
+            console.log('🔊 Setting up enhanced mobile audio fix...');
 
             // Create a function to resume audio context on first user interaction
-            const resumeAudioContext = async () => {
+            const resumeAudioContext = async (event) => {
+                console.log('🔊 User interaction detected:', event.type);
+
                 if (this.audioContext && this.audioContext.state === 'suspended') {
                     try {
                         await this.audioContext.resume();
                         console.log('✅ AudioContext resumed after user interaction');
+                        console.log('✅ AudioContext state:', this.audioContext.state);
 
                         // Play a silent audio to unlock Web Audio API on iOS
-                        this.unlockAudioAPI();
+                        setTimeout(() => {
+                            this.unlockAudioAPI();
+                        }, 100);
+
+                        // Also try to reload TTS voices for mobile
+                        this.loadVoices();
 
                         // Remove the event listeners after first activation
-                        document.removeEventListener('touchstart', resumeAudioContext);
-                        document.removeEventListener('touchend', resumeAudioContext);
-                        document.removeEventListener('click', resumeAudioContext);
+                        this.removeMobileEventListeners();
+
+                        // Dispatch custom event to notify that audio is unlocked
+                        window.dispatchEvent(new CustomEvent('audioUnlocked'));
+
                     } catch (error) {
                         console.warn('Failed to resume AudioContext:', error);
                     }
+                } else if (this.audioContext) {
+                    console.log('🔊 AudioContext already running:', this.audioContext.state);
+                    this.unlockAudioAPI();
+                    this.removeMobileEventListeners();
                 }
             };
 
-            // Add event listeners for user interaction
-            document.addEventListener('touchstart', resumeAudioContext, { once: true, passive: true });
-            document.addEventListener('touchend', resumeAudioContext, { once: true, passive: true });
-            document.addEventListener('click', resumeAudioContext, { once: true, passive: true });
+            // Store reference for removal
+            this.mobileAudioUnlockHandler = resumeAudioContext;
+
+            // Add multiple event listeners for better coverage
+            const events = ['touchstart', 'touchend', 'click', 'tap', 'pointerdown'];
+            events.forEach(eventType => {
+                document.addEventListener(eventType, resumeAudioContext, {
+                    once: false, // Allow multiple attempts
+                    passive: true
+                });
+            });
 
             // Also try to resume when game starts
             window.addEventListener('gameStarted', resumeAudioContext, { once: true });
+
+            // Try again when window gains focus (for app switching)
+            window.addEventListener('focus', resumeAudioContext, { once: false });
         }
     }
 
-    // Unlock Web Audio API on iOS by playing silent audio
+    // Remove mobile event listeners
+    removeMobileEventListeners() {
+        if (this.mobileAudioUnlockHandler) {
+            const events = ['touchstart', 'touchend', 'click', 'tap', 'pointerdown'];
+            events.forEach(eventType => {
+                document.removeEventListener(eventType, this.mobileAudioUnlockHandler);
+            });
+            window.removeEventListener('gameStarted', this.mobileAudioUnlockHandler);
+            window.removeEventListener('focus', this.mobileAudioUnlockHandler);
+        }
+    }
+
+    // Enhanced unlock Web Audio API on iOS and mobile browsers
     unlockAudioAPI() {
-        if (!this.audioContext) return;
+        if (!this.audioContext) {
+            console.warn('No AudioContext available for unlocking');
+            return;
+        }
 
         try {
-            // Create a short, silent audio buffer and play it
+            console.log('🔊 Attempting to unlock Web Audio API...');
+            console.log('🔊 AudioContext state before unlock:', this.audioContext.state);
+
+            // Create multiple silent audio sources for better compatibility
+            const sources = [];
+
+            // Method 1: Oscillator with gain (most common)
             const oscillator = this.audioContext.createOscillator();
             const gainNode = this.audioContext.createGain();
 
@@ -112,9 +179,63 @@ class AudioManager {
             oscillator.start(this.audioContext.currentTime);
             oscillator.stop(this.audioContext.currentTime + 0.1);
 
-            console.log('🔊 Silent audio played to unlock iOS Web Audio API');
+            sources.push({ oscillator, gainNode });
+
+            // Method 2: Empty buffer (for better iOS compatibility)
+            const buffer = this.audioContext.createBuffer(1, 1, this.audioContext.sampleRate);
+            const bufferSource = this.audioContext.createBufferSource();
+            const bufferGain = this.audioContext.createGain();
+
+            bufferSource.buffer = buffer;
+            bufferSource.connect(bufferGain);
+            bufferGain.connect(this.audioContext.destination);
+            bufferGain.gain.setValueAtTime(0, this.audioContext.currentTime);
+
+            bufferSource.start(this.audioContext.currentTime);
+
+            sources.push({ bufferSource, bufferGain });
+
+            console.log('🔊 Silent audio played to unlock Web Audio API');
+            console.log('🔊 AudioContext state after unlock:', this.audioContext.state);
+
+            // Also unlock speech synthesis
+            this.unlockSpeechSynthesis();
+
         } catch (error) {
             console.warn('Failed to unlock audio API:', error);
+        }
+    }
+
+    // Unlock speech synthesis on mobile
+    unlockSpeechSynthesis() {
+        if (!this.synth || !('speechSynthesis' in window)) {
+            console.warn('Speech synthesis not available');
+            return;
+        }
+
+        try {
+            console.log('🔊 Unlocking speech synthesis...');
+
+            // Create a very short, quiet utterance to unlock TTS
+            const unlockUtterance = new SpeechSynthesisUtterance(' ');
+            unlockUtterance.volume = 0.01;
+            unlockUtterance.rate = 10;
+            unlockUtterance.pitch = 0.1;
+
+            unlockUtterance.onstart = () => {
+                console.log('🔊 Speech synthesis unlocked successfully');
+                // Immediately cancel the unlock utterance
+                this.synth.cancel();
+            };
+
+            unlockUtterance.onerror = (error) => {
+                console.warn('Speech synthesis unlock error:', error);
+            };
+
+            this.synth.speak(unlockUtterance);
+
+        } catch (error) {
+            console.warn('Failed to unlock speech synthesis:', error);
         }
     }
 
@@ -656,36 +777,50 @@ class AudioManager {
     
     // Enhanced voice selection for better quality
     findBestVoice(language) {
+        console.log(`AudioManager: Finding voice for language ${language}`);
+        console.log(`Available voices:`, this.voices.map(v => `${v.name} (${v.lang})`));
+
         const langPrefix = language === 'hi' ? 'hi' : 'en';
         
         // Preferred voice names for better quality
         const preferredVoices = {
             'en': ['Google US English', 'Microsoft Zira', 'Alex', 'Samantha', 'Karen'],
-            'hi': ['Google हिन्दी', 'Microsoft Hemant', 'Microsoft Kalpana']
+            'hi': ['Google हिन्दी', 'Microsoft Hemant', 'Microsoft Kalpana', 'Lekha', 'Google Hindi']
         };
         
         // First, try to find a preferred high-quality voice
-        for (const voiceName of preferredVoices[language] || preferredVoices['en']) {
+        const voiceList = preferredVoices[language] || preferredVoices['en'];
+        for (const voiceName of voiceList) {
             const voice = this.voices.find(v => v.name.includes(voiceName));
             if (voice) {
+                console.log(`AudioManager: Found preferred voice: ${voice.name} (${voice.lang})`);
                 return voice;
             }
         }
         
         // Fallback: find any voice that starts with the language code
         let voice = this.voices.find(v => v.lang.toLowerCase().startsWith(langPrefix));
+        if (voice) {
+            console.log(`AudioManager: Found fallback voice: ${voice.name} (${voice.lang})`);
+            return voice;
+        }
         
         // If not found, try to find any voice containing the language
-        if (!voice) {
-            voice = this.voices.find(v => v.lang.toLowerCase().includes(langPrefix));
+        voice = this.voices.find(v => v.lang.toLowerCase().includes(langPrefix));
+        if (voice) {
+            console.log(`AudioManager: Found secondary fallback voice: ${voice.name} (${voice.lang})`);
+            return voice;
         }
         
         // Final fallback: use system default
-        if (!voice && this.voices.length > 0) {
+        if (this.voices.length > 0) {
             voice = this.voices.find(v => v.default) || this.voices[0];
+            console.log(`AudioManager: Using final fallback voice: ${voice.name} (${voice.lang})`);
+            return voice;
         }
         
-        return voice;
+        console.warn(`AudioManager: No voices available for language ${language}`);
+        return null;
     }
     
     // Enhance text for better speech quality
@@ -748,17 +883,65 @@ class AudioManager {
     // Set language for TTS
     setLanguage(language) {
         console.log(`AudioManager: Setting language to ${language}`);
+
+        // Stop any current speech
+        if (this.synth) {
+            this.synth.cancel();
+            this.isSpeaking = false;
+        }
+
         this.currentLanguage = language;
 
         // Test the voice for the new language
         const voice = this.findBestVoice(language);
         if (voice) {
             console.log(`AudioManager: Found voice for ${language}: ${voice.name} (${voice.lang})`);
+
+            // Test speech with the new voice
+            this.testVoice(language, voice);
+
+            return true;
         } else {
             console.warn(`AudioManager: No suitable voice found for ${language}`);
+            return false;
         }
+    }
 
-        return voice !== null;
+    // Test voice with a sample phrase
+    testVoice(language, voice) {
+        if (!this.ttsEnabled || this.isMuted) return;
+
+        const testPhrases = {
+            'en': 'Language switched to English',
+            'hi': 'भाषा हिंदी में बदल गई'
+        };
+
+        const testPhrase = testPhrases[language] || testPhrases['en'];
+
+        // Create test utterance
+        const utterance = new SpeechSynthesisUtterance(testPhrase);
+        utterance.voice = voice;
+        utterance.lang = language === 'hi' ? 'hi-IN' : 'en-US';
+        utterance.rate = 0.9;
+        utterance.pitch = 1.0;
+        utterance.volume = this.volume * 0.7; // Quieter test
+
+        utterance.onstart = () => {
+            console.log(`AudioManager: Test voice started for ${language}`);
+        };
+
+        utterance.onend = () => {
+            console.log(`AudioManager: Test voice completed for ${language}`);
+        };
+
+        utterance.onerror = (error) => {
+            console.warn(`AudioManager: Test voice error for ${language}:`, error);
+        };
+
+        // Short delay to ensure previous speech is fully cancelled
+        setTimeout(() => {
+            this.synth.speak(utterance);
+        }, 100);
     }
 
     // Toggle SFX

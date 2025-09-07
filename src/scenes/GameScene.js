@@ -174,13 +174,14 @@ class GameScene extends Phaser.Scene {
             fill: '#' + config.COLORS.GOLD.toString(16).padStart(6, '0')
         }).setOrigin(0.5, 0);
         
-        // Timer - positioned in center bottom on mobile to avoid overlap
-        const timerX = isMobile ? width * 0.75 : width * 0.9;
+        // Timer - positioned to avoid overlap with audio controls
+        // Audio controls are at top-right, so position timer more to the left
+        const timerX = isMobile ? width * 0.6 : width * 0.75; // Moved left to avoid audio controls
         this.timerText = this.add.text(timerX, topY, '', {
             fontSize: timerFontSize,
             fontFamily: 'Orbitron, monospace',
             fill: '#ffffff'
-        }).setOrigin(isMobile ? 0.5 : 1, 0);
+        }).setOrigin(0.5, 0); // Center aligned for better positioning
         
         // Difficulty indicator
         this.difficultyText = this.add.text(width * 0.05, bottomY, '', {
@@ -402,7 +403,10 @@ class GameScene extends Phaser.Scene {
             labelText,
             answerText,
             hitArea,
-            index
+            index,
+            // Store dimensions for consistent rendering
+            width,
+            height
         };
     }
     createLifelines() {
@@ -719,12 +723,15 @@ class GameScene extends Phaser.Scene {
         this.selectedAnswer = answerIndex;
         const selectedButton = this.optionButtons[answerIndex];
         
-        // Visual feedback - redraw background with warning color
+        // Visual feedback - redraw background with warning color using original dimensions
+        const buttonWidth = selectedButton.width;
+        const buttonHeight = selectedButton.height;
+
         selectedButton.background.clear();
         selectedButton.background.fillGradientStyle(0xFFD700, 0xFFA500, 0xFF8C00, 0xFF7F00);
-        selectedButton.background.fillRoundedRect(-200, -30, 400, 60, 15);
+        selectedButton.background.fillRoundedRect(-buttonWidth / 2, -buttonHeight / 2, buttonWidth, buttonHeight, 15);
         selectedButton.background.lineStyle(4, 0xFFFFFF, 1);
-        selectedButton.background.strokeRoundedRect(-200, -30, 400, 60, 15);
+        selectedButton.background.strokeRoundedRect(-buttonWidth / 2, -buttonHeight / 2, buttonWidth, buttonHeight, 15);
         selectedButton.container.setScale(1.05);
         
         // Play sound
@@ -764,13 +771,19 @@ class GameScene extends Phaser.Scene {
         const correctAnswerIndex = this.currentOptions.indexOf(correctAnswerText);
         const correctButton = this.optionButtons[correctAnswerIndex];
         
+        // Get button dimensions for consistent rendering
+        const selectedButtonWidth = selectedButton.width;
+        const selectedButtonHeight = selectedButton.height;
+        const correctButtonWidth = correctButton.width;
+        const correctButtonHeight = correctButton.height;
+
         if (isCorrect) {
             // Correct answer - redraw background with success color
             selectedButton.background.clear();
             selectedButton.background.fillGradientStyle(0x27ae60, 0x229954, 0x1e8449, 0x196f3d);
-            selectedButton.background.fillRoundedRect(-200, -30, 400, 60, 15);
+            selectedButton.background.fillRoundedRect(-selectedButtonWidth / 2, -selectedButtonHeight / 2, selectedButtonWidth, selectedButtonHeight, 15);
             selectedButton.background.lineStyle(3, 0xFFFFFF, 0.9);
-            selectedButton.background.strokeRoundedRect(-200, -30, 400, 60, 15);
+            selectedButton.background.strokeRoundedRect(-selectedButtonWidth / 2, -selectedButtonHeight / 2, selectedButtonWidth, selectedButtonHeight, 15);
             this.updateScore(true);
             
             if (window.audioManager) {
@@ -780,18 +793,18 @@ class GameScene extends Phaser.Scene {
             
             this.streak++;
         } else {
-            // Wrong answer - redraw backgrounds
+            // Wrong answer - redraw backgrounds with original dimensions
             selectedButton.background.clear();
             selectedButton.background.fillGradientStyle(0xe74c3c, 0xc0392b, 0xa93226, 0x922b21);
-            selectedButton.background.fillRoundedRect(-200, -30, 400, 60, 15);
+            selectedButton.background.fillRoundedRect(-selectedButtonWidth / 2, -selectedButtonHeight / 2, selectedButtonWidth, selectedButtonHeight, 15);
             selectedButton.background.lineStyle(3, 0xFFFFFF, 0.9);
-            selectedButton.background.strokeRoundedRect(-200, -30, 400, 60, 15);
+            selectedButton.background.strokeRoundedRect(-selectedButtonWidth / 2, -selectedButtonHeight / 2, selectedButtonWidth, selectedButtonHeight, 15);
 
             correctButton.background.clear();
             correctButton.background.fillGradientStyle(0x27ae60, 0x229954, 0x1e8449, 0x196f3d);
-            correctButton.background.fillRoundedRect(-200, -30, 400, 60, 15);
+            correctButton.background.fillRoundedRect(-correctButtonWidth / 2, -correctButtonHeight / 2, correctButtonWidth, correctButtonHeight, 15);
             correctButton.background.lineStyle(3, 0xFFFFFF, 0.9);
-            correctButton.background.strokeRoundedRect(-200, -30, 400, 60, 15);
+            correctButton.background.strokeRoundedRect(-correctButtonWidth / 2, -correctButtonHeight / 2, correctButtonWidth, correctButtonHeight, 15);
             
             if (window.audioManager) {
                 window.audioManager.playSFX('wrong_answer');
@@ -1010,16 +1023,19 @@ class GameScene extends Phaser.Scene {
             window.audioManager.speak('Time is up!');
         }
         
-        // Show correct answer with green background
+        // Show correct answer with green background using original dimensions
         const correctAnswerText = this.currentQuestion.correctAnswer;
         const correctAnswerIndex = this.currentOptions.indexOf(correctAnswerText);
         const correctButton = this.optionButtons[correctAnswerIndex];
         
+        const correctButtonWidth = correctButton.width;
+        const correctButtonHeight = correctButton.height;
+
         correctButton.background.clear();
         correctButton.background.fillGradientStyle(0x27ae60, 0x229954, 0x1e8449, 0x196f3d);
-        correctButton.background.fillRoundedRect(-200, -30, 400, 60, 15);
+        correctButton.background.fillRoundedRect(-correctButtonWidth / 2, -correctButtonHeight / 2, correctButtonWidth, correctButtonHeight, 15);
         correctButton.background.lineStyle(3, 0xFFFFFF, 0.9);
-        correctButton.background.strokeRoundedRect(-200, -30, 400, 60, 15);
+        correctButton.background.strokeRoundedRect(-correctButtonWidth / 2, -correctButtonHeight / 2, correctButtonWidth, correctButtonHeight, 15);
         
         this.streak = 0;
         
