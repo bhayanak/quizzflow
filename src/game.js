@@ -96,18 +96,19 @@ class QuizFlowGame {
             physics: config.PHASER.physics,
             scene: [MenuScene, GameScene, GameOverScene],
             scale: {
-                mode: Phaser.Scale.FIT,
+                mode: Phaser.Scale.RESIZE,
                 autoCenter: Phaser.Scale.CENTER_BOTH,
+                width: '100%',
+                height: '100%',
                 min: {
-                    width: 400,
-                    height: 300
+                    width: 320,
+                    height: 240
                 },
                 max: {
-                    width: 1200,
-                    height: 900
+                    width: window.innerWidth,
+                    height: window.innerHeight
                 },
-                zoom: 1,
-                expandParent: false,
+                expandParent: true,
                 fullscreenTarget: 'gameContainer'
             },
             dom: {
@@ -261,24 +262,54 @@ class QuizFlowGame {
     }
     
     setupWindowEvents() {
-        // Handle window resize
+        // Handle window resize for mobile orientation changes
         window.addEventListener('resize', () => {
-            if (this.game) {
-                this.game.scale.refresh();
+            if (this.game && this.game.scale) {
+                // Debounce resize events
+                clearTimeout(this.resizeTimeout);
+                this.resizeTimeout = setTimeout(() => {
+                    console.log('Window resized:', window.innerWidth, 'x', window.innerHeight);
+                    
+                    // Update game canvas size
+                    this.game.scale.resize(window.innerWidth, window.innerHeight);
+                    
+                    // Trigger scene refresh for mobile layout
+                    if (this.game.scene.isActive('GameScene')) {
+                        this.game.scene.getScene('GameScene').events.emit('resize');
+                    }
+                    if (this.game.scene.isActive('MenuScene')) {
+                        this.game.scene.getScene('MenuScene').events.emit('resize');
+                    }
+                }, 100);
             }
         });
         
-        // Handle window focus/blur for audio management
-        window.addEventListener('blur', () => {
-            if (window.audioManager) {
-                window.audioManager.stopAll();
-            }
+        // Handle mobile orientation change
+        window.addEventListener('orientationchange', () => {
+            setTimeout(() => {
+                if (this.game && this.game.scale) {
+                    this.game.scale.resize(window.innerWidth, window.innerHeight);
+                }
+            }, 100);
         });
         
-        // Handle page visibility changes
+        // Prevent mobile bounce/scroll
+        document.addEventListener('touchmove', (e) => {
+            e.preventDefault();
+        }, { passive: false });
+        
+        // Handle visibility changes (mobile app switching)
         document.addEventListener('visibilitychange', () => {
-            if (document.hidden && window.audioManager) {
-                window.audioManager.stopAll();
+            if (document.hidden) {
+                // Pause audio when app goes to background
+                if (window.audioManager) {
+                    window.audioManager.pauseAll();
+                }
+            } else {
+                // Resume audio when app comes back
+                if (window.audioManager && !window.audioManager.isMuted) {
+                    window.audioManager.resumeAll();
+                }
             }
         });
     }

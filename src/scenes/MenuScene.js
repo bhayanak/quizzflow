@@ -27,7 +27,25 @@ class MenuScene extends Phaser.Scene {
         // Animated background effects
         this.createBackgroundEffects();
 
+        // Set up resize handler for mobile responsiveness
+        this.events.on('resize', this.handleResize, this);
+        this.scale.on('resize', this.handleResize, this);
+
         console.log('✅ MenuScene creation complete');
+    }
+    
+    handleResize() {
+        const { width, height } = this.scale;
+        
+        // Recreate layout for new dimensions
+        this.children.removeAll(true);
+        
+        // Recreate all elements with new dimensions
+        this.createMillionaireBackground();
+        this.createTitle();
+        this.createStatistics();
+        this.createMenuButtons();
+        this.createBackgroundEffects();
     }
 
     createMillionaireBackground() {
@@ -217,34 +235,42 @@ class MenuScene extends Phaser.Scene {
     }
     
     createMillionaireButton(x, y, text, baseColor, glowColor, callback) {
+        const { width } = this.scale;
+        const isMobile = width < 768;
+        
+        // Mobile-responsive button sizing
+        const buttonWidth = isMobile ? width * 0.8 : 240;
+        const buttonHeight = isMobile ? 60 : 50;
+        const fontSize = isMobile ? '20px' : '22px';
+        
         // Button background with gradient
         const button = this.add.graphics();
         button.fillGradientStyle(baseColor, baseColor, baseColor * 0.7, baseColor * 0.7);
-        button.fillRoundedRect(-120, -25, 240, 50, 10);
+        button.fillRoundedRect(-buttonWidth/2, -buttonHeight/2, buttonWidth, buttonHeight, 10);
         button.lineStyle(3, glowColor, 0.8);
-        button.strokeRoundedRect(-120, -25, 240, 50, 10);
+        button.strokeRoundedRect(-buttonWidth/2, -buttonHeight/2, buttonWidth, buttonHeight, 10);
         button.x = x;
         button.y = y;
         
         // Button text
         const buttonText = this.add.text(x, y, text, {
-            fontSize: '22px',
+            fontSize: fontSize,
             fontFamily: 'Orbitron, monospace',
             fill: '#FFFFFF',
             fontWeight: 'bold'
         }).setOrigin(0.5);
 
-        // Make interactive
-        const hitArea = this.add.rectangle(x, y, 240, 50, 0x000000, 0);
+        // Make interactive with mobile-responsive hit area
+        const hitArea = this.add.rectangle(x, y, buttonWidth, buttonHeight, 0x000000, 0);
         hitArea.setInteractive({ useHandCursor: true });
         
-        // Hover effects
+        // Hover effects with mobile-responsive dimensions
         hitArea.on('pointerover', () => {
             button.clear();
             button.fillGradientStyle(glowColor, glowColor, glowColor * 0.7, glowColor * 0.7);
-            button.fillRoundedRect(-120, -25, 240, 50, 10);
+            button.fillRoundedRect(-buttonWidth/2, -buttonHeight/2, buttonWidth, buttonHeight, 10);
             button.lineStyle(4, 0xFFFFFF, 1);
-            button.strokeRoundedRect(-120, -25, 240, 50, 10);
+            button.strokeRoundedRect(-buttonWidth/2, -buttonHeight/2, buttonWidth, buttonHeight, 10);
             
             buttonText.setStyle({ fill: '#000000' });
             
@@ -257,9 +283,9 @@ class MenuScene extends Phaser.Scene {
         hitArea.on('pointerout', () => {
             button.clear();
             button.fillGradientStyle(baseColor, baseColor, baseColor * 0.7, baseColor * 0.7);
-            button.fillRoundedRect(-120, -25, 240, 50, 10);
+            button.fillRoundedRect(-buttonWidth/2, -buttonHeight/2, buttonWidth, buttonHeight, 10);
             button.lineStyle(3, glowColor, 0.8);
-            button.strokeRoundedRect(-120, -25, 240, 50, 10);
+            button.strokeRoundedRect(-buttonWidth/2, -buttonHeight/2, buttonWidth, buttonHeight, 10);
             
             buttonText.setStyle({ fill: '#FFFFFF' });
         });

@@ -70,8 +70,8 @@ class GameConfig {
             
             // Phaser game configuration
             PHASER: {
-                width: 800,
-                height: 600,
+                width: window.innerWidth > 768 ? 1000 : window.innerWidth,
+                height: window.innerHeight > 600 ? 700 : window.innerHeight,
                 backgroundColor: '#0a0a0a',
                 physics: {
                     default: 'arcade',
