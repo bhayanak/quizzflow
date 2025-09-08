@@ -1,7 +1,7 @@
 [
   {
     "id": "68bd969d8fcfed5c856dad47",
-    "question": "Kaunsa bird apne wing digits par claws ke saath paida hota hai?",
+"question": "कौन सा पक्षी अपने पंखों की उंगलियों पर पंजों के साथ जन्म लेता है?",
     "correctAnswer": "Hoatzin",
     "incorrectAnswers": ["Cormorant", "Cassowary", "Secretary bird"],
     "broadCategory": "Animals",
@@ -13,7 +13,7 @@
   },
   {
     "id": "68bd927f64d094e2837ea520",
-    "question": "Vultures ke liye collective noun kya hai?",
+"question": "गिद्धों के लिए सामूहिक संज्ञा क्या है?",
     "correctAnswer": "Wake",
     "incorrectAnswers": ["Ambush", "Building", "Gaze"],
     "broadCategory": "Animals",
@@ -25,7 +25,7 @@
   },
   {
     "id": "68bd969d8fcfed5c856dad48",
-    "question": "Gray Wolf ka scientific name kya hai?",
+"question": "ग्रे वुल्फ का वैज्ञानिक नाम क्या है?",
     "correctAnswer": "Canis Lupus",
     "incorrectAnswers": ["Canis Aureus", "Canis Latrans", "Canis Lupus Lycaon"],
     "broadCategory": "Animals",
@@ -37,7 +37,7 @@
   },
   {
     "id": "68bd969d8fcfed5c856dad46",
-    "question": "Antarctic octopus ke blue blood ka naam kaunsi copper-rich protein ki wajah se hai?",
+"question": "अंटार्कटिक ऑक्टोपस के नीले रक्त का नाम किस तांबा-समृद्ध प्रोटीन के कारण है?",
     "correctAnswer": "Hemocyanin",
     "incorrectAnswers": ["Cytochrome", "Iron", "Methionine"],
     "broadCategory": "Animals",
@@ -49,7 +49,7 @@
   },
   {
     "id": "68bd927f64d094e2837ea522",
-    "question": "Cheetah ka scientific name kya hai?",
+"question": "चीता का वैज्ञानिक नाम क्या है?",
     "correctAnswer": "Acinonyx jubatus",
     "incorrectAnswers": ["Panthera onca", "Lynx rufus", "Felis catus"],
     "broadCategory": "Animals",
@@ -61,7 +61,7 @@
   },
   {
     "id": "68bd927f64d094e2837ea521",
-    "question": "Aardwolf kis scientific family se belong karta hai?",
+"question": "आर्डवुल्फ किस वैज्ञानिक परिवार से संबंधित है?",
     "correctAnswer": "Hyaenidae",
     "incorrectAnswers": ["Canidae", "Felidae", "Eupleridae"],
     "broadCategory": "Animals",
@@ -73,7 +73,7 @@
   },
   {
     "id": "68bd927f64d094e2837ea51e",
-    "question": "Hyaenidae family kis scientific suborder mein aati hai?",
+"question": "Hyaenidae परिवार किस वैज्ञानिक उपक्रम में आती है?",
     "correctAnswer": "Feliformia",
     "incorrectAnswers": ["Haplorhini", "Caniformia", "Ciconiiformes"],
     "broadCategory": "Animals",
@@ -85,7 +85,7 @@
   },
   {
     "id": "68bd927f64d094e2837ea51f",
-    "question": "Ethiopian Wolf ka purana naam kya tha jab tak pata nahi tha ki yeh wolves se related hai?",
+"question": "इथियोपियन वुल्फ का नाम क्या था जब यह ज्ञात नहीं था कि यह वुल्फ से संबंधित है?",
     "correctAnswer": "Simien Jackel",
     "incorrectAnswers": ["Ethiopian Coyote", "Amharic Fox", "Canis Simiensis"],
     "broadCategory": "Animals",
@@ -97,7 +97,7 @@
   },
   {
     "id": "68bd969d8fcfed5c856dad49",
-    "question": "Inmein se kaunsa colony of polyps hai, jellyfish nahi?",
+"question": "इनमें से कौन एक पॉलीप्स की कॉलोनी है, जेलीफ़िश नहीं?",
     "correctAnswer": "Portuguese Man-of-War",
     "incorrectAnswers": ["Sea Wasp", "Irukandji", "Sea Nettle"],
     "broadCategory": "Animals",

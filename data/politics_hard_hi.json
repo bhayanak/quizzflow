@@ -1,27 +1,34 @@
 [
-  {
-    "id": "68bd96678fcfed5c856dad24",
-    "question": "'Yes, America Can!' kis US politician ka campaign slogan tha 2004 mein?",
-    "correctAnswer": "George W. Bush",
-    "incorrectAnswers": ["John Kerry", "Barack Obama", "Al Gore"],
-    "broadCategory": "Politics",
-    "subCategory": "Politics",
-    "difficulty": "hard",
-    "type": "multiple",
-    "questionHash": "81ed165fff6bbbc052a2453baefb80f51d87c0379e430667cb5b1982d9a9db67",
-    "usageCount": 0
-  },
-  {
-    "id": "68bd96678fcfed5c856dad26",
-    "question": "June 2017 mein, Saudi Arabia aur Egypt ne kis country se ties tod diye terrorism support ke chalte?",
-    "correctAnswer": "Qatar",
-    "incorrectAnswers": ["Bahrain", "United States of America", "Russia"],
-    "broadCategory": "Politics",
-    "subCategory": "Politics",
-    "difficulty": "hard",
-    "type": "multiple",
-    "questionHash": "126de1a2c5edab757b46f8d050684d48c24c037651d40bce4191787fe599e426",
-    "usageCount": 0
-  }
-
+    {
+        "id": "68bd96678fcfed5c856dad24",
+        "question": "'Yes, America Can!' यह संयुक्त राज्य अमेरिका के किस राजनेता का 2004 का अभियान नारा था?",
+        "correctAnswer": "George W. Bush",
+        "incorrectAnswers": [
+            "John Kerry",
+            "Barack Obama",
+            "Al Gore"
+        ],
+        "broadCategory": "Politics",
+        "subCategory": "Politics",
+        "difficulty": "hard",
+        "type": "multiple",
+        "questionHash": "81ed165fff6bbbc052a2453baefb80f51d87c0379e430667cb5b1982d9a9db67",
+        "usageCount": 0
+    },
+    {
+        "id": "68bd96678fcfed5c856dad26",
+        "question": "जून 2017 में, सऊदी अरब और मिस्र ने आतंकवाद के समर्थन के कारण किस देश से संबंध तोड़ लिए थे?",
+        "correctAnswer": "Qatar",
+        "incorrectAnswers": [
+            "Bahrain",
+            "United States of America",
+            "Russia"
+        ],
+        "broadCategory": "Politics",
+        "subCategory": "Politics",
+        "difficulty": "hard",
+        "type": "multiple",
+        "questionHash": "126de1a2c5edab757b46f8d050684d48c24c037651d40bce4191787fe599e426",
+        "usageCount": 0
+    }
 ]
