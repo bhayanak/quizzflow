@@ -1,0 +1,27 @@
+[
+  {
+    "id": "68bd961c8fcfed5c856dacea",
+    "question": "Nidhogg kis mythology ka mythical creature hai?",
+    "correctAnswer": "Norse",
+    "incorrectAnswers": ["Egyptian", "Greek", "Hindu"],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "f4aa48a0048baa039a3f76c90236a5b03eeeae60608ec1a34c0823c80b460e2a",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd91fe64d094e2837ea4a3",
+    "question": "Talos, jo mythical giant bronze man tha, kis island ka protector tha?",
+    "correctAnswer": "Crete",
+    "incorrectAnswers": ["Sardinia", "Sicily", "Cyprus"],
+    "broadCategory": "Mythology",
+    "subCategory": "Mythology",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "b51b76312766ab12f12afca3b7d5156f53fd0b6dce536b4cce984087f02cb2ad",
+    "usageCount": 0
+  }
+
+]

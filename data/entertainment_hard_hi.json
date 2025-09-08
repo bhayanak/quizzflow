@@ -1,0 +1,51 @@
+[
+  {
+    "id": "68bd926d64d094e2837ea50e",
+    "question": "Gabe Newell ka janm kis year mein hua tha?",
+    "correctAnswer": "1962",
+    "incorrectAnswers": ["1970", "1960", "1972"],
+    "broadCategory": "Entertainment",
+    "subCategory": "Celebrities",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "1b0dff70641dbe6a0396dd3a647dd4973aec1fa3e34896d48583bddf3950f0b0",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd926d64d094e2837ea50c",
+    "question": "Tom Cruise ki height kitni hai?",
+  "correctAnswer": "5' 7\"",
+  "incorrectAnswers": ["5' 9\"", "5' 4\"", "5' 5\""] ,
+    "broadCategory": "Entertainment",
+    "subCategory": "Celebrities",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "27421423c430cc1b8941e94436ddb9fff99008a7e2744a2e96360093799c53f0",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd926d64d094e2837ea510",
+    "question": "Tycho Brahe ne apne pet ke roop mein kya rakha tha?",
+    "correctAnswer": "Moose",
+    "incorrectAnswers": ["Dog", "Bear", "Goat"],
+    "broadCategory": "Entertainment",
+    "subCategory": "Celebrities",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "7ee5eac83e38df77d328a6c92854b8d8486898f7f0f7d9d4efa37d8e23eed1e5",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd926d64d094e2837ea50f",
+    "question": "Freddie Mercury ka religion kya tha?",
+    "correctAnswer": "Zoroastrianism",
+    "incorrectAnswers": ["Paganism", "Ashurism", "Judaism"],
+    "broadCategory": "Entertainment",
+    "subCategory": "Celebrities",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "1bd07854742d05e49996639e807a5fb93b404134f2edbba403c8f0d5af14c527",
+    "usageCount": 0
+  }
+
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "68bd969d8fcfed5c856dad47",
+    "question": "Kaunsa bird apne wing digits par claws ke saath paida hota hai?",
+    "correctAnswer": "Hoatzin",
+    "incorrectAnswers": ["Cormorant", "Cassowary", "Secretary bird"],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "b5d41eb037e407b3d1be57b7ca0bdfe2fa975ac6aa433e318b6cb6b061dcbbd3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927f64d094e2837ea520",
+    "question": "Vultures ke liye collective noun kya hai?",
+    "correctAnswer": "Wake",
+    "incorrectAnswers": ["Ambush", "Building", "Gaze"],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "b7b6d1b4aee1060be21f0df3d24a2fb9af9ddbac5bf0b553008d27a077a93311",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd969d8fcfed5c856dad48",
+    "question": "Gray Wolf ka scientific name kya hai?",
+    "correctAnswer": "Canis Lupus",
+    "incorrectAnswers": ["Canis Aureus", "Canis Latrans", "Canis Lupus Lycaon"],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "eeb393da5e6edf3c2a854f8080206a764770413a985e1ce23b52bf017e969499",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd969d8fcfed5c856dad46",
+    "question": "Antarctic octopus ke blue blood ka naam kaunsi copper-rich protein ki wajah se hai?",
+    "correctAnswer": "Hemocyanin",
+    "incorrectAnswers": ["Cytochrome", "Iron", "Methionine"],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "5526ea6f254b917cceeae1b88204f575e622935288d78c192e87b527e6806e84",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927f64d094e2837ea522",
+    "question": "Cheetah ka scientific name kya hai?",
+    "correctAnswer": "Acinonyx jubatus",
+    "incorrectAnswers": ["Panthera onca", "Lynx rufus", "Felis catus"],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "c9bb9d51d68bf469d4811c367c18cc8bf0556812aadac481ff4bc5374babc011",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927f64d094e2837ea521",
+    "question": "Aardwolf kis scientific family se belong karta hai?",
+    "correctAnswer": "Hyaenidae",
+    "incorrectAnswers": ["Canidae", "Felidae", "Eupleridae"],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "7e60b7c0ab0e1376bb7d62c8131f08d289532a02a5491f858c92910585e03a77",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927f64d094e2837ea51e",
+    "question": "Hyaenidae family kis scientific suborder mein aati hai?",
+    "correctAnswer": "Feliformia",
+    "incorrectAnswers": ["Haplorhini", "Caniformia", "Ciconiiformes"],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "7a97df394a559a4c3ee2b0d7d14f3a0162a4534c1a10a1131a45912e59838e1d",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd927f64d094e2837ea51f",
+    "question": "Ethiopian Wolf ka purana naam kya tha jab tak pata nahi tha ki yeh wolves se related hai?",
+    "correctAnswer": "Simien Jackel",
+    "incorrectAnswers": ["Ethiopian Coyote", "Amharic Fox", "Canis Simiensis"],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "c997d6de1cd980928df6158bc9097ec9715b904342fb9d31cf220738672d61a3",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd969d8fcfed5c856dad49",
+    "question": "Inmein se kaunsa colony of polyps hai, jellyfish nahi?",
+    "correctAnswer": "Portuguese Man-of-War",
+    "incorrectAnswers": ["Sea Wasp", "Irukandji", "Sea Nettle"],
+    "broadCategory": "Animals",
+    "subCategory": "Animals",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "c337d40de3a2ecc425431ad058ce4bf031e1dc7d57f315251bf9e234b77bcd7a",
+    "usageCount": 0
+  }
+]
