@@ -1,0 +1,34 @@
+[
+    {
+        "id": "68bd95f78fcfed5c856dacce",
+        "question": "DeMorgan के प्रमेय के अनुसार, Boolean अभिव्यक्ति (AB)' किसके बराबर है?",
+        "correctAnswer": "A' + B'",
+        "incorrectAnswers": [
+            "A'B + B'A",
+            "A'B'",
+            "AB' + AB"
+        ],
+        "broadCategory": "Science",
+        "subCategory": "Computers & Technology",
+        "difficulty": "hard",
+        "type": "multiple",
+        "questionHash": "9a76e4a3f7ca603d3d19e69b1493f673775cbbac3b8ed3296982a854f7e517ae",
+        "usageCount": 0
+    },
+    {
+        "id": "68bd91d864d094e2837ea483",
+        "question": "अमेरिका ऑनलाइन (AOL) किस ऑनलाइन सेवा प्रदाता के नाम से शुरू हुआ था?",
+        "correctAnswer": "Quantum Link",
+        "incorrectAnswers": [
+            "CompuServe",
+            "Prodigy",
+            "GEnie"
+        ],
+        "broadCategory": "Science",
+        "subCategory": "Computers & Technology",
+        "difficulty": "hard",
+        "type": "multiple",
+        "questionHash": "b5d2b772e8553a02a5e0b8d24f27eacfde29b8f3c336279b1edc143815b16a36",
+        "usageCount": 0
+    }
+]

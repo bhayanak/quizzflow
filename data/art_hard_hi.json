@@ -1,0 +1,98 @@
+[
+  {
+    "id": "68bd96798fcfed5c856dad30",
+"question": "अल्ब्रेख्ट ड्यूरर का जन्म और मृत्यु कहाँ हुई थी?",
+    "correctAnswer": "Nürnberg",
+    "incorrectAnswers": ["Augsburg", "Bamberg", "Berlin"],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "5cac8f8de35ae842610d5d042e474305636901dd9e8d8e0063ea296d29dfa493",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd925a64d094e2837ea4ff",
+"question": "नॉर्वेजियन चित्रकार एडवर्ड मंक ने 'द स्क्रीम' के कितने पेंट और पेस्टल संस्करण बनाए थे?",
+    "correctAnswer": "4",
+    "incorrectAnswers": ["1", "3", "2"],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "6ca6c00067057198b988d7cb22a13120a13e20f333cb5863d6e78d044ce23bce",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96798fcfed5c856dad31",
+"question": "चित्रकार पीट मोंड्रियन (1872 - 1944) किस कला आंदोलन का हिस्सा थे?",
+    "correctAnswer": "Neoplasticism",
+    "incorrectAnswers": ["Precisionism", "Cubism", "Impressionism"],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "f0397a638d5424a94ae2c0ca854a52f6122ef0fc8da67aef358e97b05c8ff236",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd96798fcfed5c856dad2f",
+"question": "विन्सेंट वैन गॉग की 'द स्टार्री नाइट' पेंटिंग किस कला आंदोलन का हिस्सा है?",
+    "correctAnswer": "Post-Impressionism",
+    "incorrectAnswers": ["Romanticism", "Neoclassical", "Impressionism"],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3d3be35e8fb0809dac85857426b6c3e766140e5717deef6f2f07a23cc3c1e07f",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd925a64d094e2837ea4fd",
+"question": "पहली सफल और व्यावसायिक रूप से व्यवहार्य फोटोग्राफिक तकनीक कौन सी थी?",
+    "correctAnswer": "The Daguerreotype",
+    "incorrectAnswers": ["Collodion process", "The Turin Shroud", "Kodachrome film"],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "3152ed2592571c7ed8c014457dadcb78775e84140947edfc1d95aff5af9ec691",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd925a64d094e2837ea500",
+"question": "अंग्रेज़ी और फ्रेंच गोथिक वास्तुकला में मुख्य अंतर क्या था?",
+    "correctAnswer": "Fan vaulting",
+    "incorrectAnswers": ["Pinnacles", "Gargoyles", "Hemispherical Domes"],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "0a4e9f1bbd38029beeb8f1e06856b17ae6e782a553cddc6e5a7da7c1a6778fc8",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd925a64d094e2837ea4fe",
+"question": "मोनालिसा किस वर्ष में पूरी हुई थी?",
+    "correctAnswer": "1504",
+    "incorrectAnswers": ["1487", "1523", "1511"],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "294c72c75f902d68c5a22fb67ee7c55a76bb3d5927064d5d7eb2bea53f89ad32",
+    "usageCount": 0
+  },
+  {
+    "id": "68bd925a64d094e2837ea501",
+"question": "इनमें से कौन सा रंग बैंगनी का अतिरिक्त रूप नहीं है?",
+    "correctAnswer": "Kobicha",
+    "incorrectAnswers": ["Byzantium", "Pomp and Power", "Palatinate"],
+    "broadCategory": "Art",
+    "subCategory": "Art",
+    "difficulty": "hard",
+    "type": "multiple",
+    "questionHash": "ee622ddd23f6f2897424dfde583769c1887382a006cfe08b673156537fe15643",
+    "usageCount": 0
+  }
+]
