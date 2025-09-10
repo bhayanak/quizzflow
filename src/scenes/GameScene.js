@@ -923,6 +923,12 @@ class GameScene extends Phaser.Scene {
     }
     
     askAudience() {
+        // Play sound effect if available
+        if (window.audioManager) {
+            window.audioManager.playSFX('audience_poll');
+            window.audioManager.speak('The audience votes are in!');
+        }
+
         // Simulate audience response
         const correctAnswer = this.currentQuestion.correctAnswer;
         const correctIndex = this.currentOptions.indexOf(correctAnswer);
@@ -968,26 +974,57 @@ class GameScene extends Phaser.Scene {
             fill: '#ffffff'
         }).setOrigin(0.5);
         
+        // Collect all overlay elements
+        const overlayElements = [bg, title];
+
         // Show percentages
         const labels = ['A', 'B', 'C', 'D'];
         labels.forEach((label, index) => {
-            const y = -60 + (index * 30);
+            const y = -60 + (index * 35);
             const percentage = percentages[index] || 0;
             
-            this.add.text(-150, y, `${label}: ${percentage}%`, {
+            const percentageText = this.add.text(-180, y, `${label}: ${percentage}%`, {
                 fontSize: '18px',
                 fontFamily: 'Roboto, sans-serif',
                 fill: '#ffffff'
             });
             
-            // Bar visualization
-            const barWidth = (percentage / 100) * 200;
-            this.add.rectangle(-50 + barWidth / 2, y, barWidth, 20, GameConfig.config.COLORS.PRIMARY);
+            // Bar visualization - background
+            const barBg = this.add.rectangle(-30, y, 200, 20, 0x333333);
+
+            // Bar visualization - filled portion
+            const barWidth = Math.max(5, (percentage / 100) * 200); // Minimum width of 5px for visibility
+            const bar = this.add.rectangle(-30 - ((200 - barWidth) / 2), y, barWidth, 20, GameConfig.config.COLORS.SUCCESS);
+
+            // Add all elements to overlay
+            overlayElements.push(percentageText, barBg, bar);
+        });
+
+        // Add close button
+        const closeBtn = this.add.text(180, -120, 'X', {
+            fontSize: '20px',
+            fontFamily: 'Roboto, sans-serif',
+            fill: '#ffffff',
+            backgroundColor: '#ff0000',
+            padding: { x: 8, y: 4 }
+        }).setOrigin(0.5).setInteractive({ useHandCursor: true });
+
+        closeBtn.on('pointerdown', () => {
+            overlay.destroy();
         });
         
-        overlay.add([bg, title]);
+        overlayElements.push(closeBtn);
+
+        overlay.add(overlayElements);
         overlay.setDepth(200);
         
+        // Auto-close after 6 seconds (increased for better readability)
+        this.time.delayedCall(6000, () => {
+            if (overlay && overlay.scene) {
+                overlay.destroy();
+            }
+        });
+
         // Auto-close after 4 seconds
         this.time.delayedCall(4000, () => {
             overlay.destroy();
@@ -1005,10 +1042,8 @@ class GameScene extends Phaser.Scene {
         button.usesText.setText(`x${uses}`);
         
         if (uses <= 0) {
-            button.container.setAlpha(0.3);
-            button.background.clear();
-            button.background.fillStyle(0x555555);
-            button.background.fillCircle(0, 0, 30);
+            button.setAlpha(0.3);
+            button.bg.setFillStyle(0x555555);
         }
     }
     
